@@ -1,11 +1,13 @@
+[build]
+  command = "npm ci --legacy-peer-deps && npx gatsby clean && npx gatsby build"
+  publish = "public"
+
 [build.environment]
-    NODE_VERSION = "18.16.0"
-    NPM_VERSION = "9.5.1"
-    NVM_VERSION = "1.1.9"
-    NPM_FLAGS = "--force"
-    TWILIO_ACCOUNT_SID = "${TWILIO_ACCOUNT_SID}"
-    TWILIO_AUTH_TOKEN = "${TWILIO_ACCOUNT_TOKEN}"
+  NODE_VERSION = "18.16.0"
+  NPM_VERSION = "9.5.1"
+  NVM_VERSION = "1.1.9"
+
 [[redirects]]
-from = "/api/*"
-to = "/.netlify/functions/:splat"
-status = 200
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
