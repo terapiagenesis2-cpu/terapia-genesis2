@@ -8,6 +8,7 @@ import {Alert} from "@mui/material";
 import { useRamificacion } from "../context/RamificacionContext"; // Ajustá la ruta si es necesario
 import {LegadoButton} from "./navigation/LegadoButton";
 
+
 const Buttons = ({petalos,bigButtonTitle,circuloBase,onClick, noNumber}) => {
 
     const [showAlertRamificar, setShowAlertRamificar] = useState(false);
@@ -148,37 +149,43 @@ const Buttons = ({petalos,bigButtonTitle,circuloBase,onClick, noNumber}) => {
                         Correccion
                     </Alert>
                 </ContainerAlert>}
-
-                <ButtonBig onClick={()=>navigate("/circulo-base")}>
-                    <ResponsiveText scale={0.55} color={"#6e6e6e"}>
-                        {bigButtonTitle}
-                    </ResponsiveText>
-                </ButtonBig>
+                <CircleExt>
+                    <Circle onClick={() => navigate("/circulo-base")}>
+                        <CircleInner>
+                            <ResponsiveText scale={0.55} color={"#e1e4ff"}>
+                            {bigButtonTitle}
+                            </ResponsiveText>
+                        </CircleInner>
+                    </Circle>
+                </CircleExt>
                 <ButtonsContainer>
                     {circuloBase && petalos.map((petalo) => (
-                        <Button
-                            onClick={()=>onClick(petalo.index + 1)}
-                            bordercolor={getColorWithText(petalo.colorBorder)}
-                            key={petalo.index}
-                            angle={(petalo.index / (noNumber ? petalos.length+2 : 11)) * 360}
-                        >
-                            <ResponsiveText scale={0.8} color={'#6e6e6e'}>
-                                {noNumber ? petalo.title : petalo.index + 1}
-                            </ResponsiveText>
-                        </Button>
-                    ))}
-                    {!circuloBase && Array.of(0,1,2,3,4,5,6,7,8,9).map((number) => (
-                        <Button
-                            onClick={()=>onClick(number)}
-                            key={number}
-                            bordercolor={getColorWithNumber(number)}
-                            angle={(number / 10) * 360}
-                        >
-                            <ResponsiveText scale={0.8} color={'#6e6e6e'}>
-                                {number}
-                            </ResponsiveText>
-                        </Button>
-                        ))}
+                <PetaloWrapper
+                    key={petalo.index}
+                    angle={(petalo.index / (noNumber ? petalos.length+2 : 11)) * 360}
+                    onClick={() => onClick(petalo.index + 1)}
+                >
+                    <PetaloInner bordercolor={getColorWithText(petalo.colorBorder)}>
+                    <ResponsiveText scale={0.8} color="#ffffff">
+                        {noNumber ? petalo.title : petalo.index + 1}
+                    </ResponsiveText>
+                    </PetaloInner>
+                </PetaloWrapper>
+                ))}
+
+                {!circuloBase && Array.of(0,1,2,3,4,5,6,7,8,9).map((number) => (
+                <PetaloWrapper
+                    key={number}
+                    angle={(number / 10) * 360}
+                    onClick={() => onClick(number)}
+                >
+                    <PetaloInner bordercolor={getColorWithNumber(number)}>
+                    <ResponsiveText scale={0.8} color="#ffffff">
+                        {number}
+                    </ResponsiveText>
+                    </PetaloInner>
+                </PetaloWrapper>
+                ))}
 
                 </ButtonsContainer>
                 <NavigationButtons/>
@@ -414,62 +421,35 @@ const getColorWithNumber = (number) => {
     }
 };
 
-const ButtonBig = styled.div`
-  background-color: #ffffff;
-  border-radius: 50%;
-  width: 220px;
-  height: 220px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  position: absolute;
-  user-select: none;
-  box-shadow: inset 15px 10px 20px 0 #ececec, 15px 10px 20px 0 rgba(154, 154, 154, 0.75);
-
-  :hover {
-    filter: brightness(0.6);
-  }
-
-  @media (max-width: 370px) {
-    width: 90px;
-    height: 90px;
-  }
-  @media (max-width: 410px) and (min-width: 370px) {
-    width: 120px;
-    height: 120px;
-  }
-  
-  @media (max-width: 465px) and (min-width: 410px) {
-    width: 140px;
-    height: 140px;
-  }
-
-  @media (max-width: 540px) and (min-width: 465px) {
-    width: 160px;
-    height: 160px;
-  }
-
-  @media (max-width: 620px) and (min-width: 540px) {
-    width: 180px;
-    height: 180px;
-  }
-  
-  
-`;
 
 let pi = 3.141592653589793;
 
-const Button = styled.div`
-  background-color: white;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+const PetaloWrapper = styled.div`
   position: absolute;
   user-select: none;
-  box-shadow: 0 15px 15px 0 rgba(56, 56, 56, 0.75), 0 0 0 7px ${props => props.bordercolor};
+  cursor: pointer;
+
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("/images/circle_small_metal_blue_ring_and_center.png
+");
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: 0 12px 16px rgba(0, 0, 0, .75);
+
+  transition: transform .18s ease, filter .18s ease;
+
+  &:hover {
+    transform: scale(1.08);
+    filter: brightness(1.12);
+  }
 
   ${props => {
     const px = 230;
@@ -480,84 +460,28 @@ const Button = styled.div`
       left: ${sin}px;
     `;
   }}
+`;
+/* 🔵 círculo interior con degradé del color */
+const PetaloInner = styled.div`
+  width: 68%;
+  height: 68%;
+  border-radius: 50%;
 
-  width: 85px;
-  height: 85px;
-
-  @media (max-width: 370px) {
-    ${props => {
-      const px = 120;
-      const top = (-40 / 2) + calculatePositionCos(props.angle, px);
-      const sin = (-40 / 2) + calculatePositionSin(props.angle, px);
-      return `
-      top: ${top}px;
-      left: ${sin}px;
-    `;
-    }}
-    width: 40px;
-    height: 40px;
-  }
-
-  @media (max-width: 410px) and (min-width: 370px) {
-    ${props => {
-      const px = 140;
-      const top = (-60 / 2) + calculatePositionCos(props.angle, px);
-      const sin = (-60 / 2) + calculatePositionSin(props.angle, px);
-      return `
-      top: ${top}px;
-      left: ${sin}px;
-    `;
-    }}
-    width: 60px;
-    height: 60px;
-  }
-
-  @media (max-width: 465px) and (min-width: 410px) {
-    ${props => {
-      const px = 160;
-      const top = (-60 / 2) + calculatePositionCos(props.angle, px);
-      const sin = (-60 / 2) + calculatePositionSin(props.angle, px);
-      return `
-      top: ${top}px;
-      left: ${sin}px;
-    `;
-    }}
-    width: 60px;
-    height: 60px;
-  }
-
-  @media (max-width: 540px) and (min-width: 465px) {
-    ${props => {
-      const px = 180;
-      const top = (-80 / 2) + calculatePositionCos(props.angle, px);
-      const sin = (-80 / 2) + calculatePositionSin(props.angle, px);
-      return `
-      top: ${top}px;
-      left: ${sin}px;
-    `;
-    }}
-    width: 80px;
-    height: 80px;
-  }
-
-  @media (max-width: 620px) and (min-width: 540px){
-    ${props => {
-      const px = 210;
-      const top = (-90 / 2) + calculatePositionCos(props.angle, px);
-      const sin = (-90 / 2) + calculatePositionSin(props.angle, px);
-      return `
-      top: ${top}px;
-      left: ${sin}px;
-    `;
-    }}
-    width: 90px;
-    height: 90px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
   
-  :hover {
-    filter: brightness(0.6);
-  }
 
+  background: radial-gradient(
+    circle at 30% 30%,
+    ${props => props.bordercolor}66,
+    ${props => props.bordercolor}dd 55%,
+    ${props => props.bordercolor}ff 80%,
+    #000000aa 100%
+  );
+
+  box-shadow: inset 0 0 8px rgba(0,0,0,.75);
 `;
 
 function calculatePositionCos(angle, px) {
@@ -568,4 +492,179 @@ function calculatePositionSin(angle, px) {
     return Math.sin((angle * pi) / 180) * px;
 }
 
+const CircleExt = styled.div`
+  position: absolute;
+  user-select: none;
+  cursor: pointer;
+
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Ahora el contenedor es transparente, el aro lo dibuja ::before */
+  background: transparent;
+  box-shadow: none;
+
+  /* 🔵 Aro exterior más fino con el mismo degradé */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 10px;  /* ⬅️ cuanto más grande, más fino queda el aro */
+    border-radius: 50%;
+
+    background: radial-gradient(
+      circle at 30% 30%,
+      #232744,
+      #050712 80%
+    );
+
+   
+  }
+
+  @media (max-width: 370px) {
+    width: 90px;
+    height: 90px;
+  }
+  @media (max-width: 410px) and (min-width: 370px) {
+    width: 120px;
+    height: 120px;
+  }
+  @media (max-width: 465px) and (min-width: 410px) {
+    width: 140px;
+    height: 140px;
+  }
+  @media (max-width: 540px) and (min-width: 465px) {
+    width: 160px;
+    height: 160px;
+  }
+  @media (max-width: 620px) and (min-width: 540px) {
+    width: 180px;
+    height: 180px;
+  }
+`;
+const Circle = styled.div`
+  position: relative;
+  border-radius: 50%;
+  width: 78%;   /* ⬅️ antes 82% → ahora más chico */
+  height: 78%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+
+  /* 🔵 aro intermedio azul oscuro + negro */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+
+    background: conic-gradient(
+      from 215deg,
+      #1f233a 0deg,              /* azul oscuro */
+      #0a0c16 35deg,             /* sombra fría */
+      #111426 110deg,            /* zona oscura */
+      #05060c 200deg,            /* casi negro */
+      #0a0c16 280deg,            /* vuelve a azul oscuro */
+      #1f233a 360deg
+    );
+
+    /* ⬅️ un poco más fino (menor grosor) */
+    mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 11px),
+      #000 calc(100% - 2px)
+    );
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 11px),
+      #000 calc(100% - 2px)
+    );
+
+    box-shadow:
+      0 0 5px rgba(7, 7, 7, 0.62),
+      inset 0 0 5px rgba(0, 0, 0, 0.66);
+  }
+`;
+
+
+const CircleInner = styled.div`
+  position: relative;
+  z-index: 2;
+
+  width: 76%;
+  height: 76%;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  /* Núcleo oscuro, casi plano como la foto */
+  background: radial-gradient(
+    circle at 32% 32%,
+    #262943,
+    #0b0c16 80%
+  );
+
+  box-shadow:
+    inset 0 0 18px rgba(0, 0, 0, 0.9);
+
+  color: #e1e4ff;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  /* 🔵 Aro blanco/negro alrededor del núcleo */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -8px;           /* grosor del aro */
+    border-radius: 50%;
+
+    /* tramo blanco de luz + tramo oscuro, como la foto */
+    background: conic-gradient(
+      from 215deg,
+      rgba(245,245,250,0.95) 0deg,
+      rgba(245,245,250,0.95) 40deg,
+      rgba(210,212,220,0.8) 60deg,
+      rgba(40,40,50,1) 150deg,
+      rgba(10,10,16,1) 240deg,
+      rgba(210,212,220,0.8) 300deg,
+      rgba(245,245,250,0.95) 360deg
+    );
+
+    /* lo vuelvo aro (hueco en el centro) */
+    mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 7px),
+      #000 calc(100% - 2px)
+    );
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 7px),
+      #000 calc(100% - 2px)
+    );
+
+    box-shadow:
+      0 0 6px rgba(0, 0, 0, 0.7),
+      inset 0 0 4px rgba(0, 0, 0, 0.7);
+  }
+
+  /* hover solo en el centro, sin mover el círculo */
+  transition: transform 0.18s ease, filter 0.18s ease, box-shadow 0.18s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    filter: brightness(1.04);
+    box-shadow:
+      inset 0 0 22px rgba(0, 0, 0, 0.92);
+  }
+`;
 export default Buttons;
