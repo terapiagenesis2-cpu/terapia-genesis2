@@ -53,7 +53,7 @@ const CirculoBase = () => {
             />
             <Container>
                 <Title scale={0.8} color={"#fffdfd"}>
-                    Terapia Cuántica GENESÍS
+                    Terapia CUántica GENESÍS
                 </Title>
                 {showAlert && <ContainerAlert>
                     <Alert severity="error">
