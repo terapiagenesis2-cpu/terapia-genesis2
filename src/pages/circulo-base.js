@@ -45,16 +45,14 @@ const CirculoBase = () => {
     ];
 
     return <LoginCheck>
-        <Background style={{backgroundImage: `url(/images/portada2.jpeg)`}}>
+        <Background style={{backgroundImage: `url(/images/fondoG5D.jpg)`}}>
             <img
             src={logo}
             alt="test"
-            style={{ position: "fixed", top: 10, left: 10, width: 120, zIndex: 99999 }}
+            style={{ position: "fixed", top: 20, left: 70, width: 80, zIndex: 99999 }}
             />
             <Container>
-                <Title scale={0.8} color={"#fffdfd"}>
-                    Terapia CUántica GENESÍS
-                </Title>
+            
                 {showAlert && <ContainerAlert>
                     <Alert severity="error">
                         La pagina solicitada no existe
@@ -62,7 +60,9 @@ const CirculoBase = () => {
                 </ContainerAlert>}
                 <Buttons
                     petalos={petalos}
-                    bigButtonTitle={"FUENTE MADRE"}
+                    bigButtonTitle={"QUANTUM RAÍZ"}
+                    centerIcon={"/genesis-assets/center_home.svg"}
+                    centerSphere={"/genesis-assets/center_sphere.svg"}
                     numbers={11}
                     circuloBase={true}
                     onClick={(petaloName) => {

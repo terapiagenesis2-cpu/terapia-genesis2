@@ -3,33 +3,45 @@ import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 import LoginCheck from "../components/login/LoginCheck";
 import styled, { createGlobalStyle } from "styled-components";
-
 import bg from "../../static/images/portada.webp";
 import logo from "../images/logo.png";
-import card1 from "../../static/images/card-nivel1.png";
-import card2 from "../../static/images/card-nivel2.png";
+import card1Bn from "../../static/images/card-nivel1-bn.png";
+import card1Color from "../../static/images/card-nivel1.png";
+import card2Bn from "../../static/images/card-nivel2-bn.png";
+import card2Color from "../../static/images/card-nivel2.png";
+import {Alert, TextField} from "@mui/material";
+
 
 const GlobalStyle = createGlobalStyle`
-  *,*::before,*::after{
+  *, *::before, *::after {
     box-sizing: border-box;
   }
 
-  html, body{
+  html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
 `;
 
-export default function Index() {
+const clearSessionData = () => {
+  localStorage.removeItem("paciente");
+  localStorage.removeItem("dob");
+  localStorage.removeItem("problems");
+  localStorage.setItem("history", JSON.stringify([]));
+}
+const Index = () => {
+  
+  React.useEffect(() => {
+  clearSessionData();
+}, []);
+
+
   return (
     <LoginCheck>
       <GlobalStyle />
-
       <Helmet>
         <title>Terapia Génesis – Seleccionar nivel</title>
-
-        {/* Fuente similar a la de Figma */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -41,7 +53,6 @@ export default function Index() {
       <Page>
         <Background />
         <DarkOverlay />
-        
 
         <TopBar>
           <Brand to="/">
@@ -59,20 +70,18 @@ export default function Index() {
           <Title>Elegí tu nivel espiritual</Title>
 
           <Cards>
-            {/* CARD 1 */}
-            <CardLink to="/intro-text" aria-label="Terapia cuántica Génesis (Nivel I)">
-              <Card $img={card1}>
-                <CardOverlay />
-                
-              </Card>
+            <CardLink to="/intro-text" aria-label="Terapia cuántica Génesis Nivel I">
+              <CardFrame $hoverBorder="rgba(245,245,245,0.95)" $glow="rgba(255,255,255,0.55)">
+                <CardImage src={card1Bn} alt="" />
+                <CardImageHover src={card1Color} alt="" />
+              </CardFrame>
             </CardLink>
 
-            {/* CARD 2 */}
-            <CardLink to="/intro2" aria-label="Génesis 5D (Nivel II)">
-              <Card $img={card2}>
-                <CardOverlay />
-            
-              </Card>
+            <CardLink to="/intro-text5D" aria-label="Génesis 5D Nivel II">
+              <CardFrame $hoverBorder="rgba(255, 255, 255, 0.95)" $glow="rgba(255, 255, 255, 0.55)">
+                <CardImage src={card2Bn} alt="" />
+                <CardImageHover src={card2Color} alt="" />
+              </CardFrame>
             </CardLink>
           </Cards>
         </Center>
@@ -96,25 +105,23 @@ const Background = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -2;
+  z-index: -3;
 `;
 
 const DarkOverlay = styled.div`
   position: fixed;
   inset: 0;
-  z-index: -1;
-
+  z-index: -2;
   background: radial-gradient(
-    circle at 50% 20%,
-    rgba(20, 70, 120, 0.35),
-    rgba(6, 18, 40, 0.85)
+    circle at 50% 25%,
+    rgba(20, 70, 120, 0.18),
+    rgba(6, 18, 40, 0.62)
   );
 `;
 
 const TopBar = styled.header`
   width: 100%;
   padding: 22px 46px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -170,7 +177,7 @@ const Center = styled.main`
 
 const Title = styled.h1`
   margin: 0 0 34px;
-  font-family: "Playfair Display", serif;
+  font-family: Arvo, serif;
   color: rgba(255,255,255,0.95);
   font-size: 54px;
   font-weight: 700;
@@ -189,10 +196,11 @@ const Title = styled.h1`
 
 const Cards = styled.section`
   display: grid;
-  grid-template-columns: repeat(2, 360px); /* Figma */
-  gap: 54px;
+  grid-template-columns: repeat(2, 360px);
+  gap: 30%;
   justify-content: center;
   align-items: center;
+
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
@@ -205,43 +213,56 @@ const CardLink = styled(Link)`
   text-decoration: none;
 `;
 
-const Card = styled.article`
-  position: relative;
+const CardFrame = styled.div`
   width: 360px;
   height: 360px;
   border-radius: 33px;
+  position: relative;
   overflow: hidden;
 
-  background: rgba(255, 255, 255, 1);
 
-  /* Fondo de la card */
-  background-image: url(${(p) => p.$img});
-  background-size: cover;
-  background-position: center;
-
-  /* Figma shadows EXACTAS */
   box-shadow:
     6px 4px 6px rgba(0, 0, 0, 0.25),
-    0px 0px 12.1px rgba(255, 255, 255, 1),
-    inset 0px 6px 8px rgba(255, 255, 255, 1);
+    0 0 10px rgba(255, 255, 255, 0.35),
+    inset 0 6px 8px rgba(255, 255, 255, 0.85);
 
-  /* Default: sale con mouse (200ms) */
   transition:
     transform 200ms linear,
-    filter 200ms linear,
+    border-color 200ms linear,
     box-shadow 200ms linear;
 
-  /* BN por defecto */
-  filter: grayscale(100%) brightness(0.90) contrast(1.05);
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 33px;
+    pointer-events: none;
+    opacity: 0;
+    box-shadow:
+      0 0 0 2px ${(p) => p.$hoverBorder},
+      0 0 10px ${(p) => p.$glow},
+      0 0 18px ${(p) => p.$glow};
+    transition: opacity 200ms linear, box-shadow 200ms linear;
+  }
 
   &:hover {
-    /* Entrar: 1000ms */
-    transition-duration: 1000ms;
-    transition-timing-function: linear;
-    transition-delay: 1ms;
-
     transform: translateY(-4px) scale(1.01);
-    filter: grayscale(0%) brightness(1) contrast(1);
+    border-color: ${(p) => p.$hoverBorder};
+
+    transition:
+      transform 1000ms linear 1ms,
+      border-color 1000ms linear 1ms,
+      box-shadow 1000ms linear 1ms;
+
+    box-shadow:
+      6px 4px 6px rgba(0, 0, 0, 0.25),
+      0 0 12px rgba(255, 255, 255, 0.85),
+      inset 0 6px 8px rgba(255, 255, 255, 0.95);
+  }
+
+  &:hover::after {
+    opacity: 1;
+    transition: opacity 1000ms linear 1ms, box-shadow 1000ms linear 1ms;
   }
 
   @media (max-width: 900px) {
@@ -250,15 +271,28 @@ const Card = styled.article`
   }
 `;
 
-/* oscurece suave para que el texto se vea limpio */
-const CardOverlay = styled.div`
+const CardImage = styled.img`
   position: absolute;
   inset: 0;
-  background: radial-gradient(
-    circle at 50% 35%,
-    rgba(0,0,0,0.15),
-    rgba(0,0,0,0.55)
-  );
-  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `;
 
+const CardImageHover = styled.img`
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+
+  transition: opacity 200ms linear;
+
+  ${CardFrame}:hover & {
+    opacity: 1;
+    transition: opacity 260ms ease-out;
+  }
+`;
+
+export default Index;

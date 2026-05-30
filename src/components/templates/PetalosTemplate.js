@@ -13,7 +13,7 @@ const createdPages = require('../../../../createdPages.json');
 
 const PetalosTemplate = ({ pageContext }) => {
     const [isTextFieldFocused, setIsTextFieldFocused] = useState(false);
-    const {linkName, title, image, subPetalos, noNumber, titlePage} = pageContext
+    const {linkName, title, image,iconCenter,subPetalos, noNumber, titlePage} = pageContext
     const [showAlert, setShowAlert] = useState(false);
     const [input, setInput] = useState(0);
     const imagePath = "/images/" + image + ".webp";
@@ -47,6 +47,7 @@ const PetalosTemplate = ({ pageContext }) => {
     });
 
     const ln = (linkName || "").replace(/\/+$/, "");
+    const petaloRaiz = linkName.split("/")[0];
     const hasFieldText = ln === "petalo-3/2/2/5" || ln.startsWith("petalo-3/2/2/5/");
     
     return <LoginCheck>
@@ -127,7 +128,10 @@ const PetalosTemplate = ({ pageContext }) => {
                 </Alert>
             </ContainerAlert>}
             <Buttons
-                bigButtonTitle={"FUENTE MADRE"}
+                //Le paso el titulo y el icono del centro para que se muestre en el centro
+                bigButtonTitle={title}
+                centerIcon={`/genesis-assets/icon_${iconCenter}.svg`}
+                centerSphere={`/genesis-assets/center_${petaloRaiz}.svg`}
                 circuloBase={noNumber}
                 petalos={subPetalos}
                 noNumber={noNumber}
