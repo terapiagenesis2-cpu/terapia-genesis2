@@ -20,7 +20,7 @@ const CirculoBase = () => {
         },
         {
             index: 1,
-            colorBorder: "greenLight",
+            colorBorder: "orange",
         },
         {
             index: 2,
@@ -28,7 +28,7 @@ const CirculoBase = () => {
         },
         {
             index: 3,
-            colorBorder: "blue",
+            colorBorder: "greenLight",
         },
         {
             index: 4,
@@ -36,7 +36,7 @@ const CirculoBase = () => {
         },
         {
             index: 5,
-            colorBorder: "orange",
+            colorBorder: "blue",
         },
         {
             index: 6,

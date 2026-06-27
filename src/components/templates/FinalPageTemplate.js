@@ -2,6 +2,7 @@ import ResponsiveText from "../apis/ResponsiveText";
 import {useEffect, useState} from "react";
 import {navigate} from "gatsby";
 import {NavigationButtonsInLine} from "../navigation/NavigationButtons";
+import QuantumRaizButton from '../navigation/Btn-quantum';
 import styled from "styled-components";
 import ResponsiveImage from "../apis/ResponsiveImage";
 import {Background} from "../Commons";
@@ -223,8 +224,11 @@ const FinalPageTemplate = ({ pageContext }) => {
                             )}
                     </BlurredBox>
                     {imageBody && <BodyImage src={imageBodyPath} scale={4}/>}
+
+                    <QuantumRaizButton/>
+
                     <Container>
-                        <NavigationButtonsInLine/>
+                        <NavigationButtonsInLine linkName={pageContext.linkname} />
                     </Container>
                 </Content>
                 
@@ -268,7 +272,15 @@ const findPetalo = (petalos, linkName) => {
 };
 
 const getColorWithFuente = (link) => {
+    
+     if (link.startsWith("interferencias")) {
+        return "#fdf8f8";
+    }
     const match = link.match(/petalo-(\d+)/);
+
+    if (!match) {
+        return "#fdf8f8"; // color por defecto para interferencias
+    }
 
     const number = parseInt(match[1]);
 

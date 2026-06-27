@@ -77,6 +77,7 @@ const petalos = [
             {
                 linkName: "petalo-1/3",
                 image: 'boton1',
+                iconCenter: 'simbolo1',
                 title: "CONECTO SERES CELESTIALES",
                 subPetalos: [
                     {
@@ -215,133 +216,133 @@ const petalos = [
         ]
     },
     {
-        linkName: "petalo-2", image: 'boton2', text: "Aquí anulamos cada emoción que apareció en el transcurso de tu sesión, en algunos casos pudieron ser borradas directamente y en otras ocasiones necesita más trabajo de liberación para eliminarlas por completo. (Se anularon las siguientes emociones)", title: "Fuente Emocional", subPetalos: [
+        linkName: "petalo-2", image: 'boton2', iconCenter: 'simbolo2', text: "Aquí anulamos cada emoción que apareció en el transcurso de tu sesión, en algunos casos pudieron ser borradas directamente y en otras ocasiones necesita más trabajo de liberación para eliminarlas por completo. (Se anularon las siguientes emociones)", title: "Fuente Emocional", subPetalos: [
             {
-                linkName: "petalo-2/1", image: 'boton2', title: "EMOCIONES", noNumbers: true,subPetalos: [
+                linkName: "petalo-2/1", image: 'boton2', iconCenter: 'simbolo2', title: "EMOCIONES", noNumbers: true,subPetalos: [
                     {
-                        linkName: "petalo-2/1/1", image: 'boton2', title: "A", index: 0, colorBorder: "red", subPetalos: [
+                        linkName: "petalo-2/1/1", image: 'boton2', iconCenter: 'simbolo2', title: "A", index: 0, colorBorder: "red", subPetalos: [
                             {
-                                linkName: "petalo-2/1/1/1", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 1",
+                                linkName: "petalo-2/1/1/1", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 1",
                                 text: "ABRUMADO. ABURRIMIENTO. AGOBIO. AGOTADO",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/1/2", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 2",
+                                linkName: "petalo-2/1/1/2", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 2",
                                 text: "ADICCIÓN AL PESIMISMO. ADICCIÓN AL SEXO. ADICCIÓN FELICIDAD. ADICCIÓN HUMILLACIÓN",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/1/3", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 3",
+                                linkName: "petalo-2/1/1/3", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 3",
                                 text: "AMARGURA. AMOR NO RECIBIDO. ANGUSTIA. ANSIEDAD",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/1/4", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 4",
+                                linkName: "petalo-2/1/1/4", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 4",
                                 text: "APATÍA. ARREPENTIMIENTO. ASCO. AUTO DESPRECIO",noText: true,textFieldCompact: true             
                             },
                             {
-                                linkName: "petalo-2/1/1/5", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 5",
+                                linkName: "petalo-2/1/1/5", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 5",
                                 text: "AUTOLESIÓN. BAJA AUTOESTIMA. CELOS. COLERA",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/1/6", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 6",
+                                linkName: "petalo-2/1/1/6", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 6",
                                 text: "COMPITIENDO CON.. CONFLICTO. CONFUSIÓN. CRITICAR O CRITICADO",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/1/7", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 7",
+                                linkName: "petalo-2/1/1/7", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "A 7",
                                 text: "CULPABILIDAD. DEPRESIÓN. DESAMPARO. DESÁNIMO",noText: true,textFieldCompact: true
                             },
                         ]
                     },
                     {
-                        linkName: "petalo-2/1/2", image: 'boton2', title: "B", index: 1, colorBorder: "blue", subPetalos: [
+                        linkName: "petalo-2/1/2", image: 'boton2', iconCenter: 'simbolo2', title: "B", index: 1, colorBorder: "blue", subPetalos: [
                             {
-                                linkName: "petalo-2/1/2/1", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 1",
+                                linkName: "petalo-2/1/2/1", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 1",
                                 text: "DESCONECTADO DE ALGO/ALGUIEN. DESCONFIAR. DESCONSUELO. DESESPERACIÓN/DESESPERADO",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/2/2", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 2",
+                                linkName: "petalo-2/1/2/2", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 2",
                                 text: "DESESPERANZA. DESILUSIÓN. DESPRECIO. DESPROTECCIÓN",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/2/3", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 3",
+                                linkName: "petalo-2/1/2/3", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 3",
                                 text: "DESTRUCTIVO. DESVALORIZACIÓN. DUDA. ENFADO",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/2/4", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 4",
+                                linkName: "petalo-2/1/2/4", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 4",
                                 text: "EXCESO DE RESPONSABILIDAD. EXCESO FUERTE DE ALEGRÍA. FALTA DE CONTROL. FALTA DE IMAGINACIÓN",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/2/5", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 5",
+                                linkName: "petalo-2/1/2/5", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 5",
                                 text: "FALTA DE PERDÓN. FALTA PERSONALIDAD. FURIA... FRACASO",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/2/6", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 6",
+                                linkName: "petalo-2/1/2/6", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 6",
                                 text: "HABER HUMILLADO A ALGUIEN. HAMBRE DE ALGO. HORROR. IMPACIENCIA",noText: true,textFieldCompact: true
                             },
                             {
-                                linkName: "petalo-2/1/2/7", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 7",
+                                linkName: "petalo-2/1/2/7", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "B 7",
                                 text: "IMPOTENCIA. INDECISIÓN. INDIFERENCIA. INDIGNADO",noText: true,textFieldCompact: true
                             },
                         ]
                     },
                     {
-                        linkName: "petalo-2/1/3", image: 'boton2', title: "C", index: 2, colorBorder: "green", subPetalos: [
+                        linkName: "petalo-2/1/3", image: 'boton2', iconCenter: 'simbolo2', title: "C", index: 2, colorBorder: "green", subPetalos: [
                             {
-                                linkName: "petalo-2/1/3/1", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 1",
+                                linkName: "petalo-2/1/3/1", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 1",
                                 text: "INEFICAZ. INFERIORIDAD. INFLEXIBILIDAD. INSATISFECHO",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/3/2", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 2",
+                                linkName: "petalo-2/1/3/2", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 2",
                                 text: "INSEGURIDAD. INTOLERANTE. IRA. LLANTO",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/3/3", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 3",
+                                linkName: "petalo-2/1/3/3", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 3",
                                 text: "LUJURIA. MELANCOLÍA. MIEDO. NEGATIVIDAD",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/3/4", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 4",
+                                linkName: "petalo-2/1/3/4", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 4",
                                 text: "NERVIOSISMO. OBSESIONADO. OBSTINACIÓN. ODIO",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/3/5", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 5",
+                                linkName: "petalo-2/1/3/5", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 5",
                                 text: "ORGULLO. PÁNICO. PENA. PERDIDO",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/3/6", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 6",
+                                linkName: "petalo-2/1/3/6", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 6",
                                 text: "PESAR. PESIMISTA. PREOCUPACIÓN. RABIA",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/3/7", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 7",
+                                linkName: "petalo-2/1/3/7", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "C 7",
                                 text: "RECHAZO. RENCOR. REPRIMIDO. RESENTIMIENTO",noText: true
                             },
                         ]
                     },
                     {
-                        linkName: "petalo-2/1/4", image: 'boton2', title: "D", index: 3, colorBorder: "yellow", subPetalos: [
+                        linkName: "petalo-2/1/4", image: 'boton2', iconCenter: 'simbolo2', title: "D", index: 3, colorBorder: "yellow", subPetalos: [
                             {
-                                linkName: "petalo-2/1/4/1", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 1",
+                                linkName: "petalo-2/1/4/1", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 1",
                                 text: "SENTIMIENTO DE ABANDONO. SENTIMIENTO DE TRAICIÓN. SENTIR FALTA DE APOYO. SENTIR UNA PÉRDIDA EMOCIONAL",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/4/2", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 2",
+                                linkName: "petalo-2/1/4/2", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 2",
                                 text: "SENTIR UNA PÉRDIDA ESPIRITUAL. SENTIR UNA PERDIDA MATERIAL. SENTIR UNA PÉRDIDA MENTAL. SENTIRSE ACOMPLEJADO",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/4/3", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 3",
+                                linkName: "petalo-2/1/4/3", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 3",
                                 text: "SENTIRSE ARROGANTE. SENTIRSE DERROTADO. SENTIRSE EN DESVENTAJA. SENTIRSE ENGAÑADO",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/4/4", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 4",
+                                linkName: "petalo-2/1/4/4", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 4",
                                 text: "SENTIRSE HUMILLADO. SENTIRSE OFENDIDO. SHOCK. SOBERBIA",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/4/5", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 5",
+                                linkName: "petalo-2/1/4/5", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 5",
                                 text: "SUFRIMIENTO. SUMISIÓN. SUSTO. TEMOR",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/4/6", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 6",
+                                linkName: "petalo-2/1/4/6", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 6",
                                 text: "TERROR. TIMIDEZ. VACIO. VIOLENCIA",noText: true
                             },
                             {
-                                linkName: "petalo-2/1/4/7", image: 'boton2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 7",
+                                linkName: "petalo-2/1/4/7", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, separation: true, titlePage: 'Emociones', title: "D 7",
                                 text: "VENGANZA. VERGÜENZA. VICTIMISMO. VULNERABLE",noText: true
                             },
                         ]
@@ -349,471 +350,471 @@ const petalos = [
                 ]
             },
             {
-                linkName: "petalo-2/2", image: 'boton2', title: "BLOQUEOS EMOCIONALES A", subPetalos: [
+                linkName: "petalo-2/2", image: 'boton2', iconCenter: 'simbolo2', title: "BLOQUEOS EMOCIONALES A", subPetalos: [
                     {
-                        linkName: "petalo-2/2/1", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas en cuerpo emocional",
+                        linkName: "petalo-2/2/1", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas en cuerpo emocional",
                         text: "Se eliminaron las siguientes emociones que estaban impidiendo circular el libre flujo de energía de nuestro plano emocional…"
                     },
                     {
-                        linkName: "petalo-2/2/2", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas cuerpo mental",
+                        linkName: "petalo-2/2/2", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas cuerpo mental",
                         text: "Se eliminaron las siguientes emociones que estaban impidiendo circular el libre flujo de energía de nuestro plano mental…"
                     },
                     {
-                        linkName: "petalo-2/2/3", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas cuerpo físico",
+                        linkName: "petalo-2/2/3", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas cuerpo físico",
                         text: "Se eliminaron las siguientes emociones que estaban impidiendo circular el libre flujo de energía de nuestro plano físico, ejemplos pueden ser músculos, huesos, órganos, glándulas, etc."
                     },
                     {
-                        linkName: "petalo-2/2/4", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas cuerpo espiritual",
+                        linkName: "petalo-2/2/4", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas cuerpo espiritual",
                         text: "Se eliminaron las siguientes emociones que estaban impidiendo circular el libre flujo de energía de nuestro plano espiritual…"
                     },
                     {
-                        linkName: "petalo-2/2/5", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas en los ancestros",
+                        linkName: "petalo-2/2/5", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones atrapadas en los ancestros",
                         text: "Se eliminaron las siguientes emociones que sentimos en contacto reciente con nuestro clan familiar."
                     },
                     {
-                        linkName: "petalo-2/2/6", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones en el ADN",
+                        linkName: "petalo-2/2/6", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones en el ADN",
                         text: "Se eliminaron las siguientes emociones las cuales son el resultado de una interacción compleja entre factores genéticos, cognitivos, sociales y ambientales. Estas emociones se encuentran por experiencias vividas en nuestro clan familiar, situaciones no resueltas, y con repeticiones en las diferentes generaciones."
                     },
                     {
-                        linkName: "petalo-2/2/7", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones obstruidas de otras vidas",
+                        linkName: "petalo-2/2/7", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones obstruidas de otras vidas",
                         text: "Se eliminaron las siguientes emociones bloqueadas en otras vidas que se despiertan en este presente por situaciones no resueltas de vidas pasadas."
                     },
                     {
-                        linkName: "petalo-2/2/8", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones dependientes del corazón",
+                        linkName: "petalo-2/2/8", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones dependientes del corazón",
                         text: "Se eliminaron las siguientes emociones que el subconsciente vuelve a depender ante la primera situación de estrés, sin poder lograr deshacerse de ellas."
                     },
                     {
-                        linkName: "petalo-2/2/9", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones bloqueadas recientemente",
+                        linkName: "petalo-2/2/9", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones bloqueadas recientemente",
                         text: "Se eliminaron las siguientes emociones vividas ante un evento reciente."
                     },
                     {
-                        linkName: "petalo-2/2/10", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Barrera oculta de emociones",
+                        linkName: "petalo-2/2/10", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Barrera oculta de emociones",
                         text: "Esta es una barrera de emociones la cual la persona no reconoce ni la cree en su existencia, al ser una barrera es muy fuerte su bloqueo. (Se anularon las siguientes emociones)"
                     },
                     {
-                        linkName: "petalo-2/2/11", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones absorbidas por resonancia",
+                        linkName: "petalo-2/2/11", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Emociones absorbidas por resonancia",
                         text: "Aquí se borraron los estados negativos o emociones que absorbemos de las personas que están en constante contacto con nosotros."
                     },
                     {
-                        linkName: "petalo-2/2/12", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Respuesta a una creencia",
+                        linkName: "petalo-2/2/12", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Respuesta a una creencia",
                         text: "Cuando somos niños incorporamos las creencias y estados emocionales de nuestro entorno familia, país y cultura, en ellas se encuentran las emociones negativas que estas creencias nos generan. (Anulamos las siguientes emociones)",noText: true
                     },
                     {
-                        linkName: "petalo-2/2/13", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Respuesta a un recuerdo",
+                        linkName: "petalo-2/2/13", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Respuesta a un recuerdo",
                         text: "Anulamos los estados que aparecen de un recuerdo traumático doloroso no expresado. (Se anulo la respuesta a ese recuerdo)"
                     },
                     {
-                        linkName: "petalo-2/2/14", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Respuesta emocional a un pensamiento",
+                        linkName: "petalo-2/2/14", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Respuesta emocional a un pensamiento",
                         text: "Es la causa/efecto ante un pensamiento repetitivo negativo. (Se anulo la siguiente respuesta emocional)",noText: true
                     },
                     {
-                        linkName: "petalo-2/2/15", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Respuesta emocional a un sentimiento",
+                        linkName: "petalo-2/2/15", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales A', title: "Respuesta emocional a un sentimiento",
                         text: "Es la causa/efecto ante un sentimiento repetitivo negativo. (Se anulo la siguiente respuesta emocional)"
                     },
                     {
-                        linkName: "petalo-2/2/16", image: 'boton2', fieldText: true, useText: true, titlePage: 'Bloqueos Emocionales A', title: "Suceso traumático",
+                        linkName: "petalo-2/2/16", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, titlePage: 'Bloqueos Emocionales A', title: "Suceso traumático",
                         text: "Situación vivida que nos generó un alto grado de estrés, generando un colapso emocional. (Se anulo la información en relación al suceso traumático)"
                     }
                 ]
             },
             {
-                linkName: "petalo-2/3", image: 'boton2', title: "Bloqueos Emocionales B", subPetalos: [
-                    { linkName: "petalo-2/3/1", image: 'boton2', titlePage: 'Bloqueos Emocionales B', title: "Falta de interés por la vida", text: "Incapacidad para experimentar placer, la pérdida de interés o satisfacción en actividades de la vida. Se considera una falta de reactividad a los estímulos habitualmente placenteros. (Anulado)" },
-                    { linkName: "petalo-2/3/2", image: 'boton2', titlePage: 'Bloqueos Emocionales B', title: "Temor al bienestar", text: "Es el resultado de traumas, tragedias o experiencias negativas que han alterado la forma en que una persona se desenvuelve en la vida, lo que desencadena un inexplicable temor a estar bien. Personas que no se permiten vivir en un estado de armonía y bienestar. (Anulado)" },
-                    { linkName: "petalo-2/3/3", image: 'boton2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Imagen grabada en la mente", text: "Es el concepto de memoria fotográfica, es el recuerdo de una situación negativa determinada o una imagen concreta con todo lujo de detalles, generando una reacción negativa e impidiendo fluir fácilmente en algún área o situación de nuestra vida. (Anulado)"},
-                    { linkName: "petalo-2/3/4", image: 'boton2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Anular muro del pasado", text: "Aquí se anulan las emociones pasadas que nos han marcado profundamente, simbolizadas por un imponente muro, asociadas con una situación que al liberarla dejamos libre nuestro futuro para seguir adelante sin la opresión del pasado. (Se anularon las siguientes emociones del muro)"},
-                    { linkName: "petalo-2/3/5", image: 'boton2', titlePage: 'Bloqueos Emocionales B', title: "Influencia hipnótica", text: "Proceso psicológico mediante el cual personas, medios de comunicación, libros y toda clase de entes que manipulen conceptos y sean capaces de emitir información puedan guiar o dirigir los pensamientos, emociones, sentimientos o comportamientos y estados físicos de otras personas. Ejemplo: televisión, redes sociales, imágenes sugestivas, etc. (Anulado)" },
-                    { linkName: "petalo-2/3/6", image: 'boton2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Ataque emocional", text: "Un 'atentado emocional' es una acción o comportamiento que causa daño emocional o psicológico a una persona. Se refiere a situaciones en las que alguien manipula, insulta, humilla o lastima emocionalmente a otra persona con la intención de controlarla, hacerla sentir mal. (Se anularon siguientes emociones y correcciones que se asocian al ATAQUE EMOCIONAL)" },
-                    { linkName: "petalo-2/3/7", image: 'boton2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales B', title: "Disfruto mi estado emocional (-)", text: "Comportamiento o actitud negativa en la que alguien se siente satisfecho o complacido al mantener una actitud o comportamiento al cual termina siendo dañino, perjudicial para sí mismo. (se anuló el siguiente estado emocional)"},
-                    { linkName: "petalo-2/3/8", image: 'boton2', titlePage: 'Bloqueos Emocionales B', title: "Busco la atención", text: "Es el concepto de captar la atención mediante un comportamiento hacia sus semejantes, logrando un beneficio a corto o largo plazo, algunos ejemplos pueden ser… (Comportamiento disruptivo, búsqueda de conflictos, manipulación emocional, comportamiento autodestructivo, actitudes negativas constantes). (Anulado)" },
-                    { linkName: "petalo-2/3/9", image: 'boton2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "No soy merecedor de…", text: "El concepto de 'no soy merecedor de' se refiere a la creencia o sentimiento de una persona de que no es digna o no se merece algo en particular. Puede manifestarse en diversos aspectos de la vida, como las relaciones personales, el éxito profesional, la felicidad o el amor propio. El sentimiento de 'no soy merecedor de' puede ser limitante y puede llevar a la persona a sabotear sus propias oportunidades de crecimiento. (Anulado)" },
-                    { linkName: "petalo-2/3/10", image: 'boton2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "No deseo ser como…", text: "El concepto de 'no deseo ser como' se refiere al rechazo hacia ciertos aspectos, comportamientos o características observadas en otras personas. Es el deseo de evitar adoptar esos mismos patrones y buscar una identidad propia separada de esas influencias negativas. Ejemplo… madre, padre, hermano… etc. (Anulado)"},
-                    { linkName: "petalo-2/3/11", image: 'boton2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Anhelo ser como…", text: "Se manifiesta en repetir de manera inconsciente, comportamientos, y actitudes involuntarias de otras personas por lo general de nuestros ancestros. (Anulado)"},
-                    { linkName: "petalo-2/3/12", image: 'boton2', titlePage: 'Bloqueos Emocionales B', title: "Autoboicot", text: "Es la acción de boicotear o sabotear inconscientemente los propios esfuerzos, metas o éxito. Esta dinámica puede manifestarse en diferentes aspectos de la vida, como relaciones personales, carrera profesional, finanzas personales, salud mental, etc. La persona se convierte en su propio obstáculo para alcanzar sus objetivos. (Anulado)" },
-                    { linkName: "petalo-2/3/13", image: 'boton2', titlePage: 'Bloqueos Emocionales B', title: "Obtengo un beneficio a cambio", text: "La causa-efecto de este punto significa que la persona busca obtener un beneficio de una situación en particular, aunque esto le termine afectando de algún modo u otro, los ejemplos pueden ser, comportamientos emocionales negativos, patrones mentales, o en algunos casos dolores, enfermedades, etc. (ejemplo, persona que enferma para obtener la atención de su pareja, y así retenerlo). (Anulado)" },
-                    { linkName: "petalo-2/3/14", image: 'boton2', titlePage: 'Bloqueos Emocionales B', title: "Me han estructurado así", text: "Todo lo que hemos absorbido desde los 3 años hasta los 7 tiene que ver con nuestra estructura, la educación de nuestros padres, el colegio donde fuimos y la sociedad en general son los estructurantes que nos conformaron hasta el día de hoy… aquí buscamos romper con todo lo que nos limita… (Anulado)" },
-                    { linkName: "petalo-2/3/15", image: 'boton2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Para satisfacer a alguien", text: "Comportamiento obsesivo que nos lleva a hacer cosas para mantener conforme a una persona, perdiendo noción de que nuestra vida se nos pasa queriendo complacer a otros… los ejemplos pueden de hijo a padres, parejas, jefes, amigos, etc. (Anulado)"},
-                    { linkName: "petalo-2/3/16", image: 'boton2', titlePage: 'Bloqueos Emocionales B', title: "Lo hago por costumbre", text: "Es común que las personas adopten comportamientos arraigados por hábitos, ya sean heredados o no, sin cuestionarlos ni considerar cambiarlos. Estos patrones se mantienen en su rutina diaria y pueden perdurar toda su vida. Sin embargo, es posible liberarse de estos hábitos negativos y abrirse a nuevas posibilidades que brinden mayores beneficios y satisfacción. (Anulado)" }
+                linkName: "petalo-2/3", image: 'boton2', iconCenter: 'simbolo2', title: "Bloqueos Emocionales B", subPetalos: [
+                    { linkName: "petalo-2/3/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Bloqueos Emocionales B', title: "Falta de interés por la vida", text: "Incapacidad para experimentar placer, la pérdida de interés o satisfacción en actividades de la vida. Se considera una falta de reactividad a los estímulos habitualmente placenteros. (Anulado)" },
+                    { linkName: "petalo-2/3/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Bloqueos Emocionales B', title: "Temor al bienestar", text: "Es el resultado de traumas, tragedias o experiencias negativas que han alterado la forma en que una persona se desenvuelve en la vida, lo que desencadena un inexplicable temor a estar bien. Personas que no se permiten vivir en un estado de armonía y bienestar. (Anulado)" },
+                    { linkName: "petalo-2/3/3", image: 'boton2', iconCenter: 'simbolo2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Imagen grabada en la mente", text: "Es el concepto de memoria fotográfica, es el recuerdo de una situación negativa determinada o una imagen concreta con todo lujo de detalles, generando una reacción negativa e impidiendo fluir fácilmente en algún área o situación de nuestra vida. (Anulado)"},
+                    { linkName: "petalo-2/3/4", image: 'boton2', iconCenter: 'simbolo2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Anular muro del pasado", text: "Aquí se anulan las emociones pasadas que nos han marcado profundamente, simbolizadas por un imponente muro, asociadas con una situación que al liberarla dejamos libre nuestro futuro para seguir adelante sin la opresión del pasado. (Se anularon las siguientes emociones del muro)"},
+                    { linkName: "petalo-2/3/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Bloqueos Emocionales B', title: "Influencia hipnótica", text: "Proceso psicológico mediante el cual personas, medios de comunicación, libros y toda clase de entes que manipulen conceptos y sean capaces de emitir información puedan guiar o dirigir los pensamientos, emociones, sentimientos o comportamientos y estados físicos de otras personas. Ejemplo: televisión, redes sociales, imágenes sugestivas, etc. (Anulado)" },
+                    { linkName: "petalo-2/3/6", image: 'boton2', iconCenter: 'simbolo2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Ataque emocional", text: "Un 'atentado emocional' es una acción o comportamiento que causa daño emocional o psicológico a una persona. Se refiere a situaciones en las que alguien manipula, insulta, humilla o lastima emocionalmente a otra persona con la intención de controlarla, hacerla sentir mal. (Se anularon siguientes emociones y correcciones que se asocian al ATAQUE EMOCIONAL)" },
+                    { linkName: "petalo-2/3/7", image: 'boton2', iconCenter: 'simbolo2', fieldText: true, useText: true, useDesc: true, titlePage: 'Bloqueos Emocionales B', title: "Disfruto mi estado emocional (-)", text: "Comportamiento o actitud negativa en la que alguien se siente satisfecho o complacido al mantener una actitud o comportamiento al cual termina siendo dañino, perjudicial para sí mismo. (se anuló el siguiente estado emocional)"},
+                    { linkName: "petalo-2/3/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Bloqueos Emocionales B', title: "Busco la atención", text: "Es el concepto de captar la atención mediante un comportamiento hacia sus semejantes, logrando un beneficio a corto o largo plazo, algunos ejemplos pueden ser… (Comportamiento disruptivo, búsqueda de conflictos, manipulación emocional, comportamiento autodestructivo, actitudes negativas constantes). (Anulado)" },
+                    { linkName: "petalo-2/3/9", image: 'boton2', iconCenter: 'simbolo2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "No soy merecedor de…", text: "El concepto de 'no soy merecedor de' se refiere a la creencia o sentimiento de una persona de que no es digna o no se merece algo en particular. Puede manifestarse en diversos aspectos de la vida, como las relaciones personales, el éxito profesional, la felicidad o el amor propio. El sentimiento de 'no soy merecedor de' puede ser limitante y puede llevar a la persona a sabotear sus propias oportunidades de crecimiento. (Anulado)" },
+                    { linkName: "petalo-2/3/10", image: 'boton2', iconCenter: 'simbolo2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "No deseo ser como…", text: "El concepto de 'no deseo ser como' se refiere al rechazo hacia ciertos aspectos, comportamientos o características observadas en otras personas. Es el deseo de evitar adoptar esos mismos patrones y buscar una identidad propia separada de esas influencias negativas. Ejemplo… madre, padre, hermano… etc. (Anulado)"},
+                    { linkName: "petalo-2/3/11", image: 'boton2', iconCenter: 'simbolo2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Anhelo ser como…", text: "Se manifiesta en repetir de manera inconsciente, comportamientos, y actitudes involuntarias de otras personas por lo general de nuestros ancestros. (Anulado)"},
+                    { linkName: "petalo-2/3/12", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Bloqueos Emocionales B', title: "Autoboicot", text: "Es la acción de boicotear o sabotear inconscientemente los propios esfuerzos, metas o éxito. Esta dinámica puede manifestarse en diferentes aspectos de la vida, como relaciones personales, carrera profesional, finanzas personales, salud mental, etc. La persona se convierte en su propio obstáculo para alcanzar sus objetivos. (Anulado)" },
+                    { linkName: "petalo-2/3/13", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Bloqueos Emocionales B', title: "Obtengo un beneficio a cambio", text: "La causa-efecto de este punto significa que la persona busca obtener un beneficio de una situación en particular, aunque esto le termine afectando de algún modo u otro, los ejemplos pueden ser, comportamientos emocionales negativos, patrones mentales, o en algunos casos dolores, enfermedades, etc. (ejemplo, persona que enferma para obtener la atención de su pareja, y así retenerlo). (Anulado)" },
+                    { linkName: "petalo-2/3/14", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Bloqueos Emocionales B', title: "Me han estructurado así", text: "Todo lo que hemos absorbido desde los 3 años hasta los 7 tiene que ver con nuestra estructura, la educación de nuestros padres, el colegio donde fuimos y la sociedad en general son los estructurantes que nos conformaron hasta el día de hoy… aquí buscamos romper con todo lo que nos limita… (Anulado)" },
+                    { linkName: "petalo-2/3/15", image: 'boton2', iconCenter: 'simbolo2', useText: true, useDesc: true, fieldText: true, titlePage: 'Bloqueos Emocionales B', title: "Para satisfacer a alguien", text: "Comportamiento obsesivo que nos lleva a hacer cosas para mantener conforme a una persona, perdiendo noción de que nuestra vida se nos pasa queriendo complacer a otros… los ejemplos pueden de hijo a padres, parejas, jefes, amigos, etc. (Anulado)"},
+                    { linkName: "petalo-2/3/16", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Bloqueos Emocionales B', title: "Lo hago por costumbre", text: "Es común que las personas adopten comportamientos arraigados por hábitos, ya sean heredados o no, sin cuestionarlos ni considerar cambiarlos. Estos patrones se mantienen en su rutina diaria y pueden perdurar toda su vida. Sin embargo, es posible liberarse de estos hábitos negativos y abrirse a nuevas posibilidades que brinden mayores beneficios y satisfacción. (Anulado)" }
                 ]
             },
             {
-                linkName: "petalo-2/4", image: 'boton2', title: "CRUCE DE RUTAS", text: "Dos rutas que se unifican (dos conceptos) que al unirse generan una interpretación, que se refiere a una situación de la vida cotidiana, interpretar este punto desde una mirada más amplia es de suma importancia. (Anulado)", noNumbers: true, subPetalos: [
+                linkName: "petalo-2/4", image: 'boton2', iconCenter: 'simbolo2', title: "CRUCE DE RUTAS", text: "Dos rutas que se unifican (dos conceptos) que al unirse generan una interpretación, que se refiere a una situación de la vida cotidiana, interpretar este punto desde una mirada más amplia es de suma importancia. (Anulado)", noNumbers: true, subPetalos: [
                     {
-                        linkName: "petalo-2/4/1", image: 'boton2', title: "A", index: 0, colorBorder: "red", subPetalos: [
+                        linkName: "petalo-2/4/1", image: 'boton2', iconCenter: 'simbolo2', title: "A", index: 0, colorBorder: "red", subPetalos: [
                             {
-                                linkName: "petalo-2/4/1/1", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 1",
+                                linkName: "petalo-2/4/1/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 1",
                                 text: "CREENCIA - ABANDONO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/2", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 2",
+                                linkName: "petalo-2/4/1/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 2",
                                 text: "CREENCIA - CARENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/3", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 3",
+                                linkName: "petalo-2/4/1/3", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 3",
                                 text: "CREENCIA - COMETER ERRORES",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/4", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 4",
+                                linkName: "petalo-2/4/1/4", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 4",
                                 text: "CREENCIA - CONFUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/5", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 5",
+                                linkName: "petalo-2/4/1/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 5",
                                 text: "CREENCIA - CULPA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/6", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 6",
+                                linkName: "petalo-2/4/1/6", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 6",
                                 text: "CREENCIA - CRITICA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/7", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 7",
+                                linkName: "petalo-2/4/1/7", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 7",
                                 text: "CREENCIA - DESVALORIZACION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/8", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 8",
+                                linkName: "petalo-2/4/1/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 8",
                                 text: "CREENCIA - DEPENDENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/9", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 9",
+                                linkName: "petalo-2/4/1/9", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 9",
                                 text: "CREENCIA - DESILUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/10", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 10",
+                                linkName: "petalo-2/4/1/10", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 10",
                                 text: "CREENCIA - INFERIORIDAD",onlyText: true,
                             },
                             {
-                                linkName: "petalo-2/4/1/11", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 11",
+                                linkName: "petalo-2/4/1/11", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 11",
                                 text: "CREENCIA - INEFICAZ",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/12", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 12",
+                                linkName: "petalo-2/4/1/12", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 12",
                                 text: "CREENCIA - NO PUEDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/13", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 13",
+                                linkName: "petalo-2/4/1/13", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 13",
                                 text: "CREENCIA - PERDER EL CONTROL",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/14", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 14",
+                                linkName: "petalo-2/4/1/14", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 14",
                                 text: "CREENCIA - PERDIDA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/15", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 15",
+                                linkName: "petalo-2/4/1/15", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 15",
                                 text: "CREENCIA - QUE DIRAN",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/16", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 16",
+                                linkName: "petalo-2/4/1/16", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 16",
                                 text: "CREENCIA - RECHAZO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/17", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 17",
+                                linkName: "petalo-2/4/1/17", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 17",
                                 text: "CREENCIA - SER SOMETIDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/1/18", image: 'boton2', titlePage: 'Cruce de Rutas', title: "A 18",
+                                linkName: "petalo-2/4/1/18", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "A 18",
                                 text: "CREENCIA - SUFRIR",onlyText: true
                             },
                         ]
                     },
                     {
-                        linkName: "petalo-2/4/2", image: 'boton2', title: "B", index: 1, colorBorder: "blue", subPetalos: [
+                        linkName: "petalo-2/4/2", image: 'boton2', iconCenter: 'simbolo2', title: "B", index: 1, colorBorder: "blue", subPetalos: [
                             {
-                                linkName: "petalo-2/4/2/1", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 1",
+                                linkName: "petalo-2/4/2/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 1",
                                 text: "EMOCION - ABANDONO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/2", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 2",
+                                linkName: "petalo-2/4/2/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 2",
                                 text: "EMOCION - CARENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/3", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 3",
+                                linkName: "petalo-2/4/2/3", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 3",
                                 text: "EMOCION - COMETER ERRORES",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/4", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 4",
+                                linkName: "petalo-2/4/2/4", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 4",
                                 text: "EMOCION - CONFUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/5", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 5",
+                                linkName: "petalo-2/4/2/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 5",
                                 text: "EMOCION - CULPA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/6", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 6",
+                                linkName: "petalo-2/4/2/6", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 6",
                                 text: "EMOCION - CRITICA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/7", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 7",
+                                linkName: "petalo-2/4/2/7", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 7",
                                 text: "EMOCION - DESVALORIZACION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/8", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 8",
+                                linkName: "petalo-2/4/2/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 8",
                                 text: "EMOCION - DEPENDENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/9", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 9",
+                                linkName: "petalo-2/4/2/9", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 9",
                                 text: "EMOCION - DESILUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/10", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 10",
+                                linkName: "petalo-2/4/2/10", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 10",
                                 text: "EMOCION - INFERIORIDAD",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/11", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 11",
+                                linkName: "petalo-2/4/2/11", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 11",
                                 text: "EMOCION - INEFICAZ",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/12", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 12",
+                                linkName: "petalo-2/4/2/12", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 12",
                                 text: "EMOCION - NO PUEDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/13", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 13",
+                                linkName: "petalo-2/4/2/13", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 13",
                                 text: "EMOCION - PERDER EL CONTROL",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/14", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 14",
+                                linkName: "petalo-2/4/2/14", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 14",
                                 text: "EMOCION - PERDIDA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/15", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 15",
+                                linkName: "petalo-2/4/2/15", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 15",
                                 text: "EMOCION - QUE DIRAN",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/16", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 16",
+                                linkName: "petalo-2/4/2/16", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 16",
                                 text: "EMOCION - RECHAZO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/17", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 17",
+                                linkName: "petalo-2/4/2/17", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 17",
                                 text: "EMOCION - SER SOMETIDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/2/18", image: 'boton2', titlePage: 'Cruce de Rutas', title: "B 18",
+                                linkName: "petalo-2/4/2/18", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "B 18",
                                 text: "EMOCION - SUFRIR",onlyText: true
                             },
                         ]
                     },
                     {
-                        linkName: "petalo-2/4/3", image: 'boton2', title: "C", index: 2, colorBorder: "blue", subPetalos: [
+                        linkName: "petalo-2/4/3", image: 'boton2', iconCenter: 'simbolo2', title: "C", index: 2, colorBorder: "blue", subPetalos: [
                             {
-                                linkName: "petalo-2/4/3/1", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 1",
+                                linkName: "petalo-2/4/3/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 1",
                                 text: "MIEDO - ABANDONO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/2", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 2",
+                                linkName: "petalo-2/4/3/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 2",
                                 text: "MIEDO - CARENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/3", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 3",
+                                linkName: "petalo-2/4/3/3", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 3",
                                 text: "MIEDO - COMETER ERRORES",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/4", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 4",
+                                linkName: "petalo-2/4/3/4", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 4",
                                 text: "MIEDO - CONFUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/5", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 5",
+                                linkName: "petalo-2/4/3/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 5",
                                 text: "MIEDO - CULPA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/6", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 6",
+                                linkName: "petalo-2/4/3/6", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 6",
                                 text: "MIEDO - CRITICA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/7", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 7",
+                                linkName: "petalo-2/4/3/7", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 7",
                                 text: "MIEDO - DESVALORIZACION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/8", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 8",
+                                linkName: "petalo-2/4/3/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 8",
                                 text: "MIEDO - DEPENDENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/9", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 9",
+                                linkName: "petalo-2/4/3/9", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 9",
                                 text: "MIEDO - DESILUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/10", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 10",
+                                linkName: "petalo-2/4/3/10", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 10",
                                 text: "MIEDO - INFERIORIDAD",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/11", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 11",
+                                linkName: "petalo-2/4/3/11", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 11",
                                 text: "MIEDO - INEFICAZ",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/12", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 12",
+                                linkName: "petalo-2/4/3/12", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 12",
                                 text: "MIEDO - NO PUEDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/13", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 13",
+                                linkName: "petalo-2/4/3/13", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 13",
                                 text: "MIEDO - PERDER EL CONTROL",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/14", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 14",
+                                linkName: "petalo-2/4/3/14", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 14",
                                 text: "MIEDO - PERDIDA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/15", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 15",
+                                linkName: "petalo-2/4/3/15", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 15",
                                 text: "MIEDO - QUE DIRAN",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/16", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 16",
+                                linkName: "petalo-2/4/3/16", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 16",
                                 text: "MIEDO - RECHAZO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/17", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 17",
+                                linkName: "petalo-2/4/3/17", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 17",
                                 text: "MIEDO - SER SOMETIDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/3/18", image: 'boton2', titlePage: 'Cruce de Rutas', title: "C 18",
+                                linkName: "petalo-2/4/3/18", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "C 18",
                                 text: "MIEDO - SUFRIR",onlyText: true
                             },
                         ]
                     },
                     {
-                        linkName: "petalo-2/4/4", image: 'boton2', title: "D", index: 3, colorBorder: "yellow", subPetalos: [
+                        linkName: "petalo-2/4/4", image: 'boton2', iconCenter: 'simbolo2', title: "D", index: 3, colorBorder: "yellow", subPetalos: [
                             {
-                                linkName: "petalo-2/4/4/1", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 1",
+                                linkName: "petalo-2/4/4/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 1",
                                 text: "PENSAMIENTO - ABANDONO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/2", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 2",
+                                linkName: "petalo-2/4/4/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 2",
                                 text: "PENSAMIENTO - CARENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/3", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 3",
+                                linkName: "petalo-2/4/4/3", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 3",
                                 text: "PENSAMIENTO - COMETER ERRORES",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/4", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 4",
+                                linkName: "petalo-2/4/4/4", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 4",
                                 text: "PENSAMIENTO - CONFUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/5", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 5",
+                                linkName: "petalo-2/4/4/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 5",
                                 text: "PENSAMIENTO - CULPA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/6", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 6",
+                                linkName: "petalo-2/4/4/6", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 6",
                                 text: "PENSAMIENTO - CRITICA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/7", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 7",
+                                linkName: "petalo-2/4/4/7", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 7",
                                 text: "PENSAMIENTO - DESVALORIZACION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/8", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 8",
+                                linkName: "petalo-2/4/4/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 8",
                                 text: "PENSAMIENTO - DEPENDENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/9", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 9",
+                                linkName: "petalo-2/4/4/9", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 9",
                                 text: "PENSAMIENTO - DESILUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/10", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 10",
+                                linkName: "petalo-2/4/4/10", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 10",
                                 text: "PENSAMIENTO - INFERIORIDAD",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/11", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 11",
+                                linkName: "petalo-2/4/4/11", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 11",
                                 text: "PENSAMIENTO - INEFICAZ",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/12", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 12",
+                                linkName: "petalo-2/4/4/12", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 12",
                                 text: "PENSAMIENTO - NO PUEDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/13", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 13",
+                                linkName: "petalo-2/4/4/13", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 13",
                                 text: "PENSAMIENTO - PERDER EL CONTROL",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/14", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 14",
+                                linkName: "petalo-2/4/4/14", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 14",
                                 text: "PENSAMIENTO - PERDIDA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/15", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 15",
+                                linkName: "petalo-2/4/4/15", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 15",
                                 text: "PENSAMIENTO - QUE DIRAN",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/16", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 16",
+                                linkName: "petalo-2/4/4/16", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 16",
                                 text: "PENSAMIENTO - RECHAZO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/17", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 17",
+                                linkName: "petalo-2/4/4/17", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 17",
                                 text: "PENSAMIENTO - SER SOMETIDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/4/18", image: 'boton2', titlePage: 'Cruce de Rutas', title: "D 18",
+                                linkName: "petalo-2/4/4/18", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "D 18",
                                 text: "PENSAMIENTO - SUFRIR",onlyText: true
                             },
                         ]
                     },
                     {
-                        linkName: "petalo-2/4/5", image: 'boton2', title: "E", index: 4, colorBorder: "yellow", subPetalos: [
+                        linkName: "petalo-2/4/5", image: 'boton2', iconCenter: 'simbolo2', title: "E", index: 4, colorBorder: "yellow", subPetalos: [
                             {
-                                linkName: "petalo-2/4/5/1", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 1",
+                                linkName: "petalo-2/4/5/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 1",
                                 text: "RECUERDO - ABANDONO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/2", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 2",
+                                linkName: "petalo-2/4/5/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 2",
                                 text: "RECUERDO - CARENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/3", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 3",
+                                linkName: "petalo-2/4/5/3", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 3",
                                 text: "RECUERDO - COMETER ERRORES",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/4", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 4",
+                                linkName: "petalo-2/4/5/4", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 4",
                                 text: "RECUERDO - CONFUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/5", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 5",
+                                linkName: "petalo-2/4/5/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 5",
                                 text: "RECUERDO - CULPA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/6", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 6",
+                                linkName: "petalo-2/4/5/6", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 6",
                                 text: "RECUERDO - CRITICA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/7", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 7",
+                                linkName: "petalo-2/4/5/7", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 7",
                                 text: "RECUERDO - DESVALORIZACION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/8", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 8",
+                                linkName: "petalo-2/4/5/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 8",
                                 text: "RECUERDO - DEPENDENCIA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/9", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 9",
+                                linkName: "petalo-2/4/5/9", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 9",
                                 text: "RECUERDO - DESILUSION",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/10", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 10",
+                                linkName: "petalo-2/4/5/10", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 10",
                                 text: "RECUERDO - INFERIORIDAD",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/11", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 11",
+                                linkName: "petalo-2/4/5/11", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 11",
                                 text: "RECUERDO - INEFICAZ",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/12", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 12",
+                                linkName: "petalo-2/4/5/12", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 12",
                                 text: "RECUERDO - NO PUEDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/13", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 13",
+                                linkName: "petalo-2/4/5/13", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 13",
                                 text: "RECUERDO - PERDER EL CONTROL",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/14", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 14",
+                                linkName: "petalo-2/4/5/14", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 14",
                                 text: "RECUERDO - PERDIDA",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/15", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 15",
+                                linkName: "petalo-2/4/5/15", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 15",
                                 text: "RECUERDO - QUE DIRAN",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/16", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 16",
+                                linkName: "petalo-2/4/5/16", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 16",
                                 text: "RECUERDO - RECHAZO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/17", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 17",
+                                linkName: "petalo-2/4/5/17", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 17",
                                 text: "RECUERDO - SER SOMETIDO",onlyText: true
                             },
                             {
-                                linkName: "petalo-2/4/5/18", image: 'boton2', titlePage: 'Cruce de Rutas', title: "E 18",
+                                linkName: "petalo-2/4/5/18", image: 'boton2', iconCenter: 'simbolo2', titlePage: 'Cruce de Rutas', title: "E 18",
                                 text: "RECUERDO - SUFRIR",onlyText: true
                             },
                         ]
@@ -821,61 +822,61 @@ const petalos = [
                 ]
             },
             {
-                linkName: "petalo-2/5", image: 'boton2', title: "MIEDOS", noNumbers: true, text: "El miedo puede ser desencadenado por situaciones reales o imaginarias y puede variar en intensidad según el individuo y sus experiencias previas, también puede volverse paralizante o limitante si se experimenta de manera excesiva o irracional. (Se anularon los siguientes miedos)", subPetalos: [
+                linkName: "petalo-2/5", image: 'boton2', iconCenter: 'simbolo2', title: "MIEDOS", noNumbers: true, text: "El miedo puede ser desencadenado por situaciones reales o imaginarias y puede variar en intensidad según el individuo y sus experiencias previas, también puede volverse paralizante o limitante si se experimenta de manera excesiva o irracional. (Se anularon los siguientes miedos)", subPetalos: [
                     {
-                        linkName: "petalo-2/5/1", image: 'boton2', title: "A", index: 0, colorBorder: "yellow", text: "", subPetalos: [
-                            { linkName: "petalo-2/5/1/1", image: 'boton2', titlePage: "Miedos A", title: "abandono", text: "" },
-                            { linkName: "petalo-2/5/1/2", image: 'boton2', titlePage: "Miedos A", title: "abundancia", text: "" },
-                            { linkName: "petalo-2/5/1/3", image: 'boton2', titlePage: "Miedos A", title: "alturas (acrofobia)", text: "" },
-                            { linkName: "petalo-2/5/1/4", image: 'boton2', titlePage: "Miedos A", title: "amor", text: "" },
-                            { linkName: "petalo-2/5/1/5", image: 'boton2', titlePage: "Miedos A", title: "animales (zoofobia)", text: "" },
-                            { linkName: "petalo-2/5/1/6", image: 'boton2', titlePage: "Miedos A", title: "cambio", text: "" },
-                            { linkName: "petalo-2/5/1/7", image: 'boton2', titlePage: "Miedos A", title: "castigo", text: "" },
-                            { linkName: "petalo-2/5/1/8", image: 'boton2', titlePage: "Miedos A", title: "culpa", text: "" },
-                            { linkName: "petalo-2/5/1/9", image: 'boton2', titlePage: "Miedos A", title: "dependencia", text: "" },
-                            { linkName: "petalo-2/5/1/10", image: 'boton2', titlePage: "Miedos A", title: "deseo", text: "" },
-                            { linkName: "petalo-2/5/1/11", image: 'boton2', titlePage: "Miedos A", title: "dolor", text: "" },
-                            { linkName: "petalo-2/5/1/12", image: 'boton2', titlePage: "Miedos A", title: "enfermedades (nosofobia)", text: "" },
-                            { linkName: "petalo-2/5/1/13", image: 'boton2', titlePage: "Miedos A", title: "éxito", text: "" },
-                            { linkName: "petalo-2/5/1/14", image: 'boton2', titlePage: "Miedos A", title: "fantasmas (espectrofobia)", text: "" },
-                            { linkName: "petalo-2/5/1/15", image: 'boton2', titlePage: "Miedos A", title: "felicidad", text: "" },
-                            { linkName: "petalo-2/5/1/16", image: 'boton2', titlePage: "Miedos A", title: "fracaso", text: "" },
-                            { linkName: "petalo-2/5/1/17", image: 'boton2', titlePage: "Miedos A", title: "futuro", text: "" }
+                        linkName: "petalo-2/5/1", image: 'boton2', iconCenter: 'simbolo2', title: "A", index: 0, colorBorder: "yellow", text: "", subPetalos: [
+                            { linkName: "petalo-2/5/1/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "abandono", text: "" },
+                            { linkName: "petalo-2/5/1/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "abundancia", text: "" },
+                            { linkName: "petalo-2/5/1/3", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "alturas (acrofobia)", text: "" },
+                            { linkName: "petalo-2/5/1/4", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "amor", text: "" },
+                            { linkName: "petalo-2/5/1/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "animales (zoofobia)", text: "" },
+                            { linkName: "petalo-2/5/1/6", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "cambio", text: "" },
+                            { linkName: "petalo-2/5/1/7", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "castigo", text: "" },
+                            { linkName: "petalo-2/5/1/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "culpa", text: "" },
+                            { linkName: "petalo-2/5/1/9", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "dependencia", text: "" },
+                            { linkName: "petalo-2/5/1/10", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "deseo", text: "" },
+                            { linkName: "petalo-2/5/1/11", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "dolor", text: "" },
+                            { linkName:"petalo-2/5/1/12", image:'boton2', iconCenter:'simbolo2', titlePage:"Miedos A", title:"enfermedades (nosofobia)", text:"" },
+                            { linkName:"petalo-2/5/1/13", image:'boton2', iconCenter:'simbolo2', titlePage:"Miedos A", title:"éxito", text:"" },
+                            { linkName: "petalo-2/5/1/14", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "fantasmas (espectrofobia)", text: "" },
+                            { linkName: "petalo-2/5/1/15", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "felicidad", text: "" },
+                            { linkName: "petalo-2/5/1/16", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "fracaso", text: "" },
+                            { linkName: "petalo-2/5/1/17", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos A", title: "futuro", text: "" }
                         ]
                     },
                     {
-                        linkName: "petalo-2/5/2", image: 'boton2', title: "B", index: 1, colorBorder: "red", text: "", subPetalos: [
-                            { linkName: "petalo-2/5/2/1", image: 'boton2', titlePage: "Miedos B", title: "hablar en público (glosofobia)", text: "" },
-                            { linkName: "petalo-2/5/2/2", image: 'boton2', titlePage: "Miedos B", title: "humillación", text: "" },
-                            { linkName: "petalo-2/5/2/3", image: 'boton2', titlePage: "Miedos B", title: "lo extraño", text: "" },
-                            { linkName: "petalo-2/5/2/4", image: 'boton2', titlePage: "Miedos B", title: "lugares abiertos (agorafobia)", text: "" },
-                            { linkName: "petalo-2/5/2/5", image: 'boton2', titlePage: "Miedos B", title: "lugares cerrados (claustrofobia)", text: "" },
-                            { linkName: "petalo-2/5/2/6", image: 'boton2', titlePage: "Miedos B", title: "miedo a dios", text: "" },
-                            { linkName: "petalo-2/5/2/7", image: 'boton2', titlePage: "Miedos B", title: "muerte", text: "" },
-                            { linkName: "petalo-2/5/2/8", image: 'boton2', titlePage: "Miedos B", title: "multitudes (demofobia)", text: "" },
-                            { linkName: "petalo-2/5/2/9", image: 'boton2', titlePage: "Miedos B", title: "no merecer", text: "" },
-                            { linkName: "petalo-2/5/2/10", image: 'boton2', titlePage: "Miedos B", title: "no recursos", text: "" },
-                            { linkName: "petalo-2/5/2/11", image: 'boton2', titlePage: "Miedos B", title: "no salir adelante", text: "" },
-                            { linkName: "petalo-2/5/2/12", image: 'boton2', titlePage: "Miedos B", title: "no ser aceptado (rechazo social)", text: "" },
-                            { linkName: "petalo-2/5/2/13", image: 'boton2', titlePage: "Miedos B", title: "no ser capaz", text: "" },
-                            { linkName: "petalo-2/5/2/14", image: 'boton2', titlePage: "Miedos B", title: "oscuridad", text: "" },
-                            { linkName: "petalo-2/5/2/15", image: 'boton2', titlePage: "Miedos B", title: "pérdida", text: "" },
-                            { linkName: "petalo-2/5/2/16", image: 'boton2', titlePage: "Miedos B", title: "personas desconocidas (xenofobia)", text: "" }
+                        linkName: "petalo-2/5/2", image: 'boton2', iconCenter: 'simbolo2', title: "B", index: 1, colorBorder: "red", text: "", subPetalos: [
+                            { linkName: "petalo-2/5/2/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "hablar en público (glosofobia)", text: "" },
+                            { linkName: "petalo-2/5/2/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "humillación", text: "" },
+                            { linkName: "petalo-2/5/2/3", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "lo extraño", text: "" },
+                            { linkName: "petalo-2/5/2/4", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "lugares abiertos (agorafobia)", text: "" },
+                            { linkName: "petalo-2/5/2/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "lugares cerrados (claustrofobia)", text: "" },
+                            { linkName: "petalo-2/5/2/6", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "miedo a dios", text: "" },
+                            { linkName: "petalo-2/5/2/7", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "muerte", text: "" },
+                            { linkName: "petalo-2/5/2/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "multitudes (demofobia)", text: "" },
+                            { linkName: "petalo-2/5/2/9", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "no merecer", text: "" },
+                            { linkName: "petalo-2/5/2/10", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "no recursos", text: "" },
+                            { linkName: "petalo-2/5/2/11", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "no salir adelante", text: "" },
+                            { linkName:"petalo-2/5/2/12", image:'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "no ser aceptado (rechazo social)", text: "" },
+                            { linkName: "petalo-2/5/2/13", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "no ser capaz", text: "" },
+                            { linkName: "petalo-2/5/2/14", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "oscuridad", text: "" },
+                            { linkName: "petalo-2/5/2/15", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "pérdida", text: "" },
+                            { linkName: "petalo-2/5/2/16", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos B", title: "personas desconocidas (xenofobia)", text: "" }
                         ]
                     },
                     {
-                        linkName: "petalo-2/5/3", image: 'boton2', title: "C", index: 2, colorBorder: "blue", text: "", subPetalos: [
-                            { linkName: "petalo-2/5/3/1", image: 'boton2', titlePage: "Miedos C", title: "rechazo", text: "" },
-                            { linkName: "petalo-2/5/3/2", image: 'boton2', titlePage: "Miedos C", title: "ruidos fuertes (fonofobia)", text: "" },
-                            { linkName: "petalo-2/5/3/3", image: 'boton2', titlePage: "Miedos C", title: "salud", text: "" },
-                            { linkName: "petalo-2/5/3/4", image: 'boton2', titlePage: "Miedos C", title: "sangre (hemofobia)", text: "" },
-                            { linkName: "petalo-2/5/3/5", image: 'boton2', titlePage: "Miedos C", title: "sexualidad", text: "" },
-                            { linkName: "petalo-2/5/3/6", image: 'boton2', titlePage: "Miedos C", title: "soledad", text: "" },
-                            { linkName: "petalo-2/5/3/7", image: 'boton2', titlePage: "Miedos C", title: "sufrir", text: "" },
-                            { linkName: "petalo-2/5/3/8", image: 'boton2', titlePage: "Miedos C", title: "tecnología (tecno-fobia)", text: "" },
-                            { linkName: "petalo-2/5/3/9", image: 'boton2', titlePage: "Miedos C", title: "truenos (astrapofobia)", text: "" },
-                            { linkName: "petalo-2/5/3/10", image: 'boton2', titlePage: "Miedos C", title: "vejez", text: "" },
-                            { linkName: "petalo-2/5/3/11", image: 'boton2', titlePage: "Miedos C", title: "vergüenza", text: "" }
+                        linkName: "petalo-2/5/3", image: 'boton2', iconCenter: 'simbolo2', title: "C", index: 2, colorBorder: "blue", text: "", subPetalos: [
+                            { linkName: "petalo-2/5/3/1", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "rechazo", text: "" },
+                            { linkName: "petalo-2/5/3/2", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "ruidos fuertes (fonofobia)", text: "" },
+                            { linkName: "petalo-2/5/3/3", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "salud", text: "" },
+                            { linkName: "petalo-2/5/3/4", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "sangre (hemofobia)", text: "" },
+                            { linkName: "petalo-2/5/3/5", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "sexualidad", text: "" },
+                            { linkName: "petalo-2/5/3/6", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "soledad", text: "" },
+                            { linkName: "petalo-2/5/3/7", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "sufrir", text: "" },
+                            { linkName: "petalo-2/5/3/8", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "tecnología (tecno-fobia)", text: "" },
+                            { linkName: "petalo-2/5/3/9", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "truenos (astrapofobia)", text: "" },
+                            { linkName: "petalo-2/5/3/10", image: 'boton2', iconCenter: 'simbolo2', titlePage: "Miedos C", title: "vejez", text:"" },
+                            { linkName: "petalo-2/5/3/11", image:'boton2', iconCenter:'simbolo2', titlePage:"Miedos C", title:"vergüenza", text:"" }
                         ]
                     },
                 ],
@@ -883,10 +884,11 @@ const petalos = [
         ]
     },
     {
-        linkName: "petalo-3", image: 'boton3', title: "Fuente Mental", subPetalos: [
+        linkName: "petalo-3", image: 'boton3', iconCenter: 'simbolo3', title: "Fuente Mental", subPetalos: [
             {
                 linkName: "petalo-3/1",
                 image: 'boton3',
+                iconCenter: 'simbolo3',
                 title: "PATRONES MENTALES",
                 noNumbers: true,
                 text: "Los patrones mentales son estructuras de comportamientos muy marcados que se accionan en diferentes áreas de nuestra vida que generalmente nos bloquean y que impiden poner en práctica ciertas tareas del ámbito diario y su libre funcionamiento. Son comportamientos aprendidos o hábitos de nuestros ancestros. Suele suceder que existan varias capas del mismo patrón, por haber vivido repetidas veces las mismas situaciones. (Se anularon los siguientes patrones mentales)",
@@ -894,6 +896,7 @@ const petalos = [
                     {
                         linkName: "petalo-3/1/1",
                         image: 'boton3',
+                        iconCenter: 'simbolo3',
                         title: "A",
                         index: 0,
                         colorBorder: "blue",
@@ -901,6 +904,7 @@ const petalos = [
                             {
                                 linkName: "petalo-3/1/1/1",
                                 image: 'boton3',
+                                iconCenter: 'simbolo3',
                                 titlePage: "Patrones Mentales A",
                                 title: "ABANDONO",
                                 text: ""
@@ -908,6 +912,7 @@ const petalos = [
                             {
                                 linkName: "petalo-3/1/1/2",
                                 image: 'boton3',
+                                iconCenter: 'simbolo3',
                                 titlePage: "Patrones Mentales A",
                                 title: "ADICCION",
                                 text: ""
@@ -915,6 +920,7 @@ const petalos = [
                             {
                                 linkName: "petalo-3/1/1/3",
                                 image: 'boton3',
+                                iconCenter: 'simbolo3',
                                 titlePage: "Patrones Mentales A",
                                 title: "AMARGURA",
                                 text: ""
@@ -922,6 +928,7 @@ const petalos = [
                             {
                                 linkName: "petalo-3/1/1/4",
                                 image: 'boton3',
+                                iconCenter: 'simbolo3',
                                 titlePage: "Patrones Mentales A",
                                 title: "ANSIEDAD",
                                 text: ""
@@ -929,6 +936,7 @@ const petalos = [
                             {
                                 linkName: "petalo-3/1/1/5",
                                 image: 'boton3',
+                                iconCenter: 'simbolo3',
                                 titlePage: "Patrones Mentales A",
                                 title: "APATIA",
                                 text: ""
@@ -4745,7 +4753,282 @@ const petalos = [
 
 ]
 
+const interferencias = [
+{
+    linkName: "interferencias",
+    title: "INTERFERENCIAS HACIA LA TERAPIA",
+    image: "fondoG5D",
+    iconCenter: "simbolo-interferencias",
+    tipo: "interferencia",
+    subPetalos: [
+
+        {
+            linkName: "interferencias/1",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Influencias perturbadoras externas",
+            desc: "Ruidos, interrupciones, celular, ambiente cargado, personas alrededor o situaciones externas que sacan al terapeuta del eje. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/2",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Falta de confianza",
+            desc: "Dudas sobre sí mismo, sobre el método, sobre la información recibida o sobre su capacidad para acompañar. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/3",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Prejuicios",
+            desc: "Mirar al consultante desde creencias personales, juicios morales, experiencias propias o ideas previas. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/4",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Falta de interés real",
+            desc: "Hacer la sesión de forma automática, sin presencia, sin entrega o sin verdadera disponibilidad interna. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/5",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Incompetencia",
+            desc: "Falta de preparación, práctica, claridad o dominio del método en ese momento específico. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/6",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Falta de concentración",
+            desc: "Dispersión mental, pérdida del hilo, dificultad para sostener la atención o exceso de pensamientos. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/7",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Fatiga",
+            desc: "Cansancio físico, mental, emocional o energético que disminuye la precisión y la presencia terapéutica. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/8",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Apuro",
+            desc: "Querer terminar rápido, avanzar sin profundidad o cerrar una sesión antes de que el proceso madure. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/9",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Ansiedad por obtener resultados",
+            desc: "Necesidad de que la sesión funcione, de ver cambios inmediatos o de demostrar eficacia. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/10",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Miedo a equivocarse",
+            desc: "Bloqueo por temor a interpretar mal, preguntar mal o no estar a la altura del proceso. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/11",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Exceso de análisis mental",
+            desc: "Intentar comprender todo desde la mente racional, en lugar de permitir una lectura más intuitiva, energética o profunda. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/12",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Identificación con el consultante",
+            desc: "Cuando la historia del consultante toca heridas personales del terapeuta y este pierde neutralidad. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/13",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Necesidad de salvar al otro",
+            desc: "Querer resolverle la vida al consultante, hacerse cargo de su proceso o cargar con su dolor. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/14",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Apego al resultado",
+            desc: "Quedar condicionado por lo que debería pasar en la sesión, en lugar de respetar lo que el campo muestra. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/15",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Falta de neutralidad",
+            desc: "Tomar partido, juzgar a una persona involucrada o inclinarse emocionalmente hacia una versión de la historia. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/16",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Miedo al juicio del consultante",
+            desc: "Temor a que el consultante cuestione, dude, se enoje o no valore el trabajo realizado. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/17",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Saturación energética",
+            desc: "Haber trabajado con muchas personas, temas densos o sesiones intensas sin una limpieza adecuada. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/18",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Falta de protección energética",
+            desc: "Entrar a una sesión sin prepararse, sin centrarse o sin ordenar el propio campo. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/19",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Miedo a ver información profunda",
+            desc: "Resistencia a tocar temas sensibles como abuso, muerte, trauma, culpa, enfermedad, abandono o secretos familiares. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/20",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Confusión de roles",
+            desc: "Actuar como amigo, padre, salvador, juez o consejero, en lugar de terapeuta. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/21",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Dependencia del consultante",
+            desc: "Querer que el consultante vuelva, necesite o dependa del terapeuta. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/22",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Falta de escucha corporal",
+            desc: "No registrar señales propias como tensión, dolor, sueño, presión, incomodidad o cierre energético. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/23",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Desalineación con el propósito",
+            desc: "Hacer la sesión desde obligación, rutina o cansancio, y no desde servicio, presencia y conciencia. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/24",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Querer controlar la sesión",
+            desc: "Forzar caminos, respuestas, correcciones o conclusiones en lugar de dejar que el proceso se revele. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/25",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Exceso de expectativa espiritual",
+            desc: "Esperar señales extraordinarias, mensajes elevados o respuestas impactantes, cuando la sesión puede mostrar algo simple y concreto. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/26",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Falta de grounding",
+            desc: "Estar demasiado arriba, disperso o espiritualizado, sin anclaje corporal y práctico. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/27",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Miedo a la responsabilidad",
+            desc: "Sentir que todo depende del terapeuta y cargar con un peso que no le corresponde. (ANULAR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/28",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Falta de actualización o aprendizaje",
+            desc: "No revisar, estudiar, practicar o profundizar el método, quedándose con una comprensión limitada. (CORREGIR)",
+            tipo: "interferencia"
+        },
+        {
+            linkName: "interferencias/29",
+            image: "fondoG5D",
+            iconCenter: "simbolo-interferencias",
+            titlePage: "Interferencias hacia la terapia",
+            titleText: "Resistencia a recibir ayuda",
+            desc: "El terapeuta acompaña a otros, pero no se permite ser acompañado, supervisado. No reconocer que ciertos temas del consultante activan procesos personales no resueltos. (CORREGIR)",
+            tipo: "interferencia"
+        }
+
+    ]
+}
+];
 
 module.exports = {
     petalos,
+    interferencias
 };

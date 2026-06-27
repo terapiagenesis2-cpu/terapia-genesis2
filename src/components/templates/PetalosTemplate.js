@@ -13,7 +13,7 @@ const createdPages = require('../../../../createdPages.json');
 
 const PetalosTemplate = ({ pageContext }) => {
     const [isTextFieldFocused, setIsTextFieldFocused] = useState(false);
-    const {linkName, title, image,iconCenter,subPetalos, noNumber, titlePage} = pageContext
+    const {linkName, title, image,iconCenter,subPetalos, noNumber, titlePage,tipo} = pageContext
     const [showAlert, setShowAlert] = useState(false);
     const [input, setInput] = useState(0);
     const imagePath = "/images/" + image + ".webp";
@@ -137,18 +137,29 @@ const PetalosTemplate = ({ pageContext }) => {
                 noNumber={noNumber}
                 onClick={(number) => {
                     const numberFinal = (input ? ((input * 10) + number) : number);
+                    
                     setInput(numberFinal);
                     setTimeout(() => {
                         setInput((prevInput) => {
-                            const newLink = "circulo-base/" + linkName + "/" + numberFinal;
+                            const newLink =
+                                pageContext.tipo === "interferencia"
+                                ? `interferencias/${numberFinal}`          // ✅ directo
+                                : `circulo-base/${linkName}/${numberFinal}`; // lógica original intacta
+
                             if (!createdPages.includes(newLink)) {
                                 setShowAlert(true);
                                 setTimeout(() => setShowAlert(false),2000);
                                 return 0;
                             } else if (numberFinal === prevInput) {
-                                const newLink = "/circulo-base/" + linkName + "/" + numberFinal;
-                                historySave(newLink);
-                                navigate(newLink);
+                                const finalPath = pageContext.tipo === "interferencia"
+                                    ? "/interferencias/" + numberFinal
+                                    : "/circulo-base/" + linkName + "/" + numberFinal;
+    
+                                if (pageContext.tipo !== "interferencia") {
+                                    historySave(finalPath);  // ✅ solo guarda si NO es interferencia
+                                }
+                                
+                                navigate(finalPath);
                             }
                             return prevInput;
                         });
@@ -164,6 +175,11 @@ const PetalosTemplate = ({ pageContext }) => {
 
 const getColorWithFuente = (link) => {
     const match = link.match(/petalo-(\d+)/);
+    
+    if (!match) {
+        return "#fdf8f8";
+    }
+
     const number = parseInt(match[1]);
     switch (number) {
         case 5:

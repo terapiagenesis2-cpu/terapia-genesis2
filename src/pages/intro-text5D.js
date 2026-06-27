@@ -93,7 +93,7 @@ const V2 = () => {
 
   if (step === TOTAL_STEPS) {
     if (modoSesion) {
-      navigate("/circulo-base");
+      navigate("/interferencias");
       return;
     }
 

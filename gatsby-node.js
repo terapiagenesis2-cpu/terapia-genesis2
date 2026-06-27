@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const {petalos} = require("./static/data");
+const {petalos,interferencias} = require("./static/data");
 
 exports.createPages = async ({ actions }) => {
     const { createPage } = actions;
@@ -30,14 +30,71 @@ exports.createPages = async ({ actions }) => {
                         imageBody: petalo.imageBody,
                         separation: petalo.separation,
                         fieldText: petalo.fieldText,
-                        linkName: petalo.linkName
+                        linkName: petalo.linkName,
+                        tipo: petalo.tipo
                     },
                 });
                 createdPages.push(pagePath);
             }
         });
     }
+    function subPetalosInterferencias(interferencias) {
+
+    interferencias.forEach((petalo) => {
+
+        const pagePath = petalo.linkName;
+
+        if (petalo.subPetalos) {
+            
+
+            let context = {
+                linkName: petalo.linkName,
+                title: petalo.title,
+                image: petalo.image,
+                iconCenter: petalo.iconCenter,
+                subPetalos: petalo.subPetalos,
+                noNumber: petalo.noNumbers,
+                titlePage: petalo.titlePage,
+                tipo: petalo.tipo
+            };
+
+            createPage({
+                path: pagePath,
+                component: require.resolve('./src/components/templates/PetalosTemplate.js'),
+                context: context,
+            });
+
+            createdPages.push(pagePath);
+
+            subPetalosInterferencias(petalo.subPetalos);
+
+        } else {
+
+            createPage({
+                path: pagePath,
+                component: require.resolve('./src/components/templates/FinalPageTemplate.js'),
+                context: {
+                    titleText: petalo.titleText,
+                    titlePage: petalo.titlePage,
+                    desc: petalo.desc,
+                    image: petalo.image,
+                    imageBody: petalo.imageBody,
+                    separation: petalo.separation,
+                    fieldText: petalo.fieldText,
+                    linkName: petalo.linkName,
+                    action: petalo.action,
+                    tipo: petalo.tipo
+                },
+            });
+
+            createdPages.push(pagePath);
+        }
+
+    });
+
+ }
     subPetalos(petalos);
+    subPetalosInterferencias(interferencias);
 
     const createdPagesPath = path.join(__dirname, '../createdPages.json');
     fs.writeFileSync(createdPagesPath, JSON.stringify(createdPages));
