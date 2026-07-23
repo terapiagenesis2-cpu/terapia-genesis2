@@ -109,7 +109,7 @@ const V2 = () => {
     localStorage.setItem("problems", problems.filter(Boolean).join(","));
     localStorage.setItem("history", JSON.stringify([]));
 
-    navigate("/circulo-base");
+    navigate("/interferencias");
     return;
   }
 
@@ -125,11 +125,7 @@ const V2 = () => {
       <Page>
         <TopBar>
           <Logo src={logoImg} alt="Terapia Génesis" />
-          <Nav>
-            <NavLink>Sobre la terapia</NavLink>
-            <NavLink>Equipo</NavLink>
-            <NavLink>Contacto</NavLink>
-          </Nav>
+        
         </TopBar>
 
         <CardArea>

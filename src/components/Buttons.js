@@ -15,13 +15,13 @@ const ASSET_BASE_URL = "/genesis-assets";
 const A = (name) => `${ASSET_BASE_URL}/${name}.svg`;
 
 const SPHERE_PETALO = {
-  red:        A("petalo_red"),
-  orange:     A("petalo_orange"),
-  yellow:     A("petalo_yellow"),
+  red: A("petalo_red"),
+  orange: A("petalo_orange"),
+  yellow: A("petalo_yellow"),
   greenLight: A("petalo_greenLight"),
-  purple:     A("petalo_purple"),
-  blueLight:  A("petalo_blueLight"),
-  blue:       A("petalo_blue"),
+  purple: A("petalo_purple"),
+  blueLight: A("petalo_blueLight"),
+  blue: A("petalo_blue"),
 };
 
 const SPHERE_NUM = [
@@ -30,13 +30,13 @@ const SPHERE_NUM = [
 ];
 
 const SPHERE_ICON = {
-  red:        A("icon_petalo-1"),
-  orange:     A("icon_emocional"),
-  yellow:     A("icon_mental"),
+  red: A("icon_petalo-1"),
+  orange: A("icon_emocional"),
+  yellow: A("icon_mental"),
   greenLight: A("icon_materia"),
-  purple:     A("icon_presencia"),
-  blueLight:  A("icon_umbral"),
-  blue:       A("icon_arqueotipo"),
+  purple: A("icon_presencia"),
+  blueLight: A("icon_umbral"),
+  blue: A("icon_arqueotipo"),
 };
 
 const CENTER_RING_1 = A("center_ring1");
@@ -46,40 +46,40 @@ const CENTER_RING_2 = A("center_ring2");
 // COLORES Y METADATA
 // ─────────────────────────────────────────────────────────────
 const COLOR_MAP = {
-  red:         "#FF2D2D",
-  yellow:      "#FFD700",
-  blue:        "#3A6FFF",
-  green:       "#00C853",
-  orange:      "#FF8C00",
-  purple:      "#B44DFF",
-  brown:       "#A0522D",
-  greenLight:  "#00FFB2",
-  blueLight:   "#00BFFF",
+  red: "#FF2D2D",
+  yellow: "#FFD700",
+  blue: "#3A6FFF",
+  green: "#00C853",
+  orange: "#FF8C00",
+  purple: "#B44DFF",
+  brown: "#A0522D",
+  greenLight: "#00FFB2",
+  blueLight: "#00BFFF",
   yellowLight: "#FFE066",
-  redLight:    "#FF6B6B",
-  default:     "#CC88CC",
+  redLight: "#FF6B6B",
+  default: "#CC88CC",
 };
 
 const PETALO_CONFIG = {
-  red:        { label: "Corazón",   svgName: "icon_petalo-1",  dx:   5, dy: -183 },
-  orange:     { label: "Emocional", svgName: "icon_emocional", dx: 192, dy:  -93 },
-  yellow:     { label: "Mental",    svgName: "icon_mental",    dx: 237, dy:  105 },
-  greenLight: { label: "Materia",   svgName: "icon_materia",   dx: 102, dy:  272 },
-  purple:     { label: "Presencia", svgName: "icon_presencia", dx: -95, dy:  270 },
-  blueLight:  { label: "Umbral",    svgName: "icon_umbral",    dx:-227, dy:  105 },
-  blue:       { label: "Arquetipo", svgName: "icon_arqueotipo",dx:-178, dy:  -98 },
+  red: { label: "Corazón", svgName: "icon_petalo-1", dx: 5, dy: -183 },
+  orange: { label: "Emocional", svgName: "icon_emocional", dx: 192, dy: -93 },
+  yellow: { label: "Mental", svgName: "icon_mental", dx: 237, dy: 105 },
+  greenLight: { label: "Materia", svgName: "icon_materia", dx: 102, dy: 272 },
+  purple: { label: "Presencia", svgName: "icon_presencia", dx: -95, dy: 270 },
+  blueLight: { label: "Umbral", svgName: "icon_umbral", dx: -227, dy: 105 },
+  blue: { label: "Arquetipo", svgName: "icon_arqueotipo", dx: -178, dy: -98 },
 };
 
 const NUMBER_COLORS = [
-  "#FF2D2D","#FF8C00","#FFD700","#00C853",
-  "#B44DFF","#00BFFF","#3A6FFF","#A0522D",
-  "#00FFB2","#CC88CC",
+  "#FF2D2D", "#FF8C00", "#FFD700", "#00C853",
+  "#B44DFF", "#00BFFF", "#3A6FFF", "#A0522D",
+  "#00FFB2", "#CC88CC",
 ];
 
 const getColorFromBorder = (text) => COLOR_MAP[text] ?? COLOR_MAP.default;
-const getColorFromNumber = (n)    => NUMBER_COLORS[n] ?? COLOR_MAP.default;
+const getColorFromNumber = (n) => NUMBER_COLORS[n] ?? COLOR_MAP.default;
 
-const PI   = Math.PI;
+const PI = Math.PI;
 const xPos = (angle, r) => Math.sin((angle * PI) / 180) * r;
 const yPos = (angle, r) => -Math.cos((angle * PI) / 180) * r;
 
@@ -111,29 +111,29 @@ const floatCenter = keyframes`
 // ESFERA PÉTALO
 // ─────────────────────────────────────────────────────────────
 const PetaloSphere = ({ colorBorder, size = 138, label, onClick, isNumber, numberText, isSmallText }) => {
-  const color     = getColorFromBorder(colorBorder);
+  const color = getColorFromBorder(colorBorder);
   const sphereSrc = isNumber ? SPHERE_NUM[numberText] : SPHERE_PETALO[colorBorder];
-  const iconSrc   = !isNumber && !isSmallText ? SPHERE_ICON[colorBorder] : null;
+  const iconSrc = !isNumber && !isSmallText ? SPHERE_ICON[colorBorder] : null;
 
   return (
     <PetaloOuter $color={color} $size={size} onClick={onClick}>
       {sphereSrc && (
         <SphereLayer src={sphereSrc} alt="" style={{
-          position:"absolute", top:0, left:0,
-          width:"100%", height:"100%",
-          objectFit:"contain", pointerEvents:"none",
+          position: "absolute", top: 0, left: 0,
+          width: "100%", height: "100%",
+          objectFit: "contain", pointerEvents: "none",
         }} />
       )}
       {iconSrc && (
         <SphereLayer src={iconSrc} alt={label} style={{
-          position:"absolute", top:"29%", left:"35%",
-          width:"30%", height:"28%",
-          objectFit:"contain", pointerEvents:"none",
-          filter:"brightness(0) invert(1)", opacity:0.92,
+          position: "absolute", top: "29%", left: "35%",
+          width: "30%", height: "28%",
+          objectFit: "contain", pointerEvents: "none",
+          filter: "brightness(0) invert(1)", opacity: 0.92,
         }} />
       )}
       {isNumber && <PetaloText>{numberText}</PetaloText>}
-      {isSmallText && <PetaloText $small $color={color}>{numberText}</PetaloText>}
+      {isSmallText && <PetaloText $small $large={numberText.length === 1} $color={color}> {numberText} </PetaloText>}
       {!isNumber && !isSmallText && label && <PetaloInnerLabel>{label}</PetaloInnerLabel>}
     </PetaloOuter>
   );
@@ -146,27 +146,27 @@ const CenterSphere = ({ size = 250, onClick, title, centerIcon, centerSphere, su
   <CenterOuter onClick={onClick} $circuloBase={circuloBase}>
     <CenterWrap $size={size}>
       <div style={{
-        position:"absolute", top:"50%", left:"50%",
-        transform:"translate(-50%,-50%)",
-        width:size*1.44, height:size*1.44,
-        borderRadius:"50%",
-        border:"3px solid rgba(192,191,191,0.5)",
-        filter:"blur(1.75px)", pointerEvents:"none", zIndex:0,
+        position: "absolute", top: "50%", left: "50%",
+        transform: "translate(-50%,-50%)",
+        width: size * 1.44, height: size * 1.44,
+        borderRadius: "50%",
+        border: "3px solid rgba(192,191,191,0.5)",
+        filter: "blur(1.75px)", pointerEvents: "none", zIndex: 0,
       }} />
       <SphereLayer src={CENTER_RING_1} alt="" style={{
-        position:"absolute", top:"-1.64%", left:"-1.64%",
-        width:"103.3%", height:"103.3%",
-        pointerEvents:"none", zIndex:1,
+        position: "absolute", top: "-1.64%", left: "-1.64%",
+        width: "103.3%", height: "103.3%",
+        pointerEvents: "none", zIndex: 1,
       }} />
       <SphereLayer src={centerSphere} alt="" style={{
-        position:"absolute", top:"-8.31%", left:"-8.31%",
-        width:"116.62%", height:"116.62%",
-        pointerEvents:"none", zIndex:2,
+        position: "absolute", top: "-8.31%", left: "-8.31%",
+        width: "116.62%", height: "116.62%",
+        pointerEvents: "none", zIndex: 2,
       }} />
       <SphereLayer src={CENTER_RING_2} alt="" style={{
-        position:"absolute", top:"13%", left:"13%",
-        width:"74%", height:"74%",
-        pointerEvents:"none", zIndex:3,
+        position: "absolute", top: "13%", left: "13%",
+        width: "74%", height: "74%",
+        pointerEvents: "none", zIndex: 3,
       }} />
       <CenterInner>
         <HomeIcon src={centerIcon} alt="center" />
@@ -181,11 +181,11 @@ const CenterSphere = ({ size = 250, onClick, title, centerIcon, centerSphere, su
 // COMPONENTE PRINCIPAL
 // ─────────────────────────────────────────────────────────────
 const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBase, onClick, noNumber, subtitle }) => {
-  const [showAlertRamificar,  setShowAlertRamificar]  = useState(false);
-  const [showAlertBorrar,     setShowAlertBorrar]     = useState(false);
+  const [showAlertRamificar, setShowAlertRamificar] = useState(false);
+  const [showAlertBorrar, setShowAlertBorrar] = useState(false);
   const [showAlertCorreccion, setShowAlertCorreccion] = useState(false);
   const { isRamificando, setIsRamificando } = useRamificacion();
-  const { isCorreccion,  setIsCorreccion  } = useCorreccion();
+  const { isCorreccion, setIsCorreccion } = useCorreccion();
   const location = useLocation();
 
   // Estado del panel lateral (reemplaza el antiguo open del menú flotante)
@@ -236,17 +236,17 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
     localStorage.setItem("history", JSON.stringify(history));
   };
 
-  const handlePDF             = () => createAndSendPDF().then(() => console.log("PDF CREADO CORRECTAMENTE"));
+  const handlePDF = () => createAndSendPDF().then(() => console.log("PDF CREADO CORRECTAMENTE"));
   const irAOracionesSinBorrar = () => navigate("/intro-text5D");
-  const iniciarSesionNueva    = () => {
+  const iniciarSesionNueva = () => {
     localStorage.removeItem("paciente");
     localStorage.removeItem("dob");
     localStorage.removeItem("problems");
     localStorage.setItem("history", JSON.stringify([]));
     navigate("/intro-text5D");
   };
-  const volverAlLegado     = () => navigate("/circulo-base/petalo-3/2/2/5/");
-  const handleCorreccion   = () => {
+  const volverAlLegado = () => navigate("/circulo-base/petalo-3/2/2/5/");
+  const handleCorreccion = () => {
     let history = localStorage.getItem("history");
     if (!history) history = [];
     else history = JSON.parse(history);
@@ -279,9 +279,9 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
         else if (event.key === 'o' || event.key === 'O') navigate("/intro-text");
       } else {
         switch (event.key) {
-          case 'ArrowLeft':  navigate(-1); break;
+          case 'ArrowLeft': navigate(-1); break;
           case 'ArrowRight': navigate(+1); break;
-          case 'Enter':      navigate("/circulo-base"); break;
+          case 'Enter': navigate("/circulo-base"); break;
           default:
             if (/^[0-9]$/.test(event.key)) onClick(parseInt(event.key));
             break;
@@ -292,10 +292,11 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [onClick, showAlertBorrar, showAlertRamificar, petalos]);
 
-  const SPHERE_SIZE     = 148;
-  const SPHERE_SIZE_NUM = 104;
-  const CENTER_SIZE     = 200;
-  const ORBIT_RADIUS    = 220;
+  const SPHERE_SIZE = 148;
+  const SPHERE_SIZE_NUM = 120;
+  const CENTER_SIZE = 200;
+  const ORBIT_RADIUS =
+    petalos.length <= 3 ? 210 : 225;
   const ORBIT_RADIUS_CB = 410;
 
   return (
@@ -303,9 +304,9 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
       <DarkOverlay />
       <ButtonsContainerCenter>
 
-        {isRamificando       && <ContainerAlert><Alert severity="info">Ramificando</Alert></ContainerAlert>}
-        {showAlertRamificar  && <ContainerAlert><Alert severity="success">Ramificacion</Alert></ContainerAlert>}
-        {showAlertBorrar     && <ContainerAlert><Alert severity="success">Punto borrado de la sesion</Alert></ContainerAlert>}
+        {isRamificando && <ContainerAlert><Alert severity="info">Ramificando</Alert></ContainerAlert>}
+        {showAlertRamificar && <ContainerAlert><Alert severity="success">Ramificacion</Alert></ContainerAlert>}
+        {showAlertBorrar && <ContainerAlert><Alert severity="success">Punto borrado de la sesion</Alert></ContainerAlert>}
         {showAlertCorreccion && <ContainerAlert><Alert severity="success">Correccion</Alert></ContainerAlert>}
 
         {/* Anillo orbital decorativo */}
@@ -339,7 +340,7 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
         })}
 
         {/* MODO NUMÉRICO */}
-        {!circuloBase && !noNumber && [0,1,2,3,4,5,6,7,8,9].map((number) => {
+        {!circuloBase && !noNumber && [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((number) => {
           const angle = (number / 10) * 360 - 90;
           return (
             <PetaloWrapper key={number} $angle={angle} $radius={ORBIT_RADIUS}>
@@ -585,7 +586,10 @@ const PetaloText = styled.span`
   z-index: 5;
   padding: ${({ $small }) => $small ? '0 8px' : '0'};
   color: white;
-  font-size: ${({ $small }) => $small ? '9px' : '34px'};
+
+  font-size: ${({ $small, $large }) =>
+    !$small ? '34px' : $large ? '30px' : '9px'};
+
   font-weight: ${({ $small }) => $small ? '700' : '400'};
   text-align: center;
   line-height: 1;

@@ -3,179 +3,171 @@ const petalos = [
     {
         linkName: "petalo-1", title: "QUANTUM CORAZON", image: 'boton1', iconCenter: 'simbolo1', subPetalos: [
             {
-                linkName: "petalo-1/1", title: "NÚCLEO CORAZON", image: 'boton1', iconCenter: 'simbolo1-1', number: 1, subPetalos: [
-                    {
-                        linkName: "petalo-1/1/1", image: 'boton1',iconCenter: 'simbolo1-1' ,titlePage: 'Nucleo de Amor', title: "Estoy en Amor",
-                        text: "Esta integración te lleva a un estado holístico de amor profundo, aceptación total, armonía interior y exterior. Esto sucede cuando has perdido la conexión con el estado puro de paz interna.",
-                    },
-                    {
-                        linkName: "petalo-1/1/2", image: 'boton1', iconCenter: 'simbolo1-1', titlePage: 'Nucleo de Amor', title: "Conecto con Amor",
-                        text: "Este punto nos lleva a conectar con la esencia pura y vibración más fuerte, 'el amor incondicional'.",
-                    },
-                    {
-                        linkName: "petalo-1/1/3", image: 'boton1', iconCenter: 'simbolo1-1', titlePage: 'Nucleo de Amor', title: "Regulo Aura",
-                        text: "Nos indica que el aura estaba desequilibrada. Al regularla volvemos a lograr una armonización de todo su ser., en las 7 capas del aura."
-                    },
-                    {
-                        linkName: "petalo-1/1/4", image: 'boton1', iconCenter: 'simbolo1-1', titlePage: 'Nucleo de Amor', title: "Conecto con Corazon del universo",
-                        text: "Estamos permitiendo que accedas a un poder infinito y a la conexión con Dios."
-                    },
-                    {
-                        linkName: "petalo-1/1/5", image: 'boton1', iconCenter: 'simbolo1-1', titlePage: 'Nucleo de Amor', title: "Conecto con el Corazon de los seres de luz",
-                        text: "Te conecta con energías de la naturaleza elevada y positiva. Estos seres son considerados como guías espirituales, maestros o entidades de sabiduría y amor. Los seres de luz pueden ser identificados como ángeles, seres ascendidos, maestros espirituales, Su propósito principal es brindar apoyo, guía y protección a las personas en su camino espiritual y en la búsqueda de la iluminación."
-                    },
-                    {
-                        linkName: "petalo-1/1/6", image: 'boton1', iconCenter: 'simbolo1-1', titlePage: 'Nucleo de Amor', title: "Conecto Corazon de pachamama",
-                        text: "Conectamos con tus raíces arraigándote con la tierra nuevamente, eliminando así la sensación de “no pertenencia”. Recuerda que La Pachamama, o Madre Tierra, simboliza la fertilidad, abundancia y equilibrio de la naturaleza. Representa una conexión espiritual entre los seres humanos y la tierra, enfatizando el respeto, la reciprocidad y la armonía."
-                    },
+                linkName: "petalo-1/1", title: "Armonizar el ser", image: 'boton1', iconCenter: 'simbolo1', number: 1, subPetalos: [
+                    { linkName: "petalo-1/1/1", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Abundancia (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Agua (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Aire (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/4", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Alimentacion (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/5", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Amor (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/6", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Conexion con los demas (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/7", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Conexion con naturaleza (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/8", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Conexion con universo (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/9", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Creatividad (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/10", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Descanso (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/11", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Dinero (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/12", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Emocional (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/13", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Energia (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/14", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Espiritual (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/15", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Familia (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/16", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Felicidad (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/17", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Fisico (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/18", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Futuro (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/19", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Intelectual (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/20", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Pareja (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/21", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Pasado (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/22", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Presente (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/23", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Salud (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/24", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Sexualidad (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/25", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Tiempo (Armonizado)", text: "" },
+                    { linkName: "petalo-1/1/26", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Trabajo (Armonizado)1111", text: "" },
+                    { linkName: "petalo-1/1/27", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Proposito de vida (Armonizado)", text: "eje de sentido, direccion y coherencia con el alma." },
+                    { linkName: "petalo-1/1/28", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Autoestima / Valor personal (Armonizado)", text: "Integra merecimiento, amor propio y limites sanos." },
+                    { linkName: "petalo-1/1/29", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Comunicacion / Expresion (Armonizado)", text: "Armoniza la verdad interna con la palabra, desbloquea garganta." },
+                    { linkName: "petalo-1/1/30", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Mental / Subconsiente (Armonizado)", text: "Permite revisar programas, patrones creencias." },
+                    { linkName: "petalo-1/1/31", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Emociones heredadas / Transgeneracional", text: "Libera memorias familiares que repiten ciclos. " },
+                    { linkName: "petalo-1/1/32", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Vidas Pasadas / Karma", text: "Equilibra aprendizajes del alma y libera informacion retenida." },
+                    { linkName: "petalo-1/1/33", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Chakras / Energia sutil", text: "Integra la red energetica interna y su conexion con el campo cuantico" },
+                    { linkName: "petalo-1/1/34", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Vibracion / Frecuencia ", text: "Estabiliza el campo electromagnetico y la coherencia vibratoria" },
+                    { linkName: "petalo-1/1/35", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Mision de alma / Servicio", text: "Orienta la accion hacia el proposito evolutivo del ser" },
+                    { linkName: "petalo-1/1/36", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Conciencia / Despertar", text: "Apertura de percepcion y unidad con la Fuente" },
+
                 ]
             },
             {
-                linkName: "petalo-1/2", title: "CONECTADO CON ARCANGELES", image: 'boton1', iconCenter: 'simbolo1', subPetalos: [
+                linkName: "petalo-1/2", title: "Activar campo magnetico del corazon", image: 'boton1', iconCenter: 'simbolo1', subPetalos: [
                     {
-                        linkName: "petalo-1/2/1", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Miguel (Conectado)",
-                        text: "El Arcángel Miguel es el encargado de brindar protección se basa en representar la defensa contra las fuerzas del mal y la oscuridad que asechan al ser humano como: la ignorancia, la inconsciencia, como el príncipe de la luz representa la iluminación en el camino del ser humano para liberarlo de la oscuridad y del miedo. Él representa el poder, la fuerza y la fe, y trabaja para mantener el orden y el equilibrio. Se lo invoca para pedirle amparo y cuidado; también en el caso de quienes están por comenzar un viaje o un traslado. Día para invocarlo: domingo. Vela: azul."
+
                     },
-                    {
-                        linkName: "petalo-1/2/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Rafael (Conectado)",
-                        text: "Es el Arcángel de la salud y la sanación no sólo del cuerpo físico sino, atraer a las personas la gran energía sanadora de Dios con el propósito de recordar la importancia del cuerpo humano y que es un templo poderoso para el espíritu. Se le puede pedir su acción para sanar enfermedades y problemas de todo tipo, calmar grandes angustias y proteger en salud a nosotros y a quienes queremos. Día para invocarlo: jueves. Vela de color: verde."
-                    },
-                    {
-                        linkName: "petalo-1/2/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Gabriel (Conectado)",
-                        text: "Su nombre significa 'La fuerza de Dios'. Asociado con la pureza, su papel es el del mensajero. A él se le puede pedir capacidad de comunicación y claridad para transmitir conceptos y todo aquello que se quiere decir al otro. Día para invocarlo: miércoles. Vela: blanca."
-                    },
-                    {
-                        linkName: "petalo-1/2/4", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Chamuel (Conectado)",
-                        text: "Es el Arcángel del amor. Representa la unión, el confort y los vínculos puros. Su misión es ayudarnos a desarrollar la comprensión, la paciencia y la tolerancia con el otro. Se lo llama a la acción para estimular la armonía en la pareja, pedir por un amor, estimular las relaciones con amigos y compañeros, y proteger contra la envidia. La labor de este Arcángel consiste fomentar la gratitud, el amor incondicional y desinteresado de los seres humanos hacia Dios, aumentar su espiritualidad, la compasión, amor propio y la misericordia, generando la fuerza y el valor a la persona que esta en depresión, en soledad o pasando por una preocupación. Día para invocarlo: martes. Vela: rosa."
-                    },
-                    {
-                        linkName: "petalo-1/2/5", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Uriel (Conectado)",
-                        text: "La labor que cumple el poderoso Arcángel Uriel consiste en ayudar a los seres humanos durante los momentos difíciles a enfrentar cualquier situación fomentando su energía, es el ángel de la prosperidad, de la riqueza y de la abundancia divina, dirige los pensamientos, las ideas, desarrolla la creatividad, la magia y el juicio, además posee el don de controlar la alquimia, la astrología y el conocimiento universal, provee la protección, la paz mental y atrae la riqueza a quien tiene carencias ya sea material o espiritual, es capaz de crear un entorno armonioso en el área laboral sobre todo en los médicos y enfermeras para resolver problemas de forma pacífica y ayuda a encontrar el camino del bienestar y la salud. Día para invocarlo: viernes. Vela: amarilla (prosperidad); roja (trabajo)."
-                    },
-                    {
-                        linkName: "petalo-1/2/6", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Jofiel (Conectado)",
-                        text: "Es el Arcángel de la inteligencia, la sabiduría y la iluminación. A él hay que acudir en búsqueda inspiración y concentración. Ofrece a quien solicite su ayuda la capacidad de tener la menta abierta, fomentar la creatividad, servir como fuente de inspiración para el pensamiento artístico e intelectual proporcionando la ayuda con los proyectos artísticos así como ver las cosas bellas que nos rodean. Es ideal hacerle el pedido antes de exámenes, pruebas o en momentos en los que hay que tomar una decisión importante. Día para invocarlo: lunes. Vela: naranja."
-                    },
-                    {
-                        linkName: "petalo-1/2/7", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Zadquiel (Conectado)",
-                        text: "El ángel de la alegría, la libertad y la diplomacia, nos acompaña en la transmutación de lo negativo en positivo. Se lo invoca para que disuelva situaciones en las que no hay armonía, para que podamos perdonar, tolerar y para destrabar cosas en las que se complica el avance. Día para invocarlo: sábado. Vela: violeta."
-                    },
-                    {
-                        linkName: "petalo-1/2/8", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Metatron (Conectado)",
-                        text: "Metatrón puede proporcionar guía, protección y sabiduría, ayudando a manifestar una vida alineada con el propósito divino. Metatrón ofrece una visión profunda sobre la evolución espiritual de la humanidad, destacando la importancia de liberar patrones antiguos y elevar nuestra conciencia. Es una guía esencial para aquellos que buscan entender su papel en el proceso de ascensión y transformación personal. Su energía es poderosa y transformadora, invitando a quienes lo invocan a alinearse con su verdadero propósito y avanzar en su camino espiritual."
-                    },
-                    {
-                        linkName: "petalo-1/2/9", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Raziel (Conectado)",
-                        text: "La labor de Raziel consiste principalmente en guardar los secretos de Dios, posee toda la sabiduría ya que contiene en su mente los misterios del cielo y la tierra. Se dice que fue este Arcángel quien transmitió mediante su conocimiento al ser humano en la astrología y la adivinación, ayuda a las personas con problemas de culpas y purifica el alma protegiendo su karma en la vida y también en vidas pasadas, y tiene la capacidad para regular los Chakras."
-                    },
-                    {
-                        linkName: "petalo-1/2/10", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Sandalphon (Conectado)",
-                        text: "Sus funciones consisten en mantener el contacto de los seres humanos con la naturaleza para fomentar la energía que produce el poder interior y así ser capaz de enfrentar cualquier situación obstáculo que se presente, crea la armonía entre los seres vivos de la naturaleza con los elementos, además libera karma y las memorias ancestrales para procesar el dolor y los problemas familiares, posee el don para crear una conexión con la tierra y un vínculo sano con todos los seres que habitan en el planeta, se cree que es el ángel que recoge las oraciones y las lleva al Cielo."
-                    }
+
                 ]
             },
             {
                 linkName: "petalo-1/3",
                 image: 'boton1',
                 iconCenter: 'simbolo1',
-                title: "CONECTO SERES CELESTIALES",
+                title: "Anular enojo en todos los niveles",
                 subPetalos: [
-                    {
-                        linkName: "petalo-1/3/1",
-                        image: 'boton1',
-                        iconCenter: 'simbolo1',
-                        titlePage: "Conecto seres celestiales",
-                        title: "Serafines (Conectado)",
-                        text: "Los serafines son una clase de ángeles en la jerarquía angelical, su función es la de transmitir la voluntad divina y actuar como mensajeros entre Dios y los seres humanos. Además, se considera que los serafines son seres de pura devoción y amor hacia Dios."
-                    },
-                    {
-                        linkName: "petalo-1/3/2",
-                        image: 'boton1',
-                        iconCenter: 'simbolo1',
-                        titlePage: 'Conecto seres celestiales',
-                        title: "Querubines (Conectado)",
-                        text: "Los querubines son seres celestiales con una posición elevada en las jerarquías angelicales, conocidos por su belleza, sabiduría y función de protección."
-                    },
-                    {
-                        linkName: "petalo-1/3/3",
-                        image: 'boton1',
-                        iconCenter: 'simbolo1',
-                        titlePage: 'Conecto seres celestiales',
-                        title: "Los Tronos Celestiales (Conectado)",
-                        text: "Los 'tronos' son una de las nueve órdenes o coros angelicales. Según esta jerarquía, los tronos ocupan un lugar en el tercer nivel más alto, justo debajo de los serafines y los querubines. Los tronos se describen como seres celestiales que poseen una gran sabiduría y conocimiento divino. Se cree que su función principal es la de transmitir la voluntad y la gloria de Dios a los seres humanos. Actúan como intermediarios entre Dios y la humanidad, llevando a cabo su plan divino en el mundo. También se les atribuye la tarea de mantener el orden cósmico y la justicia divina."
-                    },
-                    {
-                        linkName: "petalo-1/3/4",
-                        image: 'boton1',
-                        iconCenter: 'simbolo1',
-                        titlePage: 'Conecto seres celestiales',
-                        title: "Dominaciones (Conectado)",
-                        text: "Se les considera que tienen influencia y dominio sobre las diferentes esferas de la creación y desempeñan un papel importante en la gobernación del orden cósmico."
-                    },
-                    {
-                        linkName: "petalo-1/3/5",
-                        image: 'boton1',
-                        iconCenter: 'simbolo1',
-                        titlePage: 'Conecto seres celestiales',
-                        title: "Virtudes (Conectado)",
-                        text: "Las virtudes se consideran seres celestiales que se destacan por su fortaleza y poder. Su nombre, 'virtudes', proviene de su capacidad para manifestar y promover las virtudes divinas en el mundo. Se cree que las virtudes tienen la responsabilidad de mantener el equilibrio y la armonía en la creación. Son consideradas como fuerzas activas y energéticas que infunden poder y vitalidad en los procesos naturales y en el orden cósmico. Las virtudes son portadoras de los milagros y los prodigios divinos. Tienen la capacidad de intervenir en los asuntos terrenales y realizar obras sobrenaturales en conformidad con la voluntad de Dios. Las virtudes también se asocian con la fortaleza moral y espiritual. Se cree que inspiran y fortalecen a los seres humanos en la búsqueda de la bondad, la justicia y la perfección moral. Así, las virtudes angelicales pueden influir en el desarrollo y la expresión de las virtudes humanas."
-                    },
-                    {
-                        linkName: "petalo-1/3/6",
-                        image: 'boton1',
-                        iconCenter: 'simbolo1',
-                        titlePage: 'Conecto seres celestiales',
-                        title: "Potestades (Conectado)",
-                        text: "Son consideradas como guardianes y ejecutores de la justicia divina, interviniendo cuando es necesario para preservar el equilibrio y la armonía en el universo. Las potestades también se asocian con la autoridad espiritual y la lucha contra las fuerzas malignas. Se cree que tienen la capacidad de enfrentarse y resistir a los poderes oscuros y las influencias negativas en el mundo espiritual y en la vida de los seres humanos."
-                    },
-                    {
-                        linkName: "petalo-1/3/7",
-                        image: 'boton1',
-                        iconCenter: 'simbolo1',
-                        titlePage: 'Conecto seres celestiales',
-                        title: "Principados (Conectado)",
-                        text: "Los principados se consideran seres celestiales que tienen autoridad y gobernación sobre áreas específicas de la creación. Su nombre, 'principados', hace referencia a su función como príncipes o líderes en la jerarquía celestial. Son responsables de la supervisión y el gobierno de regiones, naciones, ciudades o aspectos particulares del mundo físico o espiritual. Los principados son protectores y guardianes, actuando como intermediarios entre lo divino y la humanidad en su área de responsabilidad. Se considera que influyen en los asuntos terrenales, promoviendo la justicia, el orden y la armonía en sus dominios designados."
-                    },
+                
                 ]
             },
-
-
             {
-                linkName: "petalo-1/4", image: 'boton1', iconCenter: 'simbolo1', title: "LIMPIAR NUCLEO DEL SER", fieldText: true, useText: true, useDesc: true,
+                linkName: "petalo-1/4", image: 'boton1', iconCenter: 'simbolo1', title: "Potenciar energia del Corazon", fieldText: true, useText: true, useDesc: true,
                 text: "Limpiamos la información genética negativa que perjudica a las células, las cuales bloqueaban el libre flujo de energía. Para lograr esto se borraron las siguientes emociones:",
             },
             {
-                linkName: "petalo-1/5", image: 'boton1', iconCenter: 'simbolo1', title: "RESPETAR/ACEPTAR", useText: true, useDesc: true,
-                text: "Estos conceptos, nos dan aviso de que habrá que revisar algunos aspectos o situaciones de nuestra vida, que aún no queremos respetar o aceptar como bien dice la corrección. Al incorporar alguno de estos dos, lograremos no luchar con nuestros justificativos y culpabilidades hacia nosotros o hacia los demás, para sostener un escenario (situación), permitiendo que al hacerlas parte de nuestra vida ya no afecten la armonía y paz interior que merecemos."
+                linkName: "petalo-1/5", image: 'boton1', iconCenter: 'simbolo1', title: "Conecto con Arcangeles", subPetalos : [ 
+                    {
+                        linkName: "petalo-1/5/1", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Miguel (Conectado)",
+                        text: "El Arcángel Miguel es el encargado de brindar protección se basa en representar la defensa contra las fuerzas del mal y la oscuridad que asechan al ser humano como: la ignorancia, la inconsciencia, como el príncipe de la luz representa la iluminación en el camino del ser humano para liberarlo de la oscuridad y del miedo. Él representa el poder, la fuerza y la fe, y trabaja para mantener el orden y el equilibrio. Se lo invoca para pedirle amparo y cuidado; también en el caso de quienes están por comenzar un viaje o un traslado. Día para invocarlo: domingo. Vela: azul."
+                    },
+                    {
+                        linkName: "petalo-1/5/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Rafael (Conectado)",
+                        text: "Es el Arcángel de la salud y la sanación no sólo del cuerpo físico sino, atraer a las personas la gran energía sanadora de Dios con el propósito de recordar la importancia del cuerpo humano y que es un templo poderoso para el espíritu. Se le puede pedir su acción para sanar enfermedades y problemas de todo tipo, calmar grandes angustias y proteger en salud a nosotros y a quienes queremos. Día para invocarlo: jueves. Vela de color: verde."
+                    },
+                    {
+                        linkName: "petalo-1/5/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Gabriel (Conectado)",
+                        text: "Su nombre significa 'La fuerza de Dios'. Asociado con la pureza, su papel es el del mensajero. A él se le puede pedir capacidad de comunicación y claridad para transmitir conceptos y todo aquello que se quiere decir al otro. Día para invocarlo: miércoles. Vela: blanca."
+                    },
+                    {
+                        linkName: "petalo-1/5/4", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Chamuel (Conectado)",
+                        text: "Es el Arcángel del amor. Representa la unión, el confort y los vínculos puros. Su misión es ayudarnos a desarrollar la comprensión, la paciencia y la tolerancia con el otro. Se lo llama a la acción para estimular la armonía en la pareja, pedir por un amor, estimular las relaciones con amigos y compañeros, y proteger contra la envidia. La labor de este Arcángel consiste fomentar la gratitud, el amor incondicional y desinteresado de los seres humanos hacia Dios, aumentar su espiritualidad, la compasión, amor propio y la misericordia, generando la fuerza y el valor a la persona que esta en depresión, en soledad o pasando por una preocupación. Día para invocarlo: martes. Vela: rosa."
+                    },
+                    {
+                        linkName: "petalo-1/5/5", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Uriel (Conectado)",
+                        text: "La labor que cumple el poderoso Arcángel Uriel consiste en ayudar a los seres humanos durante los momentos difíciles a enfrentar cualquier situación fomentando su energía, es el ángel de la prosperidad, de la riqueza y de la abundancia divina, dirige los pensamientos, las ideas, desarrolla la creatividad, la magia y el juicio, además posee el don de controlar la alquimia, la astrología y el conocimiento universal, provee la protección, la paz mental y atrae la riqueza a quien tiene carencias ya sea material o espiritual, es capaz de crear un entorno armonioso en el área laboral sobre todo en los médicos y enfermeras para resolver problemas de forma pacífica y ayuda a encontrar el camino del bienestar y la salud. Día para invocarlo: viernes. Vela: amarilla (prosperidad); roja (trabajo)."
+                    },
+                    {
+                        linkName: "petalo-1/5/6", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Jofiel (Conectado)",
+                        text: "Es el Arcángel de la inteligencia, la sabiduría y la iluminación. A él hay que acudir en búsqueda inspiración y concentración. Ofrece a quien solicite su ayuda la capacidad de tener la menta abierta, fomentar la creatividad, servir como fuente de inspiración para el pensamiento artístico e intelectual proporcionando la ayuda con los proyectos artísticos así como ver las cosas bellas que nos rodean. Es ideal hacerle el pedido antes de exámenes, pruebas o en momentos en los que hay que tomar una decisión importante. Día para invocarlo: lunes. Vela: naranja."
+                    },
+                    {
+                        linkName: "petalo-1/5/7", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Zadquiel (Conectado)",
+                        text: "El ángel de la alegría, la libertad y la diplomacia, nos acompaña en la transmutación de lo negativo en positivo. Se lo invoca para que disuelva situaciones en las que no hay armonía, para que podamos perdonar, tolerar y para destrabar cosas en las que se complica el avance. Día para invocarlo: sábado. Vela: violeta."
+                    },
+                    {
+                        linkName: "petalo-1/5/8", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Metatron (Conectado)",
+                        text: "Metatrón puede proporcionar guía, protección y sabiduría, ayudando a manifestar una vida alineada con el propósito divino. Metatrón ofrece una visión profunda sobre la evolución espiritual de la humanidad, destacando la importancia de liberar patrones antiguos y elevar nuestra conciencia. Es una guía esencial para aquellos que buscan entender su papel en el proceso de ascensión y transformación personal. Su energía es poderosa y transformadora, invitando a quienes lo invocan a alinearse con su verdadero propósito y avanzar en su camino espiritual."
+                    },
+                    {
+                        linkName: "petalo-1/5/9", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Raziel (Conectado)",
+                        text: "La labor de Raziel consiste principalmente en guardar los secretos de Dios, posee toda la sabiduría ya que contiene en su mente los misterios del cielo y la tierra. Se dice que fue este Arcángel quien transmitió mediante su conocimiento al ser humano en la astrología y la adivinación, ayuda a las personas con problemas de culpas y purifica el alma protegiendo su karma en la vida y también en vidas pasadas, y tiene la capacidad para regular los Chakras."
+                    },
+                    {
+                        linkName: "petalo-1/5/10", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Haniel (Conectado)",
+                        text: "Energía de la gracia, sensibilidad y armonía emocional. Conecta con la belleza divina y el amor sereno."  
+                    },
+                    {
+                        linkName: "petalo-1/5/11", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Sandalfon (Conectado)",
+                        text: "Puente entre lo humano y lo divino, mensajero inverso (lleva las oraciones). Alinea con la Tierra y la música sagrada."  
+                    },
+                    {
+                        linkName: "petalo-1/5/12", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conecto con arcangeles', title: "Ariel (Conectado)",
+                        text: "Protectora de la naturaleza y los reinos elementales, integra la abundancia material con la espiritual. JEREMIEL: Revision de vida, claridad interior, propósito. Ayuda a ver aprendizajes y ordenar el camino Azrael: Contencion, cierre de ciclos, transito del alma. Muy amoroso para asistir en momentos de perdida o transformación."
+
+                    },
+                ]
             },
             {
-                linkName: "petalo-1/6", image: 'boton1', iconCenter: 'simbolo1', title: "ARMONIZAR EL SER", text: "Busca un equilibrio interno y una cohesión entre diferentes aspectos de uno mismo, para vivir con mayor autenticidad, coherencia y paz interior. Este proceso lograr armonía, equilibrio y concordancia en diferentes aspectos y áreas nuestra vida.", subPetalos: [
-                    { linkName: "petalo-1/6/1", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Abundancia (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Agua (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Aire (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/4", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Alimentacion (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/5", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Amor (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/6", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Conexion con los demas (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/7", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Conexion con naturaleza (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/8", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Conexion con universo (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/9", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Creatividad (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/10", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Descanso (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/11", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Dinero (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/12", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Emocional (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/13", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Energia (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/14", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Espiritual (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/15", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Familia (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/16", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Felicidad (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/17", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Fisico (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/18", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Futuro (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/19", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Intelectual (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/20", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Pareja (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/21", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Pasado (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/22", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Presente (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/23", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Salud (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/24", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Sexualidad (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/25", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Tiempo (Armonizado)", text: "" },
-                    { linkName: "petalo-1/6/26", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Armonizar el ser', title: "Trabajo (Armonizado)1111", text: "" },
+                linkName: "petalo-1/6", image: 'boton1', iconCenter: 'simbolo1', title: "Nucleo de Amor (1,A)", subPetalos: [
+                    {
+                        linkName: "petalo-1/6/1", image: 'boton1',iconCenter: 'simbolo1' ,titlePage: 'Nucleo de Amor', title: "Estoy en Amor (C)",
+                        text: "Esta integración te lleva a un estado holístico de amor profundo, aceptación total, armonía interior y exterior. Esto sucede cuando has perdido la conexión con el estado puro de paz interna.",
+                    },
+                    {
+                        linkName: "petalo-1/6/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Conecto con Amor (C)",
+                        text: "Este punto nos lleva a conectar con la esencia pura y vibración más fuerte, 'el amor incondicional'.",
+                    },
+                    {
+                        linkName: "petalo-1/6/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Equilibrar Aura (E)",
+                        text: "Nos indica que el aura estaba desequilibrada. Al regularla volvemos a lograr una armonización de todo su ser., en las 7 capas del aura."
+                    },
+                    {
+                        linkName: "petalo-1/6/4", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Conecto con universo (C)",
+                        text: "Estamos permitiendo que accedas a un poder infinito y a la conexión con Dios."
+                    },
+                    {
+                        linkName: "petalo-1/6/5", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Conecto con el Corazon de los seres de luz (C)",
+                        text: "Te conecta con energías de la naturaleza elevada y positiva. Estos seres son considerados como guías espirituales, maestros o entidades de sabiduría y amor. Los seres de luz pueden ser identificados como ángeles, seres ascendidos, maestros espirituales, Su propósito principal es brindar apoyo, guía y protección a las personas en su camino espiritual y en la búsqueda de la iluminación."
+                    },
+                    {
+                        linkName: "petalo-1/6/6", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Conecto Corazon de pachamama (C)",
+                        text: "Conectamos con tus raíces arraigándote con la tierra nuevamente, eliminando así la sensación de “no pertenencia”. Recuerda que La Pachamama, o Madre Tierra, simboliza la fertilidad, abundancia y equilibrio de la naturaleza. Representa una conexión espiritual entre los seres humanos y la tierra, enfatizando el respeto, la reciprocidad y la armonía."
+                    },
+                    {
+                        linkName: "petalo-1/6/7", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Me amo y me respeto (C)",
+                        text: "Aterriza el amor en el cuerpo y los límites personales. Activa autoestima y coherencia."
+                    },
+                    {
+                        linkName: "petalo-1/6/8", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Irradio amor hacia todo lo que existe (E)",
+                        text: "Expande la energía del amor desde el corazón hacia la creación; convierte el amor en vibración activa."
+                    },
+                    {
+                        linkName: "petalo-1/6/9", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Recibo amor del universo (C/E)",
+                        text: "Cierra el ciclo de dar y recibir; equilibra flujo energético y merecimiento."
+                    },
+                    {
+                        linkName: "petalo-1/6/10", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Unifico cielo y tierra en mi corazón (E)",
+                        text: "Integra polaridades, equilibrio masculino/femenino, mente/cuerpo, espiritual/materia."
+                    },
+                    {
+                        linkName: "petalo-1/6/11", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Sanar el linaje desde el amor (C)",
+                        text: "Incluye la energía del amor transgeneracional; libera memorias del clan desde el corazón."
+                    },
+                    {
+                        linkName: "petalo-1/6/12", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Nucleo de Amor', title: "Sanar el linaje desde el amor (C)",
+                        text: "Manifestar lo interno en hechos: palabras, gestos, presencia, servicio."
+                    },
+
 
                 ]
             },
@@ -192,27 +184,149 @@ const petalos = [
                     { linkName: "petalo-1/7/9", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Paz (Conectado)", text: "" },
                     { linkName: "petalo-1/7/10", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Recibir (Conectado)", text: "" },
                     { linkName: "petalo-1/7/11", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Salud (Conectado)", text: "" },
-                    { linkName: "petalo-1/7/12", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Seguridad (Conectado)", text: "" }
+                    { linkName: "petalo-1/7/12", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Seguridad (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/13", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Proposito (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/14", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Insipiracion (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/15", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Confianza (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/16", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Merecimiento (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/17", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Agradecimiento (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/18", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Generosidad (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/19", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Claridad (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/20", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Accion (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/21", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Fe (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/22", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Seguridad (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/23", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Disfrute (Conectado)", text: "" },
+                    { linkName: "petalo-1/7/24", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Expansion (Conectado)", text: "" },
+
                 ]
             },
             {
                 linkName: "petalo-1/8", image: 'boton1', title: "Bloqueo que me impide avanzar", text: "Aquí anulamos todo tipo de obstáculos o limitación que están impidiendo tu progreso o desarrollo en alguna área de tu vida, ya sea personal, profesional, emocional o en cualquier otro aspecto.", number: 8, subPetalos: [
-                    { linkName: "petalo-1/8/1", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Atasco (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Barrera (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Bloqueo (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/4", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Coraza (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/5", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Duda (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/6", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Freno (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/7", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Impedimento (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/8", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Incomodidad (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/9", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Limitante (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/10", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Muro (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/11", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Obstaculo (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/12", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Obstruccion (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/13", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Problema (Anulado)", text: "" },
-                    { linkName: "petalo-1/8/14", image: 'boton1', iconCenter:'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Situacion (Anulado)", text: "" },
+                    { linkName: "petalo-1/8/1", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Atasco (Anulado)", text: "Sensación de estar en el mismo punto, sin lograr resultados aunque se intente. Suele aparecer cuando hay exceso de control o miedo a soltar el pasado" },
+                    { linkName: "petalo-1/8/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Barrera (Anulado)", text: "Límite invisible creado por creencias o juicios. Protege del error, pero también impide el crecimiento." },
+                    { linkName: "petalo-1/8/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Bloqueo (Anulado)", text: "Parálisis general, mezcla de miedo y confusión. Se siente como “sé lo que quiero, pero no puedo hacerlo”." },
+                    { linkName: "petalo-1/8/4", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Coraza (Anulado)", text: "Defensa emocional que evita volver a sufrir. Protege del dolor, pero también bloquea el amor y las oportunidades." },
+                    { linkName: "petalo-1/8/5", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Duda (Anulado)", text: "Inseguridad frente a las decisiones. Se origina cuando la mente no confía en el corazón." },
+                    { linkName: "petalo-1/8/6", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Freno (Anulado)", text: "Autocontrol o culpa que impide avanzar incluso cuando todo está listo. “Algo dentro mío me detiene.” " },
+                    { linkName: "petalo-1/8/7", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Impedimento (Anulado)", text: "Factor externo o interno que interrumpe el flujo natural. Suele estar ligado a miedo al cambio o falta de permiso interno." },
+                    { linkName: "petalo-1/8/8", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Incomodidad (Anulado)", text: "Incomprensión o resistencia frente a lo nuevo. Se activa cuando la zona de confort se siente amenazada" },
+                    { linkName: "petalo-1/8/9", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Limitante (Anulado)", text: "Pensamiento o creencia que encierra la acción.“No puedo”, “no merezco”, “no soy capaz”." },
+                    { linkName: "petalo-1/8/10", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Muro (Anulado)", text: "Bloqueo profundo, generalmente inconsciente o transgeneracional. Se siente como una pared sin explicación lógica." },
+                    { linkName: "petalo-1/8/11", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Obstaculo (Anulado)", text: "Situación externa que refleja un límite interno. Ejemplo: personas, deudas, conflictos o circunstancias repetidas." },
+                    { linkName: "petalo-1/8/12", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Obstruccion (Anulado)", text: "Interferencia energética o emocional. Como si algo invisible detuviera el flujo natural de la vida" },
+                    { linkName: "petalo-1/8/13", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Problema (Anulado)", text: "Manifestación mental de la separación interior. Revela una oportunidad de cambio no atendida." },
+                    { linkName: "petalo-1/8/14", image: 'boton1', iconCenter:'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Situacion (Anulado)", text: "Realidad estancada que repite un patrón. El escenario se mantiene igual hasta que la emoción se resuelve" },
+                    { linkName: "petalo-1/8/15", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Miedo (Anulado)", text: "Raíz de casi todo freno; miedo al fracaso, al éxito o al juicio." },
+                    { linkName: "petalo-1/8/16", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Culpa (Anulado)", text: "Carga emocional que impide disfrutar y avanzar." },
+                    { linkName: "petalo-1/8/17", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Vergüenza (Anulado)", text: "Sensación de no ser suficiente o de temer el rechazo." },
+                    { linkName: "petalo-1/8/18", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Inseguridad (Anulado)", text: "Falta de confianza en las propias decisiones." },
+                    { linkName: "petalo-1/8/19", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Resistencia (Anulado)", text: "Negarse al cambio, incluso deseando cambiar." },
+                    { linkName: "petalo-1/8/20", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Autoexigencia (Anulado)", text: "Querer hacerlo todo perfecto; paraliza y agota." },
+                    { linkName: "petalo-1/8/21", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Desmotivación (Anulado)", text: "Pérdida de energía vital o de propósito." },
+                    { linkName: "petalo-1/8/22", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Falta de claridad (Anulado)", text: "No saber hacia dónde ir, aunque haya impulso." },
+                    { linkName: "petalo-1/8/23", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Apego (Anulado)", text: "Aferrarse a lo conocido aunque ya no sirva." },
+                    { linkName: "petalo-1/8/24", image: "boton1", iconCenter: "simbolo1", titlePage: "Bloqueo que me impide avanzar", title: "Desvalorización (Anulado)", text: "No creer en el propio valor o en que se merece avanzar." },
                 ]
             },
+            {
+                 linkName: "petalo-1/9", image: 'boton1', iconCenter: 'simbolo1', title: "LIMPIAR NUCLEO DEL SER", fieldText: true, useText: true, useDesc: true,
+                 text: "Limpiamos la información genética negativa que perjudica a las células, las cuales bloqueaban el libre flujo de energía. Para lograr esto se borraron las siguientes emociones:",
+            },
+            {
+                linkName: "petalo-1/10", image: 'boton1', title: "CONECTO CON SERES CELESTIALES", subPetalos: [
+                    {
+                        linkName: "petalo-1/10/1",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: "Conecto seres celestiales",
+                        title: "Serafines (Conectado)",
+                        text: "Los serafines son una clase de ángeles en la jerarquía angelical, su función es la de transmitir la voluntad divina y actuar como mensajeros entre Dios y los seres humanos. Además, se considera que los serafines son seres de pura devoción y amor hacia Dios."
+                    },
+                    {
+                        linkName: "petalo-1/10/2",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Querubines (Conectado)",
+                        text: "Los querubines son seres celestiales con una posición elevada en las jerarquías angelicales, conocidos por su belleza, sabiduría y función de protección."
+                    },
+                    {
+                        linkName: "petalo-1/10/3",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Tronos Celestiales (Conectado)",
+                        text: "Los 'tronos' son una de las nueve órdenes o coros angelicales. Según esta jerarquía, los tronos ocupan un lugar en el tercer nivel más alto, justo debajo de los serafines y los querubines. Los tronos se describen como seres celestiales que poseen una gran sabiduría y conocimiento divino. Se cree que su función principal es la de transmitir la voluntad y la gloria de Dios a los seres humanos. Actúan como intermediarios entre Dios y la humanidad, llevando a cabo su plan divino en el mundo. También se les atribuye la tarea de mantener el orden cósmico y la justicia divina."
+                    },
+                    {
+                        linkName: "petalo-1/10/4",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Dominaciones (Conectado)",
+                        text: "Se les considera que tienen influencia y dominio sobre las diferentes esferas de la creación y desempeñan un papel importante en la gobernación del orden cósmico."
+                    },
+                    {
+                        linkName: "petalo-1/10/5",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Virtudes (Conectado)",
+                        text: "Las virtudes se consideran seres celestiales que se destacan por su fortaleza y poder. Su nombre, 'virtudes', proviene de su capacidad para manifestar y promover las virtudes divinas en el mundo. Se cree que las virtudes tienen la responsabilidad de mantener el equilibrio y la armonía en la creación. Son consideradas como fuerzas activas y energéticas que infunden poder y vitalidad en los procesos naturales y en el orden cósmico. Las virtudes son portadoras de los milagros y los prodigios divinos. Tienen la capacidad de intervenir en los asuntos terrenales y realizar obras sobrenaturales en conformidad con la voluntad de Dios. Las virtudes también se asocian con la fortaleza moral y espiritual. Se cree que inspiran y fortalecen a los seres humanos en la búsqueda de la bondad, la justicia y la perfección moral. Así, las virtudes angelicales pueden influir en el desarrollo y la expresión de las virtudes humanas."
+                    },
+                    {
+                        linkName: "petalo-1/10/6",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Potestades (Conectado)",
+                        text: "Son consideradas como guardianes y ejecutores de la justicia divina, interviniendo cuando es necesario para preservar el equilibrio y la armonía en el universo. Las potestades también se asocian con la autoridad espiritual y la lucha contra las fuerzas malignas. Se cree que tienen la capacidad de enfrentarse y resistir a los poderes oscuros y las influencias negativas en el mundo espiritual y en la vida de los seres humanos."
+                    },
+                    {
+                        linkName: "petalo-1/10/7",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Principados (Conectado)",
+                        text: "Los principados se consideran seres celestiales que tienen autoridad y gobernación sobre áreas específicas de la creación. Su nombre, 'principados', hace referencia a su función como príncipes o líderes en la jerarquía celestial. Son responsables de la supervisión y el gobierno de regiones, naciones, ciudades o aspectos particulares del mundo físico o espiritual. Los principados son protectores y guardianes, actuando como intermediarios entre lo divino y la humanidad en su área de responsabilidad. Se considera que influyen en los asuntos terrenales, promoviendo la justicia, el orden y la armonía en sus dominios designados."
+                    },
+                    {
+                        linkName: "petalo-1/10/8",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Elohim (Creador Solar) (Conectado)",
+                        text: "Fuerza primaria de manifestación. Representa la co−creación consciente con la Fuente y el poder de la palabra divina"
+                    },
+                    {
+                        linkName: "petalo-1/10/9",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Conciencia Cristica (Conectado)",
+                        text: "Energía que unifica amor, sabiduría y poder. Nivel de maestría interna donde el Ser se convierte en canal de luz."
+                    },
+                    {
+                        linkName: "petalo-1/10/10",
+                        image: 'boton1',
+                        iconCenter: 'simbolo1',
+                        titlePage: 'Conecto seres celestiales',
+                        title: "Conciencia Universal (Conectado)",
+                        text: " Dimensión de unión con el Todo, la Mente Divina o el Logos Universal. Representa la entrega total del Ser al plan mayor. "
+                    },
+                ]
+
+            },
+            {
+                linkName: "petalo-1/11", image: 'boton1', iconCenter: 'simbolo1', title: "RESPETAR/ACEPTAR", useText: true, useDesc: true,
+                text: "Estos conceptos, nos dan aviso de que habrá que revisar algunos aspectos o situaciones de nuestra vida, que aún no queremos respetar o aceptar como bien dice la corrección. Al incorporar alguno de estos dos, lograremos no luchar con nuestros justificativos y culpabilidades hacia nosotros o hacia los demás, para sostener un escenario (situación), permitiendo que al hacerlas parte de nuestra vida ya no afecten la armonía y paz interior que merecemos.",
+                
+            },
+            {
+                linkName: "petalo-1/12", image: 'boton1', title: "Anular EGO", text: "Aquí anulamos todo tipo de obstáculos o limitación que están impidiendo tu progreso o desarrollo en alguna área de tu vida, ya sea personal, profesional, emocional o en cualquier otro aspecto.", number: 8, subPetalos: [
+                   
+                ]
+            }
         ]
     },
     {
