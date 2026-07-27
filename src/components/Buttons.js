@@ -18,6 +18,7 @@ const SPHERE_PETALO = {
   red: A("petalo_red"),
   orange: A("petalo_orange"),
   yellow: A("petalo_yellow"),
+  green: A("petalo_greenLight"),
   greenLight: A("petalo_greenLight"),
   purple: A("petalo_purple"),
   blueLight: A("petalo_blueLight"),

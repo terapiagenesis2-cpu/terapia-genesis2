@@ -1380,14 +1380,13 @@ const petalos = [
         ]
     },
     {
-        linkName: "petalo-3", image: 'boton3', iconCenter: 'simbolo3', title: "Fuente Mental", subPetalos: [
+        linkName: "petalo-3", image: 'boton3', iconCenter: 'simbolo3', title: "QUANTUM MENTAL UNIVERSAL", text: "Conecta con la Mente Universal, la fuente de información cuántica, el Akasha y los campos morfogenéticos.", subPetalos: [
             {
                 linkName: "petalo-3/1",
                 image: 'boton3',
                 iconCenter: 'simbolo3',
-                title: "PATRONES MENTALES",
+                title: "CONFLICTOS BIO-CUANTICOS",
                 noNumbers: true,
-                text: "Los patrones mentales son estructuras de comportamientos muy marcados que se accionan en diferentes áreas de nuestra vida que generalmente nos bloquean y que impiden poner en práctica ciertas tareas del ámbito diario y su libre funcionamiento. Son comportamientos aprendidos o hábitos de nuestros ancestros. Suele suceder que existan varias capas del mismo patrón, por haber vivido repetidas veces las mismas situaciones. (Se anularon los siguientes patrones mentales)",
                 subPetalos: [
                     {
                         linkName: "petalo-3/1/1",
@@ -1397,198 +1396,192 @@ const petalos = [
                         index: 0,
                         colorBorder: "blue",
                         subPetalos: [
-                            {
+                           {
                                 linkName: "petalo-3/1/1/1",
-                                image: 'boton3',
-                                iconCenter: 'simbolo3',
-                                titlePage: "Patrones Mentales A",
-                                title: "ABANDONO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE LEALTAD FAMILIAR",
+                                text: `Conflicto de lealtad familiar, surge cuando la persona, de manera inconsciente, siente que no puede superar, cambiar o vivir algo diferente a lo que vivieron sus ancestros, por temor a romper un lazo, traicionar a su clan o dejar de pertenecer. Esta lealtad no es consciente ni elegida, sino que responde a un programa profundo que busca mantener el sentido de unidad, pertenencia y fidelidad al sistema familiar, incluso a costa del bienestar personal. Al liberar esta información durante la sesión, se abrió la posibilidad de que la persona honre a su familia sin necesidad de repetir su dolor, eligiendo un camino propio, más libre, consciente y alineado con su verdadera esencia.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/2",
-                                image: 'boton3',
-                                iconCenter: 'simbolo3',
-                                titlePage: "Patrones Mentales A",
-                                title: "ADICCION",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE REPETICIÓN DE PATRONES",
+                                text: `Conflicto de repetición de patrones, el cual se manifiesta cuando la persona vive una y otra vez las mismas situaciones emocionales, relacionales o existenciales, sin comprender por qué ni poder salir de ese ciclo. Estos patrones suelen tener un origen inconsciente y profundo, ya sea en vivencias propias tempranas o en programas heredados del árbol familiar que se repiten como una forma de lealtad, compensación o fidelidad al sistema. Esto se debe a que el inconsciente busca resolver algo pendiente o no elaborado, y al no lograrlo, vuelve a crear escenarios similares en un intento de encontrar una salida o una reparación. Cuando este conflicto está activo, la persona suele sentirse frustrada, atrapada o sin salida, repitiendo historias que muchas veces ni siquiera le pertenecen. Al liberar esta información durante la sesión, se rompió el ciclo de repetición, permitiendo que la persona tome conciencia de su patrón, lo observe desde otro lugar y elija una nueva forma de vivir, más libre, coherente y en sintonía con su verdadero propósito.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/3",
-                                image: 'boton3',
-                                iconCenter: 'simbolo3',
-                                titlePage: "Patrones Mentales A",
-                                title: "AMARGURA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE REPARACIÓN O RESCATE",
+                                text: `Conflicto de reparación o rescate, que se activa cuando la persona, de forma inconsciente, carga con la misión de reparar algo no resuelto en el sistema familiar, o de "salvar" simbólicamente a un ancestro que sufrió, falló, fue excluido o no pudo completar su camino. Este tipo de conflicto hace que la persona viva su vida con una sensación interna de deber, carga o propósito que no le pertenece del todo. En muchos casos, la persona nace con el mandato invisible de “venir a sanar lo que otros no pudieron”, o de “ser lo que otro no fue”, cargando así con una historia que no le corresponde. Al liberar esta información durante la sesión, se permitió que la persona suelte esa carga heredada y recupere el derecho a vivir su propio destino, honrando la historia familiar sin necesidad de repetirla o compensarla. Esto abre un espacio de libertad interna para tomar decisiones desde el presente y construir una vida alineada con su propósito real.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/4",
-                                image: 'boton3',
-                                iconCenter: 'simbolo3',
-                                titlePage: "Patrones Mentales A",
-                                title: "ANSIEDAD",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE SECRETOS FAMILIARES",
+                                text: `Conflicto de secretos familiares, el cual se activa cuando dentro del árbol genealógico existen hechos importantes que fueron silenciados, ocultos o negados, como si nunca hubieran ocurrido. Estos secretos generan una información bloqueada en el inconsciente del sistema familiar, que suele transmitirse de forma no verbal a través de síntomas, emociones o repeticiones de destino. Aunque no se hable de ello, la carga emocional queda activa en el inconsciente familiar, y algún descendiente —de forma totalmente inconsciente— puede sentirse impulsado a reparar, repetir o expresar ese dolor oculto. Cuando este conflicto está presente, la persona puede experimentar confusión interna, emociones que no sabe de dónde vienen, culpa sin causa aparente, bloqueos persistentes o una sensación de estar cargando con “algo que no entiende”. En muchos casos, el cuerpo manifiesta síntomas como una vía para hacer visible lo que fue ocultado. Al liberar esta información durante la sesión, se permitió que la persona conecte con su verdad interior, su propio camino y su libertad de ser, dejando de actuar en nombre de historias que no fueron suyas, pero que sí la afectaban profundamente.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/5",
-                                image: 'boton3',
-                                iconCenter: 'simbolo3',
-                                titlePage: "Patrones Mentales A",
-                                title: "APATIA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE IDENTIDAD O DOBLE FILIACIÓN",
+                                text: `Conflicto de identidad o doble filiación, aparece cuando la persona, de forma inconsciente, no sabe con claridad “quién es” dentro de su sistema familiar, o siente que pertenece a dos lugares al mismo tiempo sin poder posicionarse realmente en ninguno. Este conflicto suele estar relacionado con confusión en los roles familiares, lealtades divididas o situaciones donde la persona carga con dos historias o energías parentales opuestas o en conflicto entre sí. Cuando este conflicto está activo, la persona puede experimentar dificultades para afirmarse, tomar decisiones, sostener una identidad clara, o sentirse tironeada entre dos mundos, sin poder elegir plenamente uno sin sentir culpa por el otro. Al liberar esta información durante la sesión, se inició un proceso de reintegración interna, donde la persona puede empezar a reconocerse como un ser único, con derecho a construir su propia identidad más allá de los conflictos o mandatos familiares, y a ocupar un lugar propio dentro del sistema desde la paz y la coherencia.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/6",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "AUTO CASTIGO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE FECHA DE ANIVERSARIO",
+                                text: `Conflicto aniversario, se activa cuando, de forma inconsciente, la persona revive una experiencia emocional intensa ocurrida en el pasado, ya sea en su propia vida o en la historia familiar, justo en la misma fecha, época del año, edad o contexto en que ocurrió el hecho original. El cuerpo y el inconsciente no registran el paso del tiempo de forma lineal, por lo tanto, reeditan esa vivencia como si estuviera sucediendo nuevamente, generando síntomas físicos, emocionales o situaciones repetitivas sin explicación aparente. Cuando este conflicto está activo, es común que la persona experimente malestares cíclicos, crisis recurrentes, síntomas inexplicables o bloqueos en determinadas etapas de la vida. Al liberar esta información durante la sesión, se permitió que la persona rompa con ese ciclo inconsciente de repetición, integrando la memoria original y recuperando su libertad para vivir el presente sin la carga del pasado.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/7",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "AUTO CRITICA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE COMPETENCIA FAMILIAR",
+                                text: `Conflicto de competencia familiar, el cual se activa cuando, dentro del sistema familiar, hay una vivencia inconsciente de tener que competir por el amor, la atención, el reconocimiento o el lugar dentro del clan. Este tipo de conflicto suele instalarse desde edades muy tempranas, especialmente cuando existen comparaciones entre hermanos, favoritismos por parte de los padres o mandatos familiares que valoran más a unos miembros que a otros según su rol, género o comportamiento. Este conflicto también puede heredarse del transgeneracional, donde ya existieron historias de rivalidad, exclusión o competencia entre hermanos, primos, o incluso entre generaciones. Durante la sesión, al liberar esta información, se facilitó un proceso de reconexión con el valor personal auténtico, permitiendo que la persona ocupe su lugar en la familia sin necesidad de competir o compararse, recuperando así su paz interna, su autoestima y su capacidad de vincularse desde la cooperación y el amor propio.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/8",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "AUTORITARISMO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE VALORES",
+                                text: `Conflicto de valores, el cual se activa cuando la persona vive una incoherencia interna entre lo que cree, lo que siente y lo que hace, o cuando se encuentra dividida entre valores propios y valores impuestos por su familia, cultura, religión o entorno social. Este tipo de conflicto genera una fuerte tensión interna, ya que el inconsciente interpreta que seguir sus propios principios podría implicar rechazo, culpa o pérdida de pertenencia. Cuando este conflicto está activo, la persona suele experimentar culpa, miedo a ser juzgada, parálisis al tomar decisiones o sensación de traicionarse a sí misma. También puede vivir confusión sobre lo que realmente quiere o necesita, ya que su brújula interna se encuentra interferida por programas heredados. Al liberar esta información durante la sesión, se abrió un espacio de alineación interna, permitiendo que la persona reconozca sus propios valores como legítimos y pueda construir una vida más coherente con su verdad esencial, dejando de lado las lealtades o exigencias externas que la limitaban.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/9",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "BAJA AUTOESTIMA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE SUFRIMIENTO POR AMORES PROHIBIDOS O RECHAZADOS",
+                                text: `Conflicto de sufrimiento por amores prohibidos o rechazados, el cual se activa cuando la persona lleva en su inconsciente una memoria de dolor vinculada a relaciones afectivas que no pudieron ser vividas libremente, ya sea por prohibiciones familiares, mandatos culturales, religiosas, diferencias sociales o rechazo por parte del otro. Este conflicto puede ser vivido directamente o heredado del transgeneracional, donde hubo historias de amores imposibles, secretos, infidelidades, separaciones forzadas o vínculos que no fueron reconocidos oficialmente. El inconsciente, al registrar esa experiencia como un evento traumático no resuelto, puede llevar a la persona a repetir vínculos donde el amor y el dolor van de la mano, como una forma de honrar o reparar lo que otros no pudieron vivir. Cuando este conflicto está activo, es común que la persona experimente relaciones marcadas por la culpa, la frustración, la espera, la dependencia emocional o el autosabotaje en el amor, como si inconscientemente repitiera la historia de alguien de su árbol. Durante la sesión, al liberar esta información, se abrió la posibilidad de que la persona reconozca esas lealtades invisibles y se permita construir vínculos afectivos sanos, libres y elegidos desde el presente, dejando atrás el sufrimiento heredado y abriéndose al amor como una experiencia de bienestar, libertad y plenitud.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/10",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "CARENCIAS",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE MUERTE TEMPRANA O NO RESPETAR LOS CICLOS DE VIDA",
+                                text: `Conflicto de muerte temprana o de no respetar los ciclos de vida, el cual se activa cuando existe, en el inconsciente individual o familiar, una memoria de interrupción brusca, dolorosa o inesperada de un ciclo vital, ya sea por muertes prematuras, abortos espontáneos, fallecimientos infantiles, pérdidas gestacionales o enfermedades que impidieron completar etapas naturales del desarrollo. Este conflicto también puede estar relacionado con momentos de cambio abrupto, como separaciones repentinas, mudanzas forzadas, pérdida de figuras de referencia o rupturas afectivas que se vivieron como “muertes emocionales”, sin posibilidad de cierre, despedida o integración del proceso. Desde el transgeneracional, es común que la persona lleve lealtades invisibles hacia ancestros que murieron jóvenes, fueron olvidados o no recibieron un duelo adecuado, así como también hacia hermanos no nacidos o niños que no fueron reconocidos dentro del sistema familiar. Estas lealtades pueden generar sentimientos de vacío, miedo a vivir plenamente, ansiedad por el tiempo o necesidad de apurarse para “cumplir antes de que sea tarde”. Durante la sesión, al liberar esta información, se permitió que la persona integre el valor de los ciclos naturales, respete sus propios tiempos de crecimiento y transformación, y honre las historias de muerte no como carga, sino como guía para vivir con mayor presencia, gratitud y consciencia del aquí y ahora.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/11",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "CELOS",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE PROSPERIDAD BLOQUEADA",
+                                text: `Conflicto de prosperidad bloqueada, el cual se activa cuando la persona, de forma inconsciente, experimenta dificultades constantes para recibir, generar o sostener abundancia en su vida, ya sea en el plano económico, laboral, creativo o incluso afectivo. Este tipo de conflicto no suele tener origen en la capacidad o el mérito de la persona, sino en programaciones internas que asocian la prosperidad con peligro, culpa, pérdida o traición al clan familiar. Desde la mirada transgeneracional, este conflicto suele estar vinculado a historias familiares de carencia, pobreza, sacrificio, despojo, injusticias económicas o mandatos de sufrimiento como única vía legítima para “ganarse la vida”. Cuando este conflicto está activo, la persona puede experimentar situaciones como esfuerzo desmedido sin recompensa, ingresos que se van rápidamente, estancamiento económico, miedo a cobrar por su trabajo, creencias de no merecimiento o sensación de tener que elegir entre ser próspera o pertenecer a su familia. Durante la sesión, al liberar esta información, se facilitó un movimiento profundo hacia la reconexión con el derecho a recibir, crear y disfrutar la abundancia de forma natural y coherente, honrando las historias del pasado sin necesidad de repetirlas. La persona pudo comenzar a recuperar su poder personal y abrirse a una vida más plena, libre y conectada con su verdadera capacidad de manifestación.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/12",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "COBARDIA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE RELACIÓN CON LA SALUD Y ENFERMEDADES HEREDADAS",
+                                text: `Conflicto relacionado con la salud y enfermedades heredadas, el cual se activa cuando la persona lleva en su inconsciente una programación familiar de enfermedad, debilidad o sufrimiento físico, que se transmite de generación en generación como un patrón aceptado, esperado o incluso necesario para pertenecer al sistema familiar. No se trata de una simple predisposición genética, sino de una fidelidad inconsciente al dolor físico como forma de expresión emocional, lealtad o reparación ancestral. Este conflicto suele estar presente en árboles genealógicos donde hubo mucha enfermedad, muertes tempranas, diagnósticos marcados por sufrimiento, discapacidades, hospitales, internaciones prolongadas o historias de víctimas del sistema de salud. En estos casos, la enfermedad no solo se hereda como una condición, sino como un lenguaje emocional colectivo que representa atención, sacrificio, unión o destino familiar. Cuando este conflicto está activo, la persona puede manifestar síntomas similares a los de sus ancestros, creer que la enfermedad es inevitable, tener miedo a estar sana o experimentar culpa al sentirse bien si los demás sufrieron. Durante la sesión, al liberar esta información, se facilitó que la persona rompa con esa lealtad inconsciente al sufrimiento físico, integrando la posibilidad de vivir la salud como un derecho natural, sin culpa ni necesidad de repetir historias familiares. Este proceso abre un nuevo vínculo con su cuerpo, más amoroso, presente y coherente con su propósito de vida.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/13",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "CODICIA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE IDENTIFICACIÓN CON EL DOLOR FAMILIAR",
+                                text: `Conflicto de identificación con el dolor familiar, el cual se activa cuando la persona, de forma inconsciente, asume como propio el sufrimiento de uno o varios miembros del árbol genealógico, cargando con emociones, experiencias o destinos que no le pertenecen directamente. Esta identificación profunda suele responder a una lealtad invisible que busca acompañar, proteger o no olvidar a quienes sufrieron, como una forma de mantener el vínculo con ellos. Este tipo de conflicto aparece con frecuencia en sistemas familiares donde hubo pérdidas dolorosas, muertes trágicas, abandono, enfermedad, pobreza o exclusión, y donde ciertas historias quedaron sin sanar o sin integrar. En estos casos, la persona puede vivir culpa por estar bien, miedo a avanzar, o tendencia a repetir el dolor como forma de “honrar” a los que no pudieron salir adelante. Durante la sesión, al liberar esta información, se facilitó un proceso de diferenciación amorosa, en el que la persona pudo reconocer lo que es suyo y lo que no, honrando el dolor de su sistema sin necesidad de seguir sosteniéndolo con su propio cuerpo o su propia vida, abriéndose así a una experiencia más libre, liviana y consciente de sí misma.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/14",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "CONFORMISMO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE DUALIDAD DE ROLES",
+                                text: `Conflicto de dualidad de roles, el cual se activa cuando la persona, de forma inconsciente, ocupa dos lugares o funciones dentro del sistema familiar o en sus vínculos, que no son coherentes entre sí o que generan contradicción interna. Esta dualidad genera confusión, sobrecarga emocional y una pérdida de identidad, ya que el individuo no puede ser plenamente él mismo al estar cumpliendo roles que no le corresponden o que se oponen entre sí. Es común que este conflicto se origine cuando la persona ha sido, por ejemplo, hija pero también madre de su madre, pareja simbólica de uno de los padres, hermana y cuidadora, hijo y confidente, entre otros cruces de funciones. Desde la mirada transgeneracional, esta dualidad muchas veces responde a vacíos o fracturas dentro del árbol, donde alguien debió ocupar el lugar de otro para que el sistema no se desestabilice. El problema aparece cuando esa dinámica se cristaliza y no se suelta, impidiendo el desarrollo sano del verdadero yo. Durante la sesión, al liberar esta información, se facilitó un proceso de reordenamiento interno, permitiendo que la persona recupere su verdadero lugar, su identidad genuina y su derecho a vivir desde la coherencia y la autenticidad, sin tener que sostener roles heredados o impuestos por la historia familiar.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/15",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "CRITICA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE NO PERTENECER O SER DIFERENTE",
+                                text: `Conflicto de no pertenecer o ser diferente, el cual se activa cuando la persona, a nivel inconsciente, siente que no encaja dentro de su sistema familiar, su entorno social o cultural, como si ocupara un lugar que no le corresponde o viviera desde una identidad que no es reconocida por los demás. Esta sensación profunda de no pertenencia puede generar soledad emocional, inseguridad, búsqueda constante de aceptación externa o necesidad de esconder partes auténticas de sí misma para ser aceptada. Desde la mirada transgeneracional, este conflicto suele estar vinculado a historias de exclusión, hijos no reconocidos, inmigración, mezclas culturales, diferencias ideológicas, sexuales o espirituales dentro del clan, o a miembros que fueron “la oveja negra” de la familia. En estos casos, la persona puede heredar una programación que la lleva a repetir el mismo patrón, sintiéndose fuera de lugar sin saber exactamente por qué. Durante la sesión, al liberar esta información, se facilitó un proceso profundo de reconexión con su identidad esencial, permitiendo que la persona reconozca su valor por quien es, más allá de las diferencias, y comprenda que su autenticidad no es una amenaza, sino un regalo para el sistema al que pertenece. A partir de allí, puede comenzar a ocupar su lugar con más firmeza, amor propio y libertad.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/16",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "CULPA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE MIGRACIÓN O DESARRAIGO",
+                                text: `Conflicto de migración o desarraigo, el cual se activa cuando la persona, de forma consciente o inconsciente, vive una experiencia de haber sido arrancada de su lugar de origen o de no haber podido enraizarse en un nuevo lugar, generando una sensación profunda de desubicación, pérdida de identidad o falta de pertenencia. Este tipo de conflicto puede haber sido vivido directamente o heredado del transgeneracional, especialmente en sistemas familiares marcados por emigraciones forzadas, exilios, guerras, persecuciones políticas, pobreza extrema, mudanzas abruptas o pérdidas de tierra y territorio. También puede instalarse cuando una persona cambia de lugar (físico o simbólico) y no logra sentirse bienvenida, contenida o reconocida. Puede manifestarse en el cuerpo a través de síntomas ligados a los huesos (estructura), sistema digestivo (asimilación) o sistema respiratorio (adaptación al nuevo entorno). Durante la sesión, al liberar esta información, se facilitó un proceso de reconexión con su raíz interna, permitiendo que la persona honre su origen y también abrace su presente, recuperando la capacidad de enraizarse, adaptarse y construir un sentido de hogar desde el alma, más allá del lugar físico.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/17",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "DEPRESION",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "CONFLICTO DE MIEDO A LA AUTORIDAD O REBELDÍA TRANSMITIDA",
+                                text: `Conflicto de miedo a la autoridad o rebeldía transmitida, el cual se activa cuando la persona, de forma inconsciente, vive una relación disfuncional con las figuras de autoridad, ya sea desde el temor excesivo, la sumisión o, por el contrario, desde la oposición constante, la desobediencia o la rebeldía automática. Este conflicto suele tener su origen en experiencias personales tempranas o en historias transgeneracionales no resueltas con figuras de poder. En muchos casos, este patrón se origina en sistemas familiares donde hubo autoridad excesiva, represión, abusos de poder, castigos injustos o humillación, ya sea en el entorno familiar (padres autoritarios), escolar o institucional. También puede provenir del linaje, donde hubo opresión política, dictaduras, esclavitud, persecución religiosa o castigos por pensar diferente, generando una memoria emocional que asocia la autoridad con peligro, injusticia o pérdida de libertad. Durante la sesión, al liberar esta información, se facilitó un proceso de reconciliación con la figura de autoridad, permitiendo que la persona recupere la confianza en su propio liderazgo interno, y pueda vincularse con estructuras externas desde la madurez, el respeto y la libertad, sin repetir viejas heridas del sistema familiar.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/1/18",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "DESAMPARO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales A",
+                                title: "YACIENTE",
+                                text: `En esta sesión se identificó y trabajó el programa de yaciente, un patrón transgeneracional que se activa cuando la persona, de forma inconsciente, lleva una carga emocional, energética o simbólica de un ser querido fallecido, especialmente cuando se trata de alguien que no fue debidamente reconocido, despedido o integrado dentro del sistema familiar. El yaciente suele representar a muertos no llorados, abortos, hermanos no nacidos, familiares excluidos, o seres cuya historia fue marcada por la tragedia o el silencio. Este programa puede expresarse cuando la persona nace poco tiempo después del fallecimiento de alguien, lleva el mismo nombre o fecha de nacimiento/muerte, ocupa el mismo lugar simbólico en el clan, o cuando los padres no han elaborado el duelo por una pérdida previa. En esos casos, el inconsciente “le asigna” al nuevo integrante el papel de reemplazo, como si su existencia viniera a llenar el vacío del ausente. Cuando este conflicto está activo, la persona puede experimentar síntomas como apatía, tristeza profunda sin causa, sensaciones de vacío existencial, dificultad para avanzar, problemas con la identidad, tendencia a aislarse, enfermedades crónicas o sensación de no tener derecho a vivir plenamente. Durante la sesión, al liberar esta información, se facilitó un proceso de separación simbólica del alma o energía que estaba cargando, permitiendo que la persona recupere su propio lugar dentro del sistema familiar, su identidad y su derecho a vivir desde la alegría, la presencia y la plenitud, sin necesidad de ocupar el lugar de otro.`,
+                                fieldText: true,
+                                separation: true
                             },
-                            {
-                                linkName: "petalo-3/1/1/19",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "DESCONFIANZA",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/1/20",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "DESPRECIO",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/1/21",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "DOLOR",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/1/22",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "DRAMA",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/1/23",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "DUDA",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/1/24",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "EGOISMO",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/1/25",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "ENVIDIA",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/1/26",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales A",
-                                title: "FRACASO",
-                                text: ""
-                            }
                         ],
                     },
                     {
                         linkName: "petalo-3/1/2",
                         image: 'boton3',
+                        iconCenter: 'simbolo3',
                         title: "B",
                         index: 1,
                         colorBorder: "red",
@@ -1596,349 +1589,519 @@ const petalos = [
                         subPetalos: [
                             {
                                 linkName: "petalo-3/1/2/1",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "FRUSTRACION",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE DINERO",
+                                text: `Un conflicto transgeneracional de dinero se refiere a patrones, creencias o traumas relacionados con la escasez, el abuso económico, la culpa por tener o perder dinero, que han sido vividos por ancestros y que siguen repitiéndose en las generaciones actuales sin consciencia. Desde la biodecodificación, el dinero se asocia muchas veces al valor, la supervivencia y el reconocimiento. Cuando hay memorias familiares de pérdidas económicas, estafas, desigualdad, herencias conflictivas o trabajo sacrificado sin recompensa, el inconsciente familiar puede guardar programas. Estos programas pueden llevar a autosabotajes económicos, incapacidad para sostener la abundancia, miedo al éxito, culpa por ganar más que otros o una vida marcada por la escasez constante aunque haya oportunidades.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/2",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "INDESICION",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE SEXUALIDAD",
+                                text: `El conflicto transgeneracional de sexualidad se refiere a bloqueos, miedos o creencias limitantes que han sido heredados del árbol genealógico y que afectan la forma en que una persona vive, reprime, niega o distorsiona su energía sexual. En la biodecodificación, la sexualidad está relacionada con el placer, la creatividad, la vida, el goce, la conexión íntima y la energía. Desde la mirada cuántica, la energía sexual es también energía de creación, es la fuerza que da vida y manifiesta en el mundo físico.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/3",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "INDIFERENCIA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE INJUSTICIA",
+                                text: `El conflicto transgeneracional de injusticia se refiere a memorias heredadas del árbol genealógico vinculadas a abusos de poder, traiciones, condenas injustas, despojos o tratos desiguales, que siguen repitiéndose de forma inconsciente en generaciones posteriores. Este conflicto afecta la forma en que una persona se vincula con el merecimiento y se posiciona frente a la vida. En la biodecodificación, la injusticia activa heridas emocionales profundas como la de traición, humillación o desvalorización. Desde la mirada cuántica, el conflicto de injusticia mantiene a la persona vibrando en una frecuencia de juicio, lucha o resentimiento. Esa energía impide el flujo natural de la abundancia, la paz interior y la conexión con la sabiduría superior. Cuando se suelta el rol de víctima o justiciero, se abre el campo a una nueva percepción de la vida basada en la aceptación, el equilibrio y la confianza en el orden perfecto del universo.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/4",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "INFERIORIDAD",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE DESHONRA",
+                                text: `El conflicto transgeneracional de deshonra se refiere a memorias heredadas en el árbol genealógico asociadas a situaciones de vergüenza, señalamiento, expulsión del clan o pérdida del honor familiar. Generalmente, este conflicto está relacionado con hechos que fueron ocultos, negados o cargados con culpa, y que quedaron sin reparación simbólica o emocional. En la biodecodificación, la deshonra se vincula con la necesidad de pertenecer, el valor personal, la autoimagen y la aceptación social o familiar. Cuando un ancestro fue rechazado, humillado, acusado o apartado del sistema familiar por alguna conducta considerada “incorrecta” según las normas sociales o culturales, se activa un mandato silencioso que busca evitar que esa historia se repita. Desde la mirada cuántica, el conflicto de deshonra bloquea el acceso a la autoexpresión auténtica y la conexión con la misión del alma. Cuando hay memorias de deshonra, la persona se desconecta de su verdadera identidad por temor al juicio o al castigo, repitiendo lealtades silenciosas. La sanación llega cuando se elige integrar la historia con compasión, honrando el linaje y recuperando el valor personal más allá del pasado familiar.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/5",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "INFIDELIDAD",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE ASESINATO",
+                                text: `El conflicto transgeneracional de asesinato se refiere a memorias intensas, ocultas o silenciadas en el árbol genealógico vinculadas a muertes violentas, asesinatos cometidos o sufridos por algún integrante del clan. Estas experiencias, al no haber sido elaboradas emocionalmente ni integradas desde una mirada consciente, quedan bloqueadas en el inconsciente familiar y se transmiten a las siguientes generaciones como información cargada de miedo, culpa o necesidad de reparación. En la biodecodificación, este conflicto puede afectar profundamente la percepción sobre la seguridad, la confianza en la vida, el derecho a existir y la capacidad de gozar sin culpa. También puede generar síntomas físicos relacionados con el sistema nervioso, cardiovascular, inmunológico o digestivo. Desde la mirada cuántica, el conflicto de asesinato representa una carga densa de energía no integrada que busca ser liberada desde el amor, la comprensión y la luz. Cuando el alma hereda un mandato vinculado a la muerte violenta o a la culpa por haberla causado, puede sentirse atrapada entre la vida y la lealtad al pasado. Sanar este conflicto implica reconocer lo ocurrido, devolver lo que no corresponde cargar, y elegir vivir plenamente en paz, en conexión con la verdad interior y el perdón trascendente.`,
+                                fieldText: true,
+                                separation: true
                             },
-                            {
+                           {
                                 linkName: "petalo-3/1/2/6",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "INSATISFACCION",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE SUICIDIO",
+                                text: `El conflicto transgeneracional de suicidio se refiere a la transmisión inconsciente de memorias familiares relacionadas con muertes autoinfligidas, tentativas de suicidio o deseos profundos de no vivir, que no fueron elaboradas emocional ni simbólicamente por el sistema familiar. Estas experiencias quedan marcadas como traumas silenciosos, muchas veces cubiertos por el tabú, la culpa o el secreto. En la biodecodificación, el suicidio representa una ruptura profunda con el impulso vital, que puede estar originada por la desesperanza, el dolor emocional insoportable, la pérdida de sentido, la vergüenza o el sentimiento de ser una carga. Estas heridas no solo impactan a la persona que tomó esa decisión, sino que dejan huellas energéticas en el árbol genealógico que buscan ser comprendidas y sanadas. Desde la mirada cuántica, el conflicto de suicidio bloquea la conexión con el alma, el sentido de misión y el flujo de la energía vital. Cuando no se honra ni se nombra esa historia, se corre el riesgo de perpetuarla desde el silencio. La sanación llega al darle voz al dolor heredado, honrar a quien partió, liberar la carga que no nos pertenece y elegir conscientemente vivir con propósito, reconectando con el amor por uno mismo y con el llamado del alma.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/7",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "MANIPULACION",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE ACCIDENTE",
+                                text: `El conflicto transgeneracional de accidente se refiere a memorias heredadas dentro del árbol genealógico vinculadas a muertes o lesiones graves por causas repentinas, inesperadas o violentas, que no fueron elaboradas emocionalmente ni integradas de forma simbólica. Estas experiencias suelen generar en el sistema familiar una sensación de caos, culpa, miedo o fragilidad ante la vida, que se transmite de forma inconsciente a generaciones posteriores. En la biodecodificación, los accidentes no son vistos como simples hechos fortuitos, sino como descargas biológicas de conflictos intensos, urgentes y no resueltos. Muchas veces, detrás de un accidente hay un auto-castigo inconsciente, una necesidad de frenar una situación emocional extrema o un mandato de fidelidad a un ancestro que vivió una experiencia similar. Desde la mirada cuántica, el conflicto de accidente guarda una energía de sorpresa, trauma y ruptura del orden natural, que deja al alma en estado de alerta o congelamiento. Sanar esta memoria implica reconocer el trauma original, devolver lo que no corresponde cargar, recuperar la confianza en el cuerpo, en la vida y en el flujo del destino, soltando el miedo al presente y al movimiento. Desde ahí, se puede vivir con más paz, presencia y libertad.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/8",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "MIEDO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE ENFERMEDAD",
+                                text: `El conflicto transgeneracional de enfermedad se refiere a la transmisión inconsciente de memorias familiares asociadas a enfermedades graves, discapacidades, sufrimiento físico o muertes por causas orgánicas, que dejaron una huella emocional no resuelta en el árbol genealógico. Estas experiencias pueden instalar en el inconsciente familiar programas de culpa, miedo, sacrificio o necesidad de expiación a través del cuerpo. En la biodecodificación, toda enfermedad es vista como una respuesta biológica a un conflicto emocional no resuelto. Cuando en el árbol hubo miembros que sufrieron mucho en su cuerpo, murieron jóvenes, o cargaron enfermedades como castigo, secreto o legado, esa información puede heredarse como una forma de fidelidad invisible, para pertenecer, compensar o evitar ser “más feliz o más sano” que ellos. Desde la mirada cuántica, la enfermedad puede ser vista como un mensaje del alma que intenta manifestar en el cuerpo lo que no fue expresado emocional o espiritualmente. Cuando hay un conflicto transgeneracional detrás, el cuerpo actúa como canal de memoria ancestral. Sanar este conflicto implica reconocer que la salud es un derecho natural, liberar los mandatos heredados, honrar el dolor de los que vinieron antes y permitir que el cuerpo vuelva a vibrar en coherencia, vitalidad y libertad.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/9",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "NEGATIVIDAD",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE HERENCIA",
+                                text: `El conflicto transgeneracional de herencia se refiere a memorias heredadas dentro del árbol genealógico relacionadas con injusticias, exclusiones, rupturas familiares o luchas por bienes materiales que dejaron una huella emocional profunda, muchas veces marcada por la culpa, el rencor, la envidia o el despojo. Este tipo de conflicto afecta no solo la relación con el dinero y la abundancia, sino también el sentido de pertenencia y el equilibrio dentro del clan. En la biodecodificación, los conflictos por herencia activan temas de merecimiento, reconocimiento, orden jerárquico y lealtad familiar. Cuando hay situaciones en las que alguien recibió más, menos, fue ignorado o usurpó lo que no le correspondía, esa energía queda atrapada en el campo familiar, generando desórdenes que impactan en generaciones futuras. Desde la mirada cuántica, el conflicto de herencia bloquea el flujo natural de la abundancia, la justicia interna y el merecimiento espiritual. La sanación llega cuando se reconoce que cada miembro tiene un lugar único en el sistema familiar, que nadie necesita cargar con la culpa o el dolor de otros, y que es posible recibir en armonía, desde el amor y el equilibrio, no desde la deuda o el conflicto.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/10",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "NERVIOSISMO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE ROBO",
+                                text: `El conflicto transgeneracional de robo se refiere a memorias heredadas dentro del árbol genealógico vinculadas a pérdidas materiales, traiciones de confianza o actos de despojo, ya sea porque algún ancestro fue robado, robó, fue acusado falsamente o fue castigado por apropiarse de lo ajeno. Estas vivencias, muchas veces cubiertas por el silencio o la vergüenza, dejan una impronta de culpa, injusticia, desconfianza o miedo a recibir, que se transmite inconscientemente de generación en generación. En la biodecodificación, el robo afecta áreas relacionadas con el merecimiento, la justicia, el valor personal y la confianza básica en los demás. Además, puede instalar un conflicto entre tener y perder, generando patrones de sabotaje económico, temor al éxito o miedo a ser visto. Desde la mirada cuántica, el conflicto de robo interrumpe el flujo de la abundancia limpia y merecida, instalando una energía de vigilancia, tensión o compensación constante. La sanación ocurre cuando se suelta el miedo a perder, se honra la historia de quienes fueron dañados o juzgados, y se elige vivir desde la confianza, permitiéndose recibir sin culpa y compartir desde el equilibrio y la verdad.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/11",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "NO MEREZCO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE RUINA",
+                                text: `El conflicto transgeneracional de ruina se refiere a memorias heredadas del árbol genealógico asociadas a pérdidas económicas extremas, bancarrotas, quiebras, despojos o caídas abruptas del estatus social o material, que marcaron profundamente la historia familiar. Estas vivencias, especialmente cuando no fueron elaboradas emocionalmente o se vivieron con vergüenza, humillación o desesperación, dejan una huella inconsciente que puede generar bloqueos económicos, miedo al éxito o autoboicot financiero en las generaciones siguientes. En la biodecodificación, la ruina se vincula con el conflicto de supervivencia, desvalorización profunda, pérdida del poder personal y dolor por el esfuerzo no reconocido o mal recompensado. Muchas veces, quien vivió la ruina fue una figura fuerte del clan (padre, abuelo, jefe de familia) que cayó desde un lugar de poder o estabilidad. Desde la mirada cuántica, el conflicto de ruina bloquea la conexión con el flujo natural de la prosperidad y la expansión del alma. La información ancestral puede mantener a la persona vibrando en una frecuencia de esfuerzo, miedo o restricción, impidiendo confiar en su capacidad creadora. La sanación llega cuando se honra la historia, se reconoce el dolor vivido, se agradece el aprendizaje y se elige manifestar una nueva realidad de abundancia libre de culpa, miedo y lealtades inconscientes.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/12",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "NO PUEDO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE VIOLACIÓN",
+                                text: `El conflicto transgeneracional de violación se refiere a memorias intensas, dolorosas y silenciadas dentro del árbol genealógico relacionadas con abusos sexuales, sometimiento físico, invasión del cuerpo o de los límites, que no fueron expresadas, reconocidas ni reparadas. Este tipo de trauma deja cargas emocionales profundas de culpa, miedo, vergüenza y desconexión con el cuerpo, que pueden ser heredadas inconscientemente por las siguientes generaciones. En la biodecodificación, la violación representa la vivencia extrema de invasión, sometimiento, pérdida de control y ruptura de la identidad. El cuerpo se transforma en un lugar inseguro, y la energía sexual, en una fuente de dolor o rechazo. Cuando estos hechos no se nombran, no se sanan ni se integran, pueden generar programas de protección, represión, autocastigo o anestesia emocional en los descendientes. Desde la mirada cuántica, el conflicto de violación afecta profundamente el campo energético del cuerpo, la confianza interna y la capacidad de creación vital. Cuando esta herida permanece oculta o negada, genera un ciclo de repetición, silencio y fragmentación. La sanación ocurre cuando se reconoce el dolor sin juicio, se honra la fuerza de quienes sobrevivieron, se devuelve lo que no corresponde cargar, y se recupera el poder sobre el cuerpo, la voz y la vida, permitiendo que el alma vuelva a habitarse desde el amor, el respeto y la soberanía energética.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/13",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "ODIO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE INCESTO",
+                                text: `El conflicto transgeneracional de incesto se refiere a memorias profundas y generalmente silenciadas en el árbol genealógico relacionadas con relaciones sexuales o vínculos afectivos de carácter erótico entre miembros de la misma familia, ya sea vividas, forzadas, consentidas o solo insinuadas. Este tipo de información, incluso cuando no se menciona abiertamente, queda impregnada en el inconsciente familiar como una energía de transgresión, confusión emocional, culpa y desorden sistémico, y suele generar consecuencias en generaciones posteriores. En la biodecodificación, el incesto representa una ruptura de los límites naturales y simbólicos dentro del sistema familiar, provocando un desorden en la jerarquía, el lugar que ocupa cada miembro y en la estructura emocional del clan. Estas memorias pueden manifestarse en forma de bloqueos sexuales, dificultad para vincularse sanamente o culpa inconsciente por el deseo. Desde la mirada cuántica, el conflicto de incesto deja una distorsión energética muy profunda en el campo de las relaciones, del cuerpo, del deseo y del amor. El alma puede quedar atrapada entre la lealtad, el dolor y el silencio, repitiendo vínculos que confunden amor con invasión o deseo con castigo. Sanar este conflicto implica ordenar internamente el sistema familiar, devolver la responsabilidad a quien corresponde, recuperar los límites sagrados y restablecer el vínculo con el deseo sano, respetuoso y consciente. Solo desde esa integración puede emerger un nuevo linaje, libre de confusión, miedo y culpa.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/14",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "PANICO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE ABORTO",
+                                text: `El conflicto transgeneracional de aborto se refiere a memorias dolorosas y muchas veces silenciadas en el árbol genealógico relacionadas con abortos espontáneos o provocados, hijos no nacidos, embarazos interrumpidos o no reconocidos, que no fueron integrados ni elaborados emocional o simbólicamente. Estas experiencias suelen quedar como duelos no resueltos, secretos de familia o ausencias no nombradas, dejando huellas profundas en el inconsciente familiar. En la biodecodificación, el aborto se asocia con conflictos de culpa, pérdida, negación, miedo a la vida o a la maternidad, así como también con desórdenes en la línea generacional. La vida que no fue reconocida genera una información inconsciente de exclusión, y puede traer consecuencias tanto para quienes vivieron el aborto directamente como para las generaciones siguientes. Desde la mirada cuántica, el conflicto de aborto representa una vida que existió, aunque sea brevemente, y cuya energía necesita ser reconocida y honrada. La información de ese ser, aunque no haya encarnado plenamente, sigue formando parte del sistema. Sanar este conflicto implica incluir simbólicamente a ese hijo, hermana/o o ser no nacido, traer luz a lo que fue silenciado, liberar la culpa y permitir que el linaje fluya con amor, respeto y orden. Así, el alma puede dejar de cargar con ausencias ajenas y habitar su propia vida desde la presencia plena.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/15",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "PENA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE HIJO CON CONDICIÓN NEUROLÓGICA",
+                                text: `El conflicto transgeneracional de tener un hijo con retraso mental o con una condición neurológica (como discapacidad intelectual, autismo u otras variantes del neurodesarrollo) se refiere a memorias en el árbol genealógico vinculadas con culpas heredadas, necesidad de reparación familiar, sacrificios no reconocidos o vínculos simbióticos con el sistema. Muchas veces, estas situaciones se viven como cargas inconscientes, donde el hijo representa mucho más que un individuo: lleva el peso de historias no resueltas. Desde la mirada cuántica, un hijo con una condición neurológica no viene “fallado”: viene a activar una transformación profunda en el linaje, a quebrar patrones de control, juicio, perfeccionismo y exigencia. Es un alma que elige encarnar de esa forma para permitir que los demás miembros despierten empatía, amor incondicional, compasión, paciencia y verdad. La sanación no se trata de “corregir” al hijo, sino de liberar al sistema del peso del sacrificio, honrar la misión del alma de ese ser y permitir que todos ocupen su lugar con dignidad, respeto y amor.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/16",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "PESIMISMO",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE HIJO ILEGÍTIMO",
+                                text: `El conflicto transgeneracional de hijo ilegítimo se refiere a memorias en el árbol genealógico vinculadas con nacimientos fuera del matrimonio, hijos no reconocidos, ocultos, negados o rechazados por razones morales, sociales o religiosas. Estas historias, muchas veces silenciadas o cargadas de vergüenza, generan programas inconscientes de exclusión, culpa, desvalorización o necesidad de compensar, que afectan a las siguientes generaciones. En la biodecodificación, un hijo ilegítimo representa un quiebre en el orden familiar, una fractura entre el amor y el deber, y suele estar vinculado a heridas de rechazo, abandono, humillación y desprotección. Cuando no se nombra, el sistema familiar intenta “compensar” esa exclusión a través de repeticiones, síntomas o vínculos difíciles. Desde la mirada cuántica, el conflicto de hijo ilegítimo guarda una energía de exclusión, silencio y desorden sistémico, donde alguien queda fuera del amor, del apellido o de la historia. La sanación ocurre cuando se reconoce esa vida como legítima, se le devuelve su lugar en el sistema familiar, y se honra su existencia sin juicio. Solo cuando todos los hijos son incluidos con amor, el árbol puede liberar su energía y permitir que las generaciones futuras vivan relaciones más libres, conscientes y completas.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/17",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "POSPONER",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE ABANDONO",
+                                text: `El conflicto transgeneracional de abandono se refiere a memorias heredadas en el árbol genealógico relacionadas con ausencias físicas o emocionales de figuras importantes, como padres, madres, parejas o cuidadores. Estas vivencias pueden haber sido reales (desaparición, muerte, alejamiento) o simbólicas (presencias frías, indiferentes o emocionalmente inaccesibles), pero generan una herida profunda de desprotección, desamor y soledad, que muchas veces se transmite inconscientemente a las siguientes generaciones. En la biodecodificación, el abandono representa una vivencia de ruptura en el vínculo afectivo primario, que afecta directamente el sentido de pertenencia, la autoestima, la seguridad interior y la capacidad de confiar en otros. El abandono deja una marca emocional que muchas veces se revive a lo largo de la vida, a través de vínculos inestables, dependencia afectiva o miedo a perder. Desde la mirada cuántica, el conflicto de abandono interrumpe la conexión con la fuente interior de amor y con la confianza en el fluir de la vida. El alma que hereda esta información puede sentirse separada de su esencia, buscando afuera lo que no encontró adentro. La sanación llega cuando se reconoce la herida original, se honra el dolor vivido, y se restablece el vínculo con el amor propio, la pertenencia al sistema familiar y la certeza de que nunca estamos realmente solos.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/18",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "PREOCUPACION",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE FRACASO",
+                                text: `El conflicto transgeneracional de fracaso se refiere a memorias heredadas en el árbol genealógico relacionadas con metas no alcanzadas, negocios o relaciones que no prosperaron, proyectos truncados, elecciones condenadas por el entorno, o sueños que terminaron en decepción. Estas vivencias, si no fueron elaboradas emocionalmente, generan mandatos inconscientes de no intentar, no arriesgar, no destacar o no triunfar, por miedo a repetir el mismo destino. En la biodecodificación, el fracaso suele ser interpretado como una pérdida de valor personal, activando emociones de desvalorización, culpa, frustración o vergüenza. Cuando un ancestro fue tildado de “fracaso” o vivió una caída significativa, esa energía queda encapsulada en el árbol, impidiendo que los descendientes accedan plenamente a su poder personal y capacidad de manifestación. Desde la mirada cuántica, el fracaso no es un error, sino una experiencia de aprendizaje que el alma necesita integrar para evolucionar. Sin embargo, cuando se vive como una identidad heredada, bloquea el acceso al poder creador, al propósito y a la confianza interna. La sanación ocurre cuando se devuelven las cargas de fracaso al pasado, se honra el intento de quienes vinieron antes, y se elige crear desde la libertad, no desde el miedo. El verdadero éxito es vivir en coherencia con el alma, más allá de los resultados.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/19",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "QUEJA",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO DE VERGÜENZA",
+                                text: `El conflicto transgeneracional de vergüenza se refiere a memorias heredadas dentro del árbol genealógico asociadas a humillaciones, errores expuestos, situaciones ridiculizantes, secretos deshonrosos o actos condenados social o moralmente, que no fueron elaborados emocionalmente ni integrados por el sistema familiar. Esta información, muchas veces silenciada o tapada, genera programas de autocensura, represión, baja autoestima y miedo a la exposición. En la biodecodificación, la vergüenza se vive como una herida profunda de desvalorización, donde el ser humano siente que no es digno de ser amado, visto o aceptado. A diferencia de la culpa, que remite a algo que “se hizo”, la vergüenza apunta a algo que “se es”, generando una percepción interna de no pertenecer. Desde la mirada cuántica, la vergüenza actúa como un velo que desconecta al alma de su autenticidad y su poder creador. Cuando se heredan emociones de deshonra o exposición, el alma tiende a esconderse, a minimizarse, a evitar ser vista. Sanar este conflicto implica reconocer que la historia no define el valor del ser, devolver la vergüenza a su origen y permitir que la verdad interior emerja con dignidad, compasión y libertad. Solo desde ahí es posible vivir con presencia, pertenencia y poder personal.`,
+                                fieldText: true,
+                                separation: true
                             },
                             {
                                 linkName: "petalo-3/1/2/20",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "RABIA",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/2/21",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "RENCOR",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/2/22",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "SUFRIMIENTO",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/2/23",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "SUMISION",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/2/24",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "TEMOR",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/1/2/25",
-                                image: 'boton3',
-                                titlePage: "Patrones Mentales B",
-                                title: "TIMIDEZ",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales B",
+                                title: "CONFLICTO POR EVENTO QUE ENSUCIA LA IMAGEN FAMILIAR",
+                                text: `El conflicto transgeneracional por evento que ensucia la imagen familiar se refiere a memorias heredadas en el árbol genealógico relacionadas con hechos vividos como “vergonzosos”, “deshonrosos” o “inapropiados” por las normas sociales, morales o culturales de la época, que afectaron la reputación del clan o la percepción externa de la familia. Estos eventos, muchas veces ocultos o negados, generan silencios, exclusiones, culpas colectivas o compensaciones inconscientes en las siguientes generaciones. En la biodecodificación, este tipo de evento genera una fuerte carga emocional de vergüenza, lealtad y sacrificio, afectando el valor personal, la expresión auténtica y la capacidad de brillar. Muchas veces, una generación posterior carga con la responsabilidad inconsciente de “limpiar” el apellido, de “reparar” la imagen, o de no destacarse para evitar ser señalada nuevamente. Desde la mirada cuántica, este conflicto bloquea la posibilidad de vivir desde la verdad del alma, porque el foco está en mantener una imagen, no en expresar la esencia. La sanación ocurre cuando se reconoce la humanidad detrás del error, se permite que cada miembro del clan ocupe su lugar con dignidad, y se honra el derecho de cada alma a ser libre, auténtica y luminosa, más allá de la historia familiar. Liberarse de este mandato es permitirse vivir sin culpa, sin máscaras y sin miedo al juicio.`,
+                                fieldText: true,
+                                separation: true
                             }
                         ]
                     },
+                    {
+                        linkName: "petalo-3/1/3",
+                        image: "boton3",
+                        iconCenter: "simbolo3",
+                        title: "C",
+                        index: 2,
+                        colorBorder: "green",
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/1/3/1",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE SECRETOS FAMILIARES",
+                                text: `El conflicto transgeneracional de secretos familiares se refiere a información silenciada, distorsionada o directamente ocultada dentro del árbol genealógico, relacionada con hechos dolorosos, vergonzosos, traumáticos o moralmente cuestionados. Estos secretos, aunque no se nombren, generan una vibración energética de ocultamiento, miedo, confusión o desorden, que impacta a las siguientes generaciones, muchas veces sin que sepan por qué. En la biodecodificación, los secretos familiares son vistos como cargas emocionales congeladas, que al no poder ser expresadas ni elaboradas, buscan una vía de salida en los descendientes. Es común que alguien en generaciones posteriores reproduzca síntomas, actitudes, emociones o situaciones similares, como forma de “hacer visible lo que fue escondido”. Desde la mirada cuántica, los secretos familiares son información atrapada en la oscuridad, que sigue generando desequilibrio hasta que es traída a la luz. El alma que hereda un secreto suele tener el impulso interno de revelar, liberar, ordenar o hablar lo que fue negado. La sanación ocurre cuando se reconoce que la verdad no destruye, sino que libera, y que honrar el dolor pasado con compasión y conciencia es lo que permite cortar el ciclo del silencio y recuperar el flujo de amor, orden y autenticidad dentro del sistema familiar.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/2",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE PATRONES DE ABUSO",
+                                text: `El conflicto transgeneracional de patrones de abuso se refiere a la repetición inconsciente de situaciones en las que una persona es víctima o victimario de abuso, ya sea físico, emocional, psicológico, sexual o económico. Estos patrones pueden originarse en memorias familiares donde se naturalizó la violencia, se encubrieron situaciones abusivas o se justificaron conductas dominantes o manipuladoras, instalando un campo energético de control, sometimiento o silencio. En la biodecodificación, el abuso representa una vivencia de invasión, desvalorización y pérdida de poder personal. Cuando estos hechos no son reconocidos ni elaborados, se convierten en programas activos en el inconsciente familiar, y se repiten a través de vínculos disfuncionales, relaciones tóxicas o actitudes de sometimiento o agresión. Desde la mirada cuántica, los patrones de abuso son distorsiones en la percepción del amor, el poder y el valor personal. Cuando no se reconocen, el alma queda atrapada en vínculos de repetición, creyendo que debe pagar, reparar o sobrevivir. La sanación ocurre cuando se rompe el ciclo del silencio, se devuelve la responsabilidad a quien corresponde, y se recupera el derecho a amar sin dolor, a vincularse con respeto y a vivir en un entorno seguro. La liberación de estos patrones abre la puerta a una nueva manera de habitar el amor: desde la dignidad, la libertad y la integridad.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/3",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE DIVORCIO O SEPARACIÓN",
+                                text: `El conflicto transgeneracional de divorcio o separación se refiere a memorias heredadas en el árbol genealógico vinculadas con rupturas afectivas dolorosas, abandonos, separaciones forzadas o divorcios vividos con culpa, vergüenza, juicio social o sufrimiento profundo. Estas experiencias no elaboradas emocionalmente generan programas inconscientes que pueden influir en los vínculos actuales, llevando a repetir patrones de ruptura, miedo al compromiso o dificultad para sostener relaciones sanas. En la biodecodificación, el divorcio representa una ruptura del lazo de pareja que pone en tensión la seguridad emocional, la identidad familiar y el sentido de pertenencia. Desde la mirada cuántica, el conflicto de separación o divorcio puede mantener al alma atrapada en una frecuencia de ruptura, lealtad al sufrimiento o evitación del amor verdadero. Sanar este conflicto implica honrar las decisiones de quienes se separaron, reconocer que cada vínculo cumplió una función evolutiva, y permitir que el amor pueda vivirse hoy desde la libertad, la autenticidad y la conciencia. Solo así es posible crear relaciones nuevas, libres del dolor heredado.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/4",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE RIVALIDADES FAMILIARES",
+                                text: `El conflicto transgeneracional de rivalidades familiares se refiere a memorias heredadas en el árbol genealógico vinculadas a competencias, celos, comparaciones, enfrentamientos o enemistades entre hermanos, primos, padres e hijos u otros miembros del clan, que dejaron una huella de separación, resentimiento o lucha por el reconocimiento. Estas experiencias, muchas veces no resueltas ni nombradas, generan tensiones invisibles que se repiten en nuevas generaciones como lealtades inconscientes o mandatos de conflicto. En la biodecodificación, las rivalidades dentro del sistema familiar rompen el orden natural del amor y del respeto entre los miembros, instalando patrones de comparación, desvalorización o exclusión. Desde la mirada cuántica, las rivalidades familiares reflejan un desequilibrio en la energía de pertenencia, amor y valoración dentro del sistema. Cuando se perpetúa el conflicto, el alma queda atrapada en el juicio, la comparación o la necesidad de destacar para sentir que merece un lugar. La sanación ocurre cuando se reconoce el valor único de cada miembro del sistema, se sueltan los roles heredados, y se honra el derecho de todos a ser vistos, amados y respetados tal como son. Solo así es posible recuperar la armonía interna y la paz entre generaciones.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/5",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE DESCONFIANZA INTERPERSONAL",
+                                text: `El conflicto transgeneracional de desconfianza interpersonal se refiere a memorias heredadas dentro del árbol genealógico relacionadas con traiciones, estafas, abandonos, engaños o situaciones de abuso de confianza, que dejaron una huella emocional profunda y no resuelta. Esta información suele instalarse en el inconsciente como un mecanismo de defensa heredado, que afecta la forma de vincularse con los demás y bloquea la apertura emocional genuina. En la biodecodificación, la desconfianza nace de una experiencia previa de daño, que activa mecanismos de alerta, control y protección. Cuando en el árbol alguien fue gravemente traicionado o se sintió expuesto por confiar, esa información se transmite a las siguientes generaciones como un mandato de desconfiar antes que volver a sufrir. Desde la mirada cuántica, la desconfianza interpersonal representa una barrera energética que interfiere en la conexión auténtica con los demás y con la propia esencia. El alma que hereda esta información suele vivir a la defensiva, esperando el daño como una forma de protegerse. La sanación ocurre cuando se reconoce que confiar no es exponerse ingenuamente, sino permitir que el amor fluya con conciencia, discernimiento y verdad. Al liberar esta carga, se abre el camino a vínculos más honestos, presentes y empáticos.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/6",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE EXPECTATIVAS ACADÉMICAS NO CUMPLIDAS",
+                                text: `El conflicto transgeneracional de expectativas académicas no cumplidas se refiere a memorias heredadas dentro del árbol genealógico vinculadas a proyectos de estudio interrumpidos, carreras abandonadas, sueños profesionales frustrados o exigencias educativas impuestas por la familia, que dejaron una huella de culpa, frustración, desvalorización o presión sobre las siguientes generaciones. En la biodecodificación, la educación representa mucho más que una formación intelectual: está relacionada con el valor personal, el reconocimiento, el éxito social y el cumplimiento de mandatos familiares. Cuando alguien en el sistema no logró “ser lo que la familia esperaba”, esa experiencia puede transmitirse como una herida no resuelta o como una meta pendiente a cumplir por otros. Desde la mirada cuántica, este conflicto representa un desalineamiento entre la vocación del alma y los mandatos del sistema. Cuando alguien estudia para cumplir expectativas ajenas, desconecta su aprendizaje del propósito interior. La sanación ocurre cuando se honran las renuncias del pasado, se suelta la necesidad de compensar, y se elige aprender desde el deseo genuino, no desde la deuda. Solo así el conocimiento se convierte en expansión del ser, y no en una prisión invisible.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/7",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE COMPETENCIA DESTRUCTIVA ENTRE HERMANOS",
+                                text: `El conflicto transgeneracional de competencia destructiva entre hermanos se refiere a memorias heredadas en el árbol genealógico relacionadas con rivalidades intensas, celos, comparaciones, luchas por amor, poder, reconocimiento o herencia entre hermanos, que generaron dolor, separación o desunión familiar. Cuando estas tensiones no fueron sanadas, se instalan como programas de conflicto y comparación permanente en las siguientes generaciones. En la biodecodificación, los hermanos representan un espejo emocional de lo que fuimos en nuestros primeros vínculos. Cuando hay competencia destructiva, suele haber una lucha inconsciente por obtener el amor exclusivo de los padres, la validación o el lugar en el sistema. Si uno fue favorecido y otro relegado, esa descompensación queda grabada como injusticia emocional. Desde la mirada cuántica, la competencia destructiva entre hermanos indica una fractura en el campo del amor fraterno, que mantiene a las almas atrapadas en roles de lucha, injusticia o necesidad de aprobación. Sanar este conflicto implica reconocer que hay lugar para todos, que cada hermano tiene un propósito único, y que el amor verdadero no se divide, se multiplica. Solo cuando se suelta la necesidad de competir, puede emerger la verdadera hermandad basada en el respeto, el apoyo mutuo y la libertad de ser.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/8",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE FALTA DE COMUNICACIÓN",
+                                text: `El conflicto transgeneracional de falta de comunicación se refiere a memorias heredadas dentro del árbol genealógico donde las emociones, pensamientos, deseos o necesidades no fueron expresados, escuchados ni validados, generando patrones de silencio, incomunicación, malentendidos o represión emocional. En la biodecodificación, la comunicación está relacionada con la expresión de la identidad, la liberación emocional y la capacidad de conectar auténticamente con el otro. Cuando en la familia se vivieron experiencias donde hablar fue peligroso, inútil o motivo de castigo, el sistema desarrolla mecanismos de protección que impiden decir lo que realmente se piensa o se siente. Desde la mirada cuántica, la falta de comunicación bloquea el flujo de la energía entre las personas y también con uno mismo. El alma queda atrapada entre lo que siente y lo que no se anima a mostrar. La sanación llega cuando se recupera el derecho a hablar con amor y claridad, se suelta el miedo a las consecuencias del decir, y se honra la voz interna como expresión sagrada del ser. Hablar desde el corazón restaura el orden, la conexión y la libertad.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/9",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE SUMISIÓN",
+                                text: `El conflicto transgeneracional de sumisión se refiere a memorias heredadas en el árbol genealógico donde uno o varios miembros de la familia fueron sometidos, silenciados o condicionados a obedecer sin cuestionar, ya sea en vínculos de pareja, relaciones familiares, estructuras religiosas, laborales o sociales. Este patrón se instala como una renuncia al poder personal, generando actitudes de obediencia forzada, resignación y dificultad para tomar decisiones propias. En la biodecodificación, la sumisión representa una forma de supervivencia emocional. Está relacionada con heridas de rechazo, abandono y humillación, y muchas veces con el miedo a perder el amor o el lugar en el clan si uno se muestra auténtico o se rebela. Desde la mirada cuántica, el conflicto de sumisión bloquea el acceso a la libertad del alma, al poder personal y a la manifestación auténtica. El alma que repite este patrón suele vivir desde la necesidad de agradar, evitando conflictos a costa de su verdad interna. Sanar este conflicto implica reconocer el valor propio, recuperar la voz, soltar la necesidad de aprobación y elegir desde el amor propio y la conciencia. Solo así es posible construir una vida libre, coherente y plena.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/10",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE CONDICIONES SOCIOECONÓMICAS CAMBIANTES",
+                                text: `El conflicto transgeneracional de condiciones socioeconómicas cambiantes se refiere a memorias heredadas en el árbol genealógico relacionadas con altibajos financieros bruscos, cambios repentinos de estatus social, pérdida o adquisición inesperada de bienes, migraciones forzadas o adaptaciones obligadas a nuevas realidades económicas. Estos eventos, cuando no fueron integrados emocionalmente, generan inseguridad, miedo a lo imprevisto, inestabilidad interna o dificultad para sostener la abundancia. En la biodecodificación, los cambios bruscos en el entorno económico generan una sensación de desarraigo, vulnerabilidad o pérdida de control, afectando la percepción del merecimiento, la estabilidad y la confianza en el futuro. Si los ancestros vivieron situaciones donde “de la noche a la mañana lo perdieron todo” o donde debieron adaptarse a nuevas realidades con mucho esfuerzo, esa energía puede repetirse como un patrón en los descendientes. Desde la mirada cuántica, el conflicto de condiciones socioeconómicas cambiantes puede mantener al alma en un estado de supervivencia o hipervigilancia, impidiendo conectar con el presente y con la certeza interna. La sanación llega cuando se reconoce que el valor personal no depende del contexto externo, se honra la capacidad de adaptación heredada y se elige confiar en la abundancia como un estado interno, no como algo que depende de las circunstancias. Así, el alma puede vivir en paz, aún en medio del movimiento.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/11",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE INFERTILIDAD",
+                                text: `El conflicto transgeneracional de infertilidad se refiere a memorias heredadas en el árbol genealógico relacionadas con la imposibilidad de concebir hijos, abortos espontáneos repetidos, pérdidas gestacionales, maternidad/paternidad no deseada o imposiciones sobre la función reproductiva, que generaron dolor, frustración, culpa o miedo. Estas vivencias pueden quedar registradas en el inconsciente familiar como mandatos contradictorios entre el deseo de tener hijos y el temor profundo a repetir un sufrimiento ancestral. En la biodecodificación, la fertilidad no solo es una función física, sino una expresión de creación, continuidad, deseo y conexión con el linaje. Cuando el inconsciente detecta que concebir puede representar dolor, exclusión o peligro (emocional, físico o espiritual), puede generar bloqueos invisibles que impiden la fecundación o el sostenimiento del embarazo. Desde la mirada cuántica, la infertilidad puede reflejar un bloqueo energético en el centro creador del ser, vinculado al miedo, la herida ancestral o la desconexión con el propósito del alma. Sanar este conflicto implica reconocer el dolor oculto en el árbol, liberar los mandatos inconscientes y reconectar con el poder de crear vida (física, emocional, espiritual o simbólica) desde un lugar de amor, deseo y libertad. La verdadera fertilidad nace cuando se honra el pasado sin cargarlo.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/12",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE TRAICIÓN",
+                                text: `El conflicto transgeneracional de traición se refiere a memorias heredadas dentro del árbol genealógico vinculadas a actos de deslealtad, engaño, abandono emocional, infidelidades o rupturas de confianza profundas, que dejaron huellas de dolor, resentimiento, desconfianza y necesidad de control. Estas vivencias no elaboradas emocionalmente se transmiten como heridas invisibles, que pueden repetirse en vínculos afectivos, laborales o familiares a lo largo de generaciones. En la biodecodificación, la traición es una de las heridas emocionales más profundas, ya que rompe la base del amor y de la seguridad emocional. Cuando alguien es traicionado por una persona significativa (pareja, padre, madre, hermano, amigo), el sistema nervioso graba esa experiencia como una amenaza, lo que puede activar mecanismos de protección y aislamiento emocional en los descendientes. Desde la mirada cuántica, el conflicto de traición corta el flujo natural de la confianza, del amor libre y de la entrega auténtica. El alma que hereda este patrón suele vivir a la defensiva, impidiendo que la energía del amor fluya sin miedo. Sanar esta memoria implica reconocer el dolor del pasado, soltar las lealtades invisibles al sufrimiento y elegir vivir desde una nueva frecuencia de confianza, verdad y apertura al amor consciente. Solo así es posible construir vínculos sanos, libres y profundamente transformadores.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/13",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE REPRESIÓN EMOCIONAL",
+                                text: `El conflicto transgeneracional de represión emocional se refiere a memorias heredadas dentro del árbol genealógico vinculadas a la negación, ocultamiento o bloqueo de emociones como la tristeza, la rabia, el miedo o incluso el amor, por mandato familiar, contexto social o necesidad de supervivencia. Estas vivencias generan una estructura emocional rígida que se transmite como mandato silencioso de no sentir, no expresar y no incomodar. En la biodecodificación, reprimir emociones no es solo una actitud, sino una adaptación biológica y energética para evitar el dolor, el rechazo o el castigo. Cuando en el árbol hubo generaciones que no pudieron expresar lo que sentían, esa energía queda bloqueada en el sistema, y los descendientes pueden cargar con síntomas físicos, ansiedad o dificultad para conectar con su mundo interno. Desde la mirada cuántica, la represión emocional bloquea el flujo natural de energía en el cuerpo y en el alma. Las emociones son información sagrada que necesita ser reconocida y liberada. Sanar este conflicto implica honrar el dolor heredado, permitirse sentir sin juicio y recuperar la libertad de expresar la verdad emocional. Solo así es posible vivir con autenticidad, sensibilidad y conexión con el ser.`,
+                                fieldText: true,
+                                separation: true
+                            },
+                            {
+                                linkName: "petalo-3/1/3/14",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Transgeneracionales C",
+                                title: "CONFLICTO DE PODER O CONTROL",
+                                text: `El conflicto transgeneracional de poder o control se refiere a memorias heredadas dentro del árbol genealógico relacionadas con abusos de autoridad, sometimiento, relaciones dominantes, manipulación emocional o estructuras familiares donde alguien ejercía poder absoluto sobre los demás. Estas vivencias dejan huellas de desequilibrio, miedo a expresarse libremente o necesidad de ejercer control como mecanismo de defensa. En la biodecodificación, el conflicto de poder se asocia a la lucha por el lugar, la identidad y el derecho a elegir. Puede surgir tanto desde el rol de quien dominó (ejerció el poder de forma autoritaria o invasiva) como desde el rol de quien fue dominado (calló, se adaptó o se anuló para sobrevivir). Ambas posturas generan programas inconscientes que se transmiten como mandatos familiares. Desde la mirada cuántica, el conflicto de poder o control bloquea la fluidez del amor, la cooperación y el liderazgo consciente. El alma que hereda esta memoria suele vibrar entre el miedo a someterse y el miedo a dominar. Sanar este conflicto implica reconocer los excesos del pasado, devolver la energía del control a su origen y abrirse a una nueva forma de vincularse: desde el respeto, la libertad y el poder interior equilibrado. El verdadero poder no somete: inspira, ordena y libera.`,
+                                fieldText: true,
+                                separation: true
+                            }
+                            
+                        ]
+                    }
+
                 ]
             },
             {
                 linkName: "petalo-3/2",
                 image: 'boton3',
-                title: "COMPORTAMIENTOS COTIDIANOS",
+                iconCenter: "simbolo3",
+                title: "CONFLICTO DE PROGRAMACIÓN PRENATAL",
                 noNumbers: true,
-                text: "En este punto se encuentran varias opciones las cuales vivimos cotidianamente en lo personal, social y en el plano sexual, tratar de liberarnos de estos comportamientos hace que tengamos una vida más plena y armoniosa. (Se anularon los siguientes comportamientos)",
+                text: "Este conflicto se refiere a las expectativas, deseos y miedos de los padres antes y durante el embarazo que, inconscientemente, influyen en el propósito o “programación” de la vida del hijo. Si, por ejemplo, los padres esperaban que el hijo resolviera sus problemas o compensara una pérdida, este puede cargar con expectativas que limitan su libertad. También puede incluir expectativas de género, como el deseo de tener un hijo varón cuando nace una niña, lo que puede afectar la identidad o la autoimagen de la persona.",
                 subPetalos: [
                     {
                         linkName: "petalo-3/2/1",
                         image: 'boton3',
+                        iconCenter: 'simbolo3',
                         title: "A",
                         index: 0,
                         colorBorder: "red",
                         subPetalos: [
-                            {
+                           {
                                 linkName: "petalo-3/2/1/1",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "ABUSO",
-                                text: "El abuso puede manifestarse de diversas formas en la vida cotidiana, incluyendo el abuso físico, emocional, psicológico, sexual, financiero o de cualquier otra índole. Puede ocurrir en relaciones interpersonales, entornos laborales, instituciones educativas, contextos familiares, comunidades e incluso a nivel societal. Este ejemplo puede ser interpretado como un acto de abuso, ya sea hacia uno mismo o hacia los demás... (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN PARA UNIR A MIS PADRES",
+                                text: `Cuando la llegada del bebé responde al deseo o la esperanza de recomponer una relación de pareja, se imprime en su campo de origen una función reparadora. El hijo es concebido con el objetivo de evitar una separación, sostener el vínculo o cumplir el rol de conexión entre dos personas que se estaban alejando. Esta forma de inicio puede generar un patrón de vida centrado en cuidar los vínculos ajenos, sostener el equilibrio de otros o sentirse responsable de preservar la unidad familiar, aún a costa de sí mismo.`
                             },
                             {
                                 linkName: "petalo-3/2/1/2",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "ANORGASMIA",
-                                text: "La anorgasmia es la incapacidad persistente para alcanzar el orgasmo, más común en mujeres. Las causas pueden ser físicas (trastornos hormonales, medicamentos, condiciones médicas) o psicológicas (estrés, ansiedad, menopausia, conflictos de pareja). Por otro lado, esta corrección a nivel simbólico nos puede estar diciendo que no podemos obtener placer en algún área de nuestra vida. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN POR ACCIDENTE",
+                                text: `En los casos donde la concepción no fue planeada ni buscada, el comienzo de la vida se encuentra marcado por la sorpresa o incluso la resistencia inicial. Aunque con el tiempo pueda haber habido aceptación, la información energética que se registra es la de un evento imprevisto. Esta percepción puede dar lugar a cuestionamientos internos sobre el lugar que se ocupa en el mundo, la legitimidad para estar o el derecho a elegir libremente el propio camino.`
                             },
                             {
                                 linkName: "petalo-3/2/1/3",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "ASCO SEXUAL",
-                                text: "Es un estado de repugnancia o aversión que experimenta una persona hacia algo que percibe como sucio, desagradable o inmundo. Desde un punto de vista simbólico o metafórico, el asco puede representar una reacción emocional ante situaciones, acciones o características que son moralmente o éticamente reprensibles, inaceptables o degradantes para la persona que lo experimenta. Puede implicar una sensación de desprecio o desdén hacia algo considerado deplorable o indigno. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN NEGADA O NO RECONOCIDA",
+                                text: `Cuando el embarazo es negado o silenciado por uno o ambos padres, se genera un campo de origen donde la presencia del hijo no es reconocida abiertamente. Esta situación puede dejar una huella vinculada a la ocultación, al temor de ser descubierto o al impulso de mantenerse en segundo plano. La persona que nace bajo este patrón puede mostrar dificultad para exponerse, para pedir lo que necesita o para sentirse parte de forma natural dentro de un grupo o sistema.`
                             },
                             {
                                 linkName: "petalo-3/2/1/4",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "ASEXUAL",
-                                text: "Indica que no experimenta atracción hacia el placer sexual en ninguna de sus formas. Esta orientación puede estar relacionada con diversos factores como bloqueos en los Chakras, experiencias negativas pasadas, miedos, traumas o desequilibrios hormonales. También podría sugerir que la pareja actual no despierta excitación o deseo. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN EN UNA RECONCILIACIÓN",
+                                text: `Cuando el embarazo ocurre durante un proceso de reconciliación entre los padres, el inicio de vida se encuentra atravesado por la tensión propia de las relaciones inestables. La llegada del hijo aparece como parte de un intento de reconstrucción o renovación, y esto puede fijar en el campo energético una sensación de haber sido convocado para equilibrar o compensar una historia que venía quebrada. Puede surgir un patrón interno que reacciona ante los conflictos o crisis tratando de mediar, calmar o restaurar el orden perdido.`
                             },
                             {
                                 linkName: "petalo-3/2/1/5",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                fieldText: true,
-                                useDesc: true,
-                                useText: true,
-                                title: "BARRERA EMOCIONAL GENITAL",
-                                text: "Obstáculo emocional que afecta la capacidad para experimentar una conexión emocional o íntima en el ámbito sexual. Esta barrera puede manifestarse como dificultades para relacionarse sexualmente con otras personas, sentir miedo, ansiedad o bloqueo emocional durante encuentros íntimos, o tener dificultades para experimentar placer sexual debido a traumas, conflictos internos o creencias limitantes. (Aquí anulamos las siguientes emociones)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN DURANTE UN DUELO",
+                                text: `Cuando la fecundación tiene lugar en medio de un proceso de pérdida —ya sea la muerte de un familiar, una separación o una pérdida simbólica significativa— el inicio de la vida se instala en un campo donde el dolor y el cierre de un ciclo están activos. El bebé que llega puede quedar vinculado energéticamente a esa experiencia, construyendo vínculos con la ausencia, con lo que ya no está o con la sensación de ocupar un lugar que no le era propio originalmente.`
                             },
                             {
                                 linkName: "petalo-3/2/1/6",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "BLOQUEO ENERGÉTICO GENITAL",
-                                text: "Interrupción o limitación del flujo de energía vital en la región genital del cuerpo humano. Al abordar un bloqueo energético genital trabajamos para desbloquear e equilibrar la energía estancada en la zona genital. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN POSTERIOR A UN ABORTO",
+                                text: `Cuando se concibe un nuevo hijo luego de un aborto previo, el inicio de esta nueva vida se encuentra cargado por el impacto emocional del embarazo anterior. Aunque el deseo de traer vida pueda ser auténtico, la experiencia del hijo anterior se entrelaza con la del que llega, generando una posible fusión simbólica. El nuevo ser puede nacer con la percepción de tener que compensar lo que no fue, o de ocupar un espacio que pertenecía a otro, construyendo su identidad sobre una base ambigua.`
                             },
                             {
                                 linkName: "petalo-3/2/1/7",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "BLOQUEOS QUE IMPIDEN DISFRUTAR",
-                                text: "Obstáculos que interfieren con la capacidad para experimentar plenamente el placer, la alegría o la satisfacción en diversos aspectos de la vida. Abordar estos bloqueos puede implicar explorar y trabajar a través de las emociones, resolver traumas pasados, desafiar y cambiar creencias limitantes, practicar la autoaceptación y el autocuidado, y aprender nuevas habilidades de afrontamiento para manejar los desafíos emocionales que surgen. El objetivo es liberar estos bloqueos para permitir una mayor apertura, satisfacción y disfrute en la vida y las relaciones. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN POSTERIOR A LA PÉRDIDA DE UN HIJO",
+                                text: `Cuando un bebé llega luego del fallecimiento de un hijo anterior, el sistema familiar vive ese embarazo como una esperanza renovada, pero también como un intento de restaurar algo que fue irremediablemente perdido. En este contexto, el nuevo hijo puede quedar simbólicamente vinculado al anterior, cargando con expectativas, comparaciones o silencios que marcan su desarrollo. La referencia de fondo suele estar puesta en una historia no resuelta, que sigue viva a través de su presencia.`
                             },
                             {
                                 linkName: "petalo-3/2/1/8",
-                                image: 'boton3',
-                                fieldText: true,
-                                useDesc: true,
-                                useText: true,
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "BLOQUEO AL DAR/RECIBIR",
-                                text: "Son obstáculos que interfieren con la capacidad para dar de manera desinteresada y recibir de manera receptiva en diversas interacciones y relaciones humanas. Este bloqueo puede tener un impacto significativo en las relaciones interpersonales, ya que pueden crear desequilibrios en la dinámica de dar y recibir, causar resentimiento, frustración o malentendidos, y dificultar la construcción de conexiones profundas y satisfactorias. El objetivo es cultivar una relación más equilibrada y gratificante con la capacidad de dar y recibir en todas las áreas de la vida. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN POSTERIOR A UN ACTO DE PROSTITUCIÓN",
+                                text: `Cuando la concepción ocurre a través de un encuentro sexual vinculado a una transacción económica o un intercambio sin conexión afectiva, el cuerpo que gesta queda atravesado por una dinámica funcional. En estos casos, el inicio de la vida se inscribe en una situación donde el valor, la pertenencia o el consentimiento pueden estar desdibujados. A lo largo del tiempo, esto puede influir en la forma en que la persona se relaciona con su cuerpo, con su autoestima o con la noción de reciprocidad en los vínculos.`
                             },
                             {
                                 linkName: "petalo-3/2/1/9",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "COMPLEJOS",
-                                text: "Se refiere a un patrón persistente de pensamientos, sentimientos o creencias negativas y distorsionadas sobre uno mismo, que afectan la percepción y el comportamiento de una persona de manera significativa. Estos complejos pueden tener su origen en experiencias pasadas, traumas, interacciones sociales, influencias culturales o creencias internalizadas que dan forma a la autoimagen y la autoestima de la persona. Los complejos pueden manifestarse en diferentes áreas de la vida, como la apariencia física, las habilidades sociales, la inteligencia, la valía personal, entre otros. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "FECUNDACIÓN NO DESEADA POR PARTE DEL PADRE",
+                                text: `En los casos donde el padre no desea la concepción del hijo, aunque no se niegue a su presencia, se imprime en el origen una energía de no aceptación que proviene del lado masculino. Esta información puede establecer una distancia entre el hijo y la figura paterna, ya sea a través de la ausencia, el juicio o el desinterés. También puede generar tensiones en la forma de vincularse con la autoridad, con la acción concreta o con la afirmación personal frente al mundo exterior.`
                             },
                             {
                                 linkName: "petalo-3/2/1/10",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "TRAUMAS",
-                                text: "Un trauma psicológico es una respuesta abrumadora a un evento que amenaza la vida o la integridad emocional de una persona. Estos eventos pueden ser únicos, como un accidente grave o un desastre natural, o pueden ser experiencias repetidas de abuso o negligencia. Los traumas pueden dejar una marca duradera en la mente y el cuerpo de una persona, afectando su capacidad para funcionar en la vida diaria y relacionarse con los demás. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal A",
+                                title: "CONCEPCIÓN MEDIANTE VIENTRE DE ALQUILER",
+                                text: `Cuando el embarazo se produce en el cuerpo de una madre sustituta, el origen biológico y el lazo emocional se desarrollan de manera no convencional. Aunque el amor y el deseo de recibir al bebé estén presentes, el proceso implica una separación entre quien gesta y quien cría. Esta configuración puede reflejarse en la forma en que la persona se vincula con la pertenencia, con la raíz o con su identidad más profunda. También pueden surgir preguntas sobre la propia historia, sobre el origen o sobre los lazos que definen su construcción interna.`
                             },
                             {
                                 linkName: "petalo-3/2/1/11",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "COMPORTAMIENTO INFANTIL",
-                                text: "El infantilismo se refiere a un estado en el que una persona muestra características o comportamientos típicos de un niño, incluso en la edad adulta. Esto puede manifestarse en diversas formas, como dificultad para asumir responsabilidades adultas, dependencia excesiva de los demás, falta de autonomía, expresión emocional inmadura, entre otros. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal B",
+                                title: "BEBÉ DE PROBETA (FECUNDACIÓN IN VITRO)",
+                                text: `La fecundación en laboratorio introduce una variable técnica en el proceso de creación de la vida. Aunque el deseo de los padres sea profundo, el inicio se realiza sin contacto físico directo entre ellos. Esta forma de origen puede fijar una percepción de la vida ligada a lo estructurado, a lo planificado o a lo racional. En algunos casos, puede generar un distanciamiento con lo instintivo o con el fluir natural de los procesos. La historia personal puede desarrollarse bajo la idea de que todo debe justificarse o construirse con esfuerzo meticuloso.`
                             },
                             {
                                 linkName: "petalo-3/2/1/12",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "CONFLICTOS DE CREENCIAS SEXUALES",
-                                text: "Los conflictos moralistas sexuales surgen cuando las normas y expectativas morales de una persona chocan con sus deseos y comportamientos sexuales. Estas tensiones pueden llevar a sentimientos de culpa, vergüenza o conflicto interno, y pueden influir en la manera en que una persona vive y expresa su sexualidad. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal B",
+                                title: "FECUNDACIÓN NO DESEADA POR LA FAMILIA PATERNA",
+                                text: `Cuando la familia del padre rechaza el embarazo o intenta impedirlo, la llegada del hijo se encuentra rodeada de tensiones externas que condicionan el modo en que es recibido. Esta situación puede fijar una percepción de no pertenecer completamente al linaje masculino, o de tener que luchar por ser reconocido. A lo largo del tiempo, pueden desarrollarse conflictos con la autoridad paterna o con la integración plena en la historia del clan de ese lado.`
                             },
                             {
                                 linkName: "petalo-3/2/1/13",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "CONFLICTOS RELIGIOSOS SEXUALES",
-                                text: "Los conflictos religiosos sexuales se pueden definir como tensiones emocionales, cognitivas y sociales que surgen cuando las creencias religiosas y las normas relacionadas con la sexualidad entran en conflicto con los deseos, necesidades y valores individuales en este ámbito. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal B",
+                                title: "FECUNDACIÓN NO DESEADA POR PARTE DE LA MADRE",
+                                text: `Cuando la madre no desea embarazarse, ya sea por cuestiones personales, sociales o económicas, esa información queda registrada en el campo del bebé. Aunque el embarazo continúe, el inicio de la vida se produce en una atmósfera de duda o resistencia. Esto puede generar un patrón interno donde la persona cuestiona su lugar, duda de sus decisiones o se siente limitada al expresarse plenamente. También puede surgir la percepción de haber llegado en un momento inadecuado.`
                             },
                             {
                                 linkName: "petalo-3/2/1/14",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "CONVICCIÓN SOBRE TUS DESEOS",
-                                text: "La convicción sobre tus deseos puede influir en varios aspectos de la vida de una persona, incluida su motivación, su persistencia ante los desafíos y su capacidad para superar obstáculos. Cuando alguien tiene una fuerte convicción sobre sus deseos, es más probable que se comprometa con las acciones necesarias para alcanzarlos, incluso en situaciones difíciles. (Incorporado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal B",
+                                title: "CONCEPCIÓN POR VIOLACIÓN",
+                                text: `Cuando el embarazo ocurre como resultado de un acto sin consentimiento, la entrada al mundo queda marcada por un profundo quiebre. La concepción se da en un contexto donde el cuerpo fue vulnerado, y la historia comienza sin acuerdo ni deseo compartido. Esta experiencia puede impactar de manera estructural en la forma de habitar el cuerpo, de establecer vínculos o de interpretar la idea de origen. El inicio puede sentirse desvinculado del amor o de la protección, generando desafíos en la construcción de la propia identidad.`
                             },
                             {
                                 linkName: "petalo-3/2/1/15",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "CULPABILIDAD",
-                                text: "La culpabilidad se refiere a un sentimiento de responsabilidad o remordimiento que experimenta una persona cuando cree que ha cometido un error, infringido una norma moral o causado daño a alguien. Este sentimiento puede surgir tanto por acciones reales como por percepciones subjetivas de lo que se considera incorrecto. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal B",
+                                title: "FECUNDACIÓN DESEADA POR LA FAMILIA MATERNA",
+                                text: `Cuando el embarazo es alentado o impuesto por la familia de la madre, el hijo llega como respuesta a un mandato, una presión o una expectativa ajena. La concepción ocurre no tanto por un deseo personal, sino como forma de cumplir una exigencia externa. Esto puede fijar un patrón en el que la persona se vincula con la vida desde la obligación, la necesidad de cumplir o el miedo a decepcionar. También puede sentirse en deuda con quienes promovieron su llegada.`
                             },
                             {
                                 linkName: "petalo-3/2/1/16",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "DESCONOCIMIENTO SOBRE TUS ANHELOS",
-                                text: "Sería la falta de comprensión acerca de tus aspiraciones, deseos o metas personales. Es la incapacidad de identificar o comprender lo que verdaderamente deseas en la vida o lo que te motiva profundamente. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal B",
+                                title: "CONCEPCIÓN DURANTE UNA GUERRA O CONTEXTO VIOLENTO",
+                                text: `Cuando la vida se inicia en medio de una situación extrema, como una guerra, una persecución o una realidad marcada por la supervivencia, el campo de origen queda impregnado por una sensación de urgencia y amenaza. Esta información puede determinar una forma de percibir el entorno como inestable o riesgoso, e influir en la forma de responder ante los desafíos de la vida cotidiana. También puede instalar un registro profundo de tensión frente al cambio, al futuro o a la exposición.`
                             },
                             {
                                 linkName: "petalo-3/2/1/17",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "ESCLAVITUD",
-                                text: "Es un estado en el que una persona pierde su autonomía, libertad y capacidad de elección debido a la dominación de otro individuo o grupo, esto puede experimentarse de manera real o simbólica. (Anulado)"
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal B",
+                                title: "CONCEPCIÓN POR INFIDELIDAD",
+                                text: `Cuando la llegada del bebé ocurre fuera del marco de una relación exclusiva, y uno de los padres mantiene una pareja estable con otra persona, el inicio de vida se sitúa en medio de un triángulo vincular complejo. El hijo puede nacer en un contexto de ocultamiento, tensión y contradicción. Esto puede influir en la manera de relacionarse con la verdad, con los vínculos y con el derecho a ocupar un lugar legítimo. La historia personal puede desarrollarse entre lo visible y lo que debe mantenerse en secreto.`
                             },
                             {
                                 linkName: "petalo-3/2/1/18",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "EYACULACIÓN PRECOZ (Anulado)",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/2/1/19",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "FETICHE (Anulado)",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/2/1/20",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "FRIGIDEZ (Anulado)",
-                                text: ""
-                            },
-                            {
-                                linkName: "petalo-3/2/1/21",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
-                                title: "HOMOFOBIA (Anulado)",
-                                text: ""
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Programación Prenatal B",
+                                title: "CONCEPCIÓN POR DINERO (INTERCAMBIO, PRESIÓN O MANIPULACIÓN)",
+                                text: `Cuando el embarazo se produce como resultado de un acuerdo económico, una presión o una conveniencia material, el inicio de la vida se instala en un contexto donde los valores afectivos y humanos se subordinan a intereses externos. Esta configuración puede marcar una tendencia a relacionarse con el mundo desde la obligación, la utilidad o la deuda simbólica. La historia puede desarrollarse bajo la percepción de tener que compensar o justificar constantemente el esfuerzo que implicó su llegada.`
                             }
                         ],
                     },
