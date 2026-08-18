@@ -31,9 +31,9 @@ const SPHERE_NUM = [
 ];
 
 const SPHERE_ICON = {
-  red: A("icon_petalo-1"),
-  orange: A("icon_emocional"),
-  yellow: A("icon_mental"),
+  red: A("icon_simbolo1"),
+  orange: A("icon_simbolo2"),
+  yellow: A("icon_simbolo3"),
   greenLight: A("icon_materia"),
   purple: A("icon_presencia"),
   blueLight: A("icon_umbral"),
@@ -62,13 +62,14 @@ const COLOR_MAP = {
 };
 
 const PETALO_CONFIG = {
-  red: { label: "Corazón", svgName: "icon_petalo-1", dx: 5, dy: -183 },
-  orange: { label: "Emocional", svgName: "icon_emocional", dx: 192, dy: -93 },
-  yellow: { label: "Mental", svgName: "icon_mental", dx: 237, dy: 105 },
-  greenLight: { label: "Materia", svgName: "icon_materia", dx: 102, dy: 272 },
-  purple: { label: "Presencia", svgName: "icon_presencia", dx: -95, dy: 270 },
-  blueLight: { label: "Umbral", svgName: "icon_umbral", dx: -227, dy: 105 },
-  blue: { label: "Arquetipo", svgName: "icon_arqueotipo", dx: -178, dy: -98 },
+
+  red: { label: "Corazón", svgName: "icon_simbolo1", dx: 0, dy: -237 },
+  orange: {label: "Emocional",svgName: "icon_simbolo2",dx: 187,dy: -147},
+  yellow: {label: "Mental",svgName: "icon_simbolo3", dx: 232, dy: 51},
+  greenLight: { label: "Materia", svgName: "icon_materia", dx: 97, dy: 218 },
+  purple: { label: "Presencia", svgName: "icon_presencia", dx: -100, dy: 216},
+  blueLight: { label: "Umbral", svgName: "icon_umbral", dx: -232, dy: 51},
+  blue: { label: "Arquetipo", svgName: "icon_arqueotipo", dx: -183, dy: -152},
 };
 
 const NUMBER_COLORS = [
@@ -410,12 +411,13 @@ const PageContainer = styled.div`
 `;
 
 const ButtonsContainerCenter = styled.div`
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  position: relative;
-  @media (min-height: 600px) and (max-width: 539px) { margin-top: -70px; }
 `;
 
 const DarkOverlay = styled.div`
@@ -428,7 +430,7 @@ const DarkOverlay = styled.div`
 
 const CenterOuter = styled.div`
   position: absolute;
-  top: ${({ $circuloBase }) => ($circuloBase ? "57%" : "50%")};
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: ${floatCenter} 5s ease-in-out infinite;
@@ -511,17 +513,68 @@ const OrbitalRing = styled.div`
 `;
 
 const PetaloWrapperAbs = styled.div`
-  position: absolute;
-  top:  calc(50% + ${({ $dy }) => $dy}px);
+   position: absolute;
+
+  top: calc(50% + ${({ $dy }) => $dy}px);
   left: calc(50% + ${({ $dx }) => $dx}px);
-  transform: translate(-50%, -50%);
-  @media (max-width: 860px) {
-    top:  calc(50% + ${({ $dy }) => Math.round($dy * 0.75)}px);
-    left: calc(50% + ${({ $dx }) => Math.round($dx * 0.75)}px);
+
+  transform: translate(-50%, -50%) scale(
+    ${({ $scale }) => $scale || 1}
+  );
+
+  @media (max-width: 1400px) {
+    top: calc(
+      50% + ${({ $dy }) => Math.round($dy * 0.95)}px
+    );
+    left: calc(
+      50% + ${({ $dx }) => Math.round($dx * 0.95)}px
+    );
+
+    transform: translate(-50%, -50%) scale(0.95);
   }
-  @media (max-width: 540px) {
-    top:  calc(50% + ${({ $dy }) => Math.round($dy * 0.52)}px);
-    left: calc(50% + ${({ $dx }) => Math.round($dx * 0.52)}px);
+
+  @media (max-width: 1200px) {
+    top: calc(
+      50% + ${({ $dy }) => Math.round($dy * 0.85)}px
+    );
+    left: calc(
+      50% + ${({ $dx }) => Math.round($dx * 0.85)}px
+    );
+
+    transform: translate(-50%, -50%) scale(0.85);
+  }
+
+  @media (max-width: 1000px) {
+    top: calc(
+      50% + ${({ $dy }) => Math.round($dy * 0.75)}px
+    );
+    left: calc(
+      50% + ${({ $dx }) => Math.round($dx * 0.75)}px
+    );
+
+    transform: translate(-50%, -50%) scale(0.75);
+  }
+
+  @media (max-width: 800px) {
+    top: calc(
+      50% + ${({ $dy }) => Math.round($dy * 0.65)}px
+    );
+    left: calc(
+      50% + ${({ $dx }) => Math.round($dx * 0.65)}px
+    );
+
+    transform: translate(-50%, -50%) scale(0.65);
+  }
+
+  @media (max-width: 600px) {
+    top: calc(
+      50% + ${({ $dy }) => Math.round($dy * 0.55)}px
+    );
+    left: calc(
+      50% + ${({ $dx }) => Math.round($dx * 0.55)}px
+    );
+
+    transform: translate(-50%, -50%) scale(0.55);
   }
 `;
 

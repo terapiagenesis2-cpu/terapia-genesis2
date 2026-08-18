@@ -45,10 +45,7 @@ const petalos = [
             },
             {
                 linkName: "petalo-1/2", title: "Activar campo magnetico del corazon", image: 'boton1', iconCenter: 'simbolo1', subPetalos: [
-                    {
-
-                    },
-
+                   
                 ]
             },
             {
@@ -1963,7 +1960,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/1",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN PARA UNIR A MIS PADRES",
                                 text: `Cuando la llegada del bebé responde al deseo o la esperanza de recomponer una relación de pareja, se imprime en su campo de origen una función reparadora. El hijo es concebido con el objetivo de evitar una separación, sostener el vínculo o cumplir el rol de conexión entre dos personas que se estaban alejando. Esta forma de inicio puede generar un patrón de vida centrado en cuidar los vínculos ajenos, sostener el equilibrio de otros o sentirse responsable de preservar la unidad familiar, aún a costa de sí mismo.`
                             },
@@ -1971,7 +1968,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/2",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN POR ACCIDENTE",
                                 text: `En los casos donde la concepción no fue planeada ni buscada, el comienzo de la vida se encuentra marcado por la sorpresa o incluso la resistencia inicial. Aunque con el tiempo pueda haber habido aceptación, la información energética que se registra es la de un evento imprevisto. Esta percepción puede dar lugar a cuestionamientos internos sobre el lugar que se ocupa en el mundo, la legitimidad para estar o el derecho a elegir libremente el propio camino.`
                             },
@@ -1979,7 +1976,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/3",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN NEGADA O NO RECONOCIDA",
                                 text: `Cuando el embarazo es negado o silenciado por uno o ambos padres, se genera un campo de origen donde la presencia del hijo no es reconocida abiertamente. Esta situación puede dejar una huella vinculada a la ocultación, al temor de ser descubierto o al impulso de mantenerse en segundo plano. La persona que nace bajo este patrón puede mostrar dificultad para exponerse, para pedir lo que necesita o para sentirse parte de forma natural dentro de un grupo o sistema.`
                             },
@@ -1987,7 +1984,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/4",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN EN UNA RECONCILIACIÓN",
                                 text: `Cuando el embarazo ocurre durante un proceso de reconciliación entre los padres, el inicio de vida se encuentra atravesado por la tensión propia de las relaciones inestables. La llegada del hijo aparece como parte de un intento de reconstrucción o renovación, y esto puede fijar en el campo energético una sensación de haber sido convocado para equilibrar o compensar una historia que venía quebrada. Puede surgir un patrón interno que reacciona ante los conflictos o crisis tratando de mediar, calmar o restaurar el orden perdido.`
                             },
@@ -1995,7 +1992,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/5",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN DURANTE UN DUELO",
                                 text: `Cuando la fecundación tiene lugar en medio de un proceso de pérdida —ya sea la muerte de un familiar, una separación o una pérdida simbólica significativa— el inicio de la vida se instala en un campo donde el dolor y el cierre de un ciclo están activos. El bebé que llega puede quedar vinculado energéticamente a esa experiencia, construyendo vínculos con la ausencia, con lo que ya no está o con la sensación de ocupar un lugar que no le era propio originalmente.`
                             },
@@ -2003,7 +2000,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/6",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN POSTERIOR A UN ABORTO",
                                 text: `Cuando se concibe un nuevo hijo luego de un aborto previo, el inicio de esta nueva vida se encuentra cargado por el impacto emocional del embarazo anterior. Aunque el deseo de traer vida pueda ser auténtico, la experiencia del hijo anterior se entrelaza con la del que llega, generando una posible fusión simbólica. El nuevo ser puede nacer con la percepción de tener que compensar lo que no fue, o de ocupar un espacio que pertenecía a otro, construyendo su identidad sobre una base ambigua.`
                             },
@@ -2011,7 +2008,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/7",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN POSTERIOR A LA PÉRDIDA DE UN HIJO",
                                 text: `Cuando un bebé llega luego del fallecimiento de un hijo anterior, el sistema familiar vive ese embarazo como una esperanza renovada, pero también como un intento de restaurar algo que fue irremediablemente perdido. En este contexto, el nuevo hijo puede quedar simbólicamente vinculado al anterior, cargando con expectativas, comparaciones o silencios que marcan su desarrollo. La referencia de fondo suele estar puesta en una historia no resuelta, que sigue viva a través de su presencia.`
                             },
@@ -2019,7 +2016,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/8",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN POSTERIOR A UN ACTO DE PROSTITUCIÓN",
                                 text: `Cuando la concepción ocurre a través de un encuentro sexual vinculado a una transacción económica o un intercambio sin conexión afectiva, el cuerpo que gesta queda atravesado por una dinámica funcional. En estos casos, el inicio de la vida se inscribe en una situación donde el valor, la pertenencia o el consentimiento pueden estar desdibujados. A lo largo del tiempo, esto puede influir en la forma en que la persona se relaciona con su cuerpo, con su autoestima o con la noción de reciprocidad en los vínculos.`
                             },
@@ -2027,7 +2024,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/9",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "FECUNDACIÓN NO DESEADA POR PARTE DEL PADRE",
                                 text: `En los casos donde el padre no desea la concepción del hijo, aunque no se niegue a su presencia, se imprime en el origen una energía de no aceptación que proviene del lado masculino. Esta información puede establecer una distancia entre el hijo y la figura paterna, ya sea a través de la ausencia, el juicio o el desinterés. También puede generar tensiones en la forma de vincularse con la autoridad, con la acción concreta o con la afirmación personal frente al mundo exterior.`
                             },
@@ -2035,7 +2032,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/10",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal A",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN MEDIANTE VIENTRE DE ALQUILER",
                                 text: `Cuando el embarazo se produce en el cuerpo de una madre sustituta, el origen biológico y el lazo emocional se desarrollan de manera no convencional. Aunque el amor y el deseo de recibir al bebé estén presentes, el proceso implica una separación entre quien gesta y quien cría. Esta configuración puede reflejarse en la forma en que la persona se vincula con la pertenencia, con la raíz o con su identidad más profunda. También pueden surgir preguntas sobre la propia historia, sobre el origen o sobre los lazos que definen su construcción interna.`
                             },
@@ -2043,7 +2040,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/11",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal B",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "BEBÉ DE PROBETA (FECUNDACIÓN IN VITRO)",
                                 text: `La fecundación en laboratorio introduce una variable técnica en el proceso de creación de la vida. Aunque el deseo de los padres sea profundo, el inicio se realiza sin contacto físico directo entre ellos. Esta forma de origen puede fijar una percepción de la vida ligada a lo estructurado, a lo planificado o a lo racional. En algunos casos, puede generar un distanciamiento con lo instintivo o con el fluir natural de los procesos. La historia personal puede desarrollarse bajo la idea de que todo debe justificarse o construirse con esfuerzo meticuloso.`
                             },
@@ -2051,7 +2048,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/12",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal B",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "FECUNDACIÓN NO DESEADA POR LA FAMILIA PATERNA",
                                 text: `Cuando la familia del padre rechaza el embarazo o intenta impedirlo, la llegada del hijo se encuentra rodeada de tensiones externas que condicionan el modo en que es recibido. Esta situación puede fijar una percepción de no pertenecer completamente al linaje masculino, o de tener que luchar por ser reconocido. A lo largo del tiempo, pueden desarrollarse conflictos con la autoridad paterna o con la integración plena en la historia del clan de ese lado.`
                             },
@@ -2059,7 +2056,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/13",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal B",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "FECUNDACIÓN NO DESEADA POR PARTE DE LA MADRE",
                                 text: `Cuando la madre no desea embarazarse, ya sea por cuestiones personales, sociales o económicas, esa información queda registrada en el campo del bebé. Aunque el embarazo continúe, el inicio de la vida se produce en una atmósfera de duda o resistencia. Esto puede generar un patrón interno donde la persona cuestiona su lugar, duda de sus decisiones o se siente limitada al expresarse plenamente. También puede surgir la percepción de haber llegado en un momento inadecuado.`
                             },
@@ -2067,7 +2064,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/14",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal B",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN POR VIOLACIÓN",
                                 text: `Cuando el embarazo ocurre como resultado de un acto sin consentimiento, la entrada al mundo queda marcada por un profundo quiebre. La concepción se da en un contexto donde el cuerpo fue vulnerado, y la historia comienza sin acuerdo ni deseo compartido. Esta experiencia puede impactar de manera estructural en la forma de habitar el cuerpo, de establecer vínculos o de interpretar la idea de origen. El inicio puede sentirse desvinculado del amor o de la protección, generando desafíos en la construcción de la propia identidad.`
                             },
@@ -2075,7 +2072,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/15",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal B",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "FECUNDACIÓN DESEADA POR LA FAMILIA MATERNA",
                                 text: `Cuando el embarazo es alentado o impuesto por la familia de la madre, el hijo llega como respuesta a un mandato, una presión o una expectativa ajena. La concepción ocurre no tanto por un deseo personal, sino como forma de cumplir una exigencia externa. Esto puede fijar un patrón en el que la persona se vincula con la vida desde la obligación, la necesidad de cumplir o el miedo a decepcionar. También puede sentirse en deuda con quienes promovieron su llegada.`
                             },
@@ -2083,7 +2080,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/16",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal B",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN DURANTE UNA GUERRA O CONTEXTO VIOLENTO",
                                 text: `Cuando la vida se inicia en medio de una situación extrema, como una guerra, una persecución o una realidad marcada por la supervivencia, el campo de origen queda impregnado por una sensación de urgencia y amenaza. Esta información puede determinar una forma de percibir el entorno como inestable o riesgoso, e influir en la forma de responder ante los desafíos de la vida cotidiana. También puede instalar un registro profundo de tensión frente al cambio, al futuro o a la exposición.`
                             },
@@ -2091,7 +2088,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/17",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal B",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN POR INFIDELIDAD",
                                 text: `Cuando la llegada del bebé ocurre fuera del marco de una relación exclusiva, y uno de los padres mantiene una pareja estable con otra persona, el inicio de vida se sitúa en medio de un triángulo vincular complejo. El hijo puede nacer en un contexto de ocultamiento, tensión y contradicción. Esto puede influir en la manera de relacionarse con la verdad, con los vínculos y con el derecho a ocupar un lugar legítimo. La historia personal puede desarrollarse entre lo visible y lo que debe mantenerse en secreto.`
                             },
@@ -2099,7 +2096,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/18",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Programación Prenatal B",
+                                titlePage: "Punto Cero del Ser A",
                                 title: "CONCEPCIÓN POR DINERO (INTERCAMBIO, PRESIÓN O MANIPULACIÓN)",
                                 text: `Cuando el embarazo se produce como resultado de un acuerdo económico, una presión o una conveniencia material, el inicio de la vida se instala en un contexto donde los valores afectivos y humanos se subordinan a intereses externos. Esta configuración puede marcar una tendencia a relacionarse con el mundo desde la obligación, la utilidad o la deuda simbólica. La historia puede desarrollarse bajo la percepción de tener que compensar o justificar constantemente el esfuerzo que implicó su llegada.`
                             }

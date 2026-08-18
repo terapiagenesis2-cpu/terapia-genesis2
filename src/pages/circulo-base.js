@@ -8,6 +8,9 @@ import {Background} from "../components/Commons";
 import historySave from "../components/navigation/History";
 import {Alert} from "@mui/material";
 import {useState} from "react";
+import fondo from "../images/fondoG5D.jpg";
+
+
 const createdPages = require('../../../createdPages.json');
 
 const CirculoBase = () => {
@@ -45,7 +48,7 @@ const CirculoBase = () => {
     ];
 
     return <LoginCheck>
-        <Background style={{backgroundImage: `url(/images/fondoG5D.jpg)`}}>
+        <Background style={{backgroundImage: `url(${fondo})`}}>
             <img
             src={logo}
             alt="test"
