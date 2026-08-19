@@ -58,12 +58,6 @@ const Index = () => {
           <Brand to="/">
             <Logo src={logo} alt="Génesis" />
           </Brand>
-
-          <Nav>
-            <NavA href="#sobre">Sobre la terapia</NavA>
-            <NavA href="#equipo">Equipo</NavA>
-            <NavA href="#contacto">Contacto</NavA>
-          </Nav>
         </TopBar>
 
         <Center>
@@ -142,28 +136,6 @@ const Logo = styled.img`
   height: 100px;
   object-fit: contain;
   filter: drop-shadow(0 8px 18px rgba(0,0,0,0.55));
-`;
-
-const Nav = styled.nav`
-  display: flex;
-  gap: 28px;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
-`;
-
-const NavA = styled.a`
-  text-decoration: none;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
-  color: rgba(255,255,255,0.9);
-  font-size: 14px;
-  font-weight: 500;
-
-  &:hover {
-    color: rgba(255,255,255,1);
-    text-shadow: 0 0 16px rgba(255,255,255,0.18);
-  }
 `;
 
 const Center = styled.main`

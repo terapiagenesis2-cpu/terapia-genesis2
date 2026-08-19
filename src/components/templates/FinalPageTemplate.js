@@ -11,16 +11,31 @@ import createAndSendPDF from "../apis/pdf-email";
 import {Alert, TextField} from "@mui/material";
 import {petalos} from "../../../static/data";
 import { useRamificacion } from "../../context/RamificacionContext"; // Ajustá la ruta si es necesario
+import { useCorreccion } from "../../context/LegadoContext";
+import { useLocation } from "@reach/router";
 import { LegadoButton  } from "../navigation/LegadoButton";
+import SidePanel from "../navigation/SidePanel";
+
 const FinalPageTemplate = ({ pageContext }) => {
 
-    const [isTextFieldFocused, setIsTextFieldFocused] = useState(false);
-    const [showAlertRamificar, setShowAlertRamificar] = useState(false);
-    const [showAlertBorrar, setShowAlertBorrar] = useState(false);
-    const [showAlertCorreccion, setShowAlertCorreccion] = useState(false);
-    const { isRamificando, setIsRamificando } = useRamificacion();
-    const [open, setOpen] = useState(false);
+  const [isTextFieldFocused, setIsTextFieldFocused] = useState(false);
+  const [showAlertRamificar, setShowAlertRamificar] = useState(false);
+  const [showAlertBorrar, setShowAlertBorrar] = useState(false);
+  const [showAlertCorreccion, setShowAlertCorreccion] = useState(false);
+  const { isRamificando, setIsRamificando } = useRamificacion();
+  const { isCorreccion, setIsCorreccion } = useCorreccion();
+  const location = useLocation();
 
+  // Estado del panel lateral (reemplaza el antiguo open del menú flotante)
+  const [panelOpen, setPanelOpen] = useState(false);
+
+  // Corrección solo visible en estas rutas (igual que LegadoButton)
+  const mostrarCorreccion = [
+    "/circulo-base/petalo-3/2/2/5/",
+    "/circulo-base/petalo-3/2/2/5/1/",
+    "/circulo-base/petalo-3/2/2/5/2/",
+    "/circulo-base/petalo-3/2/2/5/3/"
+  ].includes(location.pathname);
 
     const handleRamificar = () => {
         let history = localStorage.getItem("history");
@@ -66,8 +81,25 @@ const FinalPageTemplate = ({ pageContext }) => {
                         
         localStorage.setItem("history", JSON.stringify(history));
     };
-    const handlePDF = () =>{
-        createAndSendPDF().then(r => console.log("PDF CREADO CORRECTAMENTE"))
+    const handlePDF = () => createAndSendPDF().then(() => console.log("PDF CREADO CORRECTAMENTE"));
+    const irAOracionesSinBorrar = () => navigate("/intro-text5D");
+    const iniciarSesionNueva = () => {
+        localStorage.removeItem("paciente");
+        localStorage.removeItem("dob");
+        localStorage.removeItem("problems");
+        localStorage.setItem("history", JSON.stringify([]));
+        navigate("/intro-text5D");
+    };
+    const volverAlLegado = () => navigate("/circulo-base/petalo-3/2/2/5/");
+    const handleCorreccion = () => {
+        let history = localStorage.getItem("history");
+        if (!history) history = [];
+        else history = JSON.parse(history);
+        setIsCorreccion(prev => !prev);
+        setShowAlertCorreccion(true);
+        setTimeout(() => setShowAlertCorreccion(false), 1000);
+        history.push("correccion");
+        localStorage.setItem("history", JSON.stringify(history));
     };
 
     useEffect(() => {
@@ -156,7 +188,9 @@ const FinalPageTemplate = ({ pageContext }) => {
     }
     return <LoginCheck>
         <PageContainer>
-            <Background style={{backgroundImage: `url(${imagePath})`}}>
+            <Background style={{
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(${imagePath})`
+            }}>
                 <Content>
                     {isRamificando && <ContainerAlert>
                         <Alert severity="info">
@@ -227,33 +261,25 @@ const FinalPageTemplate = ({ pageContext }) => {
 
                     <QuantumRaizButton/>
 
-                    <Container>
-                        <NavigationButtonsInLine linkName={pageContext.linkname} />
-                    </Container>
                 </Content>
                 
             </Background>
+            {/* ── PANEL LATERAL ── */}
+            <SidePanel
+                isOpen={panelOpen}
+                onToggle={() => setPanelOpen(prev => !prev)}
+                isRamificando={isRamificando}
+                isCorreccion={isCorreccion}
+                mostrarCorreccion={mostrarCorreccion}
+                onRamificar={handleRamificar}
+                onBorrar={handleBorrar}
+                onPDF={handlePDF}
+                onOraciones={irAOracionesSinBorrar}
+                onInicio={iniciarSesionNueva}
+                onLegado={volverAlLegado}
+                onCorreccion={handleCorreccion}
+            />
             
-            <BottomRightBox >
-                <Toggle onClick={() => setOpen(!open)}>
-                    <ToggleIcon 
-                        src={open ? "/images/simbolos/cancelar2.png" : "/images/simbolos/opciones2.png"} 
-                        alt="menu toggle" 
-                        
-                    />
-                </Toggle>
-                                                                        
-                <LoadButtons $open={open}>
-                    <LoadB src="/images/simbolos/Ramificacion.png" alt="Ramificacion" title="Ramificar" onClick={handleRamificar} />
-                    <LoadB src="/images/simbolos/descarga2.png" alt="GuardarPDF" title="Guardar como PDF" onClick={handlePDF} />
-                    <LoadB src="/images/simbolos/borrado.png" alt="Borrar Ultimo" title="Borrar Ultimo" onClick={handleBorrar} />
-                    <LoadB src="/images/simbolos/oraciones2.png" alt="Oraciones" title="Oraciones" onClick={() => navigate("/intro-text")} />
-                    <LoadB src="/images/simbolos/inicio2.png" alt="Inicio" title="Inicio" onClick={() => navigate('/indextg1')} />
-                    <LoadB src="/images/simbolos/legado.png" alt="Legado" title="Volver al Legado" onClick={() => navigate("/circulo-base/petalo-3/2/2/5/")} />
-                </LoadButtons>
-                                                
-            </BottomRightBox>
-            <LegadoButton/>
         </PageContainer>
     </LoginCheck>
 }

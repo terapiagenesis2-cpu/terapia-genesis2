@@ -56,28 +56,6 @@ const PetalosTemplate = ({ pageContext }) => {
             <Overlay>
                 <Container>
                     <NoCircleContainer>
-                        <Title scale={1} color={color}>
-                            {titlePage ? titlePage.toUpperCase() : ""}
-                        </Title>
-                        <Title scale={0.8} color={color}>
-                            {title ? title.toUpperCase() : ""}
-                        </Title>
-                        <ContainerHorizontal>
-                            <ResponsiveText scale={0.6} color={color}>
-                                Opciones {subPetalos.length}
-                            </ResponsiveText>
-                            {input !== 0 && <ThemeProvider theme={theme}>
-
-                                <TextField
-                                    id="standar-basic"
-                                    inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }}
-                                    value={input}
-                                    onChange={handleChange}
-                                    variant="standard"
-                                />
-                            </ThemeProvider>}
-
-                        </ContainerHorizontal>
                         {hasFieldText && (
                             <div
                                 style={{
@@ -134,6 +112,7 @@ const PetalosTemplate = ({ pageContext }) => {
                         bigButtonTitle={title}
                         centerIcon={`/genesis-assets/icon_${iconCenter}.svg`}
                         centerSphere={`/genesis-assets/center_${petaloRaiz}.svg`}
+                        subtitle={`${subPetalos.length} opciones`}
                         circuloBase={esCirculoBase}
                         petalos={subPetalos}
                         noNumber={noNumber}

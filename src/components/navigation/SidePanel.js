@@ -179,23 +179,27 @@ const ToggleBtn = styled.button`
   top: 50%;
   transform: translateY(-50%);
   z-index: 1100;
-  width: 28px;
-  height: 56px;
+  width: 24px;
+  height: 120px;
   background: rgba(30, 30, 30, 0.92);
   border: 1px solid rgba(255,255,255,0.12);
   border-right: none;
-  border-radius: 8px 0 0 8px;
+  border-radius: 10px 0 0 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1), background 0.2s;
   &:hover { background: rgba(50, 50, 50, 0.95); }
+
+  @media (max-width: 420px) {
+    right: ${({ $open }) => ($open ? 'calc(100vw - 24px)' : '0px')};
+  }
 `;
 
 const Arrow = styled.span`
   color: #00FFB2;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1;
   display: block;
   transform: ${({ $open }) => ($open ? 'rotate(0deg)' : 'rotate(180deg)')};
@@ -216,15 +220,17 @@ const Panel = styled.div`
   top: 0;
   right: 0;
   height: 100vh;
-  width: 374px;
+  width: ${({ $open }) => ($open ? '374px' : '0px')};
   z-index: 1090;
   background: rgba(18, 18, 18, 0.97);
   backdrop-filter: blur(12px);
   box-shadow: -4px 0 24px rgba(0,0,0,0.6);
   display: flex;
   flex-direction: column;
-  transform: ${({ $open }) => ($open ? 'translateX(0)' : 'translateX(100%)')};
-  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+  transform: translateX(0);
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: ${({ $open }) => ($open ? 'auto' : 'none')};
 
   @media (max-width: 420px) {

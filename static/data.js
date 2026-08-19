@@ -44,18 +44,14 @@ const petalos = [
                 ]
             },
             {
-                linkName: "petalo-1/2", title: "Activar campo magnetico del corazon", image: 'boton1', iconCenter: 'simbolo1', subPetalos: [
-                   
-                ]
+                linkName: "petalo-1/2", title: "Activar campo magnetico del corazon", image: 'boton1', iconCenter: 'simbolo1'
             },
             {
                 linkName: "petalo-1/3",
                 image: 'boton1',
                 iconCenter: 'simbolo1',
                 title: "Anular enojo en todos los niveles",
-                subPetalos: [
-                
-                ]
+               
             },
             {
                 linkName: "petalo-1/4", image: 'boton1', iconCenter: 'simbolo1', title: "Potenciar energia del Corazon", fieldText: true, useText: true, useDesc: true,
@@ -320,9 +316,7 @@ const petalos = [
                 
             },
             {
-                linkName: "petalo-1/12", image: 'boton1', title: "Anular EGO", text: "Aquí anulamos todo tipo de obstáculos o limitación que están impidiendo tu progreso o desarrollo en alguna área de tu vida, ya sea personal, profesional, emocional o en cualquier otro aspecto.", number: 8, subPetalos: [
-                   
-                ]
+                linkName: "petalo-1/12", image: 'boton1', title: "Anular EGO", text: "Aquí anulamos todo tipo de obstáculos o limitación que están impidiendo tu progreso o desarrollo en alguna área de tu vida, ya sea personal, profesional, emocional o en cualquier otro aspecto.", number: 8
             }
         ]
     },

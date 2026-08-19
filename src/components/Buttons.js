@@ -296,7 +296,7 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
 
   const SPHERE_SIZE = 148;
   const SPHERE_SIZE_NUM = 120;
-  const CENTER_SIZE = 200;
+  const CENTER_SIZE = 220;
   const ORBIT_RADIUS =
     petalos.length <= 3 ? 210 : 225;
   const ORBIT_RADIUS_CB = 410;
@@ -466,13 +466,13 @@ const CenterInner = styled.div`
 `;
 
 const HomeIcon = styled.img`
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
+  width: 68px;
+  height: 58px;
+  object-fit: fill;
   filter: brightness(0) invert(1);
   opacity: 0.95;
-  margin-bottom: 6px;
-  @media (max-width: 540px) { width: 22px; height: 22px; }
+  margin-bottom: 4px;
+  @media (max-width: 540px) { width: 28px; height: 22px; }
 `;
 
 const CenterLabel = styled.span`
@@ -480,22 +480,22 @@ const CenterLabel = styled.span`
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  letter-spacing: 0;
   text-transform: uppercase;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.15;
   padding: 0 12px;
   user-select: none;
-  @media (max-width: 540px) { font-size: 10px; letter-spacing: 1px; }
+  @media (max-width: 540px) { font-size: 11px; letter-spacing: 0; }
 `;
 
 const CenterSubtitle = styled.span`
   color: #a8a8a8;
   font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   text-align: center;
-  margin-top: 2px;
+  margin-top: 0;
   user-select: none;
   @media (max-width: 540px) { font-size: 11px; }
 `;
@@ -618,7 +618,7 @@ const PetaloInnerLabel = styled.span`
   bottom: 26%;
   left: 0; right: 0;
   color: rgba(220,225,235,0.92);
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -628,7 +628,7 @@ const PetaloInnerLabel = styled.span`
   text-shadow: 0 1px 6px rgba(0,0,0,0.9);
   user-select: none;
   z-index: 5;
-  @media (max-width: 540px) { font-size: 9px; }
+  @media (max-width: 540px) { font-size: 8px; }
 `;
 
 const PetaloText = styled.span`
@@ -640,15 +640,22 @@ const PetaloText = styled.span`
   z-index: 5;
   padding: ${({ $small }) => $small ? '0 8px' : '0'};
   color: white;
+  font-family: ${({ $small }) =>
+    $small ? "'Inter', sans-serif" : "'Roboto', Arial, sans-serif"};
 
   font-size: ${({ $small, $large }) =>
-    !$small ? '34px' : $large ? '30px' : '9px'};
+    !$small ? '42px' : $large ? '30px' : '9px'};
 
-  font-weight: ${({ $small }) => $small ? '700' : '400'};
+  font-weight: ${({ $small }) => $small ? '700' : '300'};
   text-align: center;
   line-height: 1;
-  text-shadow: 0 1px 10px rgba(0,0,0,0.8);
+  text-shadow: 0 2px 5px rgba(0,0,0,0.8);
   user-select: none;
+
+  @media (max-width: 540px) {
+    font-size: ${({ $small, $large }) =>
+      !$small ? '30px' : $large ? '24px' : '8px'};
+  }
 `;
 
 const ContainerAlert = styled.div`
