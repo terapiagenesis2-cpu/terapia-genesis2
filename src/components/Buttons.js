@@ -74,12 +74,12 @@ const PETALO_CONFIG = {
 
 const NUMBER_COLORS = [
   "#FF2D2D", "#FF8C00", "#FFD700", "#00C853",
-  "#B44DFF", "#00BFFF", "#3A6FFF", "#A0522D",
-  "#00FFB2", "#CC88CC",
+  "#B44DFF", "#00BFFF", "#3A6FFF", "#3A6FFF",
+  "#FFFFFF", "#FFD700",
 ];
 
 const getColorFromBorder = (text) => COLOR_MAP[text] ?? COLOR_MAP.default;
-const getColorFromNumber = (n) => NUMBER_COLORS[n] ?? COLOR_MAP.default;
+const getColorFromNumber = (n) => n in NUMBER_COLORS ? NUMBER_COLORS[n] : COLOR_MAP.default;
 
 const PI = Math.PI;
 const xPos = (angle, r) => Math.sin((angle * PI) / 180) * r;
@@ -104,21 +104,54 @@ const makeGlowAnim = (color) => keyframes`
   50%       { filter: drop-shadow(0 0 14px ${color}bb) drop-shadow(0 0 28px ${color}55); }
 `;
 
+const flashSourceAnim = (color) => keyframes`
+  0% { filter: drop-shadow(0 0 4px ${color}66); }
+  35% { filter: drop-shadow(0 0 24px ${color}) drop-shadow(0 0 48px ${color}aa); }
+  100% { filter: drop-shadow(0 0 4px ${color}44); }
+`;
+
+const softGlowAnim = keyframes`
+  0%, 100% { filter: drop-shadow(0 0 2px rgba(255,255,255,0.18)) drop-shadow(0 0 5px rgba(255,255,255,0.08)); }
+  50% { filter: drop-shadow(0 0 7px rgba(255,255,255,0.42)) drop-shadow(0 0 14px rgba(255,255,255,0.18)); }
+`;
+
 const floatCenter = keyframes`
   0%, 100% { transform: translate(-50%, -50%) translateY(0px); }
   50%       { transform: translate(-50%, -50%) translateY(-6px); }
 `;
 
+const orbitalPulse = keyframes`
+  0%, 100% {
+    opacity: 0.35;
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.12));
+  }
+  50% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 8px rgba(255,255,255,0.28));
+  }
+`;
+
+const centerRingPulse = keyframes`
+  0%, 100% {
+    opacity: 0.42;
+    box-shadow: 0 0 5px rgba(210, 225, 235, 0.14);
+  }
+  50% {
+    opacity: 0.9;
+    box-shadow: 0 0 18px rgba(210, 225, 235, 0.42);
+  }
+`;
+
 // ─────────────────────────────────────────────────────────────
 // ESFERA PÉTALO
 // ─────────────────────────────────────────────────────────────
-const PetaloSphere = ({ colorBorder, size = 138, label, onClick, isNumber, numberText, isSmallText }) => {
-  const color = getColorFromBorder(colorBorder);
+const PetaloSphere = ({ colorBorder, size = 138, label, onClick, isNumber, numberText, isSmallText, flashColor, glowColor, softGlow }) => {
+  const color = isNumber ? getColorFromNumber(numberText) : getColorFromBorder(colorBorder);
   const sphereSrc = isNumber ? SPHERE_NUM[numberText] : SPHERE_PETALO[colorBorder];
   const iconSrc = !isNumber && !isSmallText ? SPHERE_ICON[colorBorder] : null;
 
   return (
-    <PetaloOuter $color={color} $size={size} onClick={onClick}>
+    <PetaloOuter $color={glowColor || color} $flashColor={flashColor} $softGlow={softGlow} $size={size} onClick={onClick}>
       {sphereSrc && (
         <SphereLayer src={sphereSrc} alt="" style={{
           position: "absolute", top: 0, left: 0,
@@ -147,14 +180,7 @@ const PetaloSphere = ({ colorBorder, size = 138, label, onClick, isNumber, numbe
 const CenterSphere = ({ size = 250, onClick, title, centerIcon, centerSphere, subtitle, circuloBase }) => (
   <CenterOuter onClick={onClick} $circuloBase={circuloBase}>
     <CenterWrap $size={size}>
-      <div style={{
-        position: "absolute", top: "50%", left: "50%",
-        transform: "translate(-50%,-50%)",
-        width: size * 1.44, height: size * 1.44,
-        borderRadius: "50%",
-        border: "3px solid rgba(192,191,191,0.5)",
-        filter: "blur(1.75px)", pointerEvents: "none", zIndex: 0,
-      }} />
+      <CenterHalo $size={size} />
       <SphereLayer src={CENTER_RING_1} alt="" style={{
         position: "absolute", top: "-1.64%", left: "-1.64%",
         width: "103.3%", height: "103.3%",
@@ -182,10 +208,11 @@ const CenterSphere = ({ size = 250, onClick, title, centerIcon, centerSphere, su
 // ─────────────────────────────────────────────────────────────
 // COMPONENTE PRINCIPAL
 // ─────────────────────────────────────────────────────────────
-const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBase, onClick, noNumber, subtitle }) => {
+const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBase, onClick, noNumber, subtitle, flashColor, glowColor, softGlow }) => {
   const [showAlertRamificar, setShowAlertRamificar] = useState(false);
   const [showAlertBorrar, setShowAlertBorrar] = useState(false);
   const [showAlertCorreccion, setShowAlertCorreccion] = useState(false);
+  const [flashingIndex, setFlashingIndex] = useState(null);
   const { isRamificando, setIsRamificando } = useRamificacion();
   const { isCorreccion, setIsCorreccion } = useCorreccion();
   const location = useLocation();
@@ -259,6 +286,12 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
     localStorage.setItem("history", JSON.stringify(history));
   };
 
+  const handlePetaloClick = (index) => {
+    setFlashingIndex(index);
+    setTimeout(() => setFlashingIndex(null), 500);
+    onClick(index);
+  };
+
   // ── KEYBOARD SHORTCUTS ────────────────────────────────────
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -300,6 +333,9 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
   const ORBIT_RADIUS =
     petalos.length <= 3 ? 210 : 225;
   const ORBIT_RADIUS_CB = 410;
+  const ORBIT_RING_RADIUS = circuloBase
+    ? ORBIT_RADIUS_CB
+    : petalos.length <= 3 ? 150 : ORBIT_RADIUS;
 
   return (
     <PageContainer>
@@ -312,7 +348,7 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
         {showAlertCorreccion && <ContainerAlert><Alert severity="success">Correccion</Alert></ContainerAlert>}
 
         {/* Anillo orbital decorativo */}
-        <OrbitalRing $r={circuloBase ? ORBIT_RADIUS_CB : ORBIT_RADIUS} />
+        <OrbitalRing $r={ORBIT_RING_RADIUS} />
 
         {/* Botón central */}
         <CenterSphere
@@ -335,7 +371,10 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
                 colorBorder={petalo.colorBorder}
                 size={SPHERE_SIZE}
                 label={cfg.label}
-                onClick={() => onClick(petalo.index + 1)}
+                onClick={() => handlePetaloClick(petalo.index + 1)}
+                flashColor={flashingIndex === petalo.index + 1 ? flashColor : null}
+                glowColor={glowColor}
+                softGlow={softGlow}
               />
             </PetaloWrapperAbs>
           );
@@ -351,7 +390,10 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
                 size={SPHERE_SIZE_NUM}
                 isNumber
                 numberText={number}
-                onClick={() => onClick(number)}
+                onClick={() => handlePetaloClick(number)}
+                flashColor={flashingIndex === number ? flashColor : null}
+                glowColor={glowColor}
+                softGlow={softGlow}
               />
             </PetaloWrapper>
           );
@@ -367,7 +409,10 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
                 size={SPHERE_SIZE_NUM}
                 isSmallText
                 numberText={petalo.title}
-                onClick={() => onClick(petalo.index + 1)}
+                onClick={() => handlePetaloClick(petalo.index + 1)}
+                flashColor={flashingIndex === petalo.index + 1 ? flashColor : null}
+                glowColor={glowColor}
+                softGlow={softGlow}
               />
             </PetaloWrapper>
           );
@@ -454,6 +499,21 @@ const CenterWrap = styled.div`
   }
 `;
 
+const CenterHalo = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: ${({ $size }) => $size * 1.20}px;
+  height: ${({ $size }) => $size * 1.20}px;
+  border-radius: 50%;
+  border: 3px solid rgba(192,191,191,0.5);
+  filter: blur(1.75px);
+  pointer-events: none;
+  z-index: 0;
+  animation: ${centerRingPulse} 4s ease-in-out infinite;
+`;
+
 const CenterInner = styled.div`
   position: absolute;
   inset: 0;
@@ -508,6 +568,7 @@ const OrbitalRing = styled.div`
   border-radius: 50%;
   border: 1px solid rgba(255,255,255,0.05);
   transform: translate(-50%, -50%);
+  animation: ${orbitalPulse} 5s ease-in-out infinite;
   pointer-events: none;
   z-index: 1;
 `;
@@ -598,7 +659,10 @@ const PetaloOuter = styled.div`
   border-radius: 50%;
   flex-shrink: 0;
   overflow: visible;
-  animation: ${({ $color }) => css`${makeGlowAnim($color)} 3s ease-in-out infinite`};
+  animation: ${({ $color, $flashColor, $softGlow }) => $flashColor
+    ? css`${flashSourceAnim($flashColor)} 500ms ease-out`
+    : $softGlow ? css`${softGlowAnim} 3s ease-in-out infinite`
+    : $color ? css`${makeGlowAnim($color)} 3s ease-in-out infinite` : "none"};
   transition: transform 0.18s ease;
   &:hover { transform: scale(1.1); z-index: 5; }
   @media (max-width: 540px) {

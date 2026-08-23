@@ -1935,6 +1935,7 @@ const petalos = [
                 ]
             },
             {
+
                 linkName: "petalo-3/2",
                 image: 'boton3',
                 iconCenter: "simbolo3",
@@ -1943,6 +1944,7 @@ const petalos = [
                 text: "Este conflicto se refiere a las expectativas, deseos y miedos de los padres antes y durante el embarazo que, inconscientemente, influyen en el propósito o “programación” de la vida del hijo. Si, por ejemplo, los padres esperaban que el hijo resolviera sus problemas o compensara una pérdida, este puede cargar con expectativas que limitan su libertad. También puede incluir expectativas de género, como el deseo de tener un hijo varón cuando nace una niña, lo que puede afectar la identidad o la autoimagen de la persona.",
                 subPetalos: [
                     {
+                        //Opcion: Concepción, Embarazo, Parto, Posnatal, Lactancia y Crianza
                         linkName: "petalo-3/2/1",
                         image: 'boton3',
                         iconCenter: 'simbolo3',
@@ -1954,7 +1956,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/1",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN PARA UNIR A MIS PADRES",
                                 text: `Cuando la llegada del bebé responde al deseo o la esperanza de recomponer una relación de pareja, se imprime en su campo de origen una función reparadora. El hijo es concebido con el objetivo de evitar una separación, sostener el vínculo o cumplir el rol de conexión entre dos personas que se estaban alejando. Esta forma de inicio puede generar un patrón de vida centrado en cuidar los vínculos ajenos, sostener el equilibrio de otros o sentirse responsable de preservar la unidad familiar, aún a costa de sí mismo.`
                             },
@@ -1962,7 +1964,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/2",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN POR ACCIDENTE",
                                 text: `En los casos donde la concepción no fue planeada ni buscada, el comienzo de la vida se encuentra marcado por la sorpresa o incluso la resistencia inicial. Aunque con el tiempo pueda haber habido aceptación, la información energética que se registra es la de un evento imprevisto. Esta percepción puede dar lugar a cuestionamientos internos sobre el lugar que se ocupa en el mundo, la legitimidad para estar o el derecho a elegir libremente el propio camino.`
                             },
@@ -1970,7 +1972,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/3",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN NEGADA O NO RECONOCIDA",
                                 text: `Cuando el embarazo es negado o silenciado por uno o ambos padres, se genera un campo de origen donde la presencia del hijo no es reconocida abiertamente. Esta situación puede dejar una huella vinculada a la ocultación, al temor de ser descubierto o al impulso de mantenerse en segundo plano. La persona que nace bajo este patrón puede mostrar dificultad para exponerse, para pedir lo que necesita o para sentirse parte de forma natural dentro de un grupo o sistema.`
                             },
@@ -1978,7 +1980,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/4",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN EN UNA RECONCILIACIÓN",
                                 text: `Cuando el embarazo ocurre durante un proceso de reconciliación entre los padres, el inicio de vida se encuentra atravesado por la tensión propia de las relaciones inestables. La llegada del hijo aparece como parte de un intento de reconstrucción o renovación, y esto puede fijar en el campo energético una sensación de haber sido convocado para equilibrar o compensar una historia que venía quebrada. Puede surgir un patrón interno que reacciona ante los conflictos o crisis tratando de mediar, calmar o restaurar el orden perdido.`
                             },
@@ -1986,7 +1988,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/5",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN DURANTE UN DUELO",
                                 text: `Cuando la fecundación tiene lugar en medio de un proceso de pérdida —ya sea la muerte de un familiar, una separación o una pérdida simbólica significativa— el inicio de la vida se instala en un campo donde el dolor y el cierre de un ciclo están activos. El bebé que llega puede quedar vinculado energéticamente a esa experiencia, construyendo vínculos con la ausencia, con lo que ya no está o con la sensación de ocupar un lugar que no le era propio originalmente.`
                             },
@@ -1994,7 +1996,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/6",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN POSTERIOR A UN ABORTO",
                                 text: `Cuando se concibe un nuevo hijo luego de un aborto previo, el inicio de esta nueva vida se encuentra cargado por el impacto emocional del embarazo anterior. Aunque el deseo de traer vida pueda ser auténtico, la experiencia del hijo anterior se entrelaza con la del que llega, generando una posible fusión simbólica. El nuevo ser puede nacer con la percepción de tener que compensar lo que no fue, o de ocupar un espacio que pertenecía a otro, construyendo su identidad sobre una base ambigua.`
                             },
@@ -2002,7 +2004,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/7",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN POSTERIOR A LA PÉRDIDA DE UN HIJO",
                                 text: `Cuando un bebé llega luego del fallecimiento de un hijo anterior, el sistema familiar vive ese embarazo como una esperanza renovada, pero también como un intento de restaurar algo que fue irremediablemente perdido. En este contexto, el nuevo hijo puede quedar simbólicamente vinculado al anterior, cargando con expectativas, comparaciones o silencios que marcan su desarrollo. La referencia de fondo suele estar puesta en una historia no resuelta, que sigue viva a través de su presencia.`
                             },
@@ -2010,7 +2012,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/8",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN POSTERIOR A UN ACTO DE PROSTITUCIÓN",
                                 text: `Cuando la concepción ocurre a través de un encuentro sexual vinculado a una transacción económica o un intercambio sin conexión afectiva, el cuerpo que gesta queda atravesado por una dinámica funcional. En estos casos, el inicio de la vida se inscribe en una situación donde el valor, la pertenencia o el consentimiento pueden estar desdibujados. A lo largo del tiempo, esto puede influir en la forma en que la persona se relaciona con su cuerpo, con su autoestima o con la noción de reciprocidad en los vínculos.`
                             },
@@ -2018,7 +2020,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/9",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "FECUNDACIÓN NO DESEADA POR PARTE DEL PADRE",
                                 text: `En los casos donde el padre no desea la concepción del hijo, aunque no se niegue a su presencia, se imprime en el origen una energía de no aceptación que proviene del lado masculino. Esta información puede establecer una distancia entre el hijo y la figura paterna, ya sea a través de la ausencia, el juicio o el desinterés. También puede generar tensiones en la forma de vincularse con la autoridad, con la acción concreta o con la afirmación personal frente al mundo exterior.`
                             },
@@ -2026,7 +2028,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/10",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN MEDIANTE VIENTRE DE ALQUILER",
                                 text: `Cuando el embarazo se produce en el cuerpo de una madre sustituta, el origen biológico y el lazo emocional se desarrollan de manera no convencional. Aunque el amor y el deseo de recibir al bebé estén presentes, el proceso implica una separación entre quien gesta y quien cría. Esta configuración puede reflejarse en la forma en que la persona se vincula con la pertenencia, con la raíz o con su identidad más profunda. También pueden surgir preguntas sobre la propia historia, sobre el origen o sobre los lazos que definen su construcción interna.`
                             },
@@ -2034,7 +2036,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/11",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "BEBÉ DE PROBETA (FECUNDACIÓN IN VITRO)",
                                 text: `La fecundación en laboratorio introduce una variable técnica en el proceso de creación de la vida. Aunque el deseo de los padres sea profundo, el inicio se realiza sin contacto físico directo entre ellos. Esta forma de origen puede fijar una percepción de la vida ligada a lo estructurado, a lo planificado o a lo racional. En algunos casos, puede generar un distanciamiento con lo instintivo o con el fluir natural de los procesos. La historia personal puede desarrollarse bajo la idea de que todo debe justificarse o construirse con esfuerzo meticuloso.`
                             },
@@ -2042,7 +2044,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/12",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "FECUNDACIÓN NO DESEADA POR LA FAMILIA PATERNA",
                                 text: `Cuando la familia del padre rechaza el embarazo o intenta impedirlo, la llegada del hijo se encuentra rodeada de tensiones externas que condicionan el modo en que es recibido. Esta situación puede fijar una percepción de no pertenecer completamente al linaje masculino, o de tener que luchar por ser reconocido. A lo largo del tiempo, pueden desarrollarse conflictos con la autoridad paterna o con la integración plena en la historia del clan de ese lado.`
                             },
@@ -2050,7 +2052,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/13",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "FECUNDACIÓN NO DESEADA POR PARTE DE LA MADRE",
                                 text: `Cuando la madre no desea embarazarse, ya sea por cuestiones personales, sociales o económicas, esa información queda registrada en el campo del bebé. Aunque el embarazo continúe, el inicio de la vida se produce en una atmósfera de duda o resistencia. Esto puede generar un patrón interno donde la persona cuestiona su lugar, duda de sus decisiones o se siente limitada al expresarse plenamente. También puede surgir la percepción de haber llegado en un momento inadecuado.`
                             },
@@ -2058,7 +2060,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/14",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN POR VIOLACIÓN",
                                 text: `Cuando el embarazo ocurre como resultado de un acto sin consentimiento, la entrada al mundo queda marcada por un profundo quiebre. La concepción se da en un contexto donde el cuerpo fue vulnerado, y la historia comienza sin acuerdo ni deseo compartido. Esta experiencia puede impactar de manera estructural en la forma de habitar el cuerpo, de establecer vínculos o de interpretar la idea de origen. El inicio puede sentirse desvinculado del amor o de la protección, generando desafíos en la construcción de la propia identidad.`
                             },
@@ -2066,7 +2068,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/15",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "FECUNDACIÓN DESEADA POR LA FAMILIA MATERNA",
                                 text: `Cuando el embarazo es alentado o impuesto por la familia de la madre, el hijo llega como respuesta a un mandato, una presión o una expectativa ajena. La concepción ocurre no tanto por un deseo personal, sino como forma de cumplir una exigencia externa. Esto puede fijar un patrón en el que la persona se vincula con la vida desde la obligación, la necesidad de cumplir o el miedo a decepcionar. También puede sentirse en deuda con quienes promovieron su llegada.`
                             },
@@ -2074,7 +2076,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/16",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN DURANTE UNA GUERRA O CONTEXTO VIOLENTO",
                                 text: `Cuando la vida se inicia en medio de una situación extrema, como una guerra, una persecución o una realidad marcada por la supervivencia, el campo de origen queda impregnado por una sensación de urgencia y amenaza. Esta información puede determinar una forma de percibir el entorno como inestable o riesgoso, e influir en la forma de responder ante los desafíos de la vida cotidiana. También puede instalar un registro profundo de tensión frente al cambio, al futuro o a la exposición.`
                             },
@@ -2082,7 +2084,7 @@ const petalos = [
                                 linkName: "petalo-3/2/1/17",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN POR INFIDELIDAD",
                                 text: `Cuando la llegada del bebé ocurre fuera del marco de una relación exclusiva, y uno de los padres mantiene una pareja estable con otra persona, el inicio de vida se sitúa en medio de un triángulo vincular complejo. El hijo puede nacer en un contexto de ocultamiento, tensión y contradicción. Esto puede influir en la manera de relacionarse con la verdad, con los vínculos y con el derecho a ocupar un lugar legítimo. La historia personal puede desarrollarse entre lo visible y lo que debe mantenerse en secreto.`
                             },
@@ -2090,15 +2092,19 @@ const petalos = [
                                 linkName: "petalo-3/2/1/18",
                                 image: "boton3",
                                 iconCenter: "simbolo3",
-                                titlePage: "Punto Cero del Ser A",
+                                titlePage: "Concepcion",
                                 title: "CONCEPCIÓN POR DINERO (INTERCAMBIO, PRESIÓN O MANIPULACIÓN)",
                                 text: `Cuando el embarazo se produce como resultado de un acuerdo económico, una presión o una conveniencia material, el inicio de la vida se instala en un contexto donde los valores afectivos y humanos se subordinan a intereses externos. Esta configuración puede marcar una tendencia a relacionarse con el mundo desde la obligación, la utilidad o la deuda simbólica. La historia puede desarrollarse bajo la percepción de tener que compensar o justificar constantemente el esfuerzo que implicó su llegada.`
                             }
                         ],
+                        //Seguir con embarazo Embarazo 3/2/2... , PARTO 3/2/3/..., POSNATAL 3/2/4/..., LACTANCIA 3/2/5/... y CRIANZA 3/2/6/...
+                        // Conflictos programantes 3/3 , Comportamientos cotidianos 3/4 , Atributos del ser 3/5
                     },
                     {
+                        
                         linkName: "petalo-3/2/2",
                         image: 'boton3',
+                        iconCenter: "simbolo3",
                         title: "B",
                         index: 1,
                         colorBorder: "blue",
@@ -2106,208 +2112,412 @@ const petalos = [
                             {
                                 linkName: "petalo-3/2/2/1",
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "HORMONAL",
-                                text: "Los 'comportamientos hormonales' son acciones o conductas que son influenciadas, en parte, por la actividad hormonal en el cuerpo. Las hormonas son mensajeros químicos que se producen en varias glándulas del cuerpo y regulan una amplia gama de funciones biológicas y comportamientos. Los comportamientos hormonales pueden abarcar una variedad de aspectos, como el estado de ánimo, la reproducción, el apetito, el sueño, la respuesta al estrés y la agresión, entre otros. Estos comportamientos pueden ser el resultado de cambios en los niveles hormonales, interacciones hormonales complejas o la respuesta del organismo a las señales hormonales. (Se corrigieron las siguientes hormonas)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'AMENAZA DE ABORTO',
+                                text: 'Cuando durante el embarazo existe una amenaza real o latente de pérdida, el campo energético del bebé se desarrolla en un entorno de inestabilidad biológica. Este tipo de gestación puede imprimir un patrón ligado a la supervivencia, donde la vida es percibida como un proceso frágil o constantemente en riesgo. La gestación se desarrolla en un cuerpo que experimenta incertidumbre respecto a su capacidad de sostener y nutrir, lo que deja una impronta profunda en la manera en que se construye el vínculo con la vida misma.'
                             },
                             {
-                                linkName: "petalo-3/2/2/2",
+                                linkName: 'petalo-3/2/2/2',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "IMPOTENCIA",
-                                text: "El 'comportamiento por impotencia' se refiere a las acciones o conductas que una persona exhibe como resultado de sentirse impotente o incapaz de lograr un objetivo o enfrentar una situación. Puede surgir en respuesta a desafíos difíciles, percepciones de falta de control sobre la situación o creencias sobre la incapacidad personal para hacer frente a determinadas circunstancias. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'BODA OBLIGADA',
+                                text: 'Si la concepción lleva a una unión forzada entre los padres, donde el vínculo no se forma desde el deseo libre sino por presión social, familiar o moral, el embarazo se inicia en un marco de condicionamiento. El bebé es gestado en un entorno donde los límites entre el deber y el deseo se encuentran distorsionados. Este origen puede influir en la percepción de los vínculos como obligaciones o como espacios donde se resigna la voluntad para cumplir con mandatos externos.'
                             },
                             {
-                                linkName: "petalo-3/2/2/3",
+                                linkName: 'petalo-3/2/2/3',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "INSEGURIDAD CORPORAL",
-                                text: "El 'comportamiento de inseguridad corporal' describe las acciones o actitudes que una persona adopta como resultado de sentirse insegura acerca de su cuerpo o apariencia física. Estos comportamientos pueden manifestarse de diversas maneras, como evitar situaciones sociales o actividades que involucren mostrar el cuerpo, compararse constantemente con los demás, buscar constantemente validación externa, desarrollar hábitos poco saludables relacionados con la alimentación o el ejercicio, o experimentar ansiedad o depresión relacionada con la imagen corporal. Las personas que experimentan inseguridad corporal pueden tener una percepción distorsionada de su propio cuerpo y pueden tener dificultades para aceptarse a sí mismas tal como son. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'MUERTE DE UN FAMILIAR O AMIGO DURANTE LA GESTACIÓN',
+                                text: 'Cuando la madre atraviesa un duelo significativo durante el embarazo, la gestación se lleva a cabo en un entorno marcado por el cierre de un ciclo o la pérdida de una figura importante. El campo energético del bebé se configura junto a un proceso de despedida o separación, lo que puede condicionar la forma en que se vivencian los comienzos, los cierres o la presencia de otros en la vida cotidiana. El cuerpo que gesta transita simultáneamente la expansión de la vida y la experiencia de la muerte.'
                             },
                             {
-                                linkName: "petalo-3/2/2/4",
+                                linkName: 'petalo-3/2/2/4',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "INSEGURIDADES CORPORALES QUE LIMITAN",
-                                text: "Los comportamientos de inseguridad corporal que limitan pueden incluir: Evitar situaciones sociales o actividades que requieran mostrar su cuerpo, como ir a la playa o la piscina, participar en deportes o incluso simplemente salir con amigos. Obsesión por la apariencia, atención excesiva a detalles como el peso, el tamaño, la forma o la piel. Comparación constante, lo que puede alimentar sentimientos de inferioridad y aumentar la inseguridad. Vestirse de manera excesivamente conservadora. No participar en actividades físicas por miedo a ser juzgado por otros o sentirse incómodo con su cuerpo. Desarrollo de trastornos alimentarios, comportamientos alimentarios poco saludables, como dietas extremas, ayuno o purga, que pueden resultar en trastornos alimentarios como la anorexia o la bulimia. Evitar relaciones íntimas. Estos comportamientos pueden limitar significativamente la vida de una persona y afectar su bienestar emocional y mental. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'MADRE SOLA DURANTE EL EMBARAZO',
+                                text: 'Cuando la mujer atraviesa el embarazo sin la presencia o el acompañamiento de una pareja, el campo que sostiene la gestación se apoya únicamente en la figura materna. Esta configuración puede quedar grabada como una percepción estructural de que todo debe ser sostenido en soledad. El desarrollo intrauterino ocurre en un entorno donde no se registra un segundo polo afectivo activo, lo que puede marcar la construcción de vínculos posteriores y el lugar que se otorga al apoyo o la colaboración.'
                             },
                             {
-                                linkName: "petalo-3/2/2/5",
+                                linkName: 'petalo-3/2/2/5',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "LEGADO TRANSGENERACIONAL (-)",
-                                noNumbers: true,
-                                text: "Se refiere a patrones de pensamiento, comportamiento o dinámicas familiares disfuncionales que son transmitidos de una generación a otra y que tienen un impacto negativo en el bienestar y desarrollo. Este legado puede incluir traumas no resueltos, abuso físico o emocional, adicciones, trastornos mentales no tratados, patrones de comunicación o cualquier otra forma de disfunción familiar que persista a lo largo del tiempo dentro de nuestro árbol genealógico. (Aquí se sanaron, repararon y revivieron todos los comportamientos heredados del linaje materno o paterno)",
-                                subPetalos: [
-                                    {
-                                        linkName: "petalo-3/2/2/5/1",
-                                        image: 'boton3',
-                                        separation: true,
-                                        titlePage: "LEGADO TRANSGENERACIONAL",
-                                        title: "A",
-                                        index: 0,
-                                        text: "SANANDO LEGADO",
-                                        isLegado: true
-                                    },
-                                    {
-                                        linkName: "petalo-3/2/2/5/2",
-                                        image: 'boton3',
-                                        separation: true,
-                                        titlePage: "LEGADO TRANSGENERACIONAL",
-                                        title: "B",
-                                        index: 1,
-                                        text: "REPARANDO LEGADO",
-                                        isLegado: true
-                                    },
-                                    {
-                                        linkName: "petalo-3/2/2/5/3",
-                                        image: 'boton3',
-                                        separation: true,
-                                        titlePage: "LEGADO TRANSGENERACIONAL",
-                                        title: "C",
-                                        index: 2,
-                                        text: "REVIVIENDO LEGADO",
-                                        isLegado: true
-                                    },
-                                ],
-                                isLegado: true
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'MADRE RECHAZADA DURANTE EL EMBARAZO',
+                                text: 'Si durante la gestación la madre es excluida, criticada, desvalorizada o privada del cuidado y la contención necesaria, el cuerpo que gesta lo hace bajo una atmósfera de aislamiento o desaprobación. Esta situación deja una huella en el campo del bebé donde el entorno aparece como algo no confiable o adverso. La gestación transcurre en un cuerpo que no se siente recibido o protegido por su entorno, lo que puede condicionar la manera en que se percibe la integración con otros.'
                             },
                             {
-                                linkName: "petalo-3/2/2/6",
+                                linkName: 'petalo-3/2/2/6',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "MASOQUISMO",
-                                text: "El masoquismo es una tendencia o práctica en la que una persona encuentra placer o gratificación al experimentar dolor, humillación o sufrimiento físico o emocional. En situaciones de la vida cotidiana donde se busca inconscientemente situaciones que le causen dolor o sufrimiento. El masoquismo también puede ser parte de una dinámica de poder en una relación donde una persona busca ser dominada o sometida por otra. En algunos casos, el masoquismo puede llegar a ser peligroso si conduce a comportamientos autodestructivos o si la persona no es capaz de establecer límites saludables para proteger su bienestar físico y emocional. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'EMBARAZO CON MALTRATOS',
+                                text: 'Cuando la madre experimenta violencia física o simbólica durante la gestación, el cuerpo se convierte en un espacio hostil. El bebé se desarrolla en un entorno donde la integridad corporal de quien lo gesta se ve afectada, lo que imprime una señal de amenaza constante. Esta configuración puede traducirse en un patrón de vida en el que el cuerpo y el entorno se interpretan como campos vulnerables a la irrupción o la imposición.'
                             },
                             {
-                                linkName: "petalo-3/2/2/7",
+                                linkName: 'petalo-3/2/2/7',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "MIEDO A DESEAR",
-                                text: "Conocido como hedonofobia, es una condición psicológica donde se experimenta ansiedad o temor al placer, la felicidad o el disfrute de la vida. Esta fobia puede manifestarse de diferentes maneras, como el miedo a buscar el éxito, el miedo al placer físico o emocional, o el miedo a satisfacer necesidades personales. Cuando se sufre de hedonofobia a menudo pueden sentirse culpables o avergonzadas por querer cosas que les proporcionen placer, lo que puede llevar a una vida restringida y limitada en experiencias satisfactorias. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'ABANDONO DEL PADRE',
+                                text: 'Cuando el padre se retira o desaparece durante el embarazo, la figura masculina queda ausente en el proceso de formación y crecimiento intrauterino. Esta ausencia se registra como un vacío estructural en el campo del bebé, especialmente en relación con el impulso hacia el mundo exterior, el sostén desde lo activo o la energía de dirección. La construcción de identidad y de orientación puede configurarse sobre una base incompleta o desconectada.'
                             },
                             {
-                                linkName: "petalo-3/2/2/8",
+                                linkName: 'petalo-3/2/2/8',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "MIEDO A FRACASAR",
-                                text: "Es una respuesta emocional intensa y paralizante que se experimenta cuando enfrentan situaciones en las que perciben que existe la posibilidad de no alcanzar sus metas o expectativas. Esta respuesta puede surgir en diversas áreas de la vida, como el trabajo, los estudios, las relaciones personales o los proyectos personales. Si experimentas este miedo a menudo se evita tomar riesgos o desafíos nuevos por temor a no cumplir con las expectativas, lo que puede limitar tu crecimiento personal y profesional. El miedo al fracasar puede manifestarse a través de síntomas como ansiedad, falta de confianza en uno mismo, procrastinación o autosabotaje. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'EMBARAZO NO DESEADO POR PARTE DE LA MADRE',
+                                text: 'Si la madre no acepta el embarazo durante sus primeros momentos o durante gran parte del mismo, el cuerpo que gesta lo hace con una carga de rechazo o resistencia. Aunque el bebé continúe su desarrollo, la señal inicial que recibe es la de no haber sido integrado de forma natural en la vida de quien lo porta. Esta experiencia puede traducirse en la dificultad de ocupar un lugar sin condiciones, o en la percepción de que la presencia propia es una carga o una interrupción.'
                             },
                             {
-                                linkName: "petalo-3/2/2/9",
+                                linkName: 'petalo-3/2/2/9',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "MIEDOS A REPETIR SITUACIONES PASADOS",
-                                text: "Es una respuesta emocional en la que sientes ansiedad o temor ante la posibilidad de que situaciones similares a experiencias pasadas negativas vuelvan a ocurrir en el presente o futuro. Esta respuesta puede surgir debido a traumas pasados, malas experiencias o errores anteriores, y puede llevar a la evitar situaciones que se perciben como similares, limitando así las oportunidades de crecimiento y desarrollo personal. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'EMBARAZO ESCONDIDO',
+                                text: 'Cuando la madre oculta su embarazo al entorno, ya sea por miedo, vergüenza o presión social, el desarrollo intrauterino ocurre en un estado de ocultamiento. Esta configuración deja una marca en el campo del bebé que asocia su presencia con el silencio, la invisibilidad o el peligro de ser descubierto. La historia de origen queda entonces vinculada a la necesidad de adaptarse a un entorno que no está preparado para recibir o validar esa vida.'
                             },
                             {
-                                linkName: "petalo-3/2/2/10",
+                                linkName: 'petalo-3/2/2/10',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "NO PODER EXPRESARTE",
-                                text: "Es la incapacidad o dificultad para comunicar pensamientos, sentimientos o ideas de manera efectiva. Esta dificultad puede surgir debido a diversas razones, como la falta de confianza en uno mismo, la ansiedad social, la falta de habilidades comunicativas o el miedo al juicio de los demás. Se puede experimentar frustración, incomodidad o aislamiento al no poder comunicarse de manera clara y precisa. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'EMBARAZO CON DIABETES',
+                                text: 'La presencia de diabetes gestacional modifica el entorno interno del cuerpo materno. El bebé se desarrolla en un medio donde el metabolismo de la madre no responde de manera equilibrada, y eso condiciona la calidad y el tipo de nutrición que recibe. Esta situación puede establecer una impronta en la forma en que se procesa la energía vital, la relación con la dulzura, el intercambio y la asimilación. El organismo del bebé ajusta su desarrollo a una matriz que alterna entre exceso y carencia.'
                             },
                             {
-                                linkName: "petalo-3/2/2/11",
+                                linkName: 'petalo-3/2/2/11',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "NO QUERER COMPARTIR",
-                                text: "Falta de disposición o deseo de compartir información, recursos, tiempo o experiencias con otras personas. Esta actitud puede surgir por diversas razones, como el deseo de privacidad, la desconfianza, el egoísmo, el miedo al juicio de los demás o la sensación de que compartir podría resultar en pérdida personal. La falta de voluntad para compartir puede afectar las relaciones interpersonales, la colaboración y el desarrollo de vínculos significativos. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'HIPERTENSIÓN Y PROTEINURIA',
+                                text: 'Cuando durante la gestación se manifiestan cuadros de hipertensión o proteinuria, el cuerpo que gesta transita un estado fisiológico de tensión sostenida y alteración en su capacidad de regular el equilibrio interno. El bebé se desarrolla en un entorno donde la presión interna y el filtrado de los líquidos corporales están comprometidos, generando una experiencia de gestación bajo condiciones de exceso o saturación. Esta configuración puede dejar registrada una forma de vínculo con la vida marcada por el esfuerzo por sostener y la necesidad de adaptación frente a condiciones biológicas extremas.'
                             },
                             {
-                                linkName: "petalo-3/2/2/12",
+                                linkName: 'petalo-3/2/2/12',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "NO QUERER COMUNICAR TUS DESEOS",
-                                text: "Falta de disposición para expresar abierta y claramente tus necesidades, aspiraciones o expectativas a otras personas. Esta actitud puede surgir por diversos motivos, como el temor al rechazo, la incomodidad al ser vulnerable, la falta de confianza en uno mismo o la creencia de que los demás no entenderán o no aceptarán tus deseos. La falta de comunicación de los propios deseos puede dificultar la satisfacción personal, generar malentendidos en las relaciones interpersonales y obstaculizar el logro de metas y objetivos personales. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'EMBARAZO NO DESEADO POR PARTE DEL PADRE',
+                                text: 'Cuando el padre no acepta el embarazo o lo vive con rechazo, el campo energético que rodea al bebé carece de una validación activa de la figura paterna. Aunque el vínculo con la madre esté presente, la gestación se desarrolla con un vacío del lado masculino que puede influir en cómo se integra esa energía posteriormente. Esta ausencia de deseo o aprobación puede condicionar la manera en que se perciben los límites, la autoridad o la seguridad para avanzar en la vida.'
                             },
                             {
-                                linkName: "petalo-3/2/2/13",
+                                linkName: 'petalo-3/2/2/13',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "NO QUERER EXPRESARSE SEXUALMENTE",
-                                text: "Falta de disposición o deseo de comunicar tus necesidades, deseos, preferencias o límites en el ámbito sexual. Esta actitud puede surgir por diversas razones, como la vergüenza, la incomodidad, experiencias traumáticas pasadas, la falta de confianza en uno mismo o la percepción de que la expresión sexual puede generar conflictos o juicios por parte de los demás. La falta de comunicación sexual puede afectar la satisfacción y la intimidad en las relaciones románticas, así como dificultar la exploración y el entendimiento mutuo de las necesidades y deseos de la pareja. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'MADRE ECHADA DE CASA',
+                                text: 'Cuando la mujer embarazada es expulsada de su hogar o rechazada por su núcleo familiar, el cuerpo que gesta experimenta una pérdida de refugio. La gestación se desarrolla en condiciones que implican desplazamiento, desarraigo o desprotección estructural. El bebé que crece en ese contexto puede registrar una información vinculada al exilio, a la falta de raíces o a la necesidad de reconstruir su lugar desde la independencia forzada. La pertenencia queda asociada a la exclusión o al conflicto.'
                             },
                             {
-                                linkName: "petalo-3/2/2/14",
+                                linkName: 'petalo-3/2/2/14',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "COMPORTAMIENTO OBSESIVO",
-                                text: "Son acciones repetitivas, pensamientos persistentes o preocupaciones intensas que dominan la vida de una persona y afectan su funcionamiento diario. Estas obsesiones pueden manifestarse en diversas áreas, como la limpieza, el orden, la seguridad, la religión, el trabajo, las relaciones interpersonales, entre otros. Quienes experimentan comportamientos obsesivos suelen sentir una necesidad irracional de controlar ciertos aspectos de sus vidas, lo que puede generar ansiedad, estrés y dificultades para concentrarse en otras actividades. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'MADRE TOXICÓMANA O DROGADICTA',
+                                text: 'Cuando la madre consume sustancias tóxicas durante el embarazo, el campo interno que nutre y sostiene al bebé se encuentra alterado por la presencia de componentes externos que interfieren con los procesos biológicos. El desarrollo se produce en un entorno químicamente alterado, donde el equilibrio entre nutrición y toxicidad se encuentra comprometido. Esto puede dejar huellas profundas en la forma en que se procesa la energía, se vincula con los placeres o se responde a los estímulos del entorno.'
                             },
                             {
-                                linkName: "petalo-3/2/2/15",
+                                linkName: 'petalo-3/2/2/15',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "RECHAZO AL DISFRUTE",
-                                text: "Resistencia a experimentar placer, felicidad o gratificación. Puede manifestarse como una falta de interés en actividades placenteras, evitación de situaciones que podrían generar alegría o una sensación de culpa o ansiedad asociada con el disfrute. Este rechazo puede estar relacionado con experiencias pasadas negativas, creencias limitantes sobre el merecimiento del placer o la felicidad, problemas de autoestima o trastornos emocionales como la depresión. El rechazo al disfrute puede limitar el bienestar emocional y la calidad de vida de la persona, ya que dificulta la capacidad de experimentar y apreciar las cosas positivas de la vida. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'MADRE ABUSADA SEXUALMENTE DURANTE EL EMBARAZO',
+                                text: 'Cuando una mujer embarazada sufre abuso sexual, el cuerpo que gesta se convierte en un espacio de invasión y ruptura. La gestación continúa en un entorno donde la integridad física ha sido transgredida, y el campo del bebé registra esa información. La experiencia intrauterina queda marcada por una alteración profunda del límite y de la seguridad corporal, lo que puede condicionar la manera en que se construye posteriormente la relación con el contacto físico, la protección y la intimidad.'
                             },
                             {
-                                linkName: "petalo-3/2/2/16",
+                                linkName: 'petalo-3/2/2/16',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "REPRIMIENDO A LA PAREJA",
-                                text: "Ejercer control o limitar la libertad y expresión de la otra persona dentro de una relación. Esto puede manifestarse de diversas formas, como imponer reglas estrictas, limitar las interacciones sociales, controlar las decisiones personales o manipular emocionalmente. La represión en la pareja puede ser resultado de problemas de poder, inseguridades personales o patrones de comportamiento poco saludables. Puede tener consecuencias negativas en la relación, como la pérdida de confianza, la falta de intimidad y el deterioro de la salud emocional de ambos miembros de la pareja. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'EXCESO DE VÓMITOS (HIPERÉMESIS GRAVÍDICA)',
+                                text: 'Cuando durante el embarazo se presentan vómitos intensos y persistentes, el cuerpo materno experimenta una dificultad para retener lo que ingiere. El bebé se desarrolla en un entorno donde la nutrición es limitada o interrumpida de manera reiterada, lo que condiciona su acceso a los recursos necesarios para crecer. Esta situación puede quedar grabada como una experiencia de gestación con dificultades para recibir, sostener o procesar el alimento y la energía vital.'
                             },
                             {
-                                linkName: "petalo-3/2/2/17",
+                                linkName: 'petalo-3/2/2/17',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "REPRIMIÉNDOTE A TI MISMO/A",
-                                text: "Estas palabras implican la acción de ejercer autocontrol o contención sobre tus propias emociones, impulsos o acciones. Los ejemplos pueden ser: contener el llanto o la expresión de enojo en público, No expresar una opinión personal en una discusión, postergar el descanso o la relajación por sentirse obligado a trabajar constantemente. Etc. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'PADRE TOXICÓMANO O DROGADICTO',
+                                text: 'Cuando el padre está involucrado en el consumo de sustancias durante la gestación, aunque no esté presente físicamente en el cuerpo de la madre, su campo energético y su influencia siguen siendo parte de la información que rodea al bebé. La figura masculina queda asociada a una fuente inestable o imprevisible, lo que puede condicionar la manera en que se construye el vínculo con la acción, la decisión y la orientación externa. El lugar del padre se configura como una presencia fragmentada o desequilibrada.'
                             },
                             {
-                                linkName: "petalo-3/2/2/18",
+                                linkName: 'petalo-3/2/2/18',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "SADISMO",
-                                text: "Es la manifestación de impulsos o deseos inconscientes relacionados con el deseo de control, poder o dominación sobre los demás, acompañados de una falta de empatía o consideración por el bienestar de los demás. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'CONVULSIONES O COMA (ECLAMPSIA)',
+                                text: 'Cuando la madre atraviesa un cuadro grave como eclampsia, que puede incluir convulsiones o pérdida de conciencia, el cuerpo que gesta atraviesa una desconexión brusca y crítica. El bebé queda expuesto a una alteración extrema del ritmo vital, a una interrupción de los procesos orgánicos habituales, e incluso a una posible amenaza de finalización prematura del vínculo intrauterino. Esta experiencia queda registrada como una señal de alerta temprana sobre la fragilidad del entorno biológico.'
                             },
                             {
-                                linkName: "petalo-3/2/2/19",
+                                linkName: 'petalo-3/2/2/19',
                                 image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "SENTIMIENTO DE CULPA POR TUS ANHELOS",
-                                text: "El sentimiento de culpa por tus anhelos se refiere a la sensación de malestar o remordimiento que experimentas cuando tus deseos o aspiraciones personales entran en conflicto con tus valores, creencias o las expectativas de los demás. Es la sensación de haber hecho algo malo o inapropiado al buscar satisfacer tus propias necesidades o deseos, especialmente si esto implica ignorar o afectar negativamente a otras personas en el proceso. Este tipo de culpa puede surgir cuando sientes que estás priorizando tus propios deseos sobre los de los demás, o cuando percibes que estás actuando de manera egoísta o irresponsable en la búsqueda de tus objetivos personales. (Anulado)"
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Embarazo',
+                                title: 'POCO LÍQUIDO AMNIÓTICO (OLIGOHIDRAMNIOS)',
+                                text: 'Cuando hay escasez de líquido amniótico, el espacio donde se desarrolla el bebé se ve reducido en movilidad, amortiguación y contención. La gestación transcurre en un entorno donde el sostén natural del medio se ve disminuido, lo que puede afectar el desarrollo físico y dejar una impronta simbólica relacionada con la falta de fluidez. Esta experiencia puede asociarse posteriormente a una percepción de rigidez o a la necesidad de adaptarse a condiciones limitadas desde el origen mismo.'
                             },
-                            {
-                                linkName: "petalo-3/2/2/20",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "SEXO REPRIMIDO",
-                                text: "Se refiere a la supresión de los deseos sexuales y la inhibición de la expresión sexual debido a influencias sociales, culturales o personales. Esto puede manifestarse como sentimientos de vergüenza, culpa o conflicto interno con los propios impulsos sexuales. (Anulado)"
-                            },
-                            {
-                                linkName: "petalo-3/2/2/21",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "VERGÜENZA SEXUAL",
-                                text: "Estos sentimientos pueden derivarse de mensajes negativos recibidos durante la crianza, experiencias traumáticas o la internalización de normas sociales restrictivas sobre la sexualidad, las conductas habituales pueden manifestarse evitando temas sexuales, dificultad para expresar deseos sexuales o experimentar placer sexual, que puede interferir en la intimidad y la satisfacción en las relaciones íntimas y sociales. (Anulado)"
-                            },
-                            {
-                                linkName: "petalo-3/2/2/22",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "ME SIENTO ABUSADO/A",
-                                text: "Significa que la persona experimenta una sensación de haber sido objeto de comportamientos abusivos por parte de otra persona o grupo, lo que puede incluir abuso emocional, físico, sexual o verbal. (Anulado)"
-                            },
-                            {
-                                linkName: "petalo-3/2/2/23",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "VIVO EN VIOLENCIA",
-                                text: "La violencia puede manifestarse en diversas formas y afectar múltiples aspectos de la vida de una persona, incluyendo su bienestar físico, emocional, mental y social, así como su entorno familiar y comunitario. Aquí la persona experimenta de manera continua o recurrente situaciones de abuso, maltrato, intimidación o agresión en su vida diaria. (Anulado)"
-                            },
-                            {
-                                linkName: "petalo-3/2/2/24",
-                                image: 'boton3',
-                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
-                                title: "MIEDO A SER",
-                                text: "Este miedo puede manifestarse en diversas situaciones sociales, emocionales o profesionales, donde la persona se siente insegura o vulnerable al mostrar su verdadero ser o compartir sus pensamientos, sentimientos, deseos o identidad. Este miedo puede surgir de experiencias pasadas de crítica, rechazo o invalidación, así como de normas sociales o expectativas culturales restrictivas que condicionan la aceptación de ciertos comportamientos. (Anulado)"
-                            }
 
                         ]
-                    }
+                    },          
+                    {
+                        // ─── C: PARTO ────────────────────────────────────────────────
+                        linkName: 'petalo-3/2/3',
+                        image: 'boton3',
+                        iconCenter: 'simbolo3',
+                        title: 'C',
+                        index: 2,
+                        colorBorder: 'green',
+                        subPetalos: [
+                            {
+                                linkName: 'petalo-3/2/3/1',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO BLOQUEADO',
+                                text: 'Cuando el nacimiento se ve interrumpido o no progresa de forma natural, el pasaje hacia la vida externa queda marcado por una detención. Esta interrupción genera una experiencia de inicio donde el paso del interior al exterior no se produce con fluidez, y puede fijar una memoria de dificultad al avanzar, de caminos que se traban o de esfuerzos que no generan movimiento. El nacimiento no encuentra vía de expresión, y el entorno se percibe como una barrera para salir o ser recibido.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/2',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO MUY RÁPIDO',
+                                text: 'Un nacimiento que ocurre de forma acelerada implica un pasaje al mundo que se da sin la progresión habitual del proceso. El cuerpo del bebé atraviesa el canal de parto en un tiempo muy breve, sin que los ritmos de transición puedan ser integrados de manera gradual. Este tipo de llegada al mundo puede registrar una memoria de urgencia o de procesos que ocurren sin posibilidad de adaptación. El comienzo queda ligado a una entrada brusca, inmediata y sin posibilidad de preparación.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/3',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO CON EPISIOTOMÍA',
+                                text: 'Cuando durante el nacimiento se realiza una incisión en la zona perineal para facilitar la salida del bebé, se produce una intervención física directa sobre el cuerpo de la madre. Esta acción deja registrada en el campo del nacimiento una señal de corte o apertura forzada. Aunque la finalidad sea facilitar el proceso, el comienzo queda marcado por una modificación del entorno corporal que reemplaza la expansión natural por una intervención externa. La entrada al mundo se asocia con una necesidad de ser asistido por medio de una acción invasiva.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/4',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO INDUCIDO',
+                                text: 'Cuando el nacimiento es provocado por medios farmacológicos o mecánicos antes de que el proceso se inicie espontáneamente, la transición hacia la vida ocurre por decisión externa. El ritmo biológico es interrumpido, y el inicio de la vida fuera del útero se da por intervención anticipada. Esta configuración puede fijar una percepción de que los procesos propios no son suficientes, o que deben ser activados desde afuera para manifestarse. El cuerpo recibe la señal de que el tiempo interno no determina el paso hacia el cambio.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/5',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO PREMATURO',
+                                text: 'Cuando el bebé nace antes del tiempo fisiológico previsto, el cuerpo se encuentra con el mundo externo sin haber completado su desarrollo intrauterino. El nacimiento ocurre en condiciones de inmadurez estructural, y el entorno representa una exigencia temprana de adaptación. Esta forma de inicio puede quedar asociada a la sensación de que la vida exige antes de estar preparado, o de que la llegada al mundo se produce en un contexto de urgencia. El organismo queda programado con la información de una salida anticipada.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/6',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO DE NALGAS O PIE',
+                                text: 'Cuando la posición del bebé no permite un parto cefálico, y el nacimiento se da con una presentación distinta a la habitual, la entrada al mundo ocurre con una configuración corporal invertida o parcial. Esta manera de nacer registra una señal de acceso inusual, que puede asociarse posteriormente con una forma de llegar al mundo desde lo no convencional o con dificultad para alinearse a lo esperado. El cuerpo experimenta una salida que no sigue el orden común, generando una memoria de ingreso atípico.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/7',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO CON VENTOSAS',
+                                text: 'Cuando se utiliza una ventosa obstétrica para extraer al bebé, el nacimiento se produce mediante un mecanismo de tracción directa sobre la cabeza. El inicio de la vida fuera del útero se da entonces con una fuerza que tira desde el exterior. Esta intervención deja una marca en la manera en que el individuo percibe la dirección, el impulso y la forma de ser conducido hacia el mundo. La acción externa reemplaza la propia iniciativa, estableciendo un patrón de salida bajo fuerza aplicada.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/8',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO POR CESÁREA',
+                                text: 'Cuando el nacimiento se da mediante cesárea, el cuerpo del bebé no atraviesa el canal de parto. En su lugar, se produce una extracción directa a través del abdomen materno. Este tipo de llegada al mundo implica un pasaje abrupto del entorno intrauterino al exterior, sin la presión natural del canal ni el esfuerzo progresivo del descenso. El comienzo se da sin tránsito, lo que puede generar una impronta de aparición sin recorrido o de accesos que se abren sin transición. El corte quirúrgico como vía de entrada queda registrado como el primer contacto con la vida externa.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/9',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'RECHAZO DE LA MADRE DURANTE EL PARTO',
+                                text: 'Si durante el proceso de nacimiento la madre rechaza el acto de parir, el cuerpo que da vida no se encuentra completamente disponible para recibir. El nacimiento ocurre en un campo que presenta resistencia a soltar, a permitir o a acompañar la salida del hijo. Esta experiencia queda grabada en el cuerpo como una entrada al mundo marcada por la oposición o por una barrera en el vínculo primario. La llegada se produce en un espacio que no habilita libremente el pasaje.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/10',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO TARDÍO',
+                                text: 'Cuando el nacimiento se retrasa más allá del tiempo biológico estimado, el bebé permanece en el útero incluso luego de estar preparado para salir. Esta permanencia prolongada genera una experiencia de espera excesiva, donde el entorno ya cumplió su función pero no habilita el cambio. El cuerpo recibe la señal de que los procesos pueden extenderse más allá de lo necesario, y que el paso a lo nuevo puede ser demorado indefinidamente. El comienzo queda ligado a la dificultad de soltar lo conocido.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/11',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO CON ABUSOS',
+                                text: 'Cuando durante el proceso de nacimiento la madre es sometida a tratos invasivos, humillantes o violentos por parte del entorno médico o familiar, el acto de dar vida ocurre en un espacio donde la dignidad y la integridad son vulneradas. El bebé nace en un contexto donde la entrada al mundo no es acompañada con respeto ni cuidado. Esta forma de inicio puede registrar una memoria corporal de llegada a un lugar que irrumpe sin consideración, y de aparición marcada por la intromisión de terceros que actúan sobre el cuerpo sin consentimiento.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/12',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PÁNICO DE LA MADRE AL PARIR',
+                                text: 'Cuando la madre experimenta un estado de pánico o desborde durante el parto, el proceso de dar a luz se ve atravesado por una alteración significativa en su capacidad de sostener, acompañar y guiar el nacimiento. El campo que rodea al bebé se ve alterado por una energía caótica que interrumpe el fluir del proceso fisiológico. Esta vivencia puede dejar registrada una señal de que la transición hacia la vida externa está rodeada por un entorno desregulado o sin contención clara, donde el cuerpo no encuentra guía estable para atravesar el umbral del nacimiento.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/13',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'MUERTE DE LA MADRE EN EL NACIMIENTO',
+                                text: 'Cuando la madre fallece en el momento del parto o inmediatamente después, el bebé llega al mundo con la experiencia directa de haber sido separado del cuerpo que lo sostuvo sin posibilidad de regreso. El nacimiento se asocia con la pérdida inmediata del vínculo primario, y la vida comienza sin la presencia de quien la gestó. Esta forma de inicio queda grabada con una sensación de ruptura total, donde el acto de llegar está íntimamente ligado a la desaparición de aquello que sostenía. La existencia comienza con un vacío estructural que marca el punto de partida.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/14',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO CON PLACENTA PREVIA',
+                                text: 'Cuando la placenta obstruye el canal de salida y se requiere una intervención para permitir el nacimiento, la entrada al mundo ocurre con una barrera estructural que impide el tránsito natural. Esta configuración genera una experiencia donde el entorno intrauterino, que nutría y protegía, se convierte en un obstáculo para salir. El nacimiento queda vinculado a la necesidad de atravesar un límite biológico que bloquea la vía de expresión, y a la intervención externa para resolver lo que el cuerpo no puede por sí solo.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/15',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'CORDÓN UMBILICAL ALREDEDOR DEL CUELLO',
+                                text: 'Cuando el cordón se enrolla alrededor del cuello del bebé, el proceso de nacer se ve condicionado por una tensión física que puede comprometer la circulación y el paso libre. Esta experiencia genera una señal corporal de restricción en un punto vital de conexión, justo en el momento del ingreso al mundo. El cuerpo registra que, al intentar avanzar hacia la vida, algo lo retiene, lo aprieta o lo amenaza. Esta memoria puede quedar anclada como un patrón de entrada acompañado de presión en zonas clave de expresión y conexión.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/16',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO MUY LENTO',
+                                text: 'Cuando el nacimiento se extiende durante muchas horas sin progresar de forma eficiente, el proceso de transición se convierte en una experiencia de espera prolongada, esfuerzo repetido o dificultad para concretar el paso. El cuerpo del bebé experimenta una permanencia dentro del canal sin llegar al exterior, lo que puede fijar una percepción de procesos que se eternizan, de movimientos que no conducen al cambio o de transiciones que se detienen en su curso. El inicio queda ligado a una dificultad para completar lo que se ha comenzado.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/17',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO CON FÓRCEPS',
+                                text: 'Cuando el bebé es extraído con fórceps, la entrada al mundo ocurre a través de una presión metálica ejercida sobre el cráneo para forzar la salida. El nacimiento se produce por medio de un dispositivo que actúa desde afuera, marcando físicamente el cuerpo para poder avanzar. Esta forma de llegada puede dejar una huella donde el impulso natural es reemplazado por una fuerza externa que impone el avance. El cuerpo registra que el primer contacto con el mundo implica ser sujetado, presionado o manipulado para poder continuar.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/18',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'PARTO TRAUMÁTICO',
+                                text: 'Cuando el nacimiento se da en condiciones extremas, ya sea por complicaciones médicas, situaciones de urgencia o intervención excesiva, la experiencia de llegar al mundo queda asociada a un escenario de alto impacto físico o estructural. El cuerpo transita el pasaje desde el útero hacia el entorno externo de forma brusca, desorganizada o fuera de control. Esta forma de nacer puede quedar registrada como una entrada abrupta donde la protección del proceso fisiológico se ve completamente alterada. El inicio está marcado por un entorno que interfiere, desorganiza o irrumpe con fuerza.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/3/19',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Parto',
+                                title: 'RECHAZO DEL PADRE DURANTE EL PARTO',
+                                text: 'Cuando el padre rechaza estar presente o se distancia del momento del nacimiento, ya sea física o simbólicamente, la entrada del bebé al mundo carece de una de las figuras fundamentales de acompañamiento. La ausencia o el alejamiento del padre en este instante clave queda registrado como una falta de presencia activa en el primer acto de encuentro con la vida. La llegada se da sin uno de los pilares vinculares esperables, y la estructura interna puede construirse desde un lugar de inicio incompleto en relación al sostén masculino.'
+                            },
+                        ]
+                    },
+                    {
+                        linkName: 'petalo-3/2/4',
+                        image: 'boton3',
+                        iconCenter: 'simbolo3',
+                        title: 'D',
+                        index: 3,
+                        colorBorder: 'purple',
+                        subPetalos: [
+                            {
+                                linkName: 'petalo-3/2/4/1',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'COLOCADO EN INCUBADORA',
+                                text: 'Cuando el recién nacido es separado de la madre y colocado en incubadora, el cuerpo recibe los cuidados vitales necesarios, pero el vínculo físico y energético se ve interrumpido. El entorno inmediato de contención se convierte en un espacio técnico, donde la nutrición, el calor y el resguardo provienen de una fuente externa, distante y estructurada. Esta forma de comienzo puede establecer una forma de vincularse con el mundo desde la autorregulación forzada, o con la necesidad de adaptarse a entornos impersonales para sobrevivir.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/2',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'SEPARACIÓN O DIVORCIO DE LOS PADRES',
+                                text: 'Cuando durante los primeros años de vida ocurre la ruptura formal o la distancia definitiva entre los progenitores, el entorno familiar cambia de manera estructural. La configuración original del espacio afectivo es modificada, y el niño crece en un sistema dividido o reorganizado. Esta experiencia puede dejar registrada una percepción de inestabilidad en la figura de base o de conflicto como constante. La construcción del mundo relacional queda marcada por el quiebre temprano del modelo de unión original.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/3',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'ABANDONO DESPUÉS DE NACER',
+                                text: 'Cuando luego del nacimiento se produce una separación no deseada ni contenida —ya sea por abandono físico, entrega a terceros o falta de contacto sostenido— el cuerpo que recién comienza su desarrollo en el plano externo experimenta un corte abrupto en el vínculo esperado. La sensación de continuidad entre lo gestado y lo recibido se ve interrumpida, y la vida comienza sin el sostén esperado por parte de las figuras primarias. Este patrón puede dar lugar a una forma de estar en el mundo marcada por la autosuficiencia forzada o por la búsqueda constante de un punto de referencia estable.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/4',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'SIN JUGAR',
+                                text: 'Cuando el entorno de crianza no habilita el juego como parte del desarrollo, la infancia se construye sin espacios de exploración, creatividad ni movimiento libre. El cuerpo crece dentro de una estructura rígida, donde las funciones básicas se priorizan por sobre la expresión espontánea. La vida cotidiana se ordena desde la norma, el silencio o la repetición, dejando poco espacio para la imaginación o la libertad de experimentar. Esta vivencia puede fijar una percepción de la existencia como un sistema cerrado, donde no hay lugar para lo lúdico o para lo que no tiene propósito funcional.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/5',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'MALTRATO',
+                                text: 'Cuando la crianza se da dentro de un contexto de violencia física o simbólica, el cuerpo en desarrollo recibe señales de amenaza constantes desde su entorno inmediato. Las figuras de cuidado se transforman en fuentes de daño, y el hogar se percibe como un lugar de tensión continua. La relación con el espacio íntimo queda marcada por la imprevisibilidad, el control o el dolor. El registro corporal de este tipo de postnatalidad condiciona la forma en que se interpretan el contacto, la autoridad y la seguridad.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/6',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'LACTANCIA SIN PECHO DE LA MADRE',
+                                text: 'Cuando la alimentación del recién nacido no incluye el amamantamiento directo, el cuerpo crece sin el contacto físico constante que supone ese acto. Aunque pueda estar nutrido, el vínculo diario con la fuente primaria de alimentación queda mediado o ausente. Esta situación configura una experiencia de nutrición desconectada del cuerpo materno, lo que puede condicionar la percepción de cercanía con lo vital, o generar una relación con el alimento más funcional que vincular.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/7',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'SIN LIBERTAD',
+                                text: 'Cuando el entorno no permite al niño moverse libremente, explorar o tomar decisiones acordes a su desarrollo, la construcción del yo se ve restringida desde etapas muy tempranas. La experiencia del mundo queda delimitada por normas estrictas, vigilancia o ausencia de confianza. Esta configuración puede generar una percepción de que todo lo que se desea o se intenta debe pasar por la validación externa. El crecimiento ocurre dentro de márgenes definidos por otros, con poco margen para el despliegue personal.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/8',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'LA MADRE NO SE OCUPA DE MÍ',
+                                text: 'Cuando la madre está presente físicamente pero no se involucra activamente en la crianza, el cuerpo del niño registra una figura materna ausente o indiferente. Las necesidades básicas pueden estar cubiertas, pero el acompañamiento vital queda relegado o automatizado. Esta experiencia deja una huella donde la relación con lo femenino, lo nutritivo o lo contenedor se construye desde la distancia o la falta de interés. El vínculo con la madre queda definido por la carencia de atención activa.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/9',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'INFIDELIDAD',
+                                text: 'Cuando durante los primeros años de vida uno de los padres mantiene una relación paralela, el entorno se carga de tensiones, ocultamientos o rupturas dentro de la estructura familiar. Aunque el niño no comprenda lo que ocurre, el campo donde se desarrolla queda impregnado por la sensación de duplicidad o fragmentación. Esta experiencia puede influir en la forma en que se entienden los vínculos comprometidos, las promesas o la permanencia dentro de las relaciones estables.'
+                            },
+                            {
+                                linkName: 'petalo-3/2/4/10',
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: 'Posnatal',
+                                title: 'LA MADRE ME IGNORA',
+                                text: 'Cuando la madre no responde a las señales del hijo, no reacciona ante su presencia o no establece contacto visual y corporal frecuente, el niño crece en un entorno donde su existencia no es reflejada. Esta vivencia imprime un patrón donde el entorno no reconoce, no responde o no valida. El cuerpo se forma en una atmósfera donde estar presente no garantiza ser percibido, y el mundo aparece como un lugar donde la iniciativa propia no produce resonancia directa.'
+                            },
+                        ]
+                    },
+                    
                 ]
             },
             {

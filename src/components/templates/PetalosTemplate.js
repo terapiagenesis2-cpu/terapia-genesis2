@@ -116,6 +116,9 @@ const PetalosTemplate = ({ pageContext }) => {
                         circuloBase={esCirculoBase}
                         petalos={subPetalos}
                         noNumber={noNumber}
+                        flashColor="#FFFFFF"
+                        glowColor="#FFFFFF"
+                        softGlow
                         onClick={(number) => {
                             const numberFinal = (input ? ((input * 10) + number) : number);
 
@@ -164,10 +167,13 @@ const getColorWithFuente = (link) => {
 
     const number = parseInt(match[1]);
     switch (number) {
-        case 5:
-            return "#595959"
-        default:
-            return "#fdf8f8"
+        case 1: return "#FF2D2D";
+        case 2: return "#FF8C00";
+        case 3: return "#FFD700";
+        case 4: return "#00C853";
+        case 5: return "#00BFFF";
+        case 6: return "#3A6FFF";
+        default: return "#B44DFF";
     }
 }
 
