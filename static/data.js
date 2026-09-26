@@ -2523,513 +2523,2756 @@ const petalos = [
             {
                 linkName: "petalo-3/3",
                 image: 'boton3',
-                title: "CUALIDADES DEL SER",
+                iconCenter: "simbolo3",
+                title: "CONFLICTOS PROGRAMANTES",
                 noNumbers: true,
-                text: "Las cualidades del ser se refieren a las características, atributos o rasgos que definen tu esencia. Estas cualidades pueden variar según el contexto en el que se apliquen, pero generalmente se refieren a aspectos de tu personalidad, habilidades, valores y virtudes. Estas cualidades son fundamentales para entender y describir la complejidad de cómo nos relacionamos con el mundo que nos rodea. (Se incorporaron las siguientes cualidades)",
+                text: "",
                 subPetalos: [
                     {
-                        linkName: "petalo-3/3/1", image: 'boton3', title: "A", index: 0, colorBorder: 'red', subPetalos: [
-                            { linkName: "petalo-3/3/1/1", image: 'boton3', titlePage: "Cualidades del Ser A", title: "ALEGRIA", text: "" },
-                            { linkName: "petalo-3/3/1/2", image: 'boton3', titlePage: "Cualidades del Ser A", title: "AMABILIDAD", text: "" },
-                            { linkName: "petalo-3/3/1/3", image: 'boton3', titlePage: "Cualidades del Ser A", title: "AMOR", text: "" },
-                            { linkName: "petalo-3/3/1/4", image: 'boton3', titlePage: "Cualidades del Ser A", title: "ARMONIA", text: "" },
-                            { linkName: "petalo-3/3/1/5", image: 'boton3', titlePage: "Cualidades del Ser A", title: "BONDAD", text: "" },
-                            { linkName: "petalo-3/3/1/6", image: 'boton3', titlePage: "Cualidades del Ser A", title: "CLARIDAD", text: "" },
-                            { linkName: "petalo-3/3/1/7", image: 'boton3', titlePage: "Cualidades del Ser A", title: "COMPASION", text: "" },
-                            { linkName: "petalo-3/3/1/8", image: 'boton3', titlePage: "Cualidades del Ser A", title: "COMPOSTURA", text: "" },
-                            { linkName: "petalo-3/3/1/9", image: 'boton3', titlePage: "Cualidades del Ser A", title: "COMPRENSION", text: "" },
-                            { linkName: "petalo-3/3/1/10", image: 'boton3', titlePage: "Cualidades del Ser A", title: "CONSCIENCIA", text: "" },
-                            { linkName: "petalo-3/3/1/11", image: 'boton3', titlePage: "Cualidades del Ser A", title: "CONEXIÓN CON DIOS", text: "" },
-                            { linkName: "petalo-3/3/1/12", image: 'boton3', titlePage: "Cualidades del Ser A", title: "CONFIANZA", text: "" },
-                            { linkName: "petalo-3/3/1/13", image: 'boton3', titlePage: "Cualidades del Ser A", title: "CREATIVIDAD", text: "" },
-                            { linkName: "petalo-3/3/1/14", image: 'boton3', titlePage: "Cualidades del Ser A", title: "CURIOSIDAD", text: "" },
-                            { linkName: "petalo-3/3/1/15", image: 'boton3', titlePage: "Cualidades del Ser A", title: "DIRECCION", text: "" },
-                            { linkName: "petalo-3/3/1/16", image: 'boton3', titlePage: "Cualidades del Ser A", title: "DISCRECION", text: "" },
-                            { linkName: "petalo-3/3/1/17", image: 'boton3', titlePage: "Cualidades del Ser A", title: "EMPATIA", text: "" },
-                            { linkName: "petalo-3/3/1/18", image: 'boton3', titlePage: "Cualidades del Ser A", title: "ESPIRITUALIDAD", text: "" },
-                            { linkName: "petalo-3/3/1/19", image: 'boton3', titlePage: "Cualidades del Ser A", title: "FE", text: "" },
-                            { linkName: "petalo-3/3/1/20", image: 'boton3', titlePage: "Cualidades del Ser A", title: "GENEROSIDAD", text: "" },
-                            { linkName: "petalo-3/3/1/21", image: 'boton3', titlePage: "Cualidades del Ser A", title: "GRATITUD", text: "" },
-                            { linkName: "petalo-3/3/1/22", image: 'boton3', titlePage: "Cualidades del Ser A", title: "HUMILDAD", text: "" }
+                        linkName: "petalo-3/3/1",
+                        image: 'boton3',
+                        iconCenter: 'simbolo3',
+                        title: "A",
+                        index: 0,
+                        colorBorder: "red",
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/3/1/1",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE ABANDONO",
+                                text: `Este conflicto se programa cuando una figura de apego se aleja física o emocionalmente, dejando al niño en una experiencia de soledad, desconexión o inseguridad afectiva. El sistema nervioso registra este hecho como una amenaza de muerte simbólica, ya que el niño depende de sus cuidadores para sobrevivir. Puede ser causado por una hospitalización, divorcio, muerte de un ser querido o simple ausencia emocional de los padres. Cómo condiciona la vida: La persona tiende a establecer vínculos de dependencia, miedo a estar sola o a perder a quienes ama. Toma decisiones desde la necesidad de sostén emocional externo, postergando sus propios deseos o tolerando relaciones tóxicas para evitar revivir el abandono original. Síntomas físicos frecuentes: Trastornos respiratorios como asma, infecciones recurrentes, afecciones de piel (psoriasis, dermatitis), colon irritable, ansiedad crónica o insomnio.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/2",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE DESVALORIZACIÓN",
+                                text: `Se activa cuando el entorno le transmite al niño que no es suficiente: que lo que hace no es valorado o que siempre se espera más de él. Esto puede ocurrir por críticas constantes, falta de reconocimiento, comparaciones con hermanos o incluso por un exceso de exigencia que no se ajusta a su edad o capacidad. Cómo condiciona la vida: El adulto vive con una sensación de inadecuación constante. Duda de su capacidad, no se permite avanzar, se autoexige en exceso o directamente evita exponerse para no ser juzgado. A menudo elige profesiones o vínculos que lo refuercen como alguien 'menos'. Síntomas físicos frecuentes: Dolores articulares, desgaste óseo (artrosis, osteoporosis), problemas musculares, contracturas, postura encorvada como lenguaje corporal de sentirse 'menos'.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/3",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE IDENTIDAD",
+                                text: `El conflicto de identidad se programa cuando el niño no sabe quién es dentro del sistema familiar. Puede haber una inversión de roles (ej. ser el adulto emocional en la relación con los padres), haber sido deseado de otro sexo, ser adoptado o reemplazar a un hermano fallecido. También se forma cuando no se le permite expresar su individualidad. Cómo condiciona la vida: El adulto experimenta confusión interna, busca constantemente su propósito, cambia de profesión, pareja o lugar. Necesita ser aprobado para definirse y se adapta a los demás para sentirse aceptado. Síntomas físicos frecuentes: Tiroides (por su relación con el tiempo y el sentido de dirección), vértigos, cervicalgias, desequilibrios hormonales, sensación de 'no saber para dónde ir'.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/4",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE TERRITORIO",
+                                text: `El conflicto territorial surge cuando el individuo siente que su espacio (físico, emocional o simbólico) está amenazado o ha sido invadido. Puede ser por mudanzas, discusiones familiares, presencia de terceros en el hogar, pérdida de un rol en la familia, etc. Se activa también cuando se vive la experiencia de ser expulsado, desplazado o usurpado. Cómo condiciona la vida: Vive intentando recuperar el control de su entorno. Puede ser extremadamente celoso, posesivo, controlador o hipersensible al caos o desorden. Toma decisiones defensivas, anticipándose a cualquier posible pérdida de su espacio. Síntomas físicos frecuentes: Trastornos urinarios (vejiga, riñones), afecciones del aparato reproductor (útero, próstata), retención de líquidos, infecciones recurrentes en vías urinarias o genitales.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/5",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE SEPARACIÓN",
+                                text: `Se forma ante una experiencia vivida como una ruptura emocional: separación física o simbólica de alguien esencial para el niño. Esto puede suceder ante una mudanza, un divorcio, el nacimiento de un hermano o una internación. El cuerpo lo graba como una pérdida de contacto vital. Cómo condiciona la vida: Toma decisiones buscando evitar la pérdida. Se apega a personas o situaciones que ya no son funcionales, o evita relacionarse profundamente para no sufrir. Siente que si se conecta, perderá algo o alguien. Síntomas físicos frecuentes: La piel como órgano del contacto es la más afectada: dermatitis, eccemas, alergias. También pueden activarse afecciones respiratorias o inmunológicas si se vive como pérdida de protección.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/6",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE INJUSTICIA",
+                                text: `Surge cuando el niño vive experiencias donde percibe que no se lo trata con equidad. Puede deberse a favoritismo entre hermanos, castigos excesivos, promesas incumplidas o reglas impuestas sin coherencia. La sensación interna es de impotencia, enojo reprimido y frustración. Cómo condiciona la vida: El adulto desarrolla una alta sensibilidad ante lo que percibe como injusto. Puede volverse hipercrítico, controlador o vivir a la defensiva. Toma decisiones desde la necesidad de tener razón, demostrar o evitar ser lastimado nuevamente. Síntomas físicos frecuentes: Hígado (procesa la ira), tensión arterial elevada, rigidez articular, tensión muscular persistente.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/7",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE RECHAZO / NO SER DESEADO",
+                                text: `Este conflicto se imprime cuando el niño fue concebido sin ser deseado, cuando los padres esperaban un hijo de otro sexo o cuando hubo intención de aborto. También si su nacimiento generó estrés o fue ocultado. El inconsciente graba la idea de que no tiene derecho a existir. Cómo condiciona la vida: La persona tiende a buscar constantemente aprobación, se sobreadapta, evita conflictos y le cuesta poner límites. Puede sabotearse sus logros o relaciones porque siente, profundamente, que no merece estar aquí. Síntomas físicos frecuentes: Trastornos inmunológicos, infertilidad, problemas en la piel, enfermedades autoinmunes donde el cuerpo “se ataca a sí mismo”.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/8",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE HUMILLACIÓN",
+                                text: `Se graba cuando el niño es avergonzado, ridiculizado o expuesto, especialmente por figuras significativas. También puede ser vivido por represión de la expresión corporal o emocional, o cuando se le obliga a actuar en contra de su sentir. Cómo condiciona la vida: Tiende a esconder su autenticidad, evita mostrarse, teme al juicio externo. Toma decisiones desde la necesidad de no ser visto, incluso si desea el éxito. Puede adoptar una postura corporal encogida o sumisa. Síntomas físicos frecuentes: Ano, recto, intestino grueso, piel. También se pueden manifestar trastornos sexuales por vergüenza corporal no procesada.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/9",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE TRAICIÓN",
+                                text: `Vivencia donde alguien en quien se confiaba rompe un pacto implícito o explícito. Puede ser una infidelidad, promesas no cumplidas, abandono emocional o económico. El sistema registra un quiebre profundo de confianza. Cómo condiciona la vida: Dificultad para confiar, crea vínculos con control, sospecha constante o evita el compromiso. Toma decisiones basadas en la autoprotección y la sospecha. Síntomas físicos frecuentes: Corazón (dolor emocional), hígado (ira), estómago (no digiere la traición), tensión en pecho y plexo solar.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/10",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE PÉRDIDA",
+                                text: `Instante en que se pierde a alguien o algo valioso, como una muerte, separación, mascota o situación significativa. Puede ser una pérdida concreta o simbólica (infancia, trabajo, rol). Si no se elabora emocionalmente, se graba como trauma. Cómo condiciona la vida: Genera miedo constante a perder. Se aferra a personas, cosas o situaciones. Toma decisiones desde el apego o la negación del cambio. Síntomas físicos frecuentes: Pulmones (dolor de la pérdida), sistema respiratorio, fatiga, contracturas en pecho, debilidad generalizada.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/11",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE CARENCIA",
+                                text: `Este conflicto se programa en ambientes donde hay escasez afectiva, material o energética. Puede derivar de experiencias propias o del inconsciente familiar (transgeneracional), como guerras, migraciones, hambre o abandono emocional. El inconsciente aprende que no hay suficiente para sobrevivir. Cómo condiciona la vida: Vive desde la supervivencia. Acumula, se limita, teme invertir en sí mismo. Se enfoca en el ahorro, el esfuerzo o el sacrificio para 'merecer'. Le cuesta permitirse disfrutar. Síntomas físicos frecuentes: Sobrepeso, problemas digestivos, retención de líquidos, tiroides (ritmo de vida), riñones (filtrado de lo necesario).`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/12",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE ESTRUCTURA",
+                                text: `Se genera cuando el niño no encuentra firmeza o contención en su entorno. Hogares caóticos, padres inestables o abandonos simbólicos hacen que no se desarrolle una base interna de seguridad. Cómo condiciona la vida: Busca estructuras externas para sostenerse: pareja, trabajo, dinero. Tiene miedo a tomar decisiones si no siente respaldo. Evita los cambios o vive en control constante. Síntomas físicos frecuentes: Columna, caderas, rodillas, problemas posturales, escoliosis, dolores persistentes en la base del cuerpo.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/13",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE NO PODER EXPRESARSE",
+                                text: `Se imprime cuando el niño es silenciado, ignorado, invalidado o castigado por hablar. También si crecer en un ambiente en el que no se expresan las emociones libremente. Cómo condiciona la vida: Se guarda lo que siente. Se calla para no incomodar, le cuesta poner límites o decir lo que piensa. Siente un nudo en la garganta en situaciones de tensión. Síntomas físicos frecuentes: Tiroides, laringe, faringe, cuerdas vocales, alergias respiratorias, infecciones frecuentes en garganta.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/14",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO BIOLÓGICO DE BOCADO",
+                                text: `Relación simbólica con el alimento, el cuerpo interpreta una experiencia emocional como un 'bocado' que no se puede atrapar, tragar, digerir o eliminar. Aparece ante frustraciones, abusos o situaciones difíciles de procesar. Cómo condiciona la vida: Repite situaciones que no logra resolver. Vive bloqueado emocionalmente. Tiende a rumiar pensamientos o permanecer atrapado en vínculos. Síntomas físicos frecuentes: Boca, esófago, estómago, intestinos, hígado, páncreas, vómitos, reflujos, estreñimiento o diarreas.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/15",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE RECONOCIMIENTO",
+                                text: `Este conflicto se graba cuando el niño no recibe mirada, aprobación ni validación. Vive como invisible o no valorado por ser quien es. Puede intentar sobresalir o apagarse completamente. Cómo condiciona la vida: Vive para ser visto, admirado o necesitado. Toma decisiones desde el deseo de ser reconocido, no desde su esencia. Se esfuerza por agradar. Síntomas físicos frecuentes: Corazón (centro de la identidad), sistema nervioso (estrés crónico), piel (necesidad de ser tocado o visto).`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/16",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE MIEDO EN LA NUCA",
+                                text: `Sensación de amenaza latente e invisible. Puede estar relacionado con memorias familiares de guerra, persecución, abandono o traición. El cuerpo registra que 'algo malo va a pasar', aunque no se vea. Cómo condiciona la vida: Ansiedad anticipatoria, miedo a lo desconocido, hipervigilancia. Dificultad para relajarse o confiar. Síntomas físicos frecuentes: Cervicales, cuello, contracturas, migrañas, insomnio, trastornos del sueño.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/17",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE NIDO",
+                                text: `Percepción de que el hogar no es un lugar seguro o nutritivo. Puede implicar violencia, abandono, invasión, caos o simplemente no sentirse querido dentro del espacio familiar. Cómo condiciona la vida: Busca crear refugios externos, relaciones donde sentirse en casa, pero muchas veces sin lograrlo. Vive con miedo a que su hogar (real o simbólico) se desmorone. Síntomas físicos frecuentes: Pulmones, bronquios, pecho, mamas, sistema respiratorio en general.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/18",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE CONTACTO IMPUESTO",
+                                text: `Impresión corporal de invasión o manipulación afectiva. Se puede grabar incluso con gestos forzados (besos, abrazos), invasión de privacidad o abuso. Cómo condiciona la vida: Dificultad para establecer límites físicos y emocionales. Confusión entre amor y obligación. Puede evitar el contacto o, al contrario, buscarlo compulsivamente. Síntomas físicos frecuentes: Piel (barrera de contacto), infecciones, alergias, mucosas, sistema inmune.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/19",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE DIRECCIÓN",
+                                text: `Surge cuando no se le permite al niño tomar decisiones, se lo sobreprotege o se le impone un camino de vida. Pierde conexión con su deseo y capacidad de orientación. Cómo condiciona la vida: Duda constantemente, se paraliza ante decisiones importantes, necesita aprobación. Cambia de rumbo repetidamente. Síntomas físicos frecuentes: Tiroides, cervicales, tobillos, vértigos, desequilibrios hormonales.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/20",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE DIAGNÓSTICO",
+                                text: `El momento en que se recibe una etiqueta médica se graba como un bio-shock. El inconsciente puede interpretar el diagnóstico como una sentencia de muerte simbólica o real. Cómo condiciona la vida: La persona empieza a identificarse con la enfermedad. Organiza su vida alrededor del diagnóstico, dejando de escucharse verdaderamente. Agrava síntomas, genera nuevos, puede cronificar patologías leves o generar bloqueos en la recuperación.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/21",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DESENCADENANTE",
+                                text: `Es el evento que activa un conflicto latente ya instalado en el inconsciente. No lo genera, pero lo pone en movimiento. Suele ser algo aparentemente pequeño pero significativo emocionalmente. Cómo condiciona la vida: La persona empieza a actuar en modo defensa a partir de ese evento. A menudo no recuerda el disparador pero su cuerpo sí. Dependerá del órgano y sistema afectado según la emoción vinculada al conflicto original.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/22",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO AUTOPROGRAMANTE",
+                                text: `Cuando una persona repite en carne propia una historia de su árbol genealógico, refuerza un programa familiar ya instalado. El conflicto deja de ser solo transgeneracional para convertirse en personal. Cómo condiciona la vida: Repite historias como abandono, quiebra, infidelidad, enfermedad, sin comprender por qué. Vive con una sensación de destino o condena inevitable. Enfermedades familiares, síntomas crónicos, bloqueos en órganos con fuerte carga hereditaria.`
+                            },
+                            {
+                                linkName: "petalo-3/3/1/23",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes A",
+                                title: "CONFLICTO DE BIO-SHOCK",
+                                text: `Es el instante exacto en que una emoción intensa, inesperada, vivida en soledad y sin expresión queda grabada en el cuerpo como trauma. A partir de ahí, el órgano correspondiente al tipo de emoción responde con un síntoma. Cómo condiciona la vida: La persona puede cambiar su manera de vivir a partir de ese momento sin ser consciente. El trauma no expresado dirige decisiones, creencias y bloqueos. Cualquier órgano puede ser afectado. Es el inicio emocional de la mayoría de enfermedades según la biodescodificación.`
+                            }
                         ]
                     },
                     {
-                        linkName: "petalo-3/3/2", image: 'boton3', title: "B", index: 1, colorBorder: 'blue', subPetalos: [
-                            { linkName: "petalo-3/3/2/1", image: 'boton3', titlePage: "Cualidades del Ser B", title: "INOCENCIA", text: "" },
-                            { linkName: "petalo-3/3/2/2", image: 'boton3', titlePage: "Cualidades del Ser B", title: "LEALTAD", text: "" },
-                            { linkName: "petalo-3/3/2/3", image: 'boton3', titlePage: "Cualidades del Ser B", title: "LIBERTAD", text: "" },
-                            { linkName: "petalo-3/3/2/4", image: 'boton3', titlePage: "Cualidades del Ser B", title: "OPTIMISMO", text: "" },
-                            { linkName: "petalo-3/3/2/5", image: 'boton3', titlePage: "Cualidades del Ser B", title: "PACIENCIA", text: "" },
-                            { linkName: "petalo-3/3/2/6", image: 'boton3', titlePage: "Cualidades del Ser B", title: "PAZ", text: "" },
-                            { linkName: "petalo-3/3/2/7", image: 'boton3', titlePage: "Cualidades del Ser B", title: "PERCEPCION", text: "" },
-                            { linkName: "petalo-3/3/2/8", image: 'boton3', titlePage: "Cualidades del Ser B", title: "PERDON", text: "" },
-                            { linkName: "petalo-3/3/2/9", image: 'boton3', titlePage: "Cualidades del Ser B", title: "PERSEVERANCIA", text: "" },
-                            { linkName: "petalo-3/3/2/10", image: 'boton3', titlePage: "Cualidades del Ser B", title: "PROPOSITO", text: "" },
-                            { linkName: "petalo-3/3/2/11", image: 'boton3', titlePage: "Cualidades del Ser B", title: "RESILIENCIA", text: "" },
-                            { linkName: "petalo-3/3/2/12", image: 'boton3', titlePage: "Cualidades del Ser B", title: "SABIDURIA", text: "" },
-                            { linkName: "petalo-3/3/2/13", image: 'boton3', titlePage: "Cualidades del Ser B", title: "SERENIDAD", text: "" },
-                            { linkName: "petalo-3/3/2/14", image: 'boton3', titlePage: "Cualidades del Ser B", title: "SINCERIDAD", text: "" },
-                            { linkName: "petalo-3/3/2/15", image: 'boton3', titlePage: "Cualidades del Ser B", title: "SOLIDARIDAD", text: "" },
-                            { linkName: "petalo-3/3/2/16", image: 'boton3', titlePage: "Cualidades del Ser B", title: "TOLERANCIA", text: "" },
-                            { linkName: "petalo-3/3/2/17", image: 'boton3', titlePage: "Cualidades del Ser B", title: "TRANSPARENCIA", text: "" },
-                            { linkName: "petalo-3/3/2/18", image: 'boton3', titlePage: "Cualidades del Ser B", title: "UNIDAD", text: "" },
-                            { linkName: "petalo-3/3/2/19", image: 'boton3', titlePage: "Cualidades del Ser B", title: "VALENTIA", text: "" },
-                            { linkName: "petalo-3/3/2/20", image: 'boton3', titlePage: "Cualidades del Ser B", title: "VOLUNTAD", text: "" },
-                            { linkName: "petalo-3/3/26/21", image: 'boton3', titlePage: "Cualidades del Ser B", title: "SIMPLICIDAD", text: "" }
+                        linkName: "petalo-3/3/2",
+                        image: 'boton3',
+                        iconCenter: 'simbolo3',
+                        title: "B",
+                        index: 1,
+                        colorBorder: "blue",
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/3/2/1",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE FALTA DE AFECTO O AMOR",
+                                text: `Si durante el embarazo o los primeros años de vida el niño no recibió suficiente amor, atención o afecto de la madre o las figuras primarias de cuidado, puede sentir que no es digno de amor. Este conflicto puede dar lugar a trastornos relacionados con el sistema circulatorio o problemas emocionales y conductuales, como trastornos de vinculación, ansiedad, o incluso problemas cardíacos.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/2",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE SUPERVIVENCIA O MIEDO A LA MUERTE",
+                                text: `A veces, situaciones de grave estrés o miedo a la muerte durante la infancia o incluso en el útero (por ejemplo, si la madre pasa por una situación de riesgo de vida) dejan una marca emocional profunda en el niño. Este tipo de conflicto surge cuando el individuo (o incluso el feto) percibe una amenaza directa a su vida o siente que su existencia está en peligro. La percepción de abandono, rechazo o falta de apoyo vital puede interpretarse inconscientemente como un "riesgo de muerte".`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/3",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE NO SER VISTO O RECONOCIDO",
+                                text: `Este conflicto surge cuando una persona se siente ignorada, desatendida o no valorada por sus padres u otras figuras importantes. Problemas emocionales de baja autoestima, depresión, problemas de visión (enfermedades oculares) y trastornos relacionados con la circulación sanguínea.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/4",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE VULNERABILIDAD O DESPROTECCIÓN",
+                                text: `La persona se siente vulnerable o desprotegida frente a una amenaza externa o cuando no siente apoyo de las figuras parentales o de las personas cercanas. Algunas de las consecuencias de este conflicto pueden ser problemas de la piel, como eczema, heridas, úlceras, y trastornos musculares.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/5",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE DEPENDENCIA EMOCIONAL",
+                                text: `La persona desarrolla una dependencia emocional hacia figuras de autoridad o pareja, debido a una falta de autonomía emocional en la infancia. Esto puede generar trastornos relacionados con los riñones, los huesos (osteoporosis), y enfermedades del sistema endocrino (hipotiroidismo, diabetes).`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/6",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE DIFICULTAD PARA ADAPTARSE A CAMBIOS",
+                                text: `Este conflicto se da cuando la persona tiene dificultades para adaptarse a cambios significativos, como mudanzas, nuevas situaciones familiares, cambios laborales o incluso cambios dentro del propio cuerpo (pubertad, envejecimiento). Esto puede producir trastornos en el sistema nervioso, problemas musculares, afecciones del aparato digestivo.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/7",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE MIEDO AL RECHAZO SOCIAL",
+                                text: `Este conflicto tiene que ver con el temor a ser excluido o no aceptado en el grupo social, ya sea en la familia, el círculo de amigos o la sociedad en general, esto influye en trastornos de ansiedad social, fobias, depresión, y problemas relacionados con el sistema respiratorio (asma, enfermedades pulmonares).`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/8",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE DESCONEXIÓN CON LA PROPIA SEXUALIDAD",
+                                text: `Puede originarse cuando hay una represión o falta de aceptación de la propia identidad sexual, ya sea por restricciones familiares, sociales o religiosas. Consecuencias: Trastornos hormonales, problemas reproductivos, y trastornos emocionales relacionados con la baja autoestima o la vergüenza.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/9",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE TÁLAMO",
+                                text: `Es la estructura cerebral encargada de recibir y transmitir la información sensorial (como la vista, el oído o el tacto) hacia otras áreas del cerebro, permitiendo la percepción consciente del entorno. Cuando este centro se encuentra bloqueado, suele reflejar una experiencia vivida de soledad, desconexión o falta de contacto emocional, donde la persona puede haber sentido que no era vista, escuchada o comprendida. Este tipo de vivencia puede originarse en la infancia o estar relacionada con memorias heredadas del árbol familiar, donde existieron historias de exclusión, silencio o aislamiento. Las personas que presentan este tipo de conflicto suelen ser muy sensibles, con tendencia a cerrarse emocionalmente o a sentir que no encajan, que están fuera de lugar o desconectadas del mundo.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/10",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO ELECTRA",
+                                text: `Un conflicto de Electra, es una dinámica inconsciente en la cual, en algún momento de su historia, la persona desarrolló un vínculo emocional muy intenso con su padre, buscando atención, cariño o validación por parte de él. Esta conexión pudo haber generado una tensión o rivalidad con la figura materna, especialmente si la madre fue vivida como una persona fría, crítica, ausente o poco disponible emocionalmente. En ese contexto, el padre pasó a representar un refugio emocional. Esta vivencia puede haber dejado huellas en la manera en que la consultante se vincula con otras mujeres, con su identidad femenina o en sus relaciones de pareja. Muchas veces, estos patrones inconscientes llevan a buscar fuera la validación que no se recibió en casa, o a cargar con emociones no resueltas hacia la madre.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/11",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE EDIPO",
+                                text: `El conflicto de Edipo, una dinámica inconsciente en la que, en algún momento de su historia, la persona desarrolló un vínculo emocional muy fuerte con su madre, buscando atención, cariño o validación de una manera que excede el rol natural de hijo. Este patrón suele aparecer cuando la figura paterna estuvo ausente, fue débil, fría, autoritaria o poco disponible emocionalmente, y como respuesta inconsciente, el hijo intenta ocupar un lugar que no le corresponde: el de acompañar, proteger o compensar afectivamente a la madre. Este tipo de conflicto puede impactar en la forma en que la persona se vincula con figuras femeninas en su vida adulta, afectando sus relaciones de pareja o su identidad masculina. En muchos casos, se repite la búsqueda inconsciente de la madre en otras mujeres, o aparece una sensación de culpa o bloqueo al establecer una relación amorosa estable, como si estuviera traicionando ese vínculo primario. También puede generar dificultades para conectar con la propia fuerza interior, tomar decisiones o ejercer una masculinidad sana y equilibrada. Al liberar esta información en la sesión, se permitió que la persona recupere su lugar como hijo, suelte lealtades inconscientes y pueda construir vínculos más libres, amorosos y conscientes, desde su verdadera identidad.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/12",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE AUTO-DESVALORIZACIÓN",
+                                text: `Conflicto de auto-desvalorización, que surge cuando la persona, en algún momento de su vida, vivió una experiencia en la que sintió que no era suficiente, que no cumplía con las expectativas de los demás, o que su valor personal no era reconocido. Esta vivencia puede estar relacionada con críticas constantes, comparaciones, falta de reconocimiento, exigencias desmedidas o situaciones en las que se percibió a sí misma como incapaz, inferior o inadecuada. Desde la biología, el cuerpo suele expresar este tipo de conflicto a través de síntomas en los huesos, articulaciones, músculos o tendones, ya que estas estructuras están directamente asociadas con el movimiento, el sostén y el valor personal. El inconsciente interpreta simbólicamente estas dolencias como una manera de “mostrar” que no se siente suficiente o fuerte para sostener determinadas situaciones. En muchos casos, este programa también puede estar heredado del árbol genealógico, donde hubo historias de humillación, fracasos, desvalorización o comparaciones injustas entre miembros de la familia.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/13",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO PLACER PROHIBIDO",
+                                text: `El conflicto de placer prohibido, que se activa cuando la persona guarda en su inconsciente la creencia de que disfrutar, gozar o experimentar placer está mal, es indebido, peligroso o trae consecuencias negativas. Este tipo de conflicto puede originarse en vivencias personales en las que el placer fue asociado con culpa, vergüenza o castigo, ya sea en lo sexual, emocional, corporal o incluso en el disfrute cotidiano de la vida. En muchos casos, este patrón se instala en contextos donde hubo una educación rígida, moralista o religiosa, donde el goce y el deseo fueron reprimidos. También puede derivar de experiencias traumáticas (como abusos, traiciones o situaciones donde el placer estuvo mezclado con dolor) o venir del transgeneracional, con historias de mujeres u hombres que fueron juzgados o castigados por vivir el placer libremente o por romper mandatos familiares.`
+                            },
+                            {
+                                linkName: "petalo-3/3/2/14",
+                                image: "boton3",
+                                iconCenter: "simbolo3",
+                                titlePage: "Conflictos Programantes B",
+                                title: "CONFLICTO DE REFERENTES EXTERNOS",
+                                text: `Este conflicto se activa cuando la persona ha aprendido, consciente o inconscientemente, a buscar fuera de sí misma la validación, la aprobación o el permiso para actuar, decidir o simplemente ser. Esto implica una desconexión de su propia verdad interior, de su intuición y de su capacidad de autorreferencia. Este tipo de conflicto suele originarse en la infancia, en contextos donde las figuras de autoridad (padres, maestros, cuidadores) fueron muy exigentes, críticas, controladoras o invalidantes. También puede surgir cuando el entorno no permitió que la persona desarrollara confianza en sus propias decisiones, instalando la creencia de que “los otros saben más”, “me puedo equivocar” o “necesito que me digan qué hacer para estar bien”. Cuando este programa está activo, es común que la persona experimente inseguridad, dependencia emocional, dificultad para tomar decisiones sin consultar o miedo a equivocarse. Muchas veces, también se manifiesta a través de la necesidad constante de complacer a los demás o de buscar aprobación externa para sentirse valiosa.`
+                            }
                         ]
-                    },
+                    }
                 ]
             },
             {
-                linkName: "petalo-3/4", image: 'boton3', title: "CONDUCTA MENTAL POSITIVA", text: "Sabemos que la actitud que cada uno toma frente a los problemas determina la importancia de los mismos, al incorporar conductas mentales positivas en nuestro subconsciente, logramos aumentar nuestra capacidad de resiliencia y energía. Estas conductas son importantes hacerlas conscientes y ponerlas en práctica en la vida cotidiana. (Se incorporaron las siguientes conductas positivas)", subPetalos: [
-                    { linkName: "petalo-3/4/1", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "GENEROSO", text: "" },
-                    { linkName: "petalo-3/4/2", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "HONESTO", text: "" },
-                    { linkName: "petalo-3/4/3", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "HONRADO", text: "" },
-                    { linkName: "petalo-3/4/4", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "HUMILDE", text: "" },
-                    { linkName: "petalo-3/4/5", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "INSPIRADO", text: "" },
-                    { linkName: "petalo-3/4/6", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "INTEGRO", text: "" },
-                    { linkName: "petalo-3/4/7", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "INTUITIVO", text: "" },
-                    { linkName: "petalo-3/4/8", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "LEAL", text: "" },
-                    { linkName: "petalo-3/4/9", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "MOTIVADO", text: "" },
-                    { linkName: "petalo-3/4/10", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "OPTIMISTA", text: "" },
-                    { linkName: "petalo-3/4/11", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "RECEPTIVO", text: "" },
-                    { linkName: "petalo-3/4/12", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "RELAJADO", text: "" },
-                    { linkName: "petalo-3/4/13", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "SATISFECHO", text: "" },
-                    { linkName: "petalo-3/4/14", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "SEGURO", text: "" },
-                    { linkName: "petalo-3/4/15", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "SERENO", text: "" },
-                    { linkName: "petalo-3/4/16", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "SIMPATICO", text: "" },
-                    { linkName: "petalo-3/4/17", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "SINCERO", text: "" },
-                    { linkName: "petalo-3/4/18", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "SOLIDARIO", text: "" },
-                    { linkName: "petalo-3/4/19", image: 'boton3', titlePage: "Conducta Mental Positiva", title: "VALIENTE", text: "" }
+                linkName: "petalo-3/4",
+                image: 'boton3',
+                iconCenter: 'simbolo3',
+                title: "COMPORTAMIENTOS COTIDIANOS",
+                noNumbers: true,
+                text: "En este punto se encuentran varias opciones las cuales vivimos cotidianamente en lo personal, social y en el plano sexual, tratar de liberarnos de estos comportamientos hace que tengamos una vida más plena y armoniosa. (Se anularon los siguientes comportamientos)",
+                subPetalos: [
+                    {
+                        linkName: "petalo-3/4/1",
+                        image: 'boton3',
+                        iconCenter: 'simbolo3',
+                        title: "A",
+                        index: 0,
+                        colorBorder: "red",
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/4/1/1",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "ABUSO",
+                                text: "El abuso puede manifestarse de diversas formas en la vida cotidiana, incluyendo el abuso físico, emocional, psicológico, sexual, financiero o de cualquier otra índole. Puede ocurrir en relaciones interpersonales, entornos laborales, instituciones educativas, contextos familiares, comunidades e incluso a nivel societal. Este ejemplo puede ser interpretado como un acto de abuso, ya sea hacia uno mismo o hacia los demás... (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/2",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "ANORGASMIA",
+                                text: "La anorgasmia es la incapacidad persistente para alcanzar el orgasmo, más común en mujeres. Las causas pueden ser físicas (trastornos hormonales, medicamentos, condiciones médicas) o psicológicas (estrés, ansiedad, menopausia, conflictos de pareja). Por otro lado, esta corrección a nivel simbólico nos puede estar diciendo que no podemos obtener placer en algún área de nuestra vida. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/3",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "ASCO SEXUAL",
+                                text: "Es un estado de repugnancia o aversión que experimenta una persona hacia algo que percibe como sucio, desagradable o inmundo. Desde un punto de vista simbólico o metafórico, el asco puede representar una reacción emocional ante situaciones, acciones o características que son moralmente o éticamente reprensibles, inaceptables o degradantes para la persona que lo experimenta. Puede implicar una sensación de desprecio o desdén hacia algo considerado deplorable o indigno. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/4",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "ASEXUAL",
+                                text: "Indica que no experimenta atracción hacia el placer sexual en ninguna de sus formas. Esta orientación puede estar relacionada con diversos factores como bloqueos en los Chakras, experiencias negativas pasadas, miedos, traumas o desequilibrios hormonales. También podría sugerir que la pareja actual no despierta excitación o deseo. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/5",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                fieldText: true,
+                                useDesc: true,
+                                useText: true,
+                                title: "BARRERA EMOCIONAL GENITAL",
+                                text: "Obstáculo emocional que afecta la capacidad para experimentar una conexión emocional o íntima en el ámbito sexual. Esta barrera puede manifestarse como dificultades para relacionarse sexualmente con otras personas, sentir miedo, ansiedad o bloqueo emocional durante encuentros íntimos, o tener dificultades para experimentar placer sexual debido a traumas, conflictos internos o creencias limitantes. (Aquí anulamos las siguientes emociones)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/6",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "BLOQUEO ENERGÉTICO GENITAL",
+                                text: "Interrupción o limitación del flujo de energía vital en la región genital del cuerpo humano. Al abordar un bloqueo energético genital trabajamos para desbloquear e equilibrar la energía estancada en la zona genital. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/7",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "BLOQUEOS QUE IMPIDEN DISFRUTAR",
+                                text: "Obstáculos que interfieren con la capacidad para experimentar plenamente el placer, la alegría o la satisfacción en diversos aspectos de la vida. Abordar estos bloqueos puede implicar explorar y trabajar a través de las emociones, resolver traumas pasados, desafiar y cambiar creencias limitantes, practicar la autoaceptación y el autocuidado, y aprender nuevas habilidades de afrontamiento para manejar los desafíos emocionales que surgen. El objetivo es liberar estos bloqueos para permitir una mayor apertura, satisfacción y disfrute en la vida y las relaciones. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/8",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                fieldText: true,
+                                useDesc: true,
+                                useText: true,
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "BLOQUEO AL DAR/RECIBIR",
+                                text: "Son obstáculos que interfieren con la capacidad para dar de manera desinteresada y recibir de manera receptiva en diversas interacciones y relaciones humanas. Este bloqueo puede tener un impacto significativo en las relaciones interpersonales, ya que pueden crear desequilibrios en la dinámica de dar y recibir, causar resentimiento, frustración o malentendidos, y dificultar la construcción de conexiones profundas y satisfactorias. El objetivo es cultivar una relación más equilibrada y gratificante con la capacidad de dar y recibir en todas las áreas de la vida. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/9",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "COMPLEJOS",
+                                text: "Se refiere a un patrón persistente de pensamientos, sentimientos o creencias negativas y distorsionadas sobre uno mismo, que afectan la percepción y el comportamiento de una persona de manera significativa. Estos complejos pueden tener su origen en experiencias pasadas, traumas, interacciones sociales, influencias culturales o creencias internalizadas que dan forma a la autoimagen y la autoestima de la persona. Los complejos pueden manifestarse en diferentes áreas de la vida, como la apariencia física, las habilidades sociales, la inteligencia, la valía personal, entre otros. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/10",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "TRAUMAS",
+                                text: "Un trauma psicológico es una respuesta abrumadora a un evento que amenaza la vida o la integridad emocional de una persona. Estos eventos pueden ser únicos, como un accidente grave o un desastre natural, o pueden ser experiencias repetidas de abuso o negligencia. Los traumas pueden dejar una marca duradera en la mente y el cuerpo de una persona, afectando su capacidad para funcionar en la vida diaria y relacionarse con los demás. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/11",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "COMPORTAMIENTO INFANTIL",
+                                text: "El infantilismo se refiere a un estado en el que una persona muestra características o comportamientos típicos de un niño, incluso en la edad adulta. Esto puede manifestarse en diversas formas, como dificultad para asumir responsabilidades adultas, dependencia excesiva de los demás, falta de autonomía, expresión emocional inmadura, entre otros. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/12",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "CONFLICTOS DE CREENCIAS SEXUALES",
+                                text: "Los conflictos moralistas sexuales surgen cuando las normas y expectativas morales de una persona chocan con sus deseos y comportamientos sexuales. Estas tensiones pueden llevar a sentimientos de culpa, vergüenza o conflicto interno, y pueden influir en la manera en que una persona vive y expresa su sexualidad. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/13",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "CONFLICTOS RELIGIOSOS SEXUALES",
+                                text: "Los conflictos religiosos sexuales se pueden definir como tensiones emocionales, cognitivas y sociales que surgen cuando las creencias religiosas y las normas relacionadas con la sexualidad entran en conflicto con los deseos, necesidades y valores individuales en este ámbito. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/14",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "CONVICCIÓN SOBRE TUS DESEOS",
+                                text: "La convicción sobre tus deseos puede influir en varios aspectos de la vida de una persona, incluida su motivación, su persistencia ante los desafíos y su capacidad para superar obstáculos. Cuando alguien tiene una fuerte convicción sobre sus deseos, es más probable que se comprometa con las acciones necesarias para alcanzarlos, incluso en situaciones difíciles. (Incorporado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/15",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "CULPABILIDAD",
+                                text: "La culpabilidad se refiere a un sentimiento de responsabilidad o remordimiento que experimenta una persona cuando cree que ha cometido un error, infringido una norma moral o causado daño a alguien. Este sentimiento puede surgir tanto por acciones reales como por percepciones subjetivas de lo que se considera incorrecto. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/16",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "DESCONOCIMIENTO SOBRE TUS ANHELOS",
+                                text: "Sería la falta de comprensión acerca de tus aspiraciones, deseos o metas personales. Es la incapacidad de identificar o comprender lo que verdaderamente deseas en la vida o lo que te motiva profundamente. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/17",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "ESCLAVITUD",
+                                text: "Es un estado en el que una persona pierde su autonomía, libertad y capacidad de elección debido a la dominación de otro individuo o grupo, esto puede experimentarse de manera real o simbólica. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/1/18",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "EYACULACIÓN PRECOZ (Anulado)",
+                                text: ""
+                            },
+                            {
+                                linkName: "petalo-3/4/1/19",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "FETICHE (Anulado)",
+                                text: ""
+                            },
+                            {
+                                linkName: "petalo-3/4/1/20",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "FRIGIDEZ (Anulado)",
+                                text: ""
+                            },
+                            {
+                                linkName: "petalo-3/4/1/21",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS A",
+                                title: "HOMOFOBIA (Anulado)",
+                                text: ""
+                            }
+                        ],
+                    },
+                    {
+                        linkName: "petalo-3/4/2",
+                        image: 'boton3',
+                        iconCenter: 'simbolo3',
+                        title: "B",
+                        index: 1,
+                        colorBorder: "blue",
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/4/2/1",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "HORMONAL",
+                                text: "Los 'comportamientos hormonales' son acciones o conductas que son influenciadas, en parte, por la actividad hormonal en el cuerpo. Las hormonas son mensajeros químicos que se producen en varias glándulas del cuerpo y regulan una amplia gama de funciones biológicas y comportamientos. Los comportamientos hormonales pueden abarcar una variedad de aspectos, como el estado de ánimo, la reproducción, el apetito, el sueño, la respuesta al estrés y la agresión, entre otros. Estos comportamientos pueden ser el resultado de cambios en los niveles hormonales, interacciones hormonales complejas o la respuesta del organismo a las señales hormonales. (Se corrigieron las siguientes hormonas)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/2",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "IMPOTENCIA",
+                                text: "El 'comportamiento por impotencia' se refiere a las acciones o conductas que una persona exhibe como resultado de sentirse impotente o incapaz de lograr un objetivo o enfrentar una situación. Puede surgir en respuesta a desafíos difíciles, percepciones de falta de control sobre la situación o creencias sobre la incapacidad personal para hacer frente a determinadas circunstancias. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/3",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "INSEGURIDAD CORPORAL",
+                                text: "El 'comportamiento de inseguridad corporal' describe las acciones o actitudes que una persona adopta como resultado de sentirse insegura acerca de su cuerpo o apariencia física. Estos comportamientos pueden manifestarse de diversas maneras, como evitar situaciones sociales o actividades que involucren mostrar el cuerpo, compararse constantemente con los demás, buscar constantemente validación externa, desarrollar hábitos poco saludables relacionados con la alimentación o el ejercicio, o experimentar ansiedad o depresión relacionada con la imagen corporal. Las personas que experimentan inseguridad corporal pueden tener una percepción distorsionada de su propio cuerpo y pueden tener dificultades para aceptarse a sí mismas tal como son. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/4",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "INSEGURIDADES CORPORALES QUE LIMITAN",
+                                text: "Los comportamientos de inseguridad corporal que limitan pueden incluir: Evitar situaciones sociales o actividades que requieran mostrar su cuerpo, como ir a la playa o la piscina, participar en deportes o incluso simplemente salir con amigos. Obsesión por la apariencia, atención excesiva a detalles como el peso, el tamaño, la forma o la piel. Comparación constante, lo que puede alimentar sentimientos de inferioridad y aumentar la inseguridad. Vestirse de manera excesivamente conservadora. No participar en actividades físicas por miedo a ser juzgado por otros o sentirse incómodo con su cuerpo. Desarrollo de trastornos alimentarios, comportamientos alimentarios poco saludables, como dietas extremas, ayuno o purga, que pueden resultar en trastornos alimentarios como la anorexia o la bulimia. Evitar relaciones íntimas. Estos comportamientos pueden limitar significativamente la vida de una persona y afectar su bienestar emocional y mental. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/5",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "LEGADO TRANSGENERACIONAL (-)",
+                                noNumbers: true,
+                                text: "Se refiere a patrones de pensamiento, comportamiento o dinámicas familiares disfuncionales que son transmitidos de una generación a otra y que tienen un impacto negativo en el bienestar y desarrollo. Este legado puede incluir traumas no resueltos, abuso físico o emocional, adicciones, trastornos mentales no tratados, patrones de comunicación o cualquier otra forma de disfunción familiar que persista a lo largo del tiempo dentro de nuestro árbol genealógico. (Aquí se sanaron, repararon y revivieron todos los comportamientos heredados del linaje materno o paterno)",
+                                subPetalos: [
+                                    {
+                                        linkName: "petalo-3/4/2/5/1",
+                                        image: 'boton3',
+                                        iconCenter: 'simbolo3',
+                                        separation: true,
+                                        titlePage: "LEGADO TRANSGENERACIONAL",
+                                        title: "A",
+                                        index: 0,
+                                        text: "SANANDO LEGADO",
+                                        isLegado: true
+                                    },
+                                    {
+                                        linkName: "petalo-3/4/2/5/2",
+                                        image: 'boton3',
+                                        iconCenter: 'simbolo3',
+                                        separation: true,
+                                        titlePage: "LEGADO TRANSGENERACIONAL",
+                                        title: "B",
+                                        index: 1,
+                                        text: "REPARANDO LEGADO",
+                                        isLegado: true
+                                    },
+                                    {
+                                        linkName: "petalo-3/4/2/5/3",
+                                        image: 'boton3',
+                                        iconCenter: 'simbolo3',
+                                        separation: true,
+                                        titlePage: "LEGADO TRANSGENERACIONAL",
+                                        title: "C",
+                                        index: 2,
+                                        text: "REVIVIENDO LEGADO",
+                                        isLegado: true
+                                    },
+                                ],
+                                isLegado: true
+                            },
+                            {
+                                linkName: "petalo-3/4/2/6",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "MASOQUISMO",
+                                text: "El masoquismo es una tendencia o práctica en la que una persona encuentra placer o gratificación al experimentar dolor, humillación o sufrimiento físico o emocional. En situaciones de la vida cotidiana donde se busca inconscientemente situaciones que le causen dolor o sufrimiento. El masoquismo también puede ser parte de una dinámica de poder en una relación donde una persona busca ser dominada o sometida por otra. En algunos casos, el masoquismo puede llegar a ser peligroso si conduce a comportamientos autodestructivos o si la persona no es capaz de establecer límites saludables para proteger su bienestar físico y emocional. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/7",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "MIEDO A DESEAR",
+                                text: "Conocido como hedonofobia, es una condición psicológica donde se experimenta ansiedad o temor al placer, la felicidad o el disfrute de la vida. Esta fobia puede manifestarse de diferentes maneras, como el miedo a buscar el éxito, el miedo al placer físico o emocional, o el miedo a satisfacer necesidades personales. Cuando se sufre de hedonofobia a menudo pueden sentirse culpables o avergonzadas por querer cosas que les proporcionen placer, lo que puede llevar a una vida restringida y limitada en experiencias satisfactorias. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/8",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "MIEDO A FRACASAR",
+                                text: "Es una respuesta emocional intensa y paralizante que se experimenta cuando enfrentan situaciones en las que perciben que existe la posibilidad de no alcanzar sus metas o expectativas. Esta respuesta puede surgir en diversas áreas de la vida, como el trabajo, los estudios, las relaciones personales o los proyectos personales. Si experimentas este miedo a menudo se evita tomar riesgos o desafíos nuevos por temor a no cumplir con las expectativas, lo que puede limitar tu crecimiento personal y profesional. El miedo al fracasar puede manifestarse a través de síntomas como ansiedad, falta de confianza en uno mismo, procrastinación o autosabotaje. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/9",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "MIEDOS A REPETIR SITUACIONES PASADOS",
+                                text: "Es una respuesta emocional en la que sientes ansiedad o temor ante la posibilidad de que situaciones similares a experiencias pasadas negativas vuelvan a ocurrir en el presente o futuro. Esta respuesta puede surgir debido a traumas pasados, malas experiencias o errores anteriores, y puede llevar a la evitar situaciones que se perciben como similares, limitando así las oportunidades de crecimiento y desarrollo personal. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/10",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "NO PODER EXPRESARTE",
+                                text: "Es la incapacidad o dificultad para comunicar pensamientos, sentimientos o ideas de manera efectiva. Esta dificultad puede surgir debido a diversas razones, como la falta de confianza en uno mismo, la ansiedad social, la falta de habilidades comunicativas o el miedo al juicio de los demás. Se puede experimentar frustración, incomodidad o aislamiento al no poder comunicarse de manera clara y precisa. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/11",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "NO QUERER COMPARTIR",
+                                text: "Falta de disposición o deseo de compartir información, recursos, tiempo o experiencias con otras personas. Esta actitud puede surgir por diversas razones, como el deseo de privacidad, la desconfianza, el egoísmo, el miedo al juicio de los demás o la sensación de que compartir podría resultar en pérdida personal. La falta de voluntad para compartir puede afectar las relaciones interpersonales, la colaboración y el desarrollo de vínculos significativos. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/12",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "NO QUERER COMUNICAR TUS DESEOS",
+                                text: "Falta de disposición para expresar abierta y claramente tus necesidades, aspiraciones o expectativas a otras personas. Esta actitud puede surgir por diversos motivos, como el temor al rechazo, la incomodidad al ser vulnerable, la falta de confianza en uno mismo o la creencia de que los demás no entenderán o no aceptarán tus deseos. La falta de comunicación de los propios deseos puede dificultar la satisfacción personal, generar malentendidos en las relaciones interpersonales y obstaculizar el logro de metas y objetivos personales. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/13",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "NO QUERER EXPRESARSE SEXUALMENTE",
+                                text: "Falta de disposición o deseo de comunicar tus necesidades, deseos, preferencias o límites en el ámbito sexual. Esta actitud puede surgir por diversas razones, como la vergüenza, la incomodidad, experiencias traumáticas pasadas, la falta de confianza en uno mismo o la percepción de que la expresión sexual puede generar conflictos o juicios por parte de los demás. La falta de comunicación sexual puede afectar la satisfacción y la intimidad en las relaciones románticas, así como dificultar la exploración y el entendimiento mutuo de las necesidades y deseos de la pareja. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/14",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "COMPORTAMIENTO OBSESIVO",
+                                text: "Son acciones repetitivas, pensamientos persistentes o preocupaciones intensas que dominan la vida de una persona y afectan su funcionamiento diario. Estas obsesiones pueden manifestarse en diversas áreas, como la limpieza, el orden, la seguridad, la religión, el trabajo, las relaciones interpersonales, entre otros. Quienes experimentan comportamientos obsesivos suelen sentir una necesidad irracional de controlar ciertos aspectos de sus vidas, lo que puede generar ansiedad, estrés y dificultades para concentrarse en otras actividades. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/15",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "RECHAZO AL DISFRUTE",
+                                text: "Resistencia a experimentar placer, felicidad o gratificación. Puede manifestarse como una falta de interés en actividades placenteras, evitación de situaciones que podrían generar alegría o una sensación de culpa o ansiedad asociada con el disfrute. Este rechazo puede estar relacionado con experiencias pasadas negativas, creencias limitantes sobre el merecimiento del placer o la felicidad, problemas de autoestima o trastornos emocionales como la depresión. El rechazo al disfrute puede limitar el bienestar emocional y la calidad de vida de la persona, ya que dificulta la capacidad de experimentar y apreciar las cosas positivas de la vida. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/16",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "REPRIMIENDO A LA PAREJA",
+                                text: "Ejercer control o limitar la libertad y expresión de la otra persona dentro de una relación. Esto puede manifestarse de diversas formas, como imponer reglas estrictas, limitar las interacciones sociales, controlar las decisiones personales o manipular emocionalmente. La represión en la pareja puede ser resultado de problemas de poder, inseguridades personales o patrones de comportamiento poco saludables. Puede tener consecuencias negativas en la relación, como la pérdida de confianza, la falta de intimidad y el deterioro de la salud emocional de ambos miembros de la pareja. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/17",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "REPRIMIÉNDOTE A TI MISMO/A",
+                                text: "Estas palabras implican la acción de ejercer autocontrol o contención sobre tus propias emociones, impulsos o acciones. Los ejemplos pueden ser: contener el llanto o la expresión de enojo en público, No expresar una opinión personal en una discusión, postergar el descanso o la relajación por sentirse obligado a trabajar constantemente. Etc. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/18",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "SADISMO",
+                                text: "Es la manifestación de impulsos o deseos inconscientes relacionados con el deseo de control, poder o dominación sobre los demás, acompañados de una falta de empatía o consideración por el bienestar de los demás. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/19",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "SENTIMIENTO DE CULPA POR TUS ANHELOS",
+                                text: "El sentimiento de culpa por tus anhelos se refiere a la sensación de malestar o remordimiento que experimentas cuando tus deseos o aspiraciones personales entran en conflicto con tus valores, creencias o las expectativas de los demás. Es la sensación de haber hecho algo malo o inapropiado al buscar satisfacer tus propias necesidades o deseos, especialmente si esto implica ignorar o afectar negativamente a otras personas en el proceso. Este tipo de culpa puede surgir cuando sientes que estás priorizando tus propios deseos sobre los de los demás, o cuando percibes que estás actuando de manera egoísta o irresponsable en la búsqueda de tus objetivos personales. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/20",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "SEXO REPRIMIDO",
+                                text: "Se refiere a la supresión de los deseos sexuales y la inhibición de la expresión sexual debido a influencias sociales, culturales o personales. Esto puede manifestarse como sentimientos de vergüenza, culpa o conflicto interno con los propios impulsos sexuales. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/21",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "VERGÜENZA SEXUAL",
+                                text: "Estos sentimientos pueden derivarse de mensajes negativos recibidos durante la crianza, experiencias traumáticas o la internalización de normas sociales restrictivas sobre la sexualidad, las conductas habituales pueden manifestarse evitando temas sexuales, dificultad para expresar deseos sexuales o experimentar placer sexual, que puede interferir en la intimidad y la satisfacción en las relaciones íntimas y sociales. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/22",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "ME SIENTO ABUSADO/A",
+                                text: "Significa que la persona experimenta una sensación de haber sido objeto de comportamientos abusivos por parte de otra persona o grupo, lo que puede incluir abuso emocional, físico, sexual o verbal. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/23",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "VIVO EN VIOLENCIA",
+                                text: "La violencia puede manifestarse en diversas formas y afectar múltiples aspectos de la vida de una persona, incluyendo su bienestar físico, emocional, mental y social, así como su entorno familiar y comunitario. Aquí la persona experimenta de manera continua o recurrente situaciones de abuso, maltrato, intimidación o agresión en su vida diaria. (Anulado)"
+                            },
+                            {
+                                linkName: "petalo-3/4/2/24",
+                                image: 'boton3',
+                                iconCenter: 'simbolo3',
+                                titlePage: "COMPORTAMIENTOS COTIDIANOS B",
+                                title: "MIEDO A SER",
+                                text: "Este miedo puede manifestarse en diversas situaciones sociales, emocionales o profesionales, donde la persona se siente insegura o vulnerable al mostrar su verdadero ser o compartir sus pensamientos, sentimientos, deseos o identidad. Este miedo puede surgir de experiencias pasadas de crítica, rechazo o invalidación, así como de normas sociales o expectativas culturales restrictivas que condicionan la aceptación de ciertos comportamientos. (Anulado)"
+                            }
+
+                        ]
+                    }
                 ]
             },
             {
                 linkName: "petalo-3/5",
                 image: 'boton3',
-                title: "CONDUCTA MENTAL NEGATIVA",
+                iconCenter: 'simbolo3',
+                title: "ATRIBUTOS DEL SER",
                 noNumbers: true,
-                text: "Todas las actitudes negativas que pueden presentarse en alguna área en particular de la vida nos pueden limitar profundamente, si logramos hacerlas conscientes y detectarlas en situaciones cotidianas, lograremos un gran avance interior y de mejora en nuestras relaciones interpersonales. (Se anularon las siguientes conductas negativas)",
+                text: "",
                 subPetalos: [
                     {
-                        linkName: "petalo-3/5/1",
-                        image: 'boton3',
-                        title: "A",
-                        index: 0,
-                        colorBorder: "yellow",
-                        subPetalos: [
-                            { linkName: "petalo-3/5/1/1", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "ABANDONADO", text: "" },
-                            { linkName: "petalo-3/5/1/2", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "ABRUMADO", text: "" },
-                            { linkName: "petalo-3/5/1/3", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "ABURRIDO", text: "" },
-                            { linkName: "petalo-3/5/1/4", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "AGOTADO", text: "" },
-                            { linkName: "petalo-3/5/1/5", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "AGRESIVO", text: "" },
-                            { linkName: "petalo-3/5/1/6", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "AMARGADO", text: "" },
-                            { linkName: "petalo-3/5/1/7", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "AMENAZADO", text: "" },
-                            { linkName: "petalo-3/5/1/8", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "ANSIOSO", text: "" },
-                            { linkName: "petalo-3/5/1/9", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "APATICO", text: "" },
-                            { linkName: "petalo-3/5/1/10", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "APENADO", text: "" },
-                            { linkName: "petalo-3/5/1/11", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "AVERGONZADO", text: "" },
-                            { linkName: "petalo-3/5/1/12", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "CELOSO", text: "" },
-                            { linkName: "petalo-3/5/1/13", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "CONFUNDIDO", text: "" },
-                            { linkName: "petalo-3/5/1/14", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "CRITICADO", text: "" },
-                            { linkName: "petalo-3/5/1/15", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "CULPABLE", text: "" },
-                            { linkName: "petalo-3/5/1/16", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DECEPCIONADO", text: "" },
-                            { linkName: "petalo-3/5/1/17", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DEPRIMIDO", text: "" },
-                            { linkName: "petalo-3/5/1/18", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DESANIMADO", text: "" },
-                            { linkName: "petalo-3/5/1/19", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DESESPERADO", text: "" },
-                            { linkName: "petalo-3/5/1/20", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DESILUSIONADO", text: "" },
-                            { linkName: "petalo-3/5/1/21", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DESPRECIADO", text: "" },
-                            { linkName: "petalo-3/5/1/22", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DISCRIMINADO", text: "" },
-                            { linkName: "petalo-3/5/1/23", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DISGUSTADO", text: "" },
-                            { linkName: "petalo-3/5/1/24", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "DISTANTE", text: "" },
-                            { linkName: "petalo-3/5/1/25", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "ENOJADO", text: "" },
-                            { linkName: "petalo-3/5/1/26", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "ESTANCADO", text: "" },
-                            { linkName: "petalo-3/5/1/27", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "EVASIVO", text: "" },
-                            { linkName: "petalo-3/5/1/28", image: 'boton3', titlePage: "Conducta Mental Negativa A", title: "FORZADO", text: "" }
+                        linkName: "petalo-3/5/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red", subPetalos: [
+                            { linkName: "petalo-3/5/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "ACEPTACIÓN", text: "" },
+                            { linkName: "petalo-3/5/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "ADAPTABILIDAD", text: "" },
+                            { linkName: "petalo-3/5/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "ALEGRÍA", text: "" },
+                            { linkName: "petalo-3/5/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "AMABILIDAD", text: "" },
+                            { linkName: "petalo-3/5/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "AMOR", text: "" },
+                            { linkName: "petalo-3/5/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "ARMONÍA", text: "" },
+                            { linkName: "petalo-3/5/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "ASERTIVIDAD", text: "" },
+                            { linkName: "petalo-3/5/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "AUTENTICIDAD", text: "" },
+                            { linkName: "petalo-3/5/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "AUTOVALORACIÓN", text: "" },
+                            { linkName: "petalo-3/5/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "BENEVOLENCIA", text: "" },
+                            { linkName: "petalo-3/5/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "BONDAD", text: "" },
+                            { linkName: "petalo-3/5/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CALMA", text: "" },
+                            { linkName: "petalo-3/5/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CARISMA", text: "" },
+                            { linkName: "petalo-3/5/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CLARIDAD", text: "" },
+                            { linkName: "petalo-3/5/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "COHERENCIA", text: "" },
+                            { linkName: "petalo-3/5/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "COMPASIÓN", text: "" },
+                            { linkName: "petalo-3/5/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "COMPRENSIÓN", text: "" },
+                            { linkName: "petalo-3/5/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "COMPOSTURA", text: "" },
+                            { linkName: "petalo-3/5/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CONEXIÓN", text: "" },
+                            { linkName: "petalo-3/5/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CONFIANZA", text: "" },
+                            { linkName: "petalo-3/5/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CONSCIENCIA", text: "" },
+                            { linkName: "petalo-3/5/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CONSTANCIA", text: "" },
+                            { linkName: "petalo-3/5/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CORAJE", text: "" },
+                            { linkName: "petalo-3/5/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CREATIVIDAD", text: "" },
+                            { linkName: "petalo-3/5/1/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "CURIOSIDAD", text: "" },
+                            { linkName: "petalo-3/5/1/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "DETERMINACIÓN", text: "" },
+                            { linkName: "petalo-3/5/1/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "DICHA", text: "" },
+                            { linkName: "petalo-3/5/1/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "DIGNIDAD", text: "" },
+                            { linkName: "petalo-3/5/1/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "DIRECCIÓN", text: "" },
+                            { linkName: "petalo-3/5/1/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "DISCERNIMIENTO", text: "" },
+                            { linkName: "petalo-3/5/1/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "DISCIPLINA", text: "" },
+                            { linkName: "petalo-3/5/1/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "DISCRECIÓN", text: "" },
+                            { linkName: "petalo-3/5/1/33", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser A", title: "DISFRUTE", text: "" }
                         ]
                     },
                     {
-                        linkName: "petalo-3/5/2",
-                        image: 'boton3',
-                        title: "B",
-                        index: 1,
-                        colorBorder: "red",
-                        text: "",
-                        subPetalos: [
-                            { linkName: "petalo-3/5/2/1", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "FRACASADO", text: "" },
-                            { linkName: "petalo-3/5/2/2", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "FRUSTRADO", text: "" },
-                            { linkName: "petalo-3/5/2/3", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "HERIDO", text: "" },
-                            { linkName: "petalo-3/5/2/4", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "HUMILLADO", text: "" },
-                            { linkName: "petalo-3/5/2/5", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "IGNORADO", text: "" },
-                            { linkName: "petalo-3/5/2/6", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "IMPOTENTE", text: "" },
-                            { linkName: "petalo-3/5/2/7", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "INCOMODO", text: "" },
-                            { linkName: "petalo-3/5/2/8", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "INDECISO", text: "" },
-                            { linkName: "petalo-3/5/2/9", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "INDIFERENTE", text: "" },
-                            { linkName: "petalo-3/5/2/10", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "INDIGNO", text: "" },
-                            { linkName: "petalo-3/5/2/11", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "INSATISFECHO", text: "" },
-                            { linkName: "petalo-3/5/2/12", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "INSEGURO", text: "" },
-                            { linkName: "petalo-3/5/2/13", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "INSIGNIFICANTE", text: "" },
-                            { linkName: "petalo-3/5/2/14", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "INTOLERANTE", text: "" },
-                            { linkName: "petalo-3/5/2/15", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "IRRITADO", text: "" },
-                            { linkName: "petalo-3/5/2/16", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "PERTURBADO", text: "" },
-                            { linkName: "petalo-3/5/2/17", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "RECHAZADO", text: "" },
-                            { linkName: "petalo-3/5/2/18", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "RESENTIDO", text: "" },
-                            { linkName: "petalo-3/5/2/19", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "RESIGNADO", text: "" },
-                            { linkName: "petalo-3/5/2/20", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "RIGIDO", text: "" },
-                            { linkName: "petalo-3/5/2/21", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "SOLITARIO", text: "" },
-                            { linkName: "petalo-3/5/2/22", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "SUMISO", text: "" },
-                            { linkName: "petalo-3/5/2/23", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "TRISTE", text: "" },
-                            { linkName: "petalo-3/5/2/24", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "VACIO", text: "" },
-                            { linkName: "petalo-3/5/2/25", image: 'boton3', titlePage: "Conducta Mental Negativa B", title: "VULNERABLE", text: "" }
+                        linkName: "petalo-3/5/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue", subPetalos: [
+                            { linkName: "petalo-3/5/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "EMPATÍA", text: "" },
+                            { linkName: "petalo-3/5/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ENERGÍA", text: "" },
+                            { linkName: "petalo-3/5/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ENTENDIMIENTO", text: "" },
+                            { linkName: "petalo-3/5/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ENTUSIASMO", text: "" },
+                            { linkName: "petalo-3/5/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "EQUILIBRIO", text: "" },
+                            { linkName: "petalo-3/5/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ESPERANZA", text: "" },
+                            { linkName: "petalo-3/5/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ESPIRITUALIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ESPONTANEIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ESTABILIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "FE", text: "" },
+                            { linkName: "petalo-3/5/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "FLEXIBILIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "FORTALEZA", text: "" },
+                            { linkName: "petalo-3/5/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "FRATERNIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "GENEROSIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "GRATITUD", text: "" },
+                            { linkName: "petalo-3/5/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "HONESTIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "HUMILDAD", text: "" },
+                            { linkName: "petalo-3/5/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ILUMINACIÓN", text: "" },
+                            { linkName: "petalo-3/5/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "INOCENCIA", text: "" },
+                            { linkName: "petalo-3/5/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "INSPIRACIÓN", text: "" },
+                            { linkName: "petalo-3/5/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "INTEGRIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "INTUICIÓN", text: "" },
+                            { linkName: "petalo-3/5/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "LEALTAD", text: "" },
+                            { linkName: "petalo-3/5/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "LIBERTAD", text: "" },
+                            { linkName: "petalo-3/5/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "LIDERAZGO", text: "" },
+                            { linkName: "petalo-3/5/2/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "LUZ", text: "" },
+                            { linkName: "petalo-3/5/2/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "MISERICORDIA", text: "" },
+                            { linkName: "petalo-3/5/2/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "NEUTRALIDAD", text: "" },
+                            { linkName: "petalo-3/5/2/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "OBEDIENCIA", text: "" },
+                            { linkName: "petalo-3/5/2/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "OPTIMISMO", text: "" },
+                            { linkName: "petalo-3/5/2/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "ORDEN", text: "" },
+                            { linkName: "petalo-3/5/2/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "PACIENCIA", text: "" },
+                            { linkName: "petalo-3/5/2/33", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser B", title: "PASIVIDAD", text: "" }
                         ]
                     },
+                    {
+                        linkName: "petalo-3/5/3", image: 'boton3', iconCenter: 'simbolo3', title: "C", index: 2, colorBorder: "green", subPetalos: [
+                            { linkName: "petalo-3/5/3/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PAZ", text: "" },
+                            { linkName: "petalo-3/5/3/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PERCEPCIÓN", text: "" },
+                            { linkName: "petalo-3/5/3/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PERDÓN", text: "" },
+                            { linkName: "petalo-3/5/3/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PERSEVERANCIA", text: "" },
+                            { linkName: "petalo-3/5/3/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PLENITUD", text: "" },
+                            { linkName: "petalo-3/5/3/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PODER", text: "" },
+                            { linkName: "petalo-3/5/3/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PRESENCIA", text: "" },
+                            { linkName: "petalo-3/5/3/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PROPÓSITO", text: "" },
+                            { linkName: "petalo-3/5/3/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "PUREZA", text: "" },
+                            { linkName: "petalo-3/5/3/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "RECIPROCIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "RESILIENCIA", text: "" },
+                            { linkName: "petalo-3/5/3/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "RESPETO", text: "" },
+                            { linkName: "petalo-3/5/3/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "RESPONSABILIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SABIDURÍA", text: "" },
+                            { linkName: "petalo-3/5/3/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SANACIÓN", text: "" },
+                            { linkName: "petalo-3/5/3/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SEGURIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SENCILLEZ", text: "" },
+                            { linkName: "petalo-3/5/3/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SERENIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SERVICIO", text: "" },
+                            { linkName: "petalo-3/5/3/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SILENCIO", text: "" },
+                            { linkName: "petalo-3/5/3/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SIMPLICIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SINCERIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SOSIEGO", text: "" },
+                            { linkName: "petalo-3/5/3/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "SOLIDARIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "TEMPLANZA", text: "" },
+                            { linkName: "petalo-3/5/3/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "TENACIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "TERNURA", text: "" },
+                            { linkName: "petalo-3/5/3/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "TOLERANCIA", text: "" },
+                            { linkName: "petalo-3/5/3/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "TRANSPARENCIA", text: "" },
+                            { linkName: "petalo-3/5/3/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "UNIDAD", text: "" },
+                            { linkName: "petalo-3/5/3/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "VALENTÍA", text: "" },
+                            { linkName: "petalo-3/5/3/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "VERDAD", text: "" },
+                            { linkName: "petalo-3/5/3/33", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Atributos del Ser C", title: "VOLUNTAD", text: "" }
+                        ]
+                    }
                 ]
             },
             {
-                linkName: "petalo-3/6", image: 'boton3', title: "¿QUE ME BLOQUEA?", text: "Existen situaciones en las cuales nos debilitamos o estresamos y también nos podemos bloquear, creando un desgaste interno muy profundo, esta corrección nos ayuda inteligentemente a sanar el punto detectado de una manera armoniosa y liberadora. (Se anularon los siguientes bloqueos)", noNumbers: true, subPetalos: [
-                    {
-                        linkName: "petalo-3/6/1", image: 'boton3', title: "A", index: 0, colorBorder: "red", subPetalos: [
-                            {
-                                linkName: "petalo-3/6/1/1", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 1",
-                                text: "PASADO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/2", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 2",
-                                text: "PRESENTE",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/3", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 3",
-                                text: "FUTURO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/4", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 4",
-                                text: "SENTIRSE RECHAZADO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/5", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 5",
-                                text: "SENTIRSE ABANDONADO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/6", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 6",
-                                text: "HOGAR",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/7", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 7",
-                                text: "HABITACION DE LA CASA",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/8", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 8",
-                                text: "TRABAJO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/9", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 9",
-                                text: "LUGAR DE TRABAJO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/10", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 10",
-                                text: "JEFE",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/1/11", image: 'boton3', titlePage: '¿Que me bloquea?', title: "A 11",
-                                text: "COMPAÑEROS LABORALES",onlyText: true
-                            },
-                        ]
-                    },
-                    {
-                        linkName: "petalo-3/6/2", image: 'boton3', title: "B", index: 1, colorBorder: "yellow", subPetalos: [
-                            {
-                                linkName: "petalo-3/6/2/1", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 1",
-                                text: "POBREZA",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/2", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 2",
-                                text: "ABUNDANCIA",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/3", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 3",
-                                text: "EXITO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/4", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 4",
-                                text: "FRACASO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/5", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 5",
-                                text: "RESPONSABILIDAD",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/6", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 6",
-                                text: "COMPROMISO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/7", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 7",
-                                text: "GANAR DINERO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/8", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 8",
-                                text: "NO GANAR DINERO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/9", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 9",
-                                text: "PERDER DINERO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/10", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 10",
-                                text: "ROBAR DINERO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/2/11", image: 'boton3', titlePage: '¿Que me bloquea?', title: "B 11",
-                                text: "SER INCULTO",onlyText: true
-                            },
-                        ]
-                    },
-                    {
-                        linkName: "petalo-3/6/3", image: 'boton3', title: "C", index: 2, colorBorder: "green", subPetalos: [
-                            {
-                                linkName: "petalo-3/6/3/1", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 1",
-                                text: "ENFERMARSE",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/2", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 2",
-                                text: "AUSENCIA DE EJERCICIO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/3", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 3",
-                                text: "MAL DESCANSO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/4", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 4",
-                                text: "MALA ALIMENTACION",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/5", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 5",
-                                text: "PRIVACIDAD",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/6", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 6",
-                                text: "SEXO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/7", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 7",
-                                text: "ENVEJECER",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/8", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 8",
-                                text: "ABUSOS",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/9", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 9",
-                                text: "LO DESCONOCIDO"
-                            },
-                            {
-                                linkName: "petalo-3/6/3/10", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 10",
-                                text: "NUEVAS TECNOLOGIA",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/3/11", image: 'boton3', titlePage: '¿Que me bloquea?', title: "C 11",
-                                text: "CIRCULO DE CONOCIDOS",onlyText: true
-                            },
-                        ]
-                    },
-                    {
-                        linkName: "petalo-3/6/4", image: 'boton3', title: "D", index: 3, colorBorder: "blue", subPetalos: [
-                            {
-                                linkName: "petalo-3/6/4/1", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 1",
-                                text: "SER MADRE/PADRE",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/2", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 2",
-                                text: "NO SER MADRE/PADRE",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/3", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 3",
-                                text: "SER HIJO",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/4", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 4",
-                                text: "LA FAMILIA",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/5", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 5",
-                                text: "LOS ABUELOS",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/6", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 6",
-                                text: "MADRE",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/7", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 7",
-                                text: "PADRE",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/8", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 8",
-                                text: "HERMANOS",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/9", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 9",
-                                text: "HIJOS",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/10", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 10",
-                                text: "PAREJA",onlyText: true
-                            },
-                            {
-                                linkName: "petalo-3/6/4/11", image: 'boton3', titlePage: '¿Que me bloquea?', title: "D 11",
-                                text: "AMIGOS INTIMOS",onlyText: true
-                            },
-                        ]
-                    },
+                linkName: "petalo-3/6", image: 'boton3', iconCenter: 'simbolo3', title: "LOS 12 ARQUETIPOS UNIVERSALES", text: "Los arquetipos universales representan patrones profundos de comportamiento, emociones y formas de relacionarnos con la vida. Cada arquetipo posee una expresión equilibrada, que impulsa el crecimiento personal, y una sombra, que aparece cuando su energía se manifiesta de manera excesiva, limitada o inconsciente.",
+                subPetalos: [
+                    { linkName: "petalo-3/6/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL INOCENTE", text: "Descripción: Representa la confianza, la pureza, la sencillez y la capacidad de observar la vida con esperanza. Busca sentirse seguro, vivir en armonía y creer que siempre existe una posibilidad positiva. Sombra o desequilibrio: Negación de la realidad, ingenuidad excesiva, miedo a enfrentar los conflictos o tendencia a idealizar personas y situaciones. Propósito energético: Fortalecer la fe, la esperanza, el optimismo y la confianza en la vida." },
+                    { linkName: "petalo-3/6/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL HUÉRFANO / LA PERSONA COMÚN", text: "Descripción: Representa la necesidad de pertenecer, ser aceptado y sentirse acompañado. Reconoce que todas las personas atraviesan dificultades y que la vulnerabilidad forma parte de la experiencia humana. Sombra o desequilibrio: Victimismo, dependencia emocional, sensación de abandono, desconfianza o creencia de que la vida es injusta. Propósito energético: Desarrollar realismo, empatía, humildad, sentido de pertenencia y resiliencia." },
+                    { linkName: "petalo-3/6/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL HÉROE / GUERRERO", text: "Descripción: Representa el coraje, la disciplina y la capacidad de enfrentar desafíos. Su energía impulsa a superar obstáculos, defender valores y desarrollar la fuerza interior. Sombra o desequilibrio: Arrogancia, competitividad extrema, necesidad constante de demostrar fortaleza, exceso de lucha o dificultad para mostrarse vulnerable. Propósito energético: Activar el coraje, la determinación, la superación personal y la confianza en las propias capacidades." },
+                    { linkName: "petalo-3/6/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL CUIDADOR / MADRE-PADRE", text: "Descripción: Representa la compasión, la protección y el deseo de acompañar a quienes necesitan ayuda. Se expresa mediante el servicio, la contención y el amor desinteresado. Sombra o desequilibrio: Sacrificio excesivo, sobreprotección, control disfrazado de cuidado, agotamiento o dificultad para priorizar las propias necesidades. Propósito energético: Desarrollar compasión, generosidad, cuidado equilibrado y amor consciente." },
+                    { linkName: "petalo-3/6/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL EXPLORADOR / BUSCADOR", text: "Descripción: Representa la búsqueda de libertad, identidad y nuevas experiencias. Necesita descubrir caminos diferentes, ampliar sus límites y vivir de acuerdo con su verdad interior. Sombra o desequilibrio: Inquietud permanente, evasión, insatisfacción, dificultad para comprometerse o tendencia a abandonar procesos. Propósito energético: Promover la libertad, la autenticidad, la independencia y la expansión personal." },
+                    { linkName: "petalo-3/6/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL REBELDE / DESTRUCTOR", text: "Descripción: Representa la ruptura de estructuras que ya no favorecen el crecimiento. Cuestiona lo establecido y genera transformaciones profundas cuando una realidad necesita cambiar. Sombra o desequilibrio: Caos, resentimiento, violencia, impulsividad, autodestrucción o rebeldía sin un propósito constructivo. Propósito energético: Liberar patrones limitantes, romper estructuras obsoletas y favorecer la transformación." },
+                    { linkName: "petalo-3/6/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL AMANTE", text: "Descripción: Representa la conexión emocional, la sensibilidad, el deseo, la belleza y la capacidad de establecer vínculos profundos. Busca amar, ser amado y disfrutar plenamente de la experiencia afectiva. Sombra o desequilibrio: Dependencia emocional, celos, pérdida de identidad, necesidad de aprobación o miedo al rechazo. Propósito energético: Fortalecer la conexión, la entrega emocional, el disfrute, la intimidad y el amor consciente." },
+                    { linkName: "petalo-3/6/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL CREADOR / ARTISTA", text: "Descripción: Representa la imaginación, la creatividad y la capacidad de transformar ideas internas en expresiones concretas. Busca construir algo auténtico que deje una huella significativa. Sombra o desequilibrio: Perfeccionismo, frustración, bloqueo creativo, comparación constante o miedo a que el resultado no sea suficiente. Propósito energético: Estimular la innovación, la inspiración, la expresión personal y la creación con propósito." },
+                    { linkName: "petalo-3/6/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL BUFÓN / JOKER", text: "Descripción: Representa la alegría, el humor, la espontaneidad y la capacidad de disfrutar el momento presente. Ayuda a aliviar tensiones y a observar la vida desde una perspectiva más liviana. Sombra o desequilibrio: Inmadurez, irresponsabilidad, evasión emocional, falta de compromiso o utilización del humor para ocultar el dolor. Propósito energético: Recuperar la alegría, la espontaneidad, el disfrute, la flexibilidad y la conexión con el presente." },
+                    { linkName: "petalo-3/6/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL SABIO", text: "Descripción: Representa la búsqueda de conocimiento, comprensión y verdad. Observa, analiza y reflexiona antes de actuar, buscando aportar claridad y orientación. Sombra o desequilibrio: Frialdad emocional, aislamiento, exceso de racionalización, indecisión o desconexión de los sentimientos. Propósito energético: Desarrollar claridad, discernimiento, conocimiento, comprensión y guía interior." },
+                    { linkName: "petalo-3/6/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL MAGO / ALQUIMISTA", text: "Descripción: Representa la transformación profunda, la intuición y la capacidad de unir el mundo interno con la realidad externa. Percibe posibilidades invisibles y utiliza su conocimiento para generar cambios. Sombra o desequilibrio: Manipulación, necesidad de control, uso inadecuado del poder, fantasía excesiva o deseo de obtener resultados sin atravesar el proceso. Propósito energético: Facilitar la transformación, la manifestación consciente, la conexión espiritual y la integración interior." },
+                    { linkName: "petalo-3/6/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Arquetipos Universales", title: "EL GOBERNANTE / LÍDER", text: "Descripción: Representa el orden, la autoridad, la estabilidad y la capacidad de dirigir. Busca crear estructuras sólidas, asumir responsabilidades y organizar los recursos de manera eficiente. Sombra o desequilibrio: Rigidez, autoritarismo, tiranía, necesidad excesiva de control o dificultad para delegar. Propósito energético: Desarrollar liderazgo consciente, responsabilidad, organización, estabilidad y servicio al bien común." }
                 ]
             },
             {
-                linkName: "petalo-3/7", image: 'boton3', title: "CREENCIAS LIMITANTES", text: "Las creencias son interpretaciones heredadas de generación en generación que hemos ido incorporando en nuestra mente, de forma inconsciente y que, sin darnos cuenta, dirigen nuestros actos y nos impulsan a actuar de una u otra forma, sin que, en el fondo sepamos por qué. Estas creencias pueden ser familiares, sociales y culturales, es importante hacerlas conscientes, ya que están limitando tu crecimiento y tu evolución. (Se anularon las siguientes creencias limitantes)", noNumbers: true, subPetalos: [
+                linkName: "petalo-3/7", image: 'boton3', iconCenter: 'simbolo3', title: "MI VERDADERO PODER", noNumbers: true, text: "Esta sección ayuda a distinguir entre aquello que no depende de mí y necesito aprender a aceptar y soltar, y aquello que sí puedo elegir, modificar o gestionar en mi vida cotidiana. Invita a reconectarme con mi verdadero poder interior desde la conciencia, la responsabilidad, la libertad y la capacidad de elegir cómo responder ante cada situación.",
+                subPetalos: [
                     {
-                        linkName: "petalo-3/7/1", image: 'boton3', title: "A", index: 0, colorBorder: "red", subPetalos: [
-                            {
-                                linkName: "petalo-3/7/1/1", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 1",
-                                text: "No quiero crecer. Nunca se lo que quiero de verdad. No sirvo para nada. No valgo nada.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/1/2", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 2",
-                                text: "A la gente no le gusta estar conmigo. Si consigo lo que quiero perderá algo. Quien no sufre, no ama. Desear a alguien diferente a mi pareja es algo malo.",noText: true,textFieldCompact: true
-
-                            },
-                            {
-                                linkName: "petalo-3/7/1/3", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 3",
-                                text: "No se puede tener mucho dinero y ser buena persona. " +
-                                    "Si sufro en la vida obtendré recompensa. " +
-                                    "Las cosas hay que conseguir sin ayuda. " +
-                                    "Nadie da algo sin esperar algo a cambio.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/1/4", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 4",
-                                text: "Hay algo más fuerte que yo que me impide avanzar. " +
-                                    "La felicidad completa no existe siempre hay algo malo. " +
-                                    "No soy lo suficientemente bueno. " +
-                                    "No pertenezco a este clan.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/1/5", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 5",
-                                text: "No pertenezco a este lugar. " +
-                                    "Ser un buen hijo o nieto, es aguantar a mis padres o a mis abuelos contra mis deseos. " +
-                                    "Para ser buen padre/madre, tengo que sufrir por mis hijos. " +
-                                    "No merezco ser amado.",noText: true,textFieldCompact: true
-
-                            },
-                            {
-                                linkName: "petalo-3/7/1/6", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 6",
-                                text: "Los hombres son peligrosos. " +
-                                    "Las mujeres son peligrosas. " +
-                                    "Mi pareja me va a dejar tarde o temprano. " +
-                                    "Tengo que conformarme con lo que tengo. ",noText: true,textFieldCompact: true
-
-                            },
-                            {
-                                linkName: "petalo-3/7/1/7", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 7",
-                                text: "Siempre tengo mala suerte. " +
-                                    "Me cuesta mucho esfuerzo aprender. " +
-                                    "Mas vale malo conocido que arriesgarse a conocer alguien diferente. " +
-                                    "La vida es dura y difícil.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/1/8", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 8",
-                                text: "Soy egoísta si pienso en mí. " +
-                                    "Me da miedo fracasar. " +
-                                    "Me da miedo el éxito. " +
-                                    "No tengo fuerza de voluntad",noText: true,textFieldCompact: true    
-                            },
-                            {
-                                linkName: "petalo-3/7/1/9", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 9",
-                                text: "Si expreso mis emociones los demás verán que soy vulnerable. " +
-                                    "Ya estoy viejo para aprender cosas nuevas. " +
-                                    "Tomar decisiones es un proceso angustioso para mí. " +
-                                    "No soy digno del amor de los demás.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/1/10", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "A 10",
-                                text: "No puedo bajar la guardia. " +
-                                    "No está bien cometer errores. " +
-                                    "No puedo expresar lo que siento. " +
-                                    "No puedo confiar en nadie",noText: true,textFieldCompact: true
-                            },
+                        linkName: "petalo-3/7/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                        subPetalos: [
+                            { linkName: "petalo-3/7/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LAS ACCIONES DE OTRAS PERSONAS (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LAS DECISIONES QUE TOMAN LOS DEMÁS (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LOS ERRORES QUE COMETEN LOS DEMÁS (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LA MANERA EN QUE SE COMPORTAN LOS DEMÁS (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "QUE UNA PERSONA CUMPLA O NO SU PALABRA (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "QUE ALGUIEN DECIDA CAMBIAR O PERMANECER IGUAL (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LO QUE LOS DEMÁS PIENSAN DE MÍ (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LO QUE OTRAS PERSONAS DICEN SOBRE MÍ (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LOS SENTIMIENTOS DE OTRAS PERSONAS (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "EL ESTADO DE ÁNIMO DE LOS DEMÁS (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LA MANERA EN QUE ALGUIEN ME RESPONDE (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LA REACCIÓN DE LOS DEMÁS CUANDO DIGO QUE NO (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "QUE OTRAS PERSONAS ESTÉN DE ACUERDO CONMIGO (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "QUE UNA PERSONA ME COMPRENDA (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LA FORMA EN QUE LOS DEMÁS INTERPRETAN LO QUE HAGO (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LA OPINIÓN DE MI FAMILIA SOBRE MIS DECISIONES (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LOS COMENTARIOS O CRÍTICAS QUE RECIBO (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LOS IMPREVISTOS DEL DÍA (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LAS SITUACIONES QUE OCURREN FUERA DE MIS PLANES (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LO QUE YA OCURRIÓ (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LOS ERRORES COMETIDOS EN EL PASADO (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LAS OPORTUNIDADES QUE YA PASARON (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "LOS RESULTADOS INMEDIATOS DE MIS ESFUERZOS (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "QUE TODO SALGA EXACTAMENTE COMO LO HABÍA PLANEADO (Liberado)", text: "" },
+                            { linkName: "petalo-3/7/1/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que no puedo controlar", title: "EL FUTURO Y LAS SITUACIONES QUE TODAVÍA NO OCURRIERON (Liberado)", text: "" }
                         ]
                     },
                     {
-                        linkName: "petalo-3/7/2", image: 'boton3', title: "B", index: 1, colorBorder: "yellow", subPetalos: [
+                        linkName: "petalo-3/7/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue", noNumbers: true,
+                        subPetalos: [
                             {
-                                linkName: "petalo-3/7/2/1", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 1",
-                                text: "Tener pareja es peligroso para mí. " +
-                                    "Tener hijos es peligroso para mí. " +
-                                    "Las cosas que me pasan no son culpa mía. " +
-                                    "Tengo que agradar a mi pareja como sea.",noText: true,textFieldCompact: true
+                                linkName: "petalo-3/7/2/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/7/2/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "LA MANERA EN QUE COMIENZO MI DÍA (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "CÓMO ORGANIZO MIS ACTIVIDADES (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "CÓMO UTILIZO MI TIEMPO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "EL ORDEN DE MIS ESPACIOS (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "TERMINAR UNA TAREA PENDIENTE (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "CUMPLIR CON MIS RESPONSABILIDADES (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "LA IMPORTANCIA QUE LES DOY A LAS SITUACIONES (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "CÓMO TRATO A MI CUERPO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "CÓMO ME ALIMENTO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "LA CANTIDAD DE AGUA QUE TOMO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "MI DESCANSO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "MIS HÁBITOS DE HIGIENE (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "EL MOVIMIENTO O EJERCICIO QUE REALIZO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "HACER PAUSAS PARA RECUPERAR ENERGÍA (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "LA ATENCIÓN QUE LE DOY A CADA PENSAMIENTO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "CUESTIONAR LOS PENSAMIENTOS QUE ME HACEN DAÑO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "ELEGIR PENSAMIENTOS MÁS CONSTRUCTIVOS (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "LA INFORMACIÓN QUE CONSUMO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "AQUELLO EN LO QUE DECIDO ENFOCAR MI ATENCIÓN (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "CÓMO EXPRESO MIS SENTIMIENTOS (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "EL TONO CON EL QUE ME COMUNICO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "HABLAR CON RESPETO Y CLARIDAD (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "ESCUCHAR ANTES DE RESPONDER (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar A", title: "PEDIR AYUDA CUANDO LA NECESITO (Activar)", text: "" }
+                                ]
                             },
                             {
-                                linkName: "petalo-3/7/2/2", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 2",
-                                text: "Sin un diagnóstico de lo que tengo no podrán curarme. " +
-                                    "Mi problema de salud o situación es más importante que la de los demás. " +
-                                    "No merezco dar/recibir amor. " +
-                                    "Es inútil querer cambiar las cosas siempre van a ser así.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/2/3", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 3",
-                                text: "Debo sufrir y sacrificarme por los demás. " +
-                                    "No soy capaz de digerir las cosas malas que me pasan. " +
-                                    "La gente solo quiere estar conmigo por algún interés malo. " +
-                                    " Si digo no, la gente no me va querer. ",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/2/4", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 4",
-                                text: "La solución a mis problemas es responsabilidad de otros. " +
-                                    "Lo que yo quiero no importa. " +
-                                    "Yo soy así no quiero cambiar. " +
-                                    "La mejor defensa es un ataque.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/2/5", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 5",
-                                text: "Es inútil esforzarme no lo voy a conseguir. " +
-                                    "Yo no puedo ser. " +
-                                    "Yo no puedo tener. " +
-                                    "No puedo lograr las metas que me eh fijado. ",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/2/6", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 6",
-                                text: "No tengo tiempo para nada. " +
-                                    "Mi felicidad depende de los demás. " +
-                                    "Es peligro relacionarse con desconocido. " +
-                                    "No soy capaz de apartarme de personas que me perjudican.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/2/7", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 7",
-                                text: "La gente me usa y luego me abandona. " +
-                                    "Cuanto más difícil es algo mayor es la recompensa. " +
-                                    "Hago cosas por todo el mundo y nadie me lo agradece como yo merezco. " +
-                                    "Solo debo portarme bien, con quien se porta bien conmigo.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/2/8", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 8",
-                                text: "Dependo del que dirán y necesito aprobación. " +
-                                    "La gente no cambia. " +
-                                    "Hay que analizar todo muy bien antes de dar el primer paso. " +
-                                    "No hago nada bien.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/2/9", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 9",
-                                text: "No quiero destacar para no ser criticado. " +
-                                    "No merezco vivir en la vida con armonía/plenitud. " +
-                                    "No se puede ser espiritual y no meditar. " +
-                                    "Tener confianza en uno mismo te lleva a la arrogancia.",noText: true,textFieldCompact: true
-                            },
-                            {
-                                linkName: "petalo-3/7/2/10", image: 'boton3', fieldText: true, separation: true, titlePage: 'Creencias Limitantes', title: "B 10",
-                                text: "No valgo como padre/madre. " +
-                                    "No soy capaz de decir mi opinión frente a un grupo de personas. " +
-                                    "No soy capaz de corregir mis errores y pedir disculpas. " +
-                                    "El dinero es difícil de ganar y fácil de perder",noText: true,textFieldCompact: true
-                            },
+                                linkName: "petalo-3/7/2/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/7/2/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "PEDIR DISCULPAS CUANDO ME EQUIVOCO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "EXPRESAR MIS NECESIDADES DE MANERA SALUDABLE (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "LAS PERSONAS CON LAS QUE ELIJO COMPARTIR MI TIEMPO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "DECIR QUE NO CUANDO ALGO NO ME HACE BIEN (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "PONER LÍMITES (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "RESPETAR MIS PROPIOS LÍMITES (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "ALEJARME DE UNA DISCUSIÓN CUANDO ES NECESARIO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "ELEGIR NO PARTICIPAR EN RELACIONES O SITUACIONES DAÑINAS (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "LA MANERA EN QUE TRATO A LOS DEMÁS (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "MI ACTITUD FRENTE A UN INCONVENIENTE (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "CÓMO REACCIONO ANTE UNA DEMORA (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "MI COMPORTAMIENTO CUANDO ESTOY ENOJADO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "HACER UNA PAUSA ANTES DE RESPONDER (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "LA MANERA EN QUE ME RECUPERO DESPUÉS DE UNA DIFICULTAD (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "APRENDER DE MIS ERRORES (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "MIS DECISIONES (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "MIS HÁBITOS (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "MIS ACCIONES COTIDIANAS (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "LA MANERA EN QUE CUIDO MIS GASTOS (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "MI COMPROMISO CON AQUELLO QUE DESEO MEJORAR (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "PEDIR ACOMPAÑAMIENTO CUANDO NO PUEDO RESOLVER ALGO SOLO (Activar)", text: "" },
+                                    { linkName: "petalo-3/7/2/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Cosas que sí puedo gestionar B", title: "ELEGIR COMENZAR NUEVAMENTE (Activar)", text: "" }
+                                ]
+                            }
                         ]
-                    },
+                    }
                 ]
             },
-
+            {
+                linkName: "petalo-3/8", image: 'boton3', iconCenter: 'simbolo3', title: "COMPORTAMIENTO SEXUAL", noNumbers: true, text: "",
+                subPetalos: [
+                    {
+                        linkName: "petalo-3/8/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                        subPetalos: [
+                            { linkName: "petalo-3/8/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "DIFICULTAD PARA PONER LÍMITES SEXUALES", text: "" },
+                            { linkName: "petalo-3/8/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "ACCEDER POR MIEDO A PERDER A LA PAREJA", text: "" },
+                            { linkName: "petalo-3/8/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "SENTIRSE OBLIGADO/A A COMPLACER", text: "" },
+                            { linkName: "petalo-3/8/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "PRIORIZAR SIEMPRE EL PLACER DEL OTRO", text: "" },
+                            { linkName: "petalo-3/8/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "DESCONEXIÓN DEL PROPIO CUERPO", text: "" },
+                            { linkName: "petalo-3/8/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "DESCONEXIÓN DE LAS SENSACIONES CORPORALES", text: "" },
+                            { linkName: "petalo-3/8/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "DIFICULTAD PARA RECONOCER LO QUE TE GUSTA", text: "" },
+                            { linkName: "petalo-3/8/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "DIFICULTAD PARA PEDIR LO QUE NECESITÁS", text: "" },
+                            { linkName: "petalo-3/8/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "MIEDO A DECIR QUE NO", text: "" },
+                            { linkName: "petalo-3/8/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "MIEDO AL RECHAZO SEXUAL", text: "" },
+                            { linkName: "petalo-3/8/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "MIEDO A LA INTIMIDAD EMOCIONAL", text: "" },
+                            { linkName: "petalo-3/8/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "MIEDO A PERDER EL CONTROL DURANTE EL ENCUENTRO", text: "" },
+                            { linkName: "petalo-3/8/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "NECESIDAD DE CONTROLAR A LA PAREJA", text: "" },
+                            { linkName: "petalo-3/8/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "COMPARARTE SEXUALMENTE CON OTRAS PERSONAS", text: "" },
+                            { linkName: "petalo-3/8/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "EXIGENCIA DE RENDIMIENTO SEXUAL", text: "" },
+                            { linkName: "petalo-3/8/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "PERFECCIONISMO EN LA INTIMIDAD", text: "" },
+                            { linkName: "petalo-3/8/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "ANSIEDAD ANTICIPATORIA ANTES DEL ENCUENTRO", text: "" },
+                            { linkName: "petalo-3/8/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "EVITAR EL CONTACTO FÍSICO AFECTIVO", text: "" },
+                            { linkName: "petalo-3/8/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "CONFUNDIR AFECTO CON OBLIGACIÓN SEXUAL", text: "" },
+                            { linkName: "petalo-3/8/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "UTILIZAR EL SEXO PARA OBTENER APROBACIÓN", text: "" },
+                            { linkName: "petalo-3/8/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "UTILIZAR EL SEXO PARA EVITAR CONFLICTOS", text: "" },
+                            { linkName: "petalo-3/8/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "UTILIZAR EL SEXO COMO FORMA DE CASTIGO", text: "" },
+                            { linkName: "petalo-3/8/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "DEPENDENCIA DE LA VALIDACIÓN SEXUAL", text: "" },
+                            { linkName: "petalo-3/8/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual A", title: "NECESIDAD CONSTANTE DE SENTIRSE DESEADO/A", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/8/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                        subPetalos: [
+                            { linkName: "petalo-3/8/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "DIFICULTAD PARA RECIBIR PLACER", text: "" },
+                            { linkName: "petalo-3/8/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "SENTIR QUE NO MERECES DISFRUTAR", text: "" },
+                            { linkName: "petalo-3/8/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "ASOCIAR PLACER CON CULPA", text: "" },
+                            { linkName: "petalo-3/8/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "ASOCIAR SEXUALIDAD CON PELIGRO", text: "" },
+                            { linkName: "petalo-3/8/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "ASOCIAR INTIMIDAD CON PÉRDIDA DE LIBERTAD", text: "" },
+                            { linkName: "petalo-3/8/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "ASOCIAR AMOR CON SUFRIMIENTO", text: "" },
+                            { linkName: "petalo-3/8/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "OCULTAR NECESIDADES SEXUALES", text: "" },
+                            { linkName: "petalo-3/8/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "CALLAR INCOMODIDADES DURANTE EL ENCUENTRO", text: "" },
+                            { linkName: "petalo-3/8/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "PERMANECER EN SITUACIONES QUE GENERAN MALESTAR", text: "" },
+                            { linkName: "petalo-3/8/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "REPETIR VÍNCULOS SEXUALES DAÑINOS", text: "" },
+                            { linkName: "petalo-3/8/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "BUSCAR PERSONAS EMOCIONALMENTE INACCESIBLES", text: "" },
+                            { linkName: "petalo-3/8/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "MIEDO A ENTREGARTE AFECTIVAMENTE", text: "" },
+                            { linkName: "petalo-3/8/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "DIFICULTAD PARA CONFIAR EN LA PAREJA", text: "" },
+                            { linkName: "petalo-3/8/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "COMPARAR A LA PAREJA CON VÍNCULOS ANTERIORES", text: "" },
+                            { linkName: "petalo-3/8/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "LLEVAR EXPERIENCIAS PASADAS AL VÍNCULO ACTUAL", text: "" },
+                            { linkName: "petalo-3/8/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "TEMOR A SER REEMPLAZADO/A", text: "" },
+                            { linkName: "petalo-3/8/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "NECESIDAD DE DEMOSTRAR ATRACTIVO", text: "" },
+                            { linkName: "petalo-3/8/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "RECHAZO DEL PROPIO DESEO", text: "" },
+                            { linkName: "petalo-3/8/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual B", title: "CASTIGAR EL CUERPO POR SENTIR PLACER", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/8/3", image: 'boton3', iconCenter: 'simbolo3', title: "C", index: 2, colorBorder: "green",
+                        subPetalos: [
+                            { linkName: "petalo-3/8/3/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "DIFICULTAD PARA HABITAR EL MOMENTO PRESENTE", text: "" },
+                            { linkName: "petalo-3/8/3/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "PENSAMIENTOS INVASIVOS DURANTE LA INTIMIDAD", text: "" },
+                            { linkName: "petalo-3/8/3/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "FALTA DE CONEXIÓN EMOCIONAL DURANTE EL ENCUENTRO", text: "" },
+                            { linkName: "petalo-3/8/3/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "AUTOMATIZACIÓN DE LA VIDA SEXUAL", text: "" },
+                            { linkName: "petalo-3/8/3/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "DESINTERÉS GENERADO POR LA RUTINA", text: "" },
+                            { linkName: "petalo-3/8/3/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "DIFICULTAD PARA CREAR ESPACIOS DE INTIMIDAD", text: "" },
+                            { linkName: "petalo-3/8/3/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "FALTA DE DIÁLOGO SOBRE PREFERENCIAS SEXUALES", text: "" },
+                            { linkName: "petalo-3/8/3/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "DIFICULTAD PARA EXPRESAR FANTASÍAS", text: "" },
+                            { linkName: "petalo-3/8/3/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "RIGIDEZ FRENTE A LOS CAMBIOS SEXUALES", text: "" },
+                            { linkName: "petalo-3/8/3/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "FALTA DE RECIPROCIDAD EN EL VÍNCULO", text: "" },
+                            { linkName: "petalo-3/8/3/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "DESCONOCIMIENTO DE LOS PROPIOS LÍMITES", text: "" },
+                            { linkName: "petalo-3/8/3/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "DIFICULTAD PARA RESPETAR LOS LÍMITES DE LA PAREJA", text: "" },
+                            { linkName: "petalo-3/8/3/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "FALTA DE CONEXIÓN DESPUÉS DEL ENCUENTRO", text: "" },
+                            { linkName: "petalo-3/8/3/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "SENTIRSE UTILIZADO/A SEXUALMENTE", text: "" },
+                            { linkName: "petalo-3/8/3/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "SENTIR QUE UTILIZÁS A LA OTRA PERSONA", text: "" },
+                            { linkName: "petalo-3/8/3/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "BUSCAR LLENAR VACÍOS EMOCIONALES MEDIANTE EL SEXO", text: "" },
+                            { linkName: "petalo-3/8/3/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "CONFUNDIR POSESIÓN CON AMOR", text: "" },
+                            { linkName: "petalo-3/8/3/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "DIFICULTAD PARA INTEGRAR TERNURA Y DESEO", text: "" },
+                            { linkName: "petalo-3/8/3/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "RECHAZO AL CONTACTO AMOROSO NO SEXUAL", text: "" },
+                            { linkName: "petalo-3/8/3/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "INCAPACIDAD PARA DISFRUTAR SIN EXPECTATIVAS", text: "" },
+                            { linkName: "petalo-3/8/3/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Comportamiento Sexual C", title: "DESCONEXIÓN ENTRE CUERPO, EMOCIÓN Y DESEO", text: "" }
+                        ]
+                    }
+                ]
+            },
+            {
+                linkName: "petalo-3/9", image: 'boton3', iconCenter: 'simbolo3', title: "CONDUCTA MENTAL NEGATIVA (–)", noNumbers: true, text: "",
+                subPetalos: [
+                    {
+                        linkName: "petalo-3/9/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                        subPetalos: [
+                            { linkName: "petalo-3/9/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "ABANDONADO", text: "" },
+                            { linkName: "petalo-3/9/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "ABRUMADO", text: "" },
+                            { linkName: "petalo-3/9/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "ABURRIDO", text: "" },
+                            { linkName: "petalo-3/9/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "AGOTADO", text: "" },
+                            { linkName: "petalo-3/9/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "AGRESIVO", text: "" },
+                            { linkName: "petalo-3/9/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "AMARGADO", text: "" },
+                            { linkName: "petalo-3/9/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "AMENAZADO", text: "" },
+                            { linkName: "petalo-3/9/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "ANSIOSO", text: "" },
+                            { linkName: "petalo-3/9/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "APÁTICO", text: "" },
+                            { linkName: "petalo-3/9/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "APENADO", text: "" },
+                            { linkName: "petalo-3/9/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "AVERGONZADO", text: "" },
+                            { linkName: "petalo-3/9/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "CELOSO", text: "" },
+                            { linkName: "petalo-3/9/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "CONFUNDIDO", text: "" },
+                            { linkName: "petalo-3/9/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "CRITICADO", text: "" },
+                            { linkName: "petalo-3/9/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "CULPABLE", text: "" },
+                            { linkName: "petalo-3/9/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DECEPCIONADO", text: "" },
+                            { linkName: "petalo-3/9/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DEPRIMIDO", text: "" },
+                            { linkName: "petalo-3/9/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DESESPERADO", text: "" },
+                            { linkName: "petalo-3/9/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DESILUSIONADO", text: "" },
+                            { linkName: "petalo-3/9/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DESPRECIADO", text: "" },
+                            { linkName: "petalo-3/9/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DISCRIMINADO", text: "" },
+                            { linkName: "petalo-3/9/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DISGUSTADO", text: "" },
+                            { linkName: "petalo-3/9/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DISTANTE", text: "" },
+                            { linkName: "petalo-3/9/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "ENOJADO", text: "" },
+                            { linkName: "petalo-3/9/1/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "ESTANCADO", text: "" },
+                            { linkName: "petalo-3/9/1/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "EVASIVO", text: "" },
+                            { linkName: "petalo-3/9/1/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "EXCLUIDO", text: "" },
+                            { linkName: "petalo-3/9/1/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "EXIGENTE", text: "" },
+                            { linkName: "petalo-3/9/1/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DESCONFIADO", text: "" },
+                            { linkName: "petalo-3/9/1/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa A", title: "DESBORDADO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/9/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                        subPetalos: [
+                            { linkName: "petalo-3/9/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "FRACASADO", text: "" },
+                            { linkName: "petalo-3/9/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "FRUSTRADO", text: "" },
+                            { linkName: "petalo-3/9/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "HERIDO", text: "" },
+                            { linkName: "petalo-3/9/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "HUMILLADO", text: "" },
+                            { linkName: "petalo-3/9/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "IGNORADO", text: "" },
+                            { linkName: "petalo-3/9/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "IMPOTENTE", text: "" },
+                            { linkName: "petalo-3/9/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INCÓMODO", text: "" },
+                            { linkName: "petalo-3/9/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INDECISO", text: "" },
+                            { linkName: "petalo-3/9/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INDIFERENTE", text: "" },
+                            { linkName: "petalo-3/9/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INDIGNO", text: "" },
+                            { linkName: "petalo-3/9/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INSATISFECHO", text: "" },
+                            { linkName: "petalo-3/9/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INSEGURO", text: "" },
+                            { linkName: "petalo-3/9/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INSIGNIFICANTE", text: "" },
+                            { linkName: "petalo-3/9/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INTOLERANTE", text: "" },
+                            { linkName: "petalo-3/9/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "PERTURBADO", text: "" },
+                            { linkName: "petalo-3/9/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "RECHAZADO", text: "" },
+                            { linkName: "petalo-3/9/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "RESENTIDO", text: "" },
+                            { linkName: "petalo-3/9/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "RESIGNADO", text: "" },
+                            { linkName: "petalo-3/9/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "RÍGIDO", text: "" },
+                            { linkName: "petalo-3/9/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "SOLITARIO", text: "" },
+                            { linkName: "petalo-3/9/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "SUMISO", text: "" },
+                            { linkName: "petalo-3/9/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "TRISTE", text: "" },
+                            { linkName: "petalo-3/9/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "VACÍO", text: "" },
+                            { linkName: "petalo-3/9/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "VULNERABLE", text: "" },
+                            { linkName: "petalo-3/9/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "AGÓNICO", text: "" },
+                            { linkName: "petalo-3/9/2/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "OPRIMIDO", text: "" },
+                            { linkName: "petalo-3/9/2/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "INQUIETO", text: "" },
+                            { linkName: "petalo-3/9/2/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "CONTROLADOR", text: "" },
+                            { linkName: "petalo-3/9/2/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "DESVALORIZADO", text: "" },
+                            { linkName: "petalo-3/9/2/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Conducta Mental Negativa B", title: "BLOQUEADO", text: "" }
+                        ]
+                    }
+                ]
+            },
+            {
+                linkName: "petalo-3/10", image: 'boton3', iconCenter: 'simbolo3', title: "¿QUÉ ME DESGASTA?", noNumbers: true, text: "Existen situaciones en las cuales nos debilitamos o estresamos y también nos podemos bloquear, creando un desgaste interno muy profundo, esta corrección nos ayuda inteligentemente a sanar el punto detectado de una manera armoniosa y liberadora. (Se anularon los siguientes bloqueos)",
+                subPetalos: [
+                    {
+                        linkName: "petalo-3/10/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                        subPetalos: [
+                            { linkName: "petalo-3/10/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 1", text: "PASADO", onlyText: true },
+                            { linkName: "petalo-3/10/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 2", text: "PRESENTE", onlyText: true },
+                            { linkName: "petalo-3/10/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 3", text: "FUTURO", onlyText: true },
+                            { linkName: "petalo-3/10/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 4", text: "SENTIRSE RECHAZADO", onlyText: true },
+                            { linkName: "petalo-3/10/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 5", text: "SENTIRSE ABANDONADO", onlyText: true },
+                            { linkName: "petalo-3/10/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 6", text: "HOGAR", onlyText: true },
+                            { linkName: "petalo-3/10/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 7", text: "HABITACIÓN DE LA CASA", onlyText: true },
+                            { linkName: "petalo-3/10/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 8", text: "TRABAJO", onlyText: true },
+                            { linkName: "petalo-3/10/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 9", text: "LUGAR DE TRABAJO", onlyText: true },
+                            { linkName: "petalo-3/10/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 10", text: "JEFE / FIGURA DE AUTORIDAD", onlyText: true },
+                            { linkName: "petalo-3/10/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 11", text: "COMPAÑEROS LABORALES", onlyText: true },
+                            { linkName: "petalo-3/10/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 12", text: "CUÑADO/A", onlyText: true },
+                            { linkName: "petalo-3/10/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 13", text: "MAESTRO / PROFESOR", onlyText: true },
+                            { linkName: "petalo-3/10/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 14", text: "ENTORNO", onlyText: true },
+                            { linkName: "petalo-3/10/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 15", text: "NATURALEZA", onlyText: true },
+                            { linkName: "petalo-3/10/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 16", text: "CONTAMINACIÓN", onlyText: true },
+                            { linkName: "petalo-3/10/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "A 17", text: "SOLEDAD", onlyText: true }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/10/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "yellow",
+                        subPetalos: [
+                            { linkName: "petalo-3/10/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 1", text: "POBREZA", onlyText: true },
+                            { linkName: "petalo-3/10/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 2", text: "ABUNDANCIA", onlyText: true },
+                            { linkName: "petalo-3/10/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 3", text: "ÉXITO", onlyText: true },
+                            { linkName: "petalo-3/10/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 4", text: "FRACASO", onlyText: true },
+                            { linkName: "petalo-3/10/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 5", text: "RESPONSABILIDAD", onlyText: true },
+                            { linkName: "petalo-3/10/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 6", text: "COMPROMISO", onlyText: true },
+                            { linkName: "petalo-3/10/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 7", text: "GANAR DINERO", onlyText: true },
+                            { linkName: "petalo-3/10/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 8", text: "NO GANAR DINERO", onlyText: true },
+                            { linkName: "petalo-3/10/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 9", text: "PERDER DINERO", onlyText: true },
+                            { linkName: "petalo-3/10/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 10", text: "ROBAR DINERO", onlyText: true },
+                            { linkName: "petalo-3/10/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 11", text: "SER INCULTO", onlyText: true },
+                            { linkName: "petalo-3/10/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 12", text: "FALTA DE DIVERSIÓN", onlyText: true },
+                            { linkName: "petalo-3/10/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 13", text: "EXCESOS", onlyText: true },
+                            { linkName: "petalo-3/10/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 14", text: "CAMBIOS", onlyText: true },
+                            { linkName: "petalo-3/10/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 15", text: "LÍMITES", onlyText: true },
+                            { linkName: "petalo-3/10/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 16", text: "MENTIRA / ENGAÑO", onlyText: true },
+                            { linkName: "petalo-3/10/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "B 17", text: "CULPA", onlyText: true }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/10/3", image: 'boton3', iconCenter: 'simbolo3', title: "C", index: 2, colorBorder: "green",
+                        subPetalos: [
+                            { linkName: "petalo-3/10/3/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 1", text: "ENFERMARSE", onlyText: true },
+                            { linkName: "petalo-3/10/3/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 2", text: "CRECER", onlyText: true },
+                            { linkName: "petalo-3/10/3/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 3", text: "AUSENCIA DE EJERCICIO", onlyText: true },
+                            { linkName: "petalo-3/10/3/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 4", text: "MAL DESCANSO", onlyText: true },
+                            { linkName: "petalo-3/10/3/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 5", text: "MALA ALIMENTACIÓN", onlyText: true },
+                            { linkName: "petalo-3/10/3/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 6", text: "PRIVACIDAD", onlyText: true },
+                            { linkName: "petalo-3/10/3/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 7", text: "SEXO", onlyText: true },
+                            { linkName: "petalo-3/10/3/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 8", text: "ENVEJECER", onlyText: true },
+                            { linkName: "petalo-3/10/3/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 9", text: "ABUSOS", onlyText: true },
+                            { linkName: "petalo-3/10/3/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 10", text: "LO DESCONOCIDO", onlyText: true },
+                            { linkName: "petalo-3/10/3/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 11", text: "NUEVAS TECNOLOGÍAS", onlyText: true },
+                            { linkName: "petalo-3/10/3/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 12", text: "CÍRCULO DE CONOCIDOS", onlyText: true },
+                            { linkName: "petalo-3/10/3/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 13", text: "ANTEPASADOS", onlyText: true },
+                            { linkName: "petalo-3/10/3/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 14", text: "MUERTE", onlyText: true },
+                            { linkName: "petalo-3/10/3/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 15", text: "APEGO", onlyText: true },
+                            { linkName: "petalo-3/10/3/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 16", text: "AMOR", onlyText: true },
+                            { linkName: "petalo-3/10/3/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "C 17", text: "DISCIPLINA", onlyText: true }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/10/4", image: 'boton3', iconCenter: 'simbolo3', title: "D", index: 3, colorBorder: "blue",
+                        subPetalos: [
+                            { linkName: "petalo-3/10/4/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 1", text: "SER MADRE / PADRE", onlyText: true },
+                            { linkName: "petalo-3/10/4/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 2", text: "NO SER MADRE / PADRE", onlyText: true },
+                            { linkName: "petalo-3/10/4/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 3", text: "SER HIJO/A", onlyText: true },
+                            { linkName: "petalo-3/10/4/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 4", text: "LA FAMILIA", onlyText: true },
+                            { linkName: "petalo-3/10/4/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 5", text: "LOS ABUELOS", onlyText: true },
+                            { linkName: "petalo-3/10/4/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 6", text: "MADRE", onlyText: true },
+                            { linkName: "petalo-3/10/4/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 7", text: "PADRE", onlyText: true },
+                            { linkName: "petalo-3/10/4/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 8", text: "HERMANOS", onlyText: true },
+                            { linkName: "petalo-3/10/4/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 9", text: "HIJOS", onlyText: true },
+                            { linkName: "petalo-3/10/4/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 10", text: "PAREJA", onlyText: true },
+                            { linkName: "petalo-3/10/4/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 11", text: "AMIGOS ÍNTIMOS", onlyText: true },
+                            { linkName: "petalo-3/10/4/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 12", text: "FAMILIA DE LA PAREJA", onlyText: true },
+                            { linkName: "petalo-3/10/4/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 13", text: "MALTRATO", onlyText: true },
+                            { linkName: "petalo-3/10/4/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 14", text: "AUTOEXIGENCIA", onlyText: true },
+                            { linkName: "petalo-3/10/4/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 15", text: "PERFECCIONISMO", onlyText: true },
+                            { linkName: "petalo-3/10/4/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "¿Qué me desgasta?", title: "D 16", text: "SEPARACIÓN", onlyText: true }
+                        ]
+                    }
+                ]
+            },
+            {
+                linkName: "petalo-3/11", image: 'boton3', iconCenter: 'simbolo3', title: "HÁBITOS POSITIVOS PARA EL BIENESTAR", text: "",
+                subPetalos: [
+                    { linkName: "petalo-3/11/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "HABLAR CON HONESTIDAD Y RESPETO", text: "" },
+                    { linkName: "petalo-3/11/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "ADMITIR CUANDO NO SABES ALGO", text: "" },
+                    { linkName: "petalo-3/11/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "SER COHERENTE ENTRE LO QUE DECÍS Y LO QUE HACES", text: "" },
+                    { linkName: "petalo-3/11/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "ELEGIR CONSCIENTEMENTE", text: "" },
+                    { linkName: "petalo-3/11/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "TOMAR DECISIONES CON RESPONSABILIDAD", text: "" },
+                    { linkName: "petalo-3/11/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "ESCUCHAR ANTES DE RESPONDER", text: "" },
+                    { linkName: "petalo-3/11/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "EXPRESAR LO QUE SENTÍS DE MANERA SALUDABLE", text: "" },
+                    { linkName: "petalo-3/11/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "ACEPTAR AQUELLO QUE NO PODES CONTROLAR", text: "" },
+                    { linkName: "petalo-3/11/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "CUIDAR TUS PENSAMIENTOS", text: "" },
+                    { linkName: "petalo-3/11/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "RECONOCER Y AGRADECER LO BUENO DE CADA DÍA", text: "" },
+                    { linkName: "petalo-3/11/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "ESTABLECER LÍMITES SANOS", text: "" },
+                    { linkName: "petalo-3/11/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "TRATARTE CON PACIENCIA Y AMABILIDAD", text: "" },
+                    { linkName: "petalo-3/11/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "APRENDER DE LOS ERRORES SIN CASTIGARTE", text: "" },
+                    { linkName: "petalo-3/11/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "CUIDAR TU CUERPO, DESCANSO Y ALIMENTACIÓN", text: "" },
+                    { linkName: "petalo-3/11/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "DEDICAR TIEMPO A LO QUE TE BRINDA BIENESTAR", text: "" },
+                    { linkName: "petalo-3/11/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "Hábitos Positivos para el Bienestar", title: "PEDIR AYUDA CUANDO LA NECESITAS", text: "" }
+                ]
+            },
+            {
+                linkName: "petalo-3/12", image: 'boton3', iconCenter: 'simbolo3', title: "CREENCIAS LIMITANTES", text: "Las creencias son interpretaciones heredadas de generación en generación que hemos ido incorporando en nuestra mente, de forma inconsciente y que, sin darnos cuenta, dirigen nuestros actos y nos impulsan a actuar de una u otra forma, sin que, en el fondo sepamos por qué. Estas creencias pueden ser familiares, sociales y culturales, es importante hacerlas conscientes, ya que están limitando tu crecimiento y tu evolución. (Se anularon las siguientes creencias limitantes)",
+                subPetalos: [
+                    {
+                        linkName: "petalo-3/12/1", image: 'boton3', iconCenter: 'simbolo3', title: "SALUD",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "LAS ENFERMEDADES SON HEREDITARIAS, NO PUEDO EVITARLAS", text: "" },
+                            { linkName: "petalo-3/12/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "SI NO DUELE, NO ES EFECTIVO", text: "" },
+                            { linkName: "petalo-3/12/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "CON LA EDAD, TODO EL CUERPO EMPIEZA A FALLAR", text: "" },
+                            { linkName: "petalo-3/12/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "SIEMPRE TENGO ALGO, NUNCA ESTOY 100% BIEN", text: "" },
+                            { linkName: "petalo-3/12/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "NO TENGO TIEMPO PARA CUIDAR MI SALUD", text: "" },
+                            { linkName: "petalo-3/12/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "CURARSE CUESTA MUCHO DINERO", text: "" },
+                            { linkName: "petalo-3/12/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "LA SALUD ES UNA LOTERÍA", text: "" },
+                            { linkName: "petalo-3/12/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "SI ME ENFERMO, LLAMO LA ATENCIÓN", text: "" },
+                            { linkName: "petalo-3/12/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "LOS SÍNTOMAS SON ENEMIGOS QUE HAY QUE ELIMINAR", text: "" },
+                            { linkName: "petalo-3/12/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "MI CUERPO ES FRÁGIL Y SIEMPRE SE ROMPE POR ALGO", text: "" },
+                            { linkName: "petalo-3/12/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "SI ME SIENTO BIEN, SEGURO PRONTO ME ENFERMO", text: "" },
+                            { linkName: "petalo-3/12/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "SI ALGUIEN EN MI FAMILIA TUVO UNA ENFERMEDAD, YO TAMBIÉN LA VOY A TENER", text: "" },
+                            { linkName: "petalo-3/12/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "ESTAR SANO REQUIERE DEMASIADO SACRIFICIO", text: "" },
+                            { linkName: "petalo-3/12/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "NO PUEDO DISFRUTAR PORQUE DESPUÉS ME ENFERMO", text: "" },
+                            { linkName: "petalo-3/12/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "EL ESTRÉS ES INEVITABLE Y SIEMPRE ME VA A ENFERMAR", text: "" },
+                            { linkName: "petalo-3/12/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "SI DESCANSO MUCHO, ME VUELVO DÉBIL", text: "" },
+                            { linkName: "petalo-3/12/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "LOS MÉDICOS SON LOS ÚNICOS QUE SABEN LO QUE ME PASA", text: "" },
+                            { linkName: "petalo-3/12/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "EL DOLOR ES ALGO CON LO QUE DEBO APRENDER A VIVIR", text: "" },
+                            { linkName: "petalo-3/12/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "SI ME SIENTO MAL, SIGNIFICA QUE ALGO GRAVE ESTÁ OCURRIENDO", text: "" },
+                            { linkName: "petalo-3/12/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "SIEMPRE QUE EMPIEZO A MEJORAR, ALGO MALO PASA", text: "" },
+                            { linkName: "petalo-3/12/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "EL CUERPO ES UN ENEMIGO QUE ME LIMITA", text: "" },
+                            { linkName: "petalo-3/12/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SALUD", title: "EL PASO DEL TIEMPO SOLO TRAE ENFERMEDADES", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/2", image: 'boton3', iconCenter: 'simbolo3', title: "ALIMENTACIÓN Y CUERPO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "NO TENGO CONTROL SOBRE MI HAMBRE", text: "" },
+                            { linkName: "petalo-3/12/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "COMER ME HACE SENTIR CULPA", text: "" },
+                            { linkName: "petalo-3/12/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "PARA SER AMADO/A DEBO TENER CIERTO CUERPO O PESO", text: "" },
+                            { linkName: "petalo-3/12/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "COMER MUCHO ES SEÑAL DE DEBILIDAD", text: "" },
+                            { linkName: "petalo-3/12/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "RESTRINGIR LA COMIDA ME DA VALOR O DISCIPLINA", text: "" },
+                            { linkName: "petalo-3/12/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "MI CUERPO ES MI ENEMIGO", text: "" },
+                            { linkName: "petalo-3/12/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "NO MEREZCO DISFRUTAR DE LA COMIDA", text: "" },
+                            { linkName: "petalo-3/12/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "SI COMO LO QUE QUIERO, VOY A ENGORDAR Y PERDER ACEPTACIÓN", text: "" },
+                            { linkName: "petalo-3/12/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "LA COMIDA SANA ES UN CASTIGO, LA COMIDA “RICA” ES UN PREMIO", text: "" },
+                            { linkName: "petalo-3/12/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "NO PUEDO CONFIAR EN LAS SEÑALES DE MI CUERPO", text: "" },
+                            { linkName: "petalo-3/12/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "TENGO QUE TERMINAR TODO LO QUE HAY EN EL PLATO AUNQUE NO TENGA HAMBRE", text: "" },
+                            { linkName: "petalo-3/12/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "NO PUEDO DESPERDICIAR COMIDA PORQUE ES UN PECADO O FALTA DE RESPETO", text: "" },
+                            { linkName: "petalo-3/12/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "MI VALOR COMO PERSONA DEPENDE DE MI APARIENCIA FÍSICA", text: "" },
+                            { linkName: "petalo-3/12/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "SI BAJO DE PESO, TODO EN MI VIDA SE SOLUCIONARÁ", text: "" },
+                            { linkName: "petalo-3/12/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "COMER DE MÁS ES PARTE DE MI IDENTIDAD", text: "" },
+                            { linkName: "petalo-3/12/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "NO PUEDO DEJAR DE COMER AUNQUE QUIERA", text: "" },
+                            { linkName: "petalo-3/12/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "COMER POCO ME HACE SENTIR EN CONTROL", text: "" },
+                            { linkName: "petalo-3/12/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "COMER LO QUE ME GUSTA ESTÁ MAL SI NO ES “SALUDABLE”", text: "" },
+                            { linkName: "petalo-3/12/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "NO PUEDO DISFRUTAR DE LA COMIDA SIN SENTIR VERGÜENZA", text: "" },
+                            { linkName: "petalo-3/12/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "NO MEREZCO CUIDARME A TRAVÉS DE LA ALIMENTACIÓN", text: "" },
+                            { linkName: "petalo-3/12/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "SI NO COMO RÁPIDO, ME VOY A QUEDAR SIN COMIDA", text: "" },
+                            { linkName: "petalo-3/12/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "COMER ES UN GASTO QUE NO DEBERÍA HACER", text: "" },
+                            { linkName: "petalo-3/12/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ALIMENTACIÓN Y CUERPO", title: "COMER ES PELIGROSO PORQUE PUEDE HACERME DAÑO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/3", image: 'boton3', iconCenter: 'simbolo3', title: "BAJAR DE PESO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/3/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "NO MEREZCO VERME BIEN O SENTIRME BIEN", text: "" },
+                            { linkName: "petalo-3/12/3/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SI BAJO DE PESO, NO ME VAN A QUERER POR QUIÉN SOY REALMENTE", text: "" },
+                            { linkName: "petalo-3/12/3/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "NO TENGO DERECHO A OCUPAR ESPACIO O LLAMAR LA ATENCIÓN", text: "" },
+                            { linkName: "petalo-3/12/3/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "ESTAR EN MI MEJOR VERSIÓN GENERA ENVIDIA O RECHAZO", text: "" },
+                            { linkName: "petalo-3/12/3/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SI ADELGAZO, VOY A PERDER MI PROTECCIÓN", text: "" },
+                            { linkName: "petalo-3/12/3/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "BAJAR DE PESO ES MUY DIFÍCIL, TENGO QUE SUFRIR PARA LOGRARLO", text: "" },
+                            { linkName: "petalo-3/12/3/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SIEMPRE ME CUESTA MANTENERME CONSTANTE", text: "" },
+                            { linkName: "petalo-3/12/3/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SI ME RELAJO, ENGORDO", text: "" },
+                            { linkName: "petalo-3/12/3/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "TENGO QUE CONTROLARME TODO EL TIEMPO", text: "" },
+                            { linkName: "petalo-3/12/3/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SI NO HAGO DIETA ESTRICTA, NO VALE LA PENA INTENTARLO", text: "" },
+                            { linkName: "petalo-3/12/3/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "EL PESO ME PROTEGE DE SER HERIDA O RECHAZADA", text: "" },
+                            { linkName: "petalo-3/12/3/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SI BAJO DE PESO, SERÉ VULNERABLE O MÁS EXPUESTA", text: "" },
+                            { linkName: "petalo-3/12/3/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SER DELGADA/O ES PELIGROSO", text: "" },
+                            { linkName: "petalo-3/12/3/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "MI CUERPO GRANDE ME DA FUERZA O PRESENCIA", text: "" },
+                            { linkName: "petalo-3/12/3/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SI SUELTO EL PESO, TAMBIÉN SOLTARÉ PARTE DE MI HISTORIA O MI IDENTIDAD", text: "" },
+                            { linkName: "petalo-3/12/3/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "YA ES TARDE PARA CAMBIAR", text: "" },
+                            { linkName: "petalo-3/12/3/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "MI METABOLISMO ESTÁ ARRUINADO, NO HAY VUELTA ATRÁS", text: "" },
+                            { linkName: "petalo-3/12/3/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "CON LA EDAD ES IMPOSIBLE BAJAR", text: "" },
+                            { linkName: "petalo-3/12/3/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "ANTES PODÍA, PERO AHORA YA NO TENGO ENERGÍA NI MOTIVACIÓN", text: "" },
+                            { linkName: "petalo-3/12/3/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "MI CUERPO ESTÁ ASÍ Y TENGO QUE RESIGNARME", text: "" },
+                            { linkName: "petalo-3/12/3/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "COMER ME CALMA, ES MI REFUGIO", text: "" },
+                            { linkName: "petalo-3/12/3/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "NO PUEDO DISFRUTAR SIN COMER", text: "" },
+                            { linkName: "petalo-3/12/3/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SI DEJO DE COMER LO QUE ME GUSTA, MI VIDA SERÁ TRISTE", text: "" },
+                            { linkName: "petalo-3/12/3/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "EL HAMBRE EMOCIONAL ES MÁS FUERTE QUE YO", text: "" },
+                            { linkName: "petalo-3/12/3/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "LA COMIDA ES LA ÚNICA MANERA DE SENTIR PLACER O CONSUELO", text: "" },
+                            { linkName: "petalo-3/12/3/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "EN MI FAMILIA TODOS SOMOS GORDOS", text: "" },
+                            { linkName: "petalo-3/12/3/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "LAS MUJERES/HOMBRES DE MI CLAN SIEMPRE SUFRIERON CON EL CUERPO", text: "" },
+                            { linkName: "petalo-3/12/3/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "COMER ES AMAR", text: "" },
+                            { linkName: "petalo-3/12/3/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "TENER UN CUERPO GRANDE ES SÍMBOLO DE ABUNDANCIA", text: "" },
+                            { linkName: "petalo-3/12/3/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SI BAJO DE PESO, TRAICIONO A MI FAMILIA O ME SEPARO DE ELLOS", text: "" },
+                            { linkName: "petalo-3/12/3/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "YO SIEMPRE FUI ASÍ, NO PUEDO CAMBIAR", text: "" },
+                            { linkName: "petalo-3/12/3/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "MI CUERPO ES MI CASTIGO", text: "" },
+                            { linkName: "petalo-3/12/3/33", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "NO TENGO FUERZA DE VOLUNTAD", text: "" },
+                            { linkName: "petalo-3/12/3/34", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "SOY DÉBIL CON LA COMIDA", text: "" },
+                            { linkName: "petalo-3/12/3/35", image: 'boton3', iconCenter: 'simbolo3', titlePage: "BAJAR DE PESO", title: "NUNCA ME VOY A GUSTAR, AUNQUE BAJE DE PESO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/4", image: 'boton3', iconCenter: 'simbolo3', title: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/4/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "COMER EMOCIONALMENTE ES LA ÚNICA FORMA DE CALMARME", text: "" },
+                            { linkName: "petalo-3/12/4/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "LA COMIDA ES UNA FORMA DE LLENAR VACÍOS EMOCIONALES", text: "" },
+                            { linkName: "petalo-3/12/4/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "LA COMIDA ES LA ÚNICA FORMA DE RECIBIR PLACER O CONSUELO", text: "" },
+                            { linkName: "petalo-3/12/4/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "LA COMIDA ES LO ÚNICO QUE ME CALMA", text: "" },
+                            { linkName: "petalo-3/12/4/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "NO PUEDO CONTROLAR LO QUE SIENTO, PERO SÍ LO QUE COMO", text: "" },
+                            { linkName: "petalo-3/12/4/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "SI NO COMO, LA ANSIEDAD VA A EMPEORAR", text: "" },
+                            { linkName: "petalo-3/12/4/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "MI CUERPO NO ME ACOMPAÑA, ENTONCES NO IMPORTA CÓMO COMA", text: "" },
+                            { linkName: "petalo-3/12/4/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "YO SOY ANSIOSO, ASÍ QUE INEVITABLEMENTE VOY A COMER DE MÁS", text: "" },
+                            { linkName: "petalo-3/12/4/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "NO TENGO FUERZA DE VOLUNTAD", text: "" },
+                            { linkName: "petalo-3/12/4/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "SI LO ESTOY PASANDO MAL, AL MENOS PUEDO DARME UN GUSTO", text: "" },
+                            { linkName: "petalo-3/12/4/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "NO PUEDO SOSTENER UN CAMBIO EN MIS HÁBITOS", text: "" },
+                            { linkName: "petalo-3/12/4/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "COMER ME AYUDA A NO PENSAR", text: "" },
+                            { linkName: "petalo-3/12/4/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "CUANDO ESTOY MAL, NECESITO LLENAR ESE VACÍO", text: "" },
+                            { linkName: "petalo-3/12/4/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "ES MEJOR COMER QUE SENTIR", text: "" },
+                            { linkName: "petalo-3/12/4/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "NO TENGO DERECHO A PARAR Y RESPIRAR; TENGO QUE SEGUIR", text: "" },
+                            { linkName: "petalo-3/12/4/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "NO ME PUEDO CUIDAR A MÍ MISMO EN ESE ESTADO", text: "" },
+                            { linkName: "petalo-3/12/4/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "NO MEREZCO VERME O SENTIRME MEJOR", text: "" },
+                            { linkName: "petalo-3/12/4/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "PARA BAJAR LA ANSIEDAD TENGO QUE HACER ALGO YA", text: "" },
+                            { linkName: "petalo-3/12/4/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "MI CUERPO SIEMPRE REACCIONA MAL CUANDO ESTOY ANSIOSO", text: "" },
+                            { linkName: "petalo-3/12/4/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "LA ANSIEDAD ES MÁS FUERTE QUE YO", text: "" },
+                            { linkName: "petalo-3/12/4/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ANSIEDAD Y ALIMENTACIÓN EMOCIONAL", title: "NO SÉ CÓMO ALIVIARME DE OTRA FORMA", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/5", image: 'boton3', iconCenter: 'simbolo3', title: "ABUNDANCIA Y DINERO", noNumbers: true,
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/12/5/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/5/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "EL DINERO NO ME DURA", text: "" },
+                                    { linkName: "petalo-3/12/5/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "GANO DINERO, PERO SIEMPRE APARECE UN GASTO INESPERADO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO PUEDO AHORRAR, SIEMPRE PASA ALGO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "EL DINERO ES DIFÍCIL DE MANTENER", text: "" },
+                                    { linkName: "petalo-3/12/5/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "EL DINERO NO ES PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/5/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO SÉ ADMINISTRAR EL DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "SI TENGO MUCHO DINERO, LO VOY A PERDER", text: "" },
+                                    { linkName: "petalo-3/12/5/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "CUANDO ME VA BIEN, ALGO MALO PASA", text: "" },
+                                    { linkName: "petalo-3/12/5/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "EL DINERO SIEMPRE SE ESCAPA DE MIS MANOS", text: "" },
+                                    { linkName: "petalo-3/12/5/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "CUANDO TENGO DINERO, ME LO SACAN", text: "" },
+                                    { linkName: "petalo-3/12/5/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO TENGO PERMISO PARA TENER DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO SÉ QUÉ HACER CON EL DINERO CUANDO LO TENGO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "TENER DINERO ME CONVIERTE EN UNA MALA PERSONA", text: "" },
+                                    { linkName: "petalo-3/12/5/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "SI TENGO DINERO, LOS DEMÁS ME VAN A PEDIR O ENVIDIAR", text: "" },
+                                    { linkName: "petalo-3/12/5/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO PUEDO TENER MÁS QUE MIS PADRES", text: "" },
+                                    { linkName: "petalo-3/12/5/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "SOLO EL ESFUERZO EXTREMO TRAE DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "SIEMPRE FALTA ALGO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO SOY LO SUFICIENTEMENTE INTELIGENTE PARA TENER DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "EL DINERO TRAE PROBLEMAS", text: "" },
+                                    { linkName: "petalo-3/12/5/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO SOY CAPAZ DE SOSTENER LA ABUNDANCIA", text: "" },
+                                    { linkName: "petalo-3/12/5/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "TENGO QUE GANAR DINERO TRABAJANDO EN UN TRABAJO QUE NO ME GUSTA", text: "" },
+                                    { linkName: "petalo-3/12/5/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO HAY SUFICIENTE DINERO PARA TODOS", text: "" },
+                                    { linkName: "petalo-3/12/5/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "SIEMPRE ESTOY DESTINADO A VIVIR AL LÍMITE DE MIS POSIBILIDADES", text: "" },
+                                    { linkName: "petalo-3/12/5/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO MEREZCO GANAR MUCHO DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "SOLO LOS EXPERTOS PUEDEN GANAR MUCHO DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO PUEDO PERMITIRME INVERTIR EN MI CRECIMIENTO PERSONAL", text: "" },
+                                    { linkName: "petalo-3/12/5/1/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "TENGO QUE CONFORMARME CON LO QUE TENGO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "ESTOY PAGANDO LA DEUDA DE UN ANCESTRO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "NO PUEDO PERMITIRME INVERTIR EN MI FUTURO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "SI TENGO DINERO, ME VAN A MANIPULAR", text: "" },
+                                    { linkName: "petalo-3/12/5/1/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "A LA GENTE NO LE GUSTARÍA QUE YO TUVIESE DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/1/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "EL DINERO SOLO CAUSA PROBLEMAS FAMILIARES", text: "" },
+                                    { linkName: "petalo-3/12/5/1/33", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO A", title: "LA CULPA DE LA POBREZA ES QUE HAY MUCHOS RICOS", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/5/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/5/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "YO NO TENGO TIEMPO PARA HACER DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "SI QUIERO MÁS RIQUEZA ES PORQUE NO SOY AGRADECIDO POR LO QUE TENGO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "LA GENTE SE VA A APROVECHAR DE MÍ", text: "" },
+                                    { linkName: "petalo-3/12/5/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "MEREZCO SER POBRE", text: "" },
+                                    { linkName: "petalo-3/12/5/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NO TENGO SUFICIENTE CONOCIMIENTO PARA AUMENTAR MIS INGRESOS", text: "" },
+                                    { linkName: "petalo-3/12/5/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "PARA GANAR DINERO HAY QUE ARRIESGARSE DEMASIADO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "SI GANO MUCHO DINERO, VOY A ALEJARME DE LA GENTE QUE QUIERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "SI TENGO DINERO PAGARÉ MÁS IMPUESTOS", text: "" },
+                                    { linkName: "petalo-3/12/5/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "YO NO MEREZCO NADA", text: "" },
+                                    { linkName: "petalo-3/12/5/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NO PUEDO GANAR DINERO HACIENDO LO QUE AMO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "PARA GANAR DINERO TENGO QUE TRABAJAR LARGAS HORAS Y RENUNCIAR A MI TIEMPO LIBRE", text: "" },
+                                    { linkName: "petalo-3/12/5/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NUNCA PODRÉ SALIR DE DEUDAS", text: "" },
+                                    { linkName: "petalo-3/12/5/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "SIEMPRE ESTOY DESTINADO A SER POBRE", text: "" },
+                                    { linkName: "petalo-3/12/5/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NO SE PUEDE SER ESPIRITUAL Y TENER DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "SI SOY RICO MORIRÉ SOLO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "CON LO QUE YO GANO NUNCA SERÉ RICO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NO PUEDO PERMITIRME TOMAR VACACIONES SI QUIERO GANAR DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "EL DINERO / SER RICO ME DA MIEDO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "PREFIERO SER POBRE Y VIVIR TRANQUILO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "LAS PERSONAS BUENAS NO TIENEN MUCHO DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "YO NO SÉ DE NEGOCIOS", text: "" },
+                                    { linkName: "petalo-3/12/5/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "ME CUESTA MUCHO GANAR DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "EL DINERO ES DIFÍCIL / MUY DIFÍCIL DE CONSEGUIR", text: "" },
+                                    { linkName: "petalo-3/12/5/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NO PUEDO GANAR DINERO SIN UN EMPLEO TRADICIONAL", text: "" },
+                                    { linkName: "petalo-3/12/5/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "GANAR DINERO ES UNA CUESTIÓN DE SUERTE", text: "" },
+                                    { linkName: "petalo-3/12/5/2/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NO PUEDO GANAR DINERO SIN TRABAJAR DURO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NO MEREZCO TENER ÉXITO FINANCIERO O MÁS DINERO DEL QUE TENGO AHORA", text: "" },
+                                    { linkName: "petalo-3/12/5/2/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "POBRE PERO HONRADO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "NO PUEDO PERMITIRME INVERTIR DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "LAS PERSONAS RICAS SIEMPRE ESTÁN PREOCUPADAS POR EL DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "EL DINERO ME HACE SENTIR CULPABLE", text: "" },
+                                    { linkName: "petalo-3/12/5/2/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "YO NO PUEDO TENER DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/2/33", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO B", title: "EN MI PROFESIÓN NO SE PUEDE HACER DINERO", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/5/3", image: 'boton3', iconCenter: 'simbolo3', title: "C", index: 2, colorBorder: "green",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/5/3/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "SIEMPRE ESTOY DESTINADO A ESTAR EN NÚMEROS ROJOS", text: "" },
+                                    { linkName: "petalo-3/12/5/3/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "LAS COSAS CARAS SOLO LAS COMPRAN LOS TONTOS", text: "" },
+                                    { linkName: "petalo-3/12/5/3/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "EL DINERO SOLO HACE QUE LAS PERSONAS SEAN EGOÍSTAS Y MATERIALISTAS", text: "" },
+                                    { linkName: "petalo-3/12/5/3/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "LOS IMPUESTOS ME IMPIDEN AHORRAR DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "SIEMPRE ESTOY DESTINADO A VIVIR CON PREOCUPACIÓN FINANCIERA", text: "" },
+                                    { linkName: "petalo-3/12/5/3/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "NO PUEDO GANAR DINERO SIN UN TÍTULO UNIVERSITARIO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "LAS PERSONAS CREYENTES NO DEBEMOS PENSAR EN EL DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "SOY DEMASIADO TÍMIDO PARA PEDIR UN AUMENTO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "EL DINERO NO ME ELIGE A MÍ", text: "" },
+                                    { linkName: "petalo-3/12/5/3/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "ES IMPOSIBLE QUE TODAS LAS PERSONAS SEAN ABUNDANTES", text: "" },
+                                    { linkName: "petalo-3/12/5/3/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "EN ESTE PAÍS NO SE PUEDE HACER DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "TENER DINERO ME HACE VULNERABLE", text: "" },
+                                    { linkName: "petalo-3/12/5/3/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "GANAR DINERO NO ES MI META EN LA VIDA", text: "" },
+                                    { linkName: "petalo-3/12/5/3/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "SER RICO SALE MUY CARO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "ES MI CASTIGO SER POBRE", text: "" },
+                                    { linkName: "petalo-3/12/5/3/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "EL DINERO SOLO CAUSA ESTRÉS Y ANSIEDAD", text: "" },
+                                    { linkName: "petalo-3/12/5/3/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "LAS PERSONAS RICAS NO VALORAN A LOS DEMÁS", text: "" },
+                                    { linkName: "petalo-3/12/5/3/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "GANAR DINERO ES UNA LUCHA CONSTANTE Y AGOTADORA", text: "" },
+                                    { linkName: "petalo-3/12/5/3/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "LAS PERSONAS RICAS SIEMPRE PIENSAN EN GANAR MÁS DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "NO PUEDO PERMITIRME APRENDER SOBRE INVERSIONES", text: "" },
+                                    { linkName: "petalo-3/12/5/3/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "LAS PERSONAS RICAS NO PUEDEN SER FELICES DE VERDAD", text: "" },
+                                    { linkName: "petalo-3/12/5/3/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "ME DA VERGÜENZA QUE SEPAN QUE TENGO DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "SIEMPRE ESTOY DESTINADO A VIVIR CON ESCASEZ", text: "" },
+                                    { linkName: "petalo-3/12/5/3/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "SIEMPRE TENGO MALA SUERTE CON EL DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "EL DINERO SIEMPRE SE VA TAN RÁPIDO COMO LLEGA", text: "" },
+                                    { linkName: "petalo-3/12/5/3/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "PARA SER RICO HAY QUE TRABAJAR DEMASIADO", text: "" },
+                                    { linkName: "petalo-3/12/5/3/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "LA VIDA DE LOS RICOS ES MUY ABURRIDA", text: "" },
+                                    { linkName: "petalo-3/12/5/3/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "NACÍ POBRE Y ME MORIRÉ POBRE", text: "" },
+                                    { linkName: "petalo-3/12/5/3/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "GANO BIEN, PERO EL DINERO SE ME VA", text: "" },
+                                    { linkName: "petalo-3/12/5/3/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO C", title: "EL DINERO SOLO CAUSA PROBLEMAS DE SALUD", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/5/4", image: 'boton3', iconCenter: 'simbolo3', title: "D", index: 3, colorBorder: "yellow",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/5/4/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "LA VIDA DE LUJO NO ES PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/5/4/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "LA VIDA ES DIFÍCIL Y ASÍ HAY QUE VIVIRLA", text: "" },
+                                    { linkName: "petalo-3/12/5/4/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "ESTA SESIÓN DE ABUNDANCIA / PROSPERIDAD NO ME VA A SERVIR DE NADA", text: "" },
+                                    { linkName: "petalo-3/12/5/4/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "NO SOY CAPAZ DE GENERAR DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "LAS PERSONAS RICAS SON DESHONESTAS", text: "" },
+                                    { linkName: "petalo-3/12/5/4/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "SI SOY RICO, LA GENTE SOLO ME QUERRÁ POR MI DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "SOLO LOS RICOS SABEN CÓMO INVERTIR", text: "" },
+                                    { linkName: "petalo-3/12/5/4/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "LA GENTE VA A SOSPECHAR QUE YO TENGA DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "EL DINERO ES PARA LOS ELEGIDOS", text: "" },
+                                    { linkName: "petalo-3/12/5/4/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "NO SOY DIGNO DE TENER UNA VIDA CÓMODA", text: "" },
+                                    { linkName: "petalo-3/12/5/4/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "EL DINERO SOLO ARRUINA RELACIONES", text: "" },
+                                    { linkName: "petalo-3/12/5/4/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "EN REALIDAD, NO SÉ CUÁNTO DINERO QUIERO GANAR", text: "" },
+                                    { linkName: "petalo-3/12/5/4/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "SOLO GANAN DINERO LOS QUE VIENEN DE FAMILIA RICA", text: "" },
+                                    { linkName: "petalo-3/12/5/4/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "EL DINERO NO PUEDE COMPRAR LA FELICIDAD", text: "" },
+                                    { linkName: "petalo-3/12/5/4/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "SOLO PUEDES HACER DINERO AHORRANDO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "PARA QUE HAYA RICOS, TIENE QUE HABER POBRES", text: "" },
+                                    { linkName: "petalo-3/12/5/4/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "EL ÉXITO FINANCIERO REQUIERE SACRIFICAR MIS HOBBIES", text: "" },
+                                    { linkName: "petalo-3/12/5/4/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "CUANTO MÁS DINERO TIENES, MÁS PROBLEMAS TIENES", text: "" },
+                                    { linkName: "petalo-3/12/5/4/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "NO TENGO LA DETERMINACIÓN O CONFIANZA PARA INVERTIR", text: "" },
+                                    { linkName: "petalo-3/12/5/4/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "EL DINERO / TENER DINERO ES PELIGROSO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "NO MEREZCO RECIBIR ABUNDANCIA CON FACILIDAD", text: "" },
+                                    { linkName: "petalo-3/12/5/4/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "ME DA VERGÜENZA TENER DINERO / SER RICO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "SI TUVIERA MÁS ESTUDIOS, SERÍA MÁS RICO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "INVERTIR ES DEMASIADO ARRIESGADO PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/5/4/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "SI GANO MÁS DINERO, VOY A PERDER MI PAZ", text: "" },
+                                    { linkName: "petalo-3/12/5/4/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "SI NO TIENES CONTACTOS, NO PUEDES HACER DINERO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "NO TENGO LA MENTALIDAD ADECUADA PARA SER RICO", text: "" },
+                                    { linkName: "petalo-3/12/5/4/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ABUNDANCIA Y DINERO D", title: "TENER DINERO ME ALEJA DE MI ESENCIA", text: "" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/6", image: 'boton3', iconCenter: 'simbolo3', title: "ÉXITO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/6/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "EL ÉXITO ES SOLO PARA UNOS POCOS", text: "" },
+                            { linkName: "petalo-3/12/6/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "TENGO QUE ESFORZARME DEMASIADO PARA TENER ÉXITO", text: "" },
+                            { linkName: "petalo-3/12/6/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "SI TENGO ÉXITO, VOY A PERDER MI LIBERTAD", text: "" },
+                            { linkName: "petalo-3/12/6/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "NO SOY LO SUFICIENTEMENTE INTELIGENTE/CAPAZ PARA LOGRARLO", text: "" },
+                            { linkName: "petalo-3/12/6/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "ES TARDE PARA MÍ", text: "" },
+                            { linkName: "petalo-3/12/6/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "SIEMPRE ME FALTA ALGO PARA ALCANZAR EL ÉXITO", text: "" },
+                            { linkName: "petalo-3/12/6/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "SI ME VA BIEN, ALGO MALO VA A PASAR DESPUÉS", text: "" },
+                            { linkName: "petalo-3/12/6/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "NO SÉ CÓMO HACERLO, ASÍ QUE MEJOR NO LO INTENTO", text: "" },
+                            { linkName: "petalo-3/12/6/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "EL ÉXITO ES PARA LOS QUE TIENEN CONTACTOS", text: "" },
+                            { linkName: "petalo-3/12/6/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "SI FRACASO, SERÉ UN FRACASO", text: "" },
+                            { linkName: "petalo-3/12/6/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "NO MEREZCO SER EXITOSO/A", text: "" },
+                            { linkName: "petalo-3/12/6/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "SI SOY EXITOSO/A, MI FAMILIA ME VA A RECHAZAR", text: "" },
+                            { linkName: "petalo-3/12/6/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "ME DA MIEDO DESTACAR", text: "" },
+                            { linkName: "petalo-3/12/6/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "PREFIERO PASAR DESAPERCIBIDO/A ANTES QUE SER JUZGADO/A", text: "" },
+                            { linkName: "petalo-3/12/6/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "NO QUIERO QUE LOS DEMÁS ME ENVIDIEN O ME ODIEN", text: "" },
+                            { linkName: "petalo-3/12/6/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "EL ÉXITO ME ALEJARÁ DE LAS PERSONAS QUE AMO", text: "" },
+                            { linkName: "petalo-3/12/6/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "TENER ÉXITO ME HACE UNA MALA PERSONA", text: "" },
+                            { linkName: "petalo-3/12/6/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "ES PELIGROSO TENER PODER O DINERO", text: "" },
+                            { linkName: "petalo-3/12/6/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "ME SIENTO CULPABLE SI ME VA MEJOR QUE A MIS PADRES", text: "" },
+                            { linkName: "petalo-3/12/6/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "NO PUEDO DISFRUTAR DEL ÉXITO SI OTROS SUFREN", text: "" },
+                            { linkName: "petalo-3/12/6/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "EN ESTA FAMILIA NADIE LLEGA LEJOS", text: "" },
+                            { linkName: "petalo-3/12/6/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "EL QUE TRIUNFA, TRAICIONA", text: "" },
+                            { linkName: "petalo-3/12/6/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "MEJOR POBRE PERO HONESTO", text: "" },
+                            { linkName: "petalo-3/12/6/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "SI TENÉS DINERO, SEGURO HICISTE ALGO SUCIO", text: "" },
+                            { linkName: "petalo-3/12/6/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "LOS EXITOSOS SE QUEDAN SOLOS", text: "" },
+                            { linkName: "petalo-3/12/6/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "LAS MUJERES DE ESTA FAMILIA NO PUEDEN TRIUNFAR SOLAS", text: "" },
+                            { linkName: "petalo-3/12/6/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "SI TE VA BIEN, TE LO VAN A QUITAR", text: "" },
+                            { linkName: "petalo-3/12/6/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "LA VIDA ES SACRIFICIO, NO ÉXITO", text: "" },
+                            { linkName: "petalo-3/12/6/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ÉXITO", title: "MEJOR CONFORMARSE QUE ARRIESGARSE", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/7", image: 'boton3', iconCenter: 'simbolo3', title: "EMPODERAMIENTO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/7/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "NO SOY SUFICIENTE", text: "" },
+                            { linkName: "petalo-3/12/7/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "NO MEREZCO COSAS BUENAS", text: "" },
+                            { linkName: "petalo-3/12/7/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "TENGO QUE CONFORMARME CON LO QUE TENGO", text: "" },
+                            { linkName: "petalo-3/12/7/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "SI MUESTRO QUIÉN SOY REALMENTE, NO ME VAN A ACEPTAR", text: "" },
+                            { linkName: "petalo-3/12/7/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "NO TENGO CONTROL SOBRE MI VIDA", text: "" },
+                            { linkName: "petalo-3/12/7/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "LOS DEMÁS SABEN MÁS QUE YO", text: "" },
+                            { linkName: "petalo-3/12/7/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "NO PUEDO CONFIAR EN MIS DECISIONES", text: "" },
+                            { linkName: "petalo-3/12/7/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "SIEMPRE DEPENDO DE ALGUIEN PARA AVANZAR", text: "" },
+                            { linkName: "petalo-3/12/7/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "NO ESTOY PREPARADO PARA TRIUNFAR", text: "" },
+                            { linkName: "petalo-3/12/7/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "EL ÉXITO ES SOLO PARA ALGUNOS, NO PARA MÍ", text: "" },
+                            { linkName: "petalo-3/12/7/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "SI ME VA BIEN, OTROS ME ENVIDIARÁN O RECHAZARÁN", text: "" },
+                            { linkName: "petalo-3/12/7/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "SIEMPRE FRACASO EN LO QUE EMPIEZO", text: "" },
+                            { linkName: "petalo-3/12/7/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "ES DEMASIADO TARDE PARA CAMBIAR", text: "" },
+                            { linkName: "petalo-3/12/7/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "LAS COSAS SIEMPRE FUERON ASÍ Y NO SE PUEDEN MODIFICAR", text: "" },
+                            { linkName: "petalo-3/12/7/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "SI TOMO RIESGOS, VOY A PERDER", text: "" },
+                            { linkName: "petalo-3/12/7/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "MEJOR QUEDARME EN LO SEGURO, AUNQUE NO ME HAGA FELIZ", text: "" },
+                            { linkName: "petalo-3/12/7/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "NO MEREZCO GANAR MÁS QUE MI FAMILIA/PAREJA", text: "" },
+                            { linkName: "petalo-3/12/7/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "SI DISFRUTO, ALGO MALO VA A PASAR DESPUÉS", text: "" },
+                            { linkName: "petalo-3/12/7/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "EMPODERAMIENTO", title: "NO PUEDO TENER ÉXITO Y SER FELIZ AL MISMO TIEMPO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/8", image: 'boton3', iconCenter: 'simbolo3', title: "TRABAJO Y APERTURA LABORAL",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/8/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO SOY LO SUFICIENTEMENTE BUENO PARA ESE TRABAJO", text: "" },
+                            { linkName: "petalo-3/12/8/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO TENGO SUFICIENTE EXPERIENCIA", text: "" },
+                            { linkName: "petalo-3/12/8/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "YA ES TARDE PARA EMPEZAR DE NUEVO", text: "" },
+                            { linkName: "petalo-3/12/8/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "SIEMPRE ME RECHAZAN", text: "" },
+                            { linkName: "petalo-3/12/8/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "HAY GENTE MUCHO MÁS PREPARADA QUE YO", text: "" },
+                            { linkName: "petalo-3/12/8/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO SE PUEDE VIVIR DE LO QUE ME GUSTA", text: "" },
+                            { linkName: "petalo-3/12/8/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "TRABAJAR ES SACRIFICARSE", text: "" },
+                            { linkName: "petalo-3/12/8/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "EL DINERO NO LLEGA FÁCIL, HAY QUE SUFRIR PARA GANARLO", text: "" },
+                            { linkName: "petalo-3/12/8/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO SE PUEDE GANAR BIEN HACIENDO ALGO ESPIRITUAL O CREATIVO", text: "" },
+                            { linkName: "petalo-3/12/8/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "SI GANO MUCHO, ME VAN A ENVIDIAR O RECHAZAR", text: "" },
+                            { linkName: "petalo-3/12/8/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "SIEMPRE HAY ALGUIEN CON MEJORES CONTACTOS", text: "" },
+                            { linkName: "petalo-3/12/8/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "PARA CONSEGUIR TRABAJO HAY QUE TENER SUERTE O ESTAR BIEN CONECTADO", text: "" },
+                            { linkName: "petalo-3/12/8/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "YO NO ENCAJO EN EL MUNDO LABORAL ACTUAL", text: "" },
+                            { linkName: "petalo-3/12/8/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO TENGO UNA IMAGEN PROFESIONAL COMO LOS DEMÁS", text: "" },
+                            { linkName: "petalo-3/12/8/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "LO QUE OFREZCO NO ES SUFICIENTE", text: "" },
+                            { linkName: "petalo-3/12/8/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "ME DA MIEDO QUE ME DIGAN QUE NO", text: "" },
+                            { linkName: "petalo-3/12/8/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO QUIERO VOLVER A SENTIR FRUSTRACIÓN SI FALLO NUEVAMENTE", text: "" },
+                            { linkName: "petalo-3/12/8/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "SI ME VA MAL, VOY A DECEPCIONAR A TODOS", text: "" },
+                            { linkName: "petalo-3/12/8/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "ES MEJOR NO INTENTARLO QUE VOLVER A FALLAR", text: "" },
+                            { linkName: "petalo-3/12/8/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "EN MI FAMILIA NUNCA NADIE FUE EXITOSO", text: "" },
+                            { linkName: "petalo-3/12/8/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "MI PAPÁ/MAMÁ TRABAJABA MUCHO Y SUFRÍA, YO NO QUIERO ESO", text: "" },
+                            { linkName: "petalo-3/12/8/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "TENGO QUE MANTENERME PEQUEÑO PARA NO SOBRESALIR", text: "" },
+                            { linkName: "petalo-3/12/8/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO DEBO GANAR MÁS QUE MIS PADRES O HERMANOS", text: "" },
+                            { linkName: "petalo-3/12/8/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO PUEDO TENER ÉXITO SI ESO IMPLICA ALEJARME DE MI FAMILIA", text: "" },
+                            { linkName: "petalo-3/12/8/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "TODAVÍA NO SÉ LO QUE QUIERO HACER", text: "" },
+                            { linkName: "petalo-3/12/8/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO TENGO UNA VOCACIÓN CLARA, ENTONCES NO PUEDO AVANZAR", text: "" },
+                            { linkName: "petalo-3/12/8/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "NO TENGO NADA QUE OFRECER QUE SEA VALIOSO", text: "" },
+                            { linkName: "petalo-3/12/8/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "SI ELIJO MAL, VOY A PERDER EL TIEMPO", text: "" },
+                            { linkName: "petalo-3/12/8/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "TRABAJO Y APERTURA LABORAL", title: "TENGO QUE ENCONTRAR EL TRABAJO PERFECTO, O NO SIRVE", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/9", image: 'boton3', iconCenter: 'simbolo3', title: "NEGOCIOS Y SERVICIOS",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/9/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "NO SOY LO SUFICIENTEMENTE BUENO PARA QUE ME ELIJAN", text: "" },
+                            { linkName: "petalo-3/12/9/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "LA GENTE NO TIENE DINERO PARA INVERTIR EN LO QUE OFREZCO", text: "" },
+                            { linkName: "petalo-3/12/9/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "NO MEREZCO GANAR MUCHO DINERO CON MIS PROYECTOS", text: "" },
+                            { linkName: "petalo-3/12/9/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "SI INSISTO, VOY A PARECER PESADO O MOLESTO", text: "" },
+                            { linkName: "petalo-3/12/9/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "VENDER ES MANIPULAR A LAS PERSONAS", text: "" },
+                            { linkName: "petalo-3/12/9/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "HAY DEMASIADA COMPETENCIA, ES IMPOSIBLE DESTACARSE", text: "" },
+                            { linkName: "petalo-3/12/9/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "NADIE CONFÍA EN MÍ COMO PARA CERRAR UN TRATO IMPORTANTE", text: "" },
+                            { linkName: "petalo-3/12/9/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "LOS DEMÁS SABEN MÁS QUE YO", text: "" },
+                            { linkName: "petalo-3/12/9/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "NO SÉ NEGOCIAR, SIEMPRE PIERDO", text: "" },
+                            { linkName: "petalo-3/12/9/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "CERRAR UNA VENTA DEPENDE DE LA SUERTE, NO DE MÍ", text: "" },
+                            { linkName: "petalo-3/12/9/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "SI COBRO LO QUE REALMENTE VALE, NADIE ME VA A CONTRATAR", text: "" },
+                            { linkName: "petalo-3/12/9/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "SI FALLO UNA VEZ, SIGNIFICA QUE NO SIRVO PARA ESTO", text: "" },
+                            { linkName: "petalo-3/12/9/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "NO SÉ EXPLICAR BIEN LO QUE HAGO, ASÍ QUE MEJOR NO LO INTENTO", text: "" },
+                            { linkName: "petalo-3/12/9/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "NO SOY BUENO CONVENCIENDO A OTROS", text: "" },
+                            { linkName: "petalo-3/12/9/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "SI ME RECHAZAN, ME ESTÁN RECHAZANDO A MÍ COMO PERSONA", text: "" },
+                            { linkName: "petalo-3/12/9/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "NO TENGO EL CARISMA NECESARIO PARA CERRAR VENTAS O PROYECTOS GRANDES", text: "" },
+                            { linkName: "petalo-3/12/9/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "ES MUY DIFÍCIL QUE ALGUIEN QUIERA APOSTAR POR MÍ", text: "" },
+                            { linkName: "petalo-3/12/9/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "SIEMPRE FALTA ALGO PARA ESTAR LISTO", text: "" },
+                            { linkName: "petalo-3/12/9/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "ES MEJOR ESPERAR A QUE EL CLIENTE VENGA SOLO", text: "" },
+                            { linkName: "petalo-3/12/9/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "NEGOCIOS Y SERVICIOS", title: "VENDER MI SERVICIO O PROYECTO ES UN ACTO DE EGOÍSMO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/10", image: 'boton3', iconCenter: 'simbolo3', title: "PRODUCTIVIDAD Y ENERGÍA", noNumbers: true,
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/12/10/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/10/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "TENGO QUE ESTAR CANSADO PARA SENTIR QUE HICE ALGO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "SI DESCANSO, PIERDO TIEMPO VALIOSO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO PUEDO CONCENTRARME SI NO TENGO PRESIÓN", text: "" },
+                                    { linkName: "petalo-3/12/10/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO SOY UNA PERSONA CONSTANTE", text: "" },
+                                    { linkName: "petalo-3/12/10/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO SIRVO PARA ORGANIZARME", text: "" },
+                                    { linkName: "petalo-3/12/10/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "SIEMPRE DEJO LAS COSAS A MITAD DE CAMINO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NECESITO QUE TODO ESTÉ PERFECTO ANTES DE EMPEZAR", text: "" },
+                                    { linkName: "petalo-3/12/10/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "SI NO HAGO TODO YO, NO SALE BIEN", text: "" },
+                                    { linkName: "petalo-3/12/10/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO TENGO SUFICIENTE ENERGÍA PARA LOGRAR MIS METAS", text: "" },
+                                    { linkName: "petalo-3/12/10/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO PUEDO CAMBIAR MIS HÁBITOS", text: "" },
+                                    { linkName: "petalo-3/12/10/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO TENGO TIEMPO PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/10/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO MEREZCO DISFRUTAR MIENTRAS TRABAJO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "MI CUERPO NO ME ACOMPAÑA CUANDO QUIERO AVANZAR", text: "" },
+                                    { linkName: "petalo-3/12/10/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "SIEMPRE ME PASA ALGO QUE ME CORTA LA ENERGÍA", text: "" },
+                                    { linkName: "petalo-3/12/10/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO PUEDO SOSTENER EL FOCO POR MUCHO TIEMPO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "SI ME VA BIEN, ALGO MALO VA A PASAR DESPUÉS", text: "" },
+                                    { linkName: "petalo-3/12/10/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO SOY DISCIPLINADO POR NATURALEZA", text: "" },
+                                    { linkName: "petalo-3/12/10/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NECESITO MOTIVACIÓN PARA SER PRODUCTIVO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO PUEDO EMPEZAR HASTA SENTIRME INSPIRADO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "SIEMPRE HAY ALGO QUE ME DISTRAE", text: "" },
+                                    { linkName: "petalo-3/12/10/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO SOY LO SUFICIENTEMENTE INTELIGENTE PARA CUMPLIR MIS OBJETIVOS", text: "" },
+                                    { linkName: "petalo-3/12/10/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO TENGO LA ENERGÍA QUE TENÍA ANTES", text: "" },
+                                    { linkName: "petalo-3/12/10/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "NO SÉ POR DÓNDE EMPEZAR, ASÍ QUE MEJOR NO EMPIEZO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "ES DEMASIADO TARDE PARA CAMBIAR MI RITMO", text: "" },
+                                    { linkName: "petalo-3/12/10/1/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA A", title: "SOY UN DESASTRE CON EL TIEMPO", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/10/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/10/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO PUEDO CON TANTAS RESPONSABILIDADES", text: "" },
+                                    { linkName: "petalo-3/12/10/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO VALGO LO SUFICIENTE PARA LOGRAR GRANDES COSAS", text: "" },
+                                    { linkName: "petalo-3/12/10/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "SI NO ESTOY OCUPADO, NO ESTOY SIENDO ÚTIL", text: "" },
+                                    { linkName: "petalo-3/12/10/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "LOS DEMÁS AVANZAN MÁS RÁPIDO QUE YO", text: "" },
+                                    { linkName: "petalo-3/12/10/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO TENGO CLARIDAD PARA TOMAR DECISIONES", text: "" },
+                                    { linkName: "petalo-3/12/10/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "MI MENTE NO SE APAGA NUNCA", text: "" },
+                                    { linkName: "petalo-3/12/10/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO PUEDO DELEGAR PORQUE NADIE LO HARÁ IGUAL", text: "" },
+                                    { linkName: "petalo-3/12/10/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO MEREZCO DESCANSAR HASTA QUE TODO ESTÉ TERMINADO", text: "" },
+                                    { linkName: "petalo-3/12/10/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NECESITO TENER TODO CONTROLADO PARA AVANZAR", text: "" },
+                                    { linkName: "petalo-3/12/10/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "SIEMPRE ESTOY CANSADO, ES MI NATURALEZA", text: "" },
+                                    { linkName: "petalo-3/12/10/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO SOY CAPAZ DE MANTENERME ENFOCADO", text: "" },
+                                    { linkName: "petalo-3/12/10/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "LA PRODUCTIVIDAD ES SACRIFICIO", text: "" },
+                                    { linkName: "petalo-3/12/10/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "SI ME RELAJO, PIERDO EL CONTROL", text: "" },
+                                    { linkName: "petalo-3/12/10/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO TENGO SUFICIENTE ENERGÍA VITAL", text: "" },
+                                    { linkName: "petalo-3/12/10/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "ES INÚTIL ESFORZARME, NADA CAMBIA", text: "" },
+                                    { linkName: "petalo-3/12/10/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO PUEDO CON MIS PROPIOS PENSAMIENTOS", text: "" },
+                                    { linkName: "petalo-3/12/10/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO SÉ MANTENER UNA RUTINA", text: "" },
+                                    { linkName: "petalo-3/12/10/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "MI ENERGÍA DEPENDE DE LOS DEMÁS", text: "" },
+                                    { linkName: "petalo-3/12/10/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO MEREZCO SENTIRME PLENO SI NO PRODUZCO", text: "" },
+                                    { linkName: "petalo-3/12/10/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO PUEDO SOSTENER EL ENTUSIASMO", text: "" },
+                                    { linkName: "petalo-3/12/10/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "MI ENTORNO SIEMPRE ME QUITA ENERGÍA", text: "" },
+                                    { linkName: "petalo-3/12/10/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO ME ALCANZA EL DÍA PARA TODO LO QUE QUIERO HACER", text: "" },
+                                    { linkName: "petalo-3/12/10/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO TENGO LA FUERZA PARA CAMBIAR MI REALIDAD", text: "" },
+                                    { linkName: "petalo-3/12/10/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "SI NO ME EXIJO, ME ESTANCO", text: "" },
+                                    { linkName: "petalo-3/12/10/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PRODUCTIVIDAD Y ENERGÍA B", title: "NO CONFÍO EN MI CAPACIDAD DE CREAR RESULTADOS", text: "" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/11", image: 'boton3', iconCenter: 'simbolo3', title: "RELACIONES INTERPERSONALES",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/11/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "NO SOY SUFICIENTE PARA SER AMADO/A", text: "" },
+                            { linkName: "petalo-3/12/11/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "SI DIGO LO QUE SIENTO, ME VAN A RECHAZAR", text: "" },
+                            { linkName: "petalo-3/12/11/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "EL AMOR SIEMPRE DUELE", text: "" },
+                            { linkName: "petalo-3/12/11/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "LAS PERSONAS SIEMPRE DECEPCIONAN", text: "" },
+                            { linkName: "petalo-3/12/11/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "SI NO CONTROLO, ME LASTIMAN", text: "" },
+                            { linkName: "petalo-3/12/11/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "NO PUEDO CONFIAR EN NADIE", text: "" },
+                            { linkName: "petalo-3/12/11/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "TENGO QUE AGRADAR PARA QUE ME QUIERAN", text: "" },
+                            { linkName: "petalo-3/12/11/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "ESTOY MEJOR SOLO/A", text: "" },
+                            { linkName: "petalo-3/12/11/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "SI AMO DEMASIADO, ME VAN A ABANDONAR", text: "" },
+                            { linkName: "petalo-3/12/11/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "SIEMPRE ELIJO MAL A LAS PERSONAS", text: "" },
+                            { linkName: "petalo-3/12/11/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "SI ME MUESTRO VULNERABLE, VAN A APROVECHARSE DE MÍ", text: "" },
+                            { linkName: "petalo-3/12/11/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RELACIONES INTERPERSONALES", title: "TENGO QUE HACER TODO BIEN PARA QUE NO ME DEJEN", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/12", image: 'boton3', iconCenter: 'simbolo3', title: "CONSEGUIR PAREJA", noNumbers: true,
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/12/12/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/12/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "NO SOY SUFICIENTE", text: "" },
+                                    { linkName: "petalo-3/12/12/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "EL AMOR SIEMPRE DUELE", text: "" },
+                                    { linkName: "petalo-3/12/12/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "TODAS LAS PERSONAS ENGAÑAN/TARDE O TEMPRANO TE LASTIMAN", text: "" },
+                                    { linkName: "petalo-3/12/12/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "SI MUESTRO QUIÉN SOY DE VERDAD, ME VAN A RECHAZAR", text: "" },
+                                    { linkName: "petalo-3/12/12/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "YA ES TARDE PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/12/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "PARA QUE ME QUIERAN, TENGO QUE DAR TODO O SACRIFICARME", text: "" },
+                                    { linkName: "petalo-3/12/12/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "ME VAN A ABANDONAR COMO ME PASÓ ANTES", text: "" },
+                                    { linkName: "petalo-3/12/12/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "TENGO QUE SER PERFECTO/A PARA MERECER UNA PAREJA", text: "" },
+                                    { linkName: "petalo-3/12/12/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "LAS RELACIONES ME QUITAN LIBERTAD", text: "" },
+                                    { linkName: "petalo-3/12/12/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "NO HAY PERSONAS BUENAS/DISPONIBLES PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/12/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "SI GANO MÁS (O TENGO MÁS ÉXITO) QUE MI PAREJA, NO ME VAN A ACEPTAR", text: "" },
+                                    { linkName: "petalo-3/12/12/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "SIEMPRE ATRAIGO A LOS EQUIVOCADOS", text: "" },
+                                    { linkName: "petalo-3/12/12/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "NO MEREZCO SER AMADO/A TAL COMO SOY", text: "" },
+                                    { linkName: "petalo-3/12/12/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "SI ME ENAMORO, VOY A SUFRIR COMO MIS PADRES (O COMO EN MI FAMILIA)", text: "" },
+                                    { linkName: "petalo-3/12/12/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "MEJOR SOLO QUE MAL ACOMPAÑADO", text: "" },
+                                    { linkName: "petalo-3/12/12/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "NO SOY SUFICIENTE PARA QUE ME ELIJAN", text: "" },
+                                    { linkName: "petalo-3/12/12/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "SIEMPRE TERMINO ELIGIENDO MAL", text: "" },
+                                    { linkName: "petalo-3/12/12/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "LAS RELACIONES SANAS NO SON PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/12/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "ALGO EN MÍ HACE QUE LAS PERSONAS SE ALEJEN", text: "" },
+                                    { linkName: "petalo-3/12/12/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "NO MEREZCO UNA RELACIÓN PLENA", text: "" },
+                                    { linkName: "petalo-3/12/12/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "NO SE PUEDE CONFIAR REALMENTE EN NADIE", text: "" },
+                                    { linkName: "petalo-3/12/12/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "LAS PERSONAS CAMBIAN CUANDO PASA EL TIEMPO", text: "" },
+                                    { linkName: "petalo-3/12/12/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "SIEMPRE ME ABANDONAN", text: "" },
+                                    { linkName: "petalo-3/12/12/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA A", title: "AMAR ES EXPONERSE A SUFRIR", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/12/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/12/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "NO EXISTE LA PAREJA IDEAL", text: "" },
+                                    { linkName: "petalo-3/12/12/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "TENGO QUE CONFORMARME CON LO QUE APAREZCA", text: "" },
+                                    { linkName: "petalo-3/12/12/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "SI ME INVOLUCRO DEMASIADO, SALGO LASTIMADO", text: "" },
+                                    { linkName: "petalo-3/12/12/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "NO SOY FÁCIL DE AMAR", text: "" },
+                                    { linkName: "petalo-3/12/12/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "LAS RELACIONES DURAN POCO", text: "" },
+                                    { linkName: "petalo-3/12/12/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "CUANDO APARECE ALGUIEN, ALGO SE ARRUINA", text: "" },
+                                    { linkName: "petalo-3/12/12/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "PARA QUE ME QUIERAN, TENGO QUE ADAPTARME O CEDER", text: "" },
+                                    { linkName: "petalo-3/12/12/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "SI PONGO LÍMITES, ME VOY A QUEDAR SOLO/A", text: "" },
+                                    { linkName: "petalo-3/12/12/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "EL AMOR NO ES SEGURO", text: "" },
+                                    { linkName: "petalo-3/12/12/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "SIEMPRE ATRAIGO PERSONAS EMOCIONALMENTE INDISPONIBLES", text: "" },
+                                    { linkName: "petalo-3/12/12/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "NO PUEDO TENER LO QUE REALMENTE DESEO EN UNA PAREJA", text: "" },
+                                    { linkName: "petalo-3/12/12/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "NO PUEDO CONSTRUIR UNA RELACIÓN ESTABLE", text: "" },
+                                    { linkName: "petalo-3/12/12/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "EL COMPROMISO TERMINA EN DECEPCIÓN", text: "" },
+                                    { linkName: "petalo-3/12/12/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "NO SOY PRIORIDAD PARA NADIE", text: "" },
+                                    { linkName: "petalo-3/12/12/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "CUANDO ME CONOCEN DE VERDAD, SE VAN", text: "" },
+                                    { linkName: "petalo-3/12/12/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "EL AMOR VERDADERO NO DURA", text: "" },
+                                    { linkName: "petalo-3/12/12/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "NO ES EL MOMENTO PARA MÍ EN EL AMOR", text: "" },
+                                    { linkName: "petalo-3/12/12/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "EL AMOR DUELE, Y SI NO DUELE NO ES REAL", text: "" },
+                                    { linkName: "petalo-3/12/12/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "SIEMPRE ME TOCAN PERSONAS IGUALES", text: "" },
+                                    { linkName: "petalo-3/12/12/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "SI ME ESFUERZO SUFICIENTE, EL OTRO VA A CAMBIAR", text: "" },
+                                    { linkName: "petalo-3/12/12/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "MEJOR ALGUIEN QUE NO ME VALORE A QUEDARME SOLO/A", text: "" },
+                                    { linkName: "petalo-3/12/12/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "EL AMOR VERDADERO EXIGE SACRIFICIO TOTAL", text: "" },
+                                    { linkName: "petalo-3/12/12/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "LAS PAREJAS FELICES NO EXISTEN, SON UNA ILUSIÓN", text: "" },
+                                    { linkName: "petalo-3/12/12/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "SIEMPRE ATRAIGO LO QUE NO ME CONVIENE", text: "" },
+                                    { linkName: "petalo-3/12/12/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONSEGUIR PAREJA B", title: "SI NO CONTROLO, ME VAN A ABANDONAR", text: "" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/13", image: 'boton3', iconCenter: 'simbolo3', title: "CONEXIÓN CON LA PAREJA",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/13/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "NO SOY SUFICIENTE", text: "" },
+                            { linkName: "petalo-3/12/13/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "SI ME MUESTRO TAL COMO SOY, ME VAN A RECHAZAR", text: "" },
+                            { linkName: "petalo-3/12/13/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "EL AMOR SIEMPRE DUELE", text: "" },
+                            { linkName: "petalo-3/12/13/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "TENGO QUE COMPLACER PARA QUE NO ME DEJEN", text: "" },
+                            { linkName: "petalo-3/12/13/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "SI CONFÍO, ME VAN A TRAICIONAR", text: "" },
+                            { linkName: "petalo-3/12/13/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "EL OTRO DEBERÍA ADIVINAR LO QUE NECESITO", text: "" },
+                            { linkName: "petalo-3/12/13/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "SIEMPRE ME ABANDONAN", text: "" },
+                            { linkName: "petalo-3/12/13/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "SI CEDO, PIERDO MI PODER", text: "" },
+                            { linkName: "petalo-3/12/13/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "EL AMOR VERDADERO NO EXISTE", text: "" },
+                            { linkName: "petalo-3/12/13/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "NO MEREZCO SER AMADO/A", text: "" },
+                            { linkName: "petalo-3/12/13/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "LAS PAREJAS SIEMPRE TERMINAN MAL", text: "" },
+                            { linkName: "petalo-3/12/13/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "TENGO QUE PROTEGERME PARA NO SUFRIR", text: "" },
+                            { linkName: "petalo-3/12/13/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "EL OTRO ES RESPONSABLE DE MI FELICIDAD", text: "" },
+                            { linkName: "petalo-3/12/13/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "SI EXPRESO LO QUE SIENTO, ME VAN A JUZGAR", text: "" },
+                            { linkName: "petalo-3/12/13/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "EL AMOR ES SACRIFICIO", text: "" },
+                            { linkName: "petalo-3/12/13/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "NO MEREZCO UNA PAREJA QUE ME RESPETE", text: "" },
+                            { linkName: "petalo-3/12/13/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "PARA ESTAR EN PAREJA, TENGO QUE SACRIFICAR MI LIBERTAD", text: "" },
+                            { linkName: "petalo-3/12/13/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON LA PAREJA", title: "EL COMPROMISO ME QUITA ENERGÍA", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/14", image: 'boton3', iconCenter: 'simbolo3', title: "CONEXIÓN SEXUAL DE PAREJA",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/14/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "NO SOY LO SUFICIENTEMENTE ATRACTIV@ PARA MI PAREJA", text: "" },
+                            { linkName: "petalo-3/12/14/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "MI CUERPO NO ES DESEABLE", text: "" },
+                            { linkName: "petalo-3/12/14/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "DESPUÉS DE CIERTA EDAD, LA SEXUALIDAD YA NO ES IMPORTANTE", text: "" },
+                            { linkName: "petalo-3/12/14/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "TENGO QUE OCULTAR MIS DESEOS PARA NO PARECER VULGAR", text: "" },
+                            { linkName: "petalo-3/12/14/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "SI ME MUESTRO TAL COMO SOY, ME VAN A RECHAZAR", text: "" },
+                            { linkName: "petalo-3/12/14/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "EL SEXO ES ALGO SUCIO O PECAMINOSO", text: "" },
+                            { linkName: "petalo-3/12/14/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "SOLO LOS HOMBRES PUEDEN DISFRUTAR PLENAMENTE DEL SEXO", text: "" },
+                            { linkName: "petalo-3/12/14/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "LA MUJER DEBE COMPLACER AL HOMBRE AUNQUE NO TENGA GANAS", text: "" },
+                            { linkName: "petalo-3/12/14/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "HABLAR DE SEXO EN PAREJA ESTÁ MAL", text: "" },
+                            { linkName: "petalo-3/12/14/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "SI HAY AMOR VERDADERO, EL SEXO DEBERÍA FLUIR SIN ESFUERZO", text: "" },
+                            { linkName: "petalo-3/12/14/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "EL SEXO LLEVA SIEMPRE AL SUFRIMIENTO O A LA DEPENDENCIA", text: "" },
+                            { linkName: "petalo-3/12/14/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "SI ME ENTREGO, ME VAN A ABANDONAR", text: "" },
+                            { linkName: "petalo-3/12/14/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "NO PUEDO CONFIAR EN NADIE EN LA INTIMIDAD", text: "" },
+                            { linkName: "petalo-3/12/14/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "CUANDO HAY SEXO, PIERDO EL CONTROL Y ESO ME DA MIEDO", text: "" },
+                            { linkName: "petalo-3/12/14/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "EL PLACER ES PELIGROSO O ESTÁ PROHIBIDO", text: "" },
+                            { linkName: "petalo-3/12/14/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "TENGO QUE TENER RELACIONES AUNQUE NO QUIERA, PARA QUE NO SE VAYA", text: "" },
+                            { linkName: "petalo-3/12/14/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "EL SEXO ES UNA OBLIGACIÓN DENTRO DE LA PAREJA", text: "" },
+                            { linkName: "petalo-3/12/14/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "SI NO TENGO GANAS, HAY ALGO MAL EN MÍ", text: "" },
+                            { linkName: "petalo-3/12/14/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "EL DESEO SE TIENE QUE MANTENER SIEMPRE IGUAL, SI NO ES UN PROBLEMA", text: "" },
+                            { linkName: "petalo-3/12/14/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "EL DESEO Y LA ESPIRITUALIDAD NO PUEDEN CONVIVIR", text: "" },
+                            { linkName: "petalo-3/12/14/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "EL SEXO DISTRAE DEL CAMINO ESPIRITUAL", text: "" },
+                            { linkName: "petalo-3/12/14/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "UNA PERSONA ESPIRITUAL NO DEBERÍA ENFOCARSE EN LO SEXUAL", text: "" },
+                            { linkName: "petalo-3/12/14/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "CONECTAR ENERGÉTICAMENTE EN LA INTIMIDAD NO ES REAL", text: "" },
+                            { linkName: "petalo-3/12/14/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN SEXUAL DE PAREJA", title: "NO SE PUEDE SANAR A TRAVÉS DE LA SEXUALIDAD", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/15", image: 'boton3', iconCenter: 'simbolo3', title: "RECHAZO HACIA EL SEXO OPUESTO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/15/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "LOS HOMBRES / LAS MUJERES SIEMPRE LASTIMAN", text: "" },
+                            { linkName: "petalo-3/12/15/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "NO SE PUEDE CONFIAR EN EL SEXO OPUESTO", text: "" },
+                            { linkName: "petalo-3/12/15/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "SI ME ACERCO EMOCIONALMENTE, ME VAN A TRAICIONAR", text: "" },
+                            { linkName: "petalo-3/12/15/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "EL AMOR CON EL SEXO OPUESTO SIEMPRE TERMINA EN SUFRIMIENTO", text: "" },
+                            { linkName: "petalo-3/12/15/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "LOS HOMBRES / LAS MUJERES SOLO BUSCAN APROVECHARSE", text: "" },
+                            { linkName: "petalo-3/12/15/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "SI ME ENTREGO, PIERDO MI LIBERTAD", text: "" },
+                            { linkName: "petalo-3/12/15/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "EL SEXO OPUESTO NO ME COMPRENDE", text: "" },
+                            { linkName: "petalo-3/12/15/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "LAS RELACIONES DE PAREJA SON UNA CARGA", text: "" },
+                            { linkName: "petalo-3/12/15/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "SI MUESTRO VULNERABILIDAD, VAN A USARLA EN MI CONTRA", text: "" },
+                            { linkName: "petalo-3/12/15/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "TODOS LOS HOMBRES / TODAS LAS MUJERES SON IGUALES", text: "" },
+                            { linkName: "petalo-3/12/15/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "NO PUEDO SER YO MISMO/A FRENTE AL SEXO OPUESTO", text: "" },
+                            { linkName: "petalo-3/12/15/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "SI ME ENAMORO, VOY A PERDER EL CONTROL", text: "" },
+                            { linkName: "petalo-3/12/15/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "LAS RELACIONES ÍNTIMAS SIEMPRE GENERAN CONFLICTO", text: "" },
+                            { linkName: "petalo-3/12/15/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "NO MEREZCO UNA RELACIÓN SANA CON EL SEXO OPUESTO", text: "" },
+                            { linkName: "petalo-3/12/15/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "SI ALGUIEN SE ACERCA DEMASIADO, DEBO PROTEGERME", text: "" },
+                            { linkName: "petalo-3/12/15/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "EL DESEO SEXUAL ME EXPONE O ME HACE VULNERABLE", text: "" },
+                            { linkName: "petalo-3/12/15/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "AMAR A UN HOMBRE / UNA MUJER SIGNIFICA SUFRIR", text: "" },
+                            { linkName: "petalo-3/12/15/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "MI CUERPO NO ES SUFICIENTE PARA SER DESEADO/A", text: "" },
+                            { linkName: "petalo-3/12/15/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "RECHAZO HACIA EL SEXO OPUESTO", title: "ES MEJOR RECHAZAR ANTES DE SER RECHAZADO/A", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/16", image: 'boton3', iconCenter: 'simbolo3', title: "PROYECTAR UNA FAMILIA",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/16/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "NO MEREZCO UNA FAMILIA FELIZ", text: "" },
+                            { linkName: "petalo-3/12/16/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "SI FORMO UNA FAMILIA, VOY A PERDER MI LIBERTAD", text: "" },
+                            { linkName: "petalo-3/12/16/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "TENER HIJOS ES UNA CARGA DEMASIADO GRANDE", text: "" },
+                            { linkName: "petalo-3/12/16/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "EL AMOR SIEMPRE TERMINA MAL", text: "" },
+                            { linkName: "petalo-3/12/16/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "NO SOY LO SUFICIENTEMENTE ESTABLE PARA SOSTENER UNA FAMILIA", text: "" },
+                            { linkName: "petalo-3/12/16/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "VOY A REPETIR LOS ERRORES DE MIS PADRES", text: "" },
+                            { linkName: "petalo-3/12/16/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "NO TENGO LO NECESARIO (DINERO, CASA, TIEMPO) PARA DAR SEGURIDAD", text: "" },
+                            { linkName: "petalo-3/12/16/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "SI CONFÍO DEMASIADO, ME VAN A TRAICIONAR", text: "" },
+                            { linkName: "petalo-3/12/16/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "LA FAMILIA ES SINÓNIMO DE SUFRIMIENTO O SACRIFICIO", text: "" },
+                            { linkName: "petalo-3/12/16/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "PROYECTAR UNA FAMILIA", title: "NO ESTOY HECHO/A PARA EL COMPROMISO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/17", image: 'boton3', iconCenter: 'simbolo3', title: "SOLTAR UNA RELACIÓN Y DUELO", noNumbers: true,
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/12/17/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/17/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "SIN ESA PERSONA NO SOY NADA", text: "" },
+                                    { linkName: "petalo-3/12/17/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "NUNCA MÁS VOY A ENCONTRAR A ALGUIEN QUE ME AME ASÍ", text: "" },
+                                    { linkName: "petalo-3/12/17/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "SI ME SEPARO, FRACASO", text: "" },
+                                    { linkName: "petalo-3/12/17/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "ALGO HICE MAL, POR ESO ME DEJARON", text: "" },
+                                    { linkName: "petalo-3/12/17/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "YO NO MEREZCO EL AMOR", text: "" },
+                                    { linkName: "petalo-3/12/17/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "SIEMPRE ME TERMINAN DEJANDO", text: "" },
+                                    { linkName: "petalo-3/12/17/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "ME VOY A QUEDAR SOLO/A PARA SIEMPRE", text: "" },
+                                    { linkName: "petalo-3/12/17/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "LO/LA NECESITO PARA ESTAR BIEN", text: "" },
+                                    { linkName: "petalo-3/12/17/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "ES MI ALMA GEMELA, NO PUEDO SOLTARLO/A", text: "" },
+                                    { linkName: "petalo-3/12/17/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "TENGO QUE SEGUIR LUCHANDO POR AMOR AUNQUE DUELA", text: "" },
+                                    { linkName: "petalo-3/12/17/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "EL AMOR VERDADERO DUELE", text: "" },
+                                    { linkName: "petalo-3/12/17/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "NO PUEDO REHACER MI VIDA, ES DEMASIADO TARDE", text: "" },
+                                    { linkName: "petalo-3/12/17/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "TAL VEZ SI CAMBIO, VOLVERÁ", text: "" },
+                                    { linkName: "petalo-3/12/17/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "NO VOY A PODER CON ESTE DOLOR", text: "" },
+                                    { linkName: "petalo-3/12/17/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "NO SÉ QUIÉN SOY SIN ÉL/ELLA", text: "" },
+                                    { linkName: "petalo-3/12/17/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "SI LO/LA DEJO IR, TODO HABRÁ SIDO EN VANO", text: "" },
+                                    { linkName: "petalo-3/12/17/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "NO PUEDO PERMITIR QUE OTRA PERSONA LO/LA TENGA", text: "" },
+                                    { linkName: "petalo-3/12/17/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "NO VALGO LO SUFICIENTE PARA QUE ALGUIEN ME ELIJA", text: "" },
+                                    { linkName: "petalo-3/12/17/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "EL AMOR ES SUFRIR", text: "" },
+                                    { linkName: "petalo-3/12/17/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "SI LO/LA OLVIDO, LO TRAICIONO", text: "" },
+                                    { linkName: "petalo-3/12/17/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "NUNCA VOY A ENCONTRAR A ALGUIEN COMO ÉL/ELLA", text: "" },
+                                    { linkName: "petalo-3/12/17/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "EL AMOR VERDADERO SOLO PASA UNA VEZ", text: "" },
+                                    { linkName: "petalo-3/12/17/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO A", title: "TENGO QUE AGUANTAR PARA DEMOSTRAR QUE AMO", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/17/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/17/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "CAMBIARÁ POR MÍ SI SIGO AHÍ", text: "" },
+                                    { linkName: "petalo-3/12/17/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "YO PUEDO SALVARLO/A", text: "" },
+                                    { linkName: "petalo-3/12/17/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "NADIE MÁS ME VA A QUERER ASÍ", text: "" },
+                                    { linkName: "petalo-3/12/17/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "ES MEJOR ESTAR ACOMPAÑADO QUE SOLO", text: "" },
+                                    { linkName: "petalo-3/12/17/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "EL AMOR DUELE, Y ESO ES NORMAL", text: "" },
+                                    { linkName: "petalo-3/12/17/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "SI ME VOY, LO/LA ESTOY TRAICIONANDO", text: "" },
+                                    { linkName: "petalo-3/12/17/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "NO PUEDO SER FELIZ SIN ESA PERSONA", text: "" },
+                                    { linkName: "petalo-3/12/17/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "TENGO QUE QUEDARME POR LOS HIJOS", text: "" },
+                                    { linkName: "petalo-3/12/17/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "SEPARARSE ES EGOÍSTA", text: "" },
+                                    { linkName: "petalo-3/12/17/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "EL TIEMPO QUE INVERTÍ SE PERDERÍA SI TERMINO", text: "" },
+                                    { linkName: "petalo-3/12/17/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "NO VOY A PODER EMPEZAR DE NUEVO", text: "" },
+                                    { linkName: "petalo-3/12/17/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "QUIZÁS TODO FUE CULPA MÍA", text: "" },
+                                    { linkName: "petalo-3/12/17/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "SI ME SEPARO, NADIE MÁS ME TOMARÁ EN SERIO", text: "" },
+                                    { linkName: "petalo-3/12/17/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "SI LO/LA DEJO, ME ARREPENTIRÉ", text: "" },
+                                    { linkName: "petalo-3/12/17/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "ESTAR SOLO ES PELIGROSO O TRISTE", text: "" },
+                                    { linkName: "petalo-3/12/17/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "EL AMOR VERDADERO EXIGE SACRIFICIO", text: "" },
+                                    { linkName: "petalo-3/12/17/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "SIN PAREJA, MI VIDA NO TIENE SENTIDO", text: "" },
+                                    { linkName: "petalo-3/12/17/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "MI VALOR DEPENDE DE TENER PAREJA", text: "" },
+                                    { linkName: "petalo-3/12/17/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "SI ME SEPARO, DECEPCIONO A MI FAMILIA", text: "" },
+                                    { linkName: "petalo-3/12/17/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "NO SÉ VIVIR SIN ESA PERSONA", text: "" },
+                                    { linkName: "petalo-3/12/17/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "TODAVÍA ME NECESITA, NO PUEDO IRME", text: "" },
+                                    { linkName: "petalo-3/12/17/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "EL AMOR TODO LO PUEDE", text: "" },
+                                    { linkName: "petalo-3/12/17/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "DEBO MANTENER LA PROMESA PARA SIEMPRE", text: "" },
+                                    { linkName: "petalo-3/12/17/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "SI DEJO IR, SIGNIFICA QUE NO LO AMÉ", text: "" },
+                                    { linkName: "petalo-3/12/17/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "TENGO MIEDO DE EQUIVOCARME SI DECIDO IRME", text: "" },
+                                    { linkName: "petalo-3/12/17/2/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "SIN ÉL/ELLA, MI VIDA SE VACÍA", text: "" },
+                                    { linkName: "petalo-3/12/17/2/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "EL PASADO FUE TAN LINDO QUE NO PUEDO SOLTARLO", text: "" },
+                                    { linkName: "petalo-3/12/17/2/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR UNA RELACIÓN Y DUELO B", title: "AMAR ES AGUANTAR, AUNQUE DUELA", text: "" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/18", image: 'boton3', iconCenter: 'simbolo3', title: "FERTILIDAD",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/18/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "MI CUERPO NO FUNCIONA COMO DEBERÍA", text: "" },
+                            { linkName: "petalo-3/12/18/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "TENGO ALGO ROTO O DEFECTUOSO", text: "" },
+                            { linkName: "petalo-3/12/18/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "NO SOY LO SUFICIENTEMENTE MUJER", text: "" },
+                            { linkName: "petalo-3/12/18/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "MI ÚTERO ESTÁ CERRADO AL MILAGRO DE LA VIDA", text: "" },
+                            { linkName: "petalo-3/12/18/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "YA ES DEMASIADO TARDE PARA MÍ", text: "" },
+                            { linkName: "petalo-3/12/18/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "NO MEREZCO SER MADRE", text: "" },
+                            { linkName: "petalo-3/12/18/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "NO HE HECHO LO SUFICIENTE PARA GANARME UN HIJO", text: "" },
+                            { linkName: "petalo-3/12/18/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "NO SOY DIGNA DE SER ELEGIDA POR UN ALMA PARA GESTARLA", text: "" },
+                            { linkName: "petalo-3/12/18/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "HE FALLADO COMO MUJER", text: "" },
+                            { linkName: "petalo-3/12/18/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "MI PASADO ME IMPIDE CONCEBIR", text: "" },
+                            { linkName: "petalo-3/12/18/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "EN MI FAMILIA LAS MUJERES NO PUEDEN TENER HIJOS", text: "" },
+                            { linkName: "petalo-3/12/18/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "SI TENGO UN HIJO, VOY A REPETIR LA HISTORIA DE SUFRIMIENTO DE MI MADRE/ABUELA", text: "" },
+                            { linkName: "petalo-3/12/18/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "SER MADRE IMPLICA SACRIFICIO, ABANDONO Y DOLOR", text: "" },
+                            { linkName: "petalo-3/12/18/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "LAS MUJERES DE MI CLAN FUERON OBLIGADAS A SER MADRES", text: "" },
+                            { linkName: "petalo-3/12/18/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "ES PELIGROSO TRAER HIJOS A ESTE MUNDO", text: "" },
+                            { linkName: "petalo-3/12/18/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "DEBO CONTROLAR TODO PARA QUEDAR EMBARAZADA", text: "" },
+                            { linkName: "petalo-3/12/18/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "LA CIENCIA ES LA ÚNICA FORMA DE LOGRARLO", text: "" },
+                            { linkName: "petalo-3/12/18/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "NO PUEDO CONFIAR EN MI CUERPO NI EN LA NATURALEZA", text: "" },
+                            { linkName: "petalo-3/12/18/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "TENGO QUE ESTAR PERFECTA PARA CONCEBIR", text: "" },
+                            { linkName: "petalo-3/12/18/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "SI NO SUCEDE RÁPIDO, ES PORQUE NO VA A SUCEDER", text: "" },
+                            { linkName: "petalo-3/12/18/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "TENER UN HIJO ME HARÁ PERDER MI LIBERTAD", text: "" },
+                            { linkName: "petalo-3/12/18/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "MI PAREJA ME VA A DEJAR SI NO QUEDO EMBARAZADA", text: "" },
+                            { linkName: "petalo-3/12/18/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "VOY A REPETIR EL ABANDONO QUE SUFRÍ YO", text: "" },
+                            { linkName: "petalo-3/12/18/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "UN EMBARAZO PUEDE SER PELIGROSO PARA MI SALUD", text: "" },
+                            { linkName: "petalo-3/12/18/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "NO VOY A PODER CON LA RESPONSABILIDAD DE CRIAR", text: "" },
+                            { linkName: "petalo-3/12/18/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "NO ESTOY PREPARADA ESPIRITUALMENTE PARA SER MADRE", text: "" },
+                            { linkName: "petalo-3/12/18/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "AÚN NO HE LIMPIADO MI KARMA PARA RECIBIR UN HIJO", text: "" },
+                            { linkName: "petalo-3/12/18/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "DEBO SANAR TODAS MIS HERIDAS ANTES DE CONCEBIR", text: "" },
+                            { linkName: "petalo-3/12/18/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "UN ALMA NO QUIERE VENIR A TRAVÉS MÍO", text: "" },
+                            { linkName: "petalo-3/12/18/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "FERTILIDAD", title: "MI LINAJE FEMENINO ESTÁ MALDITO O BLOQUEADO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/19", image: 'boton3', iconCenter: 'simbolo3', title: "VÍNCULO MATERNO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/19/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO SOY DIGNO/A DEL AMOR DE MI MAMÁ", text: "" },
+                            { linkName: "petalo-3/12/19/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "EL AMOR SE GANA SACRIFICÁNDOME O COMPLACIENDO", text: "" },
+                            { linkName: "petalo-3/12/19/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "SI EXPRESO MIS NECESIDADES, NO ME VAN A QUERER", text: "" },
+                            { linkName: "petalo-3/12/19/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NUNCA VOY A SER SUFICIENTE PARA ELLA", text: "" },
+                            { linkName: "petalo-3/12/19/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "TENGO QUE SER PERFECTO/A PARA QUE ME ACEPTE", text: "" },
+                            { linkName: "petalo-3/12/19/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "VALGO SOLO SI HAGO LO QUE ESPERAN DE MÍ", text: "" },
+                            { linkName: "petalo-3/12/19/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO ENCAJO EN MI FAMILIA", text: "" },
+                            { linkName: "petalo-3/12/19/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO TENGO DERECHO A SEPARARME DE ELLA SIN SENTIR CULPA", text: "" },
+                            { linkName: "petalo-3/12/19/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "SI ME DISTANCIO, VOY A PERDER SU AMOR", text: "" },
+                            { linkName: "petalo-3/12/19/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "EXPRESAR MIS EMOCIONES ES PELIGROSO", text: "" },
+                            { linkName: "petalo-3/12/19/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "SI ME MUESTRO VULNERABLE, ME VAN A HERIR", text: "" },
+                            { linkName: "petalo-3/12/19/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "TENGO QUE ESTAR SIEMPRE FUERTE PARA QUE NO SE PREOCUPE", text: "" },
+                            { linkName: "petalo-3/12/19/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "LAS MADRES SIEMPRE SE SACRIFICAN Y SUFREN", text: "" },
+                            { linkName: "petalo-3/12/19/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "LAS HIJAS/HIJOS DEBEN CUIDAR A LA MADRE POR ENCIMA DE SÍ MISMOS", text: "" },
+                            { linkName: "petalo-3/12/19/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO SE CUESTIONA LO QUE DICE MAMÁ", text: "" },
+                            { linkName: "petalo-3/12/19/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO MEREZCO RECIBIR MÁS AMOR DEL QUE ELLA PUDO DARME", text: "" },
+                            { linkName: "petalo-3/12/19/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "SI ELLA NO PUDO DARME AFECTO, YO TAMPOCO SÉ RECIBIRLO", text: "" },
+                            { linkName: "petalo-3/12/19/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "LA DISTANCIA CON MI MAMÁ SIGNIFICA RECHAZO", text: "" },
+                            { linkName: "petalo-3/12/19/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "LA ÚNICA FORMA DE ESTAR EN PAZ CON ELLA ES CEDIENDO", text: "" },
+                            { linkName: "petalo-3/12/19/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "SI ELLA SUFRE, ES CULPA MÍA", text: "" },
+                            { linkName: "petalo-3/12/19/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "PARA QUE MI MAMÁ ESTÉ BIEN, YO DEBO RENUNCIAR A LO QUE QUIERO", text: "" },
+                            { linkName: "petalo-3/12/19/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "EL AMOR DE MADRE IMPLICA CONTROL Y SACRIFICIO", text: "" },
+                            { linkName: "petalo-3/12/19/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO PUEDO SER MÁS FELIZ O EXITOSA QUE MI MAMÁ", text: "" },
+                            { linkName: "petalo-3/12/19/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "MI IDENTIDAD DEPENDE DE SU APROBACIÓN", text: "" },
+                            { linkName: "petalo-3/12/19/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "SI NO PIENSO COMO ELLA, LA ESTOY TRAICIONANDO", text: "" },
+                            { linkName: "petalo-3/12/19/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO TENGO DERECHO A PONER LÍMITES A MI MAMÁ", text: "" },
+                            { linkName: "petalo-3/12/19/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "SI MI MAMÁ ESTÁ MAL, MI VIDA SE DETIENE", text: "" },
+                            { linkName: "petalo-3/12/19/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO PUEDO SANAR SI ELLA NO APRUEBA MI PROCESO", text: "" },
+                            { linkName: "petalo-3/12/19/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "NO PUEDO SER DIFERENTE A LO QUE ELLA QUISO QUE FUERA", text: "" },
+                            { linkName: "petalo-3/12/19/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO MATERNO", title: "PARA MERECER AMOR, DEBO CARGAR CON SU DOLOR", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/20", image: 'boton3', iconCenter: 'simbolo3', title: "VÍNCULO PATERNO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/20/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO SOY DIGNO/A DEL ORGULLO DE MI PAPÁ", text: "" },
+                            { linkName: "petalo-3/12/20/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NUNCA VOY A SER SUFICIENTE PARA ÉL", text: "" },
+                            { linkName: "petalo-3/12/20/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "DEBO GANARME SU APROBACIÓN DEMOSTRANDO RESULTADOS", text: "" },
+                            { linkName: "petalo-3/12/20/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO PUEDO DECEPCIONARLO, AUNQUE ESO SIGNIFIQUE RENUNCIAR A MÍ", text: "" },
+                            { linkName: "petalo-3/12/20/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO TENGO DERECHO A CONTRADECIRLO", text: "" },
+                            { linkName: "petalo-3/12/20/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "UN PADRE SIEMPRE ES AUTORIDAD INCUESTIONABLE", text: "" },
+                            { linkName: "petalo-3/12/20/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "SI NO CUMPLO CON SUS EXPECTATIVAS, NO MEREZCO SU AMOR", text: "" },
+                            { linkName: "petalo-3/12/20/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "UN BUEN HIJO/HIJA DEBE SEGUIR EL CAMINO QUE SU PADRE QUIERE", text: "" },
+                            { linkName: "petalo-3/12/20/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO PUEDO MOSTRARLE MIS EMOCIONES PORQUE ES SIGNO DE DEBILIDAD", text: "" },
+                            { linkName: "petalo-3/12/20/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "DEBO SER FUERTE TODO EL TIEMPO PARA QUE ÉL ME RESPETE", text: "" },
+                            { linkName: "petalo-3/12/20/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO MEREZCO MÁS ÉXITO QUE MI PAPÁ", text: "" },
+                            { linkName: "petalo-3/12/20/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "SI LO SUPERO, LO VOY A HUMILLAR O PERDER SU AFECTO", text: "" },
+                            { linkName: "petalo-3/12/20/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO PUEDO EXPRESAR MIS ERRORES DELANTE DE ÉL", text: "" },
+                            { linkName: "petalo-3/12/20/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "SI FALLO, ME VA A RETIRAR SU APOYO", text: "" },
+                            { linkName: "petalo-3/12/20/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "PARA SER ACEPTADO/A, DEBO CUMPLIR EL ROL QUE ÉL ESPERA", text: "" },
+                            { linkName: "petalo-3/12/20/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO PUEDO PEDIRLE AYUDA PORQUE ME VERÁ DÉBIL", text: "" },
+                            { linkName: "petalo-3/12/20/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "LA DISTANCIA CON MI PAPÁ SIGNIFICA RECHAZO", text: "" },
+                            { linkName: "petalo-3/12/20/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NUNCA PODRÉ ACERCARME EMOCIONALMENTE A ÉL", text: "" },
+                            { linkName: "petalo-3/12/20/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "LOS PADRES NO SON CARIÑOSOS, SOLO PROVEEDORES", text: "" },
+                            { linkName: "petalo-3/12/20/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "UN PADRE DEMUESTRA AMOR A TRAVÉS DEL SACRIFICIO Y EL TRABAJO, NO CON PALABRAS", text: "" },
+                            { linkName: "petalo-3/12/20/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "MI VALOR ESTÁ EN LO QUE LOGRO, NO EN QUIÉN SOY", text: "" },
+                            { linkName: "petalo-3/12/20/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "SI NO TRABAJO DURO, DECEPCIONARÉ A MI PAPÁ", text: "" },
+                            { linkName: "petalo-3/12/20/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "LA AUTORIDAD DE MI PADRE ESTÁ POR ENCIMA DE MIS NECESIDADES", text: "" },
+                            { linkName: "petalo-3/12/20/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO TENGO DERECHO A PONERLE LÍMITES", text: "" },
+                            { linkName: "petalo-3/12/20/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "SI ME INDEPENDIZO DEMASIADO, LO PERDERÉ", text: "" },
+                            { linkName: "petalo-3/12/20/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "EL RESPETO HACIA ÉL IMPLICA OBEDECER SIN CUESTIONAR", text: "" },
+                            { linkName: "petalo-3/12/20/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "SI NO PIENSO COMO ÉL, NO PERTENEZCO A LA FAMILIA", text: "" },
+                            { linkName: "petalo-3/12/20/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO PUEDO HABLAR DE CIERTOS TEMAS CON ÉL", text: "" },
+                            { linkName: "petalo-3/12/20/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "NO ES SEGURO MOSTRARLE MI VULNERABILIDAD", text: "" },
+                            { linkName: "petalo-3/12/20/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "VÍNCULO PATERNO", title: "PARA QUE ÉL ME QUIERA, DEBO HACER LO QUE ME PIDE AUNQUE NO LO DESEE", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/21", image: 'boton3', iconCenter: 'simbolo3', title: "CONEXIÓN CON EL MUNDO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/21/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO SOY INTERESANTE PARA LOS DEMÁS", text: "" },
+                            { linkName: "petalo-3/12/21/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO ENCAJO EN NINGÚN GRUPO", text: "" },
+                            { linkName: "petalo-3/12/21/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "SI MUESTRO QUIÉN SOY, ME VAN A RECHAZAR", text: "" },
+                            { linkName: "petalo-3/12/21/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "LOS OTROS SON MEJORES QUE YO", text: "" },
+                            { linkName: "petalo-3/12/21/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "SIEMPRE TERMINO SIENDO JUZGADO", text: "" },
+                            { linkName: "petalo-3/12/21/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO TENGO NADA VALIOSO QUE APORTAR", text: "" },
+                            { linkName: "petalo-3/12/21/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO MEREZCO SER VISTO O ESCUCHADO", text: "" },
+                            { linkName: "petalo-3/12/21/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "ES PELIGROSO CONFIAR EN LA GENTE", text: "" },
+                            { linkName: "petalo-3/12/21/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "LA GENTE SOLO SE ACERCA CUANDO NECESITA ALGO", text: "" },
+                            { linkName: "petalo-3/12/21/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "ESTAR SOLO ES MÁS SEGURO QUE RELACIONARME", text: "" },
+                            { linkName: "petalo-3/12/21/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "SI ME ACERCO, ME VAN A HERIR", text: "" },
+                            { linkName: "petalo-3/12/21/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO SÉ CÓMO COMPORTARME CON LOS DEMÁS", text: "" },
+                            { linkName: "petalo-3/12/21/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO VALGO LO SUFICIENTE PARA TENER AMIGOS", text: "" },
+                            { linkName: "petalo-3/12/21/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "SI ME ABRO, ME VAN A ABANDONAR", text: "" },
+                            { linkName: "petalo-3/12/21/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO PUEDO SER AUTÉNTICO SIN PERDER AFECTO", text: "" },
+                            { linkName: "petalo-3/12/21/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "DEBO AGRADAR PARA SER ACEPTADO", text: "" },
+                            { linkName: "petalo-3/12/21/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "EL MUNDO ES HOSTIL E IMPREDECIBLE", text: "" },
+                            { linkName: "petalo-3/12/21/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "LAS PERSONAS SON FALSAS O INTERESADAS", text: "" },
+                            { linkName: "petalo-3/12/21/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO TENGO ENERGÍA PARA SOCIALIZAR", text: "" },
+                            { linkName: "petalo-3/12/21/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO TENGO DERECHO A OCUPAR ESPACIO", text: "" },
+                            { linkName: "petalo-3/12/21/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO PERTENEZCO A ESTE LUGAR / FAMILIA / ENTORNO", text: "" },
+                            { linkName: "petalo-3/12/21/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "SI ME MUESTRO VULNERABLE, SE APROVECHARÁN DE MÍ", text: "" },
+                            { linkName: "petalo-3/12/21/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "MI OPINIÓN NO IMPORTA", text: "" },
+                            { linkName: "petalo-3/12/21/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "SIEMPRE TERMINO HACIENDO EL RIDÍCULO", text: "" },
+                            { linkName: "petalo-3/12/21/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO SOY LO SUFICIENTEMENTE BUENO PARA SER QUERIDO", text: "" },
+                            { linkName: "petalo-3/12/21/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "LOS DEMÁS NO ME ENTIENDEN", text: "" },
+                            { linkName: "petalo-3/12/21/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO PUEDO CONFIAR EN NADIE", text: "" },
+                            { linkName: "petalo-3/12/21/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "SIEMPRE ME TERMINAN TRAICIONANDO", text: "" },
+                            { linkName: "petalo-3/12/21/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO PUEDO SOSTENER VÍNCULOS SANOS", text: "" },
+                            { linkName: "petalo-3/12/21/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CONEXIÓN CON EL MUNDO", title: "NO MEREZCO SER PARTE DEL MUNDO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/22", image: 'boton3', iconCenter: 'simbolo3', title: "CREENCIAS EMOCIONALES",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/22/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "NO SÉ QUIÉN SOY REALMENTE", text: "" },
+                            { linkName: "petalo-3/12/22/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "ESTOY DESCONECTADA DE MIS EMOCIONES, NUNCA VOY A ENTENDERME", text: "" },
+                            { linkName: "petalo-3/12/22/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "SIEMPRE ME CONFUNDO, NO PUEDO TOMAR DECISIONES CORRECTAS", text: "" },
+                            { linkName: "petalo-3/12/22/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "DEPENDO DE OTROS PARA SABER QUÉ SENTIR O QUÉ HACER", text: "" },
+                            { linkName: "petalo-3/12/22/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "SI MUESTRO LO QUE SIENTO, LOS DEMÁS ME VAN A RECHAZAR", text: "" },
+                            { linkName: "petalo-3/12/22/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "NUNCA VOY A ENCONTRAR MI RUMBO EN LA VIDA", text: "" },
+                            { linkName: "petalo-3/12/22/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "MIS EMOCIONES SON DEMASIADO INTENSAS Y ME DESCONTROLAN", text: "" },
+                            { linkName: "petalo-3/12/22/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "SENTIRME PERDIDA SIGNIFICA QUE SOY DÉBIL", text: "" },
+                            { linkName: "petalo-3/12/22/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "NO SOY CAPAZ DE CONFIAR EN MI INTUICIÓN", text: "" },
+                            { linkName: "petalo-3/12/22/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "SI ME DETENGO A SENTIR, ME VOY A DERRUMBAR", text: "" },
+                            { linkName: "petalo-3/12/22/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "NECESITO TENER TODO CLARO SIEMPRE, SI NO, FRACASO", text: "" },
+                            { linkName: "petalo-3/12/22/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "ESTAR CONFUNDIDA ME HACE INÚTIL", text: "" },
+                            { linkName: "petalo-3/12/22/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "NO MEREZCO CLARIDAD NI PAZ INTERIOR", text: "" },
+                            { linkName: "petalo-3/12/22/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "ES PELIGROSO ESCUCHAR LO QUE SIENTO", text: "" },
+                            { linkName: "petalo-3/12/22/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS EMOCIONALES", title: "SI NO TENGO A ALGUIEN QUE ME GUÍE, ME PIERDO", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/23", image: 'boton3', iconCenter: 'simbolo3', title: "SOLTAR EL PASADO",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/23/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "SI SUELTO, VOY A PERDER PARTE DE MÍ", text: "" },
+                            { linkName: "petalo-3/12/23/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "EL PASADO ME DEFINE", text: "" },
+                            { linkName: "petalo-3/12/23/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "DEBÍ HABER ACTUADO DIFERENTE", text: "" },
+                            { linkName: "petalo-3/12/23/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NO MEREZCO AVANZAR DESPUÉS DE LO QUE HICE", text: "" },
+                            { linkName: "petalo-3/12/23/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "PERDONAR SERÍA JUSTIFICAR LO QUE ME HICIERON", text: "" },
+                            { linkName: "petalo-3/12/23/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "SI OLVIDO, ME VUELVE A PASAR LO MISMO", text: "" },
+                            { linkName: "petalo-3/12/23/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NO PUEDO CAMBIAR LO QUE YA PASÓ", text: "" },
+                            { linkName: "petalo-3/12/23/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "EL DOLOR ME MANTIENE CERCA DE ESA PERSONA", text: "" },
+                            { linkName: "petalo-3/12/23/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "SIN MI HISTORIA, NO SOY NADIE", text: "" },
+                            { linkName: "petalo-3/12/23/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "DEJAR ATRÁS ES TRAICIONAR MI LEALTAD FAMILIAR", text: "" },
+                            { linkName: "petalo-3/12/23/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "EL TIEMPO NO SANA REALMENTE", text: "" },
+                            { linkName: "petalo-3/12/23/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "MI VIDA SE ARRUINÓ POR CULPA DE ESE MOMENTO", text: "" },
+                            { linkName: "petalo-3/12/23/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NO SÉ QUIÉN SERÍA SIN MI HERIDA", text: "" },
+                            { linkName: "petalo-3/12/23/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "EL SUFRIMIENTO ME DA IDENTIDAD", text: "" },
+                            { linkName: "petalo-3/12/23/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "SI SUELTO, PIERDO EL CONTROL", text: "" },
+                            { linkName: "petalo-3/12/23/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NO TENGO DERECHO A ESTAR BIEN DESPUÉS DE LO QUE PASÓ", text: "" },
+                            { linkName: "petalo-3/12/23/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NADIE ENTENDERÍA MI DOLOR", text: "" },
+                            { linkName: "petalo-3/12/23/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NO PUEDO AVANZAR HASTA QUE EL OTRO CAMBIE", text: "" },
+                            { linkName: "petalo-3/12/23/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "SIEMPRE ME PASA LO MISMO", text: "" },
+                            { linkName: "petalo-3/12/23/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "EL PASADO FUE MEJOR QUE MI PRESENTE", text: "" },
+                            { linkName: "petalo-3/12/23/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NO PUEDO PERDONAR A QUIEN NO SE ARREPINTIÓ", text: "" },
+                            { linkName: "petalo-3/12/23/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "CARGAR CON ESTO ES MI FORMA DE PAGAR", text: "" },
+                            { linkName: "petalo-3/12/23/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "MI HISTORIA ME PERSIGUE", text: "" },
+                            { linkName: "petalo-3/12/23/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "SUFRIR DEMUESTRA QUE TUVE RAZÓN", text: "" },
+                            { linkName: "petalo-3/12/23/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "SI DEJO IR, TODO HABRÁ SIDO EN VANO", text: "" },
+                            { linkName: "petalo-3/12/23/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NO CONFÍO EN QUE ALGO NUEVO PUEDA SER MEJOR", text: "" },
+                            { linkName: "petalo-3/12/23/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "MI MENTE NO PUEDE SOLTAR LO QUE EL CORAZÓN NO ENTENDIÓ", text: "" },
+                            { linkName: "petalo-3/12/23/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "SIN ESE RECUERDO, ME SIENTO VACÍO", text: "" },
+                            { linkName: "petalo-3/12/23/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NECESITO ENTENDER POR QUÉ PASÓ PARA PODER SEGUIR", text: "" },
+                            { linkName: "petalo-3/12/23/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "SOLTAR EL PASADO", title: "NO SOY LIBRE HASTA QUE EL PASADO SE REPARE", text: "" }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/24", image: 'boton3', iconCenter: 'simbolo3', title: "COMPORTAMIENTOS AGRESIVOS", noNumbers: true,
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/12/24/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/24/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "SI NO SOY EL CENTRO, NO VALGO", text: "" },
+                                    { linkName: "petalo-3/12/24/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "MIS EMOCIONES IMPORTAN MÁS QUE LAS DE LOS DEMÁS", text: "" },
+                                    { linkName: "petalo-3/12/24/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "MOSTRAR VULNERABILIDAD ES PERDER PODER", text: "" },
+                                    { linkName: "petalo-3/12/24/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "CEDER ES SER DÉBIL", text: "" },
+                                    { linkName: "petalo-3/12/24/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "SI NO CONTROLO, ME CONTROLAN", text: "" },
+                                    { linkName: "petalo-3/12/24/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "LA GENTE ME DEBE ADMIRACIÓN", text: "" },
+                                    { linkName: "petalo-3/12/24/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "EL ERROR ES IMPERDONABLE (SOBRE TODO EN OTROS)", text: "" },
+                                    { linkName: "petalo-3/12/24/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "LA CRÍTICA ES UN ATAQUE PERSONAL", text: "" },
+                                    { linkName: "petalo-3/12/24/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "LOS DEMÁS EXISTEN PARA SATISFACER MIS NECESIDADES", text: "" },
+                                    { linkName: "petalo-3/12/24/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "EL AMOR SE GANA CON MIEDO O IMPOSICIÓN", text: "" },
+                                    { linkName: "petalo-3/12/24/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "PEDIR PERDÓN ME HACE INFERIOR", text: "" },
+                                    { linkName: "petalo-3/12/24/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "EMPATIZAR ME VUELVE MANIPULABLE", text: "" },
+                                    { linkName: "petalo-3/12/24/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "SER DURO ES LA ÚNICA FORMA DE SER RESPETADO", text: "" },
+                                    { linkName: "petalo-3/12/24/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "QUIEN NO ESTÁ CONMIGO, ESTÁ EN MI CONTRA", text: "" },
+                                    { linkName: "petalo-3/12/24/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "TENGO DERECHO A DECIR LO QUE SEA; LOS DEMÁS DEBEN TOLERARLO", text: "" },
+                                    { linkName: "petalo-3/12/24/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "SI AFLOJO, ME PASAN POR ENCIMA", text: "" },
+                                    { linkName: "petalo-3/12/24/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "EL CONFLICTO SE RESUELVE GANANDO, NO DIALOGANDO", text: "" },
+                                    { linkName: "petalo-3/12/24/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "MI VALOR DEPENDE DE LA IMAGEN QUE PROYECTO", text: "" },
+                                    { linkName: "petalo-3/12/24/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "MI ENOJO ESTÁ SIEMPRE JUSTIFICADO", text: "" },
+                                    { linkName: "petalo-3/12/24/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS A", title: "LOS DEMÁS EXAGERAN O INVENTAN SU DOLOR", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/24/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/24/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "NO NECESITO CAMBIAR; LOS OTROS SON EL PROBLEMA", text: "" },
+                                    { linkName: "petalo-3/12/24/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "DAR RECONOCIMIENTO ME QUITA PROTAGONISMO", text: "" },
+                                    { linkName: "petalo-3/12/24/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "LOS LÍMITES AJENOS SON OBSTÁCULOS, NO ACUERDOS", text: "" },
+                                    { linkName: "petalo-3/12/24/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "LA INTIMIDAD ES PELIGROSA; MEJOR MANTENER DISTANCIA EMOCIONAL", text: "" },
+                                    { linkName: "petalo-3/12/24/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "SI NO GENERO IMPACTO, DESAPAREZCO", text: "" },
+                                    { linkName: "petalo-3/12/24/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "LA OBEDIENCIA PRUEBA LEALTAD", text: "" },
+                                    { linkName: "petalo-3/12/24/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "LA TERNURA ES RIDÍCULA", text: "" },
+                                    { linkName: "petalo-3/12/24/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "QUIEN ME CONFRONTA ME TRAICIONA", text: "" },
+                                    { linkName: "petalo-3/12/24/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "LA CULPA ES DE AFUERA; YO SOLO “REACCIONO”", text: "" },
+                                    { linkName: "petalo-3/12/24/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "EL PODER ES MÁS IMPORTANTE QUE EL VÍNCULO", text: "" },
+                                    { linkName: "petalo-3/12/24/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "SI ACEPTO RESPONSABILIDADES, PIERDO AUTORIDAD", text: "" },
+                                    { linkName: "petalo-3/12/24/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "EL SILENCIO DE OTROS ES APROBACIÓN", text: "" },
+                                    { linkName: "petalo-3/12/24/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "LOS DEMÁS DEBEN ADIVINAR LO QUE QUIERO", text: "" },
+                                    { linkName: "petalo-3/12/24/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "MIS NECESIDADES SON URGENTES; LAS DE OTROS PUEDEN ESPERAR", text: "" },
+                                    { linkName: "petalo-3/12/24/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "EL ÉXITO SIN APLAUSO NO VALE", text: "" },
+                                    { linkName: "petalo-3/12/24/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "SI NO GANO, NO VALGO", text: "" },
+                                    { linkName: "petalo-3/12/24/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "LA PACIENCIA ES PÉRDIDA DE TIEMPO", text: "" },
+                                    { linkName: "petalo-3/12/24/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "LA COMPASIÓN ME DEBILITA", text: "" },
+                                    { linkName: "petalo-3/12/24/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "QUIEN ME CONOCE DEMASIADO PUEDE USARLO EN MI CONTRA", text: "" },
+                                    { linkName: "petalo-3/12/24/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "COMPORTAMIENTOS AGRESIVOS B", title: "EL RESPETO SE IMPONE, NO SE CONSTRUYE", text: "" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/25", image: 'boton3', iconCenter: 'simbolo3', title: "ADICCIONES", noNumbers: true,
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/12/25/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/25/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "YO SOY ADICTO, NO PUEDO CAMBIAR", text: "" },
+                                    { linkName: "petalo-3/12/25/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "ESTO YA FORMA PARTE DE MÍ", text: "" },
+                                    { linkName: "petalo-3/12/25/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "NO SÉ QUIÉN SOY SIN CONSUMIR", text: "" },
+                                    { linkName: "petalo-3/12/25/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "MI PERSONALIDAD DEPENDE DE LA DROGA O DEL ALCOHOL", text: "" },
+                                    { linkName: "petalo-3/12/25/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "SOY DÉBIL", text: "" },
+                                    { linkName: "petalo-3/12/25/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "SOY UN CASO PERDIDO", text: "" },
+                                    { linkName: "petalo-3/12/25/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "NACÍ PARA DESTRUIRME", text: "" },
+                                    { linkName: "petalo-3/12/25/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "TENGO UNA MENTE ENFERMA Y NO HAY SALIDA", text: "" },
+                                    { linkName: "petalo-3/12/25/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "NO MEREZCO UNA VIDA LIMPIA", text: "" },
+                                    { linkName: "petalo-3/12/25/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "NO PUEDO SER UNA PERSONA NORMAL", text: "" },
+                                    { linkName: "petalo-3/12/25/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "MI HISTORIA ME CONDENA", text: "" },
+                                    { linkName: "petalo-3/12/25/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "YA ARRUINÉ DEMASIADO MI VIDA", text: "" },
+                                    { linkName: "petalo-3/12/25/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "SOY IGUAL A MI PADRE/MADRE/FAMILIA", text: "" },
+                                    { linkName: "petalo-3/12/25/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "TENGO SANGRE DE ADICTO", text: "" },
+                                    { linkName: "petalo-3/12/25/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "ESTOY DESTINADO A REPETIR LO MISMO", text: "" },
+                                    { linkName: "petalo-3/12/25/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "LA DROGA ME CALMA", text: "" },
+                                    { linkName: "petalo-3/12/25/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "LA DROGA LLENA UN VACIO", text: "" },
+                                    { linkName: "petalo-3/12/25/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "EL ALCOHOL ME AYUDA A FUNCIONAR", text: "" },
+                                    { linkName: "petalo-3/12/25/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "CONSUMO PORQUE LO NECESITO", text: "" },
+                                    { linkName: "petalo-3/12/25/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "SIN CONSUMIR NO PUEDO RELAJARME", text: "" },
+                                    { linkName: "petalo-3/12/25/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "SIN ALCOHOL NO PUEDO SOCIALIZAR", text: "" },
+                                    { linkName: "petalo-3/12/25/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "LA DROGA ME DA SEGURIDAD", text: "" },
+                                    { linkName: "petalo-3/12/25/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "EL CONSUMO ME AYUDA A OLVIDAR", text: "" },
+                                    { linkName: "petalo-3/12/25/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "CONSUMIR ME HACE SENTIR VIVO", text: "" },
+                                    { linkName: "petalo-3/12/25/1/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "ES LO ÚNICO QUE ME DA PLACER", text: "" },
+                                    { linkName: "petalo-3/12/25/1/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "ES MI ÚNICA VÍA DE ESCAPE", text: "" },
+                                    { linkName: "petalo-3/12/25/1/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "YO LO CONTROLO", text: "" },
+                                    { linkName: "petalo-3/12/25/1/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "PUEDO DEJAR CUANDO QUIERA", text: "" },
+                                    { linkName: "petalo-3/12/25/1/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "UNA VEZ MÁS NO CAMBIA NADA", text: "" },
+                                    { linkName: "petalo-3/12/25/1/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "SOLO CONSUMO PARA PASARLA BIEN", text: "" },
+                                    { linkName: "petalo-3/12/25/1/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES A", title: "NO ES TAN GRAVE COMO OTROS CASOS", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/25/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/25/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO PUEDO SOPORTAR LO QUE SIENTO", text: "" },
+                                    { linkName: "petalo-3/12/25/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "SI DEJO DE CONSUMIR, ME VOY A QUEBRAR", text: "" },
+                                    { linkName: "petalo-3/12/25/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO PUEDO ENFRENTAR MI TRISTEZA", text: "" },
+                                    { linkName: "petalo-3/12/25/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO PUEDO VIVIR CON ESTA ANSIEDAD", text: "" },
+                                    { linkName: "petalo-3/12/25/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "EL VACÍO ES INSOPORTABLE", text: "" },
+                                    { linkName: "petalo-3/12/25/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NECESITO ANESTESIARME", text: "" },
+                                    { linkName: "petalo-3/12/25/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "SENTIR ES PELIGROSO", text: "" },
+                                    { linkName: "petalo-3/12/25/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "SI RECUERDO MI PASADO, ME DESTRUYO", text: "" },
+                                    { linkName: "petalo-3/12/25/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "MI DOLOR NO TIENE SOLUCIÓN", text: "" },
+                                    { linkName: "petalo-3/12/25/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NADIE ENTIENDE LO QUE LLEVO ADENTRO", text: "" },
+                                    { linkName: "petalo-3/12/25/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "TENGO QUE APAGAR MI MENTE", text: "" },
+                                    { linkName: "petalo-3/12/25/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO PUEDO ESTAR CONMIGO MISMO", text: "" },
+                                    { linkName: "petalo-3/12/25/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "EL SILENCIO ME DESESPERA", text: "" },
+                                    { linkName: "petalo-3/12/25/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "MI ANGUSTIA ES MÁS FUERTE QUE YO", text: "" },
+                                    { linkName: "petalo-3/12/25/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "SI NO CONSUMO, EXPLOTO", text: "" },
+                                    { linkName: "petalo-3/12/25/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "MEREZCO SUFRIR", text: "" },
+                                    { linkName: "petalo-3/12/25/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "MEREZCO DESTRUIRME", text: "" },
+                                    { linkName: "petalo-3/12/25/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO MEREZCO SANAR", text: "" },
+                                    { linkName: "petalo-3/12/25/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "YA HICE DEMASIADO DAÑO", text: "" },
+                                    { linkName: "petalo-3/12/25/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO MEREZCO QUE ME PERDONEN", text: "" },
+                                    { linkName: "petalo-3/12/25/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO PUEDO PERDONARME", text: "" },
+                                    { linkName: "petalo-3/12/25/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "TENGO QUE PAGAR POR MIS ERRORES", text: "" },
+                                    { linkName: "petalo-3/12/25/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "MI FAMILIA ESTARÍA MEJOR SIN MÍ", text: "" },
+                                    { linkName: "petalo-3/12/25/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "SOY UNA CARGA", text: "" },
+                                    { linkName: "petalo-3/12/25/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO VALGO LO SUFICIENTE PARA RECUPERARME", text: "" },
+                                    { linkName: "petalo-3/12/25/2/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "DIOS/LA VIDA ME CASTIGÓ", text: "" },
+                                    { linkName: "petalo-3/12/25/2/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO MEREZCO UNA SEGUNDA OPORTUNIDAD", text: "" },
+                                    { linkName: "petalo-3/12/25/2/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "SI MEJORO, IGUAL EL PASADO NO CAMBIA", text: "" },
+                                    { linkName: "petalo-3/12/25/2/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "NO PUEDO REPARAR LO QUE ROMPÍ", text: "" },
+                                    { linkName: "petalo-3/12/25/2/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES B", title: "MI CULPA ES MÁS GRANDE QUE MI VOLUNTAD", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/25/3", image: 'boton3', iconCenter: 'simbolo3', title: "C", index: 2, colorBorder: "green",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/25/3/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "RECUPERARSE ES IMPOSIBLE", text: "" },
+                                    { linkName: "petalo-3/12/25/3/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "VOY A RECAER IGUAL", text: "" },
+                                    { linkName: "petalo-3/12/25/3/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "NO TENGO FUERZA DE VOLUNTAD", text: "" },
+                                    { linkName: "petalo-3/12/25/3/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "EL TRATAMIENTO NO SIRVE PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/25/3/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "NADIE PUEDE AYUDARME", text: "" },
+                                    { linkName: "petalo-3/12/25/3/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "YA PROBÉ TODO", text: "" },
+                                    { linkName: "petalo-3/12/25/3/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "SIEMPRE VUELVO A LO MISMO", text: "" },
+                                    { linkName: "petalo-3/12/25/3/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "LA ABSTINENCIA ES INSOPORTABLE", text: "" },
+                                    { linkName: "petalo-3/12/25/3/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "SI DEJO, VOY A PERDER A MIS AMIGOS", text: "" },
+                                    { linkName: "petalo-3/12/25/3/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "SI DEJO, ME QUEDO SOLO", text: "" },
+                                    { linkName: "petalo-3/12/25/3/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "NO PUEDO SOSTENER UNA VIDA SANA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "LA RECUPERACIÓN ES ABURRIDA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "VIVIR SOBRIO NO TIENE SENTIDO", text: "" },
+                                    { linkName: "petalo-3/12/25/3/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "UNA VIDA SIN CONSUMO NO TIENE PLACER", text: "" },
+                                    { linkName: "petalo-3/12/25/3/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "CAMBIAR EXIGE DEMASIADO", text: "" },
+                                    { linkName: "petalo-3/12/25/3/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "EN MI FAMILIA TODOS ESCAPAN DE ALGUNA MANERA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "EL ALCOHOL SIEMPRE FUE NORMAL EN CASA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "ASÍ SE MANEJAN LOS PROBLEMAS EN MI FAMILIA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "HEREDÉ ESTA CARGA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "ESTOY REPITIENDO UNA HISTORIA FAMILIAR", text: "" },
+                                    { linkName: "petalo-3/12/25/3/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "NO PUEDO CORTAR CON EL DESTINO DE MI LINAJE", text: "" },
+                                    { linkName: "petalo-3/12/25/3/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "SI SANO, TRAICIONO A MI FAMILIA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "SI CAMBIO, DEJO DE PERTENECER", text: "" },
+                                    { linkName: "petalo-3/12/25/3/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "MI FAMILIA NO SABE VIVIR SIN DOLOR", text: "" },
+                                    { linkName: "petalo-3/12/25/3/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "EL CONSUMO ES PARTE DE NUESTRA FORMA DE VINCULARNOS", text: "" },
+                                    { linkName: "petalo-3/12/25/3/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "NO SÉ VIVIR DIFERENTE A LO QUE VI", text: "" },
+                                    { linkName: "petalo-3/12/25/3/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "MI PADRE/MADRE NO PUDO, YO TAMPOCO", text: "" },
+                                    { linkName: "petalo-3/12/25/3/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "TENGO QUE CARGAR CON LO NO RESUELTO DE MI FAMILIA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "MI CLAN NECESITA QUE YO REPITA", text: "" },
+                                    { linkName: "petalo-3/12/25/3/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES C", title: "SOLTAR EL CONSUMO SERÍA SEPARARME DEL SISTEMA FAMILIAR", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/25/4", image: 'boton3', iconCenter: 'simbolo3', title: "D", index: 3, colorBorder: "yellow",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/25/4/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "SI NO CONSUMO, NO ENCAJO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "MIS AMIGOS ME VAN A RECHAZAR", text: "" },
+                                    { linkName: "petalo-3/12/25/4/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NO SÉ DIVERTIRME SIN ALCOHOL", text: "" },
+                                    { linkName: "petalo-3/12/25/4/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NO SÉ HABLAR CON OTROS SIN CONSUMIR", text: "" },
+                                    { linkName: "petalo-3/12/25/4/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "ME VAN A VER RARO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "VOY A PERDER MI GRUPO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NADIE ME VA A QUERER SOBRIO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "LA GENTE ME ACEPTA SOLO CUANDO ESTOY DESINHIBIDO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NECESITO CONSUMIR PARA SENTIRME INTERESANTE", text: "" },
+                                    { linkName: "petalo-3/12/25/4/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NO PUEDO PONER LÍMITES", text: "" },
+                                    { linkName: "petalo-3/12/25/4/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "ME DA MIEDO DECIR QUE NO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "SI CAMBIO, LOS DEMÁS ME VAN A ABANDONAR", text: "" },
+                                    { linkName: "petalo-3/12/25/4/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NO MEREZCO RELACIONES SANAS", text: "" },
+                                    { linkName: "petalo-3/12/25/4/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "SOLO ME JUNTO CON GENTE ROTA COMO YO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "EL CONSUMO ES LO ÚNICO QUE COMPARTO CON LOS DEMÁS", text: "" },
+                                    { linkName: "petalo-3/12/25/4/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "MI CUERPO NO PUEDE VIVIR SIN ESTO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "SI DEJO, ME ENFERMO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "LA ABSTINENCIA ME VA A MATAR", text: "" },
+                                    { linkName: "petalo-3/12/25/4/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NO VOY A DORMIR NUNCA MÁS", text: "" },
+                                    { linkName: "petalo-3/12/25/4/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "MI ANSIEDAD FÍSICA ES INSOPORTABLE", text: "" },
+                                    { linkName: "petalo-3/12/25/4/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "MI CUERPO ME PIDE CONSUMIR", text: "" },
+                                    { linkName: "petalo-3/12/25/4/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NECESITO ALCOHOL/DROGA PARA FUNCIONAR", text: "" },
+                                    { linkName: "petalo-3/12/25/4/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "SIN CONSUMIR NO TENGO ENERGÍA", text: "" },
+                                    { linkName: "petalo-3/12/25/4/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "SIN CONSUMIR NO PUEDO TRABAJAR", text: "" },
+                                    { linkName: "petalo-3/12/25/4/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "SIN CONSUMIR NO PUEDO DORMIR", text: "" },
+                                    { linkName: "petalo-3/12/25/4/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "MI SISTEMA NERVIOSO NO SE REGULA SOLO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "MI CUERPO YA ESTÁ ARRUINADO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "ES TARDE PARA RECUPERARME", text: "" },
+                                    { linkName: "petalo-3/12/25/4/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "EL DAÑO YA ESTÁ HECHO", text: "" },
+                                    { linkName: "petalo-3/12/25/4/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES D", title: "NO PUEDO VOLVER A SENTIR BIENESTAR NATURAL", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/25/5", image: 'boton3', iconCenter: 'simbolo3', title: "E", index: 4, colorBorder: "purple",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/25/5/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "MI VIDA NO TIENE PROPÓSITO", text: "" },
+                                    { linkName: "petalo-3/12/25/5/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO TENGO PARA QUÉ CAMBIAR", text: "" },
+                                    { linkName: "petalo-3/12/25/5/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO HAY NADA BUENO ESPERÁNDOME", text: "" },
+                                    { linkName: "petalo-3/12/25/5/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "ESTOY DESCONECTADO DE DIOS/LA VIDA", text: "" },
+                                    { linkName: "petalo-3/12/25/5/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "FUI ABANDONADO POR ALGO SUPERIOR", text: "" },
+                                    { linkName: "petalo-3/12/25/5/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "MI ALMA ESTÁ ROTA", text: "" },
+                                    { linkName: "petalo-3/12/25/5/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO TENGO LUZ", text: "" },
+                                    { linkName: "petalo-3/12/25/5/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "MI DESTINO ES SUFRIR", text: "" },
+                                    { linkName: "petalo-3/12/25/5/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO HAY SENTIDO EN ESTAR VIVO", text: "" },
+                                    { linkName: "petalo-3/12/25/5/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO MEREZCO PAZ", text: "" },
+                                    { linkName: "petalo-3/12/25/5/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "LA VIDA ES DEMASIADO PESADA", text: "" },
+                                    { linkName: "petalo-3/12/25/5/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO TENGO MISIÓN", text: "" },
+                                    { linkName: "petalo-3/12/25/5/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NADA ME LLENA", text: "" },
+                                    { linkName: "petalo-3/12/25/5/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "ESTOY VACÍO POR DENTRO", text: "" },
+                                    { linkName: "petalo-3/12/25/5/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO HAY FUTURO PARA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/25/5/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "CUANDO ESTOY BIEN, ALGO MALO PASA", text: "" },
+                                    { linkName: "petalo-3/12/25/5/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO PUEDO SOSTENER LO BUENO", text: "" },
+                                    { linkName: "petalo-3/12/25/5/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "SI MEJORO, DESPUÉS VOY A CAER PEOR", text: "" },
+                                    { linkName: "petalo-3/12/25/5/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "ME DA MIEDO ESTAR BIEN", text: "" },
+                                    { linkName: "petalo-3/12/25/5/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO SÉ VIVIR SIN CAOS", text: "" },
+                                    { linkName: "petalo-3/12/25/5/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "LA PAZ ME RESULTA DESCONOCIDA", text: "" },
+                                    { linkName: "petalo-3/12/25/5/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NECESITO PROBLEMAS PARA SENTIRME VIVO", text: "" },
+                                    { linkName: "petalo-3/12/25/5/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "SIEMPRE ARRUINO LO BUENO", text: "" },
+                                    { linkName: "petalo-3/12/25/5/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "CUANDO AVANZO, ME SABOTEO", text: "" },
+                                    { linkName: "petalo-3/12/25/5/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "NO MEREZCO ESTABILIDAD", text: "" },
+                                    { linkName: "petalo-3/12/25/5/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "LA TRANQUILIDAD ME ABURRE", text: "" },
+                                    { linkName: "petalo-3/12/25/5/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "ESTOY ACOSTUMBRADO AL DESASTRE", text: "" },
+                                    { linkName: "petalo-3/12/25/5/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "SI DEJO EL CONSUMO, APARECE MI VERDADERO DOLOR", text: "" },
+                                    { linkName: "petalo-3/12/25/5/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "PREFIERO DESTRUIRME ANTES QUE SENTIR", text: "" },
+                                    { linkName: "petalo-3/12/25/5/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "ADICCIONES E", title: "SANAR ME OBLIGA A HACERME RESPONSABLE", text: "" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/26", image: 'boton3', iconCenter: 'simbolo3', title: "CRIANZA Y ENOJO DE LOS HIJOS", noNumbers: true,
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/12/26/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/26/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI MI HIJO ME CONTESTA, ME ESTÁ FALTANDO EL RESPETO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "UN BUEN PADRE TIENE QUE IMPONER AUTORIDAD SIEMPRE", text: "" },
+                                    { linkName: "petalo-3/12/26/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI CEDO, PIERDO EL CONTROL", text: "" },
+                                    { linkName: "petalo-3/12/26/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI NO ME OBEDECE DE INMEDIATO, ESTOY FALLANDO COMO PADRE/MADRE", text: "" },
+                                    { linkName: "petalo-3/12/26/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "LOS HIJOS TIENEN QUE HACER CASO SIN CUESTIONAR", text: "" },
+                                    { linkName: "petalo-3/12/26/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "LA AUTORIDAD SE DEMUESTRA LEVANTANDO LA VOZ", text: "" },
+                                    { linkName: "petalo-3/12/26/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI NO SOY DURO/A, MI HIJO SE ME VA DE LAS MANOS", text: "" },
+                                    { linkName: "petalo-3/12/26/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "TENGO QUE GANAR LA DISCUSIÓN", text: "" },
+                                    { linkName: "petalo-3/12/26/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI MI HIJO SE ENOJA CONMIGO, HICE ALGO MAL", text: "" },
+                                    { linkName: "petalo-3/12/26/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "MI HIJO TIENE QUE RESPETARME PORQUE SOY SU PADRE/MADRE, NO PORQUE CONSTRUIMOS UN VÍNCULO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "A MÍ ME CRIARON ASÍ Y SALÍ BIEN", text: "" },
+                                    { linkName: "petalo-3/12/26/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "MIS PADRES FUERON ESTRICTOS CONMIGO, ENTONCES YO TAMBIÉN DEBO SERLO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI NO CORRIJO CON FUERZA, MI HIJO NO APRENDE", text: "" },
+                                    { linkName: "petalo-3/12/26/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "EL CASTIGO ES LA ÚNICA FORMA DE PONER LÍMITES", text: "" },
+                                    { linkName: "petalo-3/12/26/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "LOS NIÑOS NO DEBEN EXPRESAR ENOJO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "LLORAR, GRITAR O DISCUTIR ES SEÑAL DE MALA EDUCACIÓN", text: "" },
+                                    { linkName: "petalo-3/12/26/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "UN HIJO OBEDIENTE ES UN HIJO BIEN CRIADO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "LA CRIANZA AMOROSA MALCRÍA", text: "" },
+                                    { linkName: "petalo-3/12/26/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "PEDIR PERDÓN A UN HIJO ME QUITA AUTORIDAD", text: "" },
+                                    { linkName: "petalo-3/12/26/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "ESCUCHAR DEMASIADO A UN NIÑO HACE QUE SE VUELVA MANIPULADOR", text: "" },
+                                    { linkName: "petalo-3/12/26/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "MI HIJO SE ENOJA PARA DESAFIARME", text: "" },
+                                    { linkName: "petalo-3/12/26/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "MI HIJO ME PROVOCA A PROPÓSITO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "CUANDO MI HIJO SE ENOJA, QUIERE DOMINARME", text: "" },
+                                    { linkName: "petalo-3/12/26/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "LA AGRESIVIDAD DE MI HIJO SIGNIFICA QUE ES MALO O PROBLEMÁTICO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI MI HIJO GRITA, TENGO QUE GRITAR MÁS FUERTE", text: "" },
+                                    { linkName: "petalo-3/12/26/1/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SU ENOJO ES UN ATAQUE PERSONAL HACIA MÍ", text: "" },
+                                    { linkName: "petalo-3/12/26/1/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI SE PORTA MAL, ES PORQUE NO ME RESPETA", text: "" },
+                                    { linkName: "petalo-3/12/26/1/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "MI HIJO DEBERÍA PODER CONTROLARSE SOLO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "CUANDO ESTÁ ENOJADO, NO HAY NADA QUE HABLAR", text: "" },
+                                    { linkName: "petalo-3/12/26/1/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "EL ENOJO DE MI HIJO ME DEMUESTRA QUE ALGO ESTÁ MAL EN ÉL", text: "" },
+                                    { linkName: "petalo-3/12/26/1/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "TENGO QUE CONTROLAR TODO LO QUE HACE MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/26/1/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "SI NO LO CONTROLO, VA A TOMAR MALAS DECISIONES", text: "" },
+                                    { linkName: "petalo-3/12/26/1/33", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS A", title: "MI HIJO TIENE QUE ACTUAR COMO YO ESPERO", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/26/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/26/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "NO PUEDO PERMITIR QUE SE EQUIVOQUE", text: "" },
+                                    { linkName: "petalo-3/12/26/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI NO HAGO ALGO YA, ESTO VA A EMPEORAR", text: "" },
+                                    { linkName: "petalo-3/12/26/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "TENGO QUE CORREGIR CADA CONDUCTA EN EL MOMENTO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "MI HIJO NO PUEDE FRUSTRARSE", text: "" },
+                                    { linkName: "petalo-3/12/26/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "YO SÉ SIEMPRE QUÉ ES LO MEJOR PARA ÉL", text: "" },
+                                    { linkName: "petalo-3/12/26/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI MI HIJO PIENSA DIFERENTE, ME ESTÁ DESAFIANDO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "TENGO QUE EVITAR CUALQUIER CONFLICTO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "HABLAR DE EMOCIONES ES PERDER EL TIEMPO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "LOS CHICOS NO ENTIENDEN EXPLICACIONES", text: "" },
+                                    { linkName: "petalo-3/12/26/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "NO TENGO POR QUÉ EXPLICAR MIS DECISIONES", text: "" },
+                                    { linkName: "petalo-3/12/26/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI HABLO TRANQUILO, NO ME VA A TOMAR EN SERIO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "ESCUCHAR A MI HIJO SIGNIFICA DARLE LA RAZÓN", text: "" },
+                                    { linkName: "petalo-3/12/26/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "VALIDAR SU EMOCIÓN ES APROBAR SU MALA CONDUCTA", text: "" },
+                                    { linkName: "petalo-3/12/26/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI MI HIJO ESTÁ ENOJADO, NO MERECE SER ESCUCHADO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "PRIMERO TIENE QUE CALMARSE Y DESPUÉS QUIZÁS LO ESCUCHO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "LAS DISCUSIONES SE CORTAN CON UNA ORDEN", text: "" },
+                                    { linkName: "petalo-3/12/26/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "MI HIJO TIENE QUE ENTENDERME A MÍ, NO YO A ÉL", text: "" },
+                                    { linkName: "petalo-3/12/26/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "PONER LÍMITES SIGNIFICA CASTIGAR", text: "" },
+                                    { linkName: "petalo-3/12/26/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "UN LÍMITE TIENE QUE DOLER PARA QUE FUNCIONE", text: "" },
+                                    { linkName: "petalo-3/12/26/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI NO HAY CONSECUENCIA FUERTE, NO APRENDE", text: "" },
+                                    { linkName: "petalo-3/12/26/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SER FLEXIBLE ES SER DÉBIL", text: "" },
+                                    { linkName: "petalo-3/12/26/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "LOS LÍMITES AMOROSOS NO SIRVEN", text: "" },
+                                    { linkName: "petalo-3/12/26/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI EXPLICO MUCHO, PIERDO AUTORIDAD", text: "" },
+                                    { linkName: "petalo-3/12/26/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "TENGO QUE DECIR QUE NO SIEMPRE PARA QUE ME RESPETE", text: "" },
+                                    { linkName: "petalo-3/12/26/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI CAMBIO UNA NORMA, MI HIJO VA A APROVECHARSE", text: "" },
+                                    { linkName: "petalo-3/12/26/2/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "EL LÍMITE ES MÁS IMPORTANTE QUE EL VÍNCULO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "UN LÍMITE FIRME NO PUEDE SER AMOROSO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI MI HIJO SE COMPORTA ASÍ, ES CULPA MÍA", text: "" },
+                                    { linkName: "petalo-3/12/26/2/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SOY MAL PADRE/MADRE PORQUE NO SÉ MANEJARLO", text: "" },
+                                    { linkName: "petalo-3/12/26/2/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "YA ES TARDE PARA CAMBIAR LA FORMA DE CRIAR", text: "" },
+                                    { linkName: "petalo-3/12/26/2/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "MI HIJO ESTÁ ASÍ PORQUE HICE TODO MAL", text: "" },
+                                    { linkName: "petalo-3/12/26/2/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS B", title: "SI PIDO AYUDA, SIGNIFICA QUE FRACASÉ", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/26/3", image: 'boton3', iconCenter: 'simbolo3', title: "C", index: 2, colorBorder: "green",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/26/3/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "NO PUEDO MOSTRAR DUDAS DELANTE DE MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "TENGO QUE PODER RESOLVERLO TODO SOLO/A", text: "" },
+                                    { linkName: "petalo-3/12/26/3/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "OTROS PADRES LO HACEN MEJOR QUE YO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "MI HIJO DEBERÍA SER DISTINTO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "NO ESTOY PREPARADO/A PARA SER EL PADRE/MADRE QUE NECESITA", text: "" },
+                                    { linkName: "petalo-3/12/26/3/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "SI SOY DEMASIADO CARIÑOSO/A, SE VA A VOLVER DÉBIL", text: "" },
+                                    { linkName: "petalo-3/12/26/3/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "DESPUÉS DE UNA MALA CONDUCTA, NO MERECE AFECTO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "TENGO QUE ALEJARME PARA QUE APRENDA", text: "" },
+                                    { linkName: "petalo-3/12/26/3/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "SI LO ABRAZO CUANDO ESTÁ ENOJADO, PREMIO SU ENOJO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "MI HIJO TIENE QUE GANARSE MI AMOR CON BUEN COMPORTAMIENTO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "EL AMOR SE DEMUESTRA MANTENIENDO EL ORDEN", text: "" },
+                                    { linkName: "petalo-3/12/26/3/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "NO PUEDO ACERCARME SI PRIMERO NO PIDE PERDÓN", text: "" },
+                                    { linkName: "petalo-3/12/26/3/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "CUANDO SE PORTA MAL, ME ESTÁ RECHAZANDO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "SI ME BUSCA DESPUÉS DE DISCUTIR, ESTÁ MANIPULANDO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "EL VÍNCULO NO SE DAÑA POR CÓMO LE HABLO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "OTROS NIÑOS SE PORTAN MEJOR QUE MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "MI HIJO DEBERÍA SER COMO SU HERMANO/A", text: "" },
+                                    { linkName: "petalo-3/12/26/3/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "A SU EDAD YO YA ENTENDÍA ESTAS COSAS", text: "" },
+                                    { linkName: "petalo-3/12/26/3/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "LOS HIJOS DE OTROS PADRES NO HACEN ESTO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "SI LO COMPARO, LO MOTIVO A CAMBIAR", text: "" },
+                                    { linkName: "petalo-3/12/26/3/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "TIENE QUE MADURAR MÁS RÁPIDO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "NO DEBERÍA TENER ESTOS BERRINCHES A ESTA EDAD", text: "" },
+                                    { linkName: "petalo-3/12/26/3/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "MI HIJO ES MÁS DIFÍCIL QUE LOS DEMÁS", text: "" },
+                                    { linkName: "petalo-3/12/26/3/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "NADIE ENTIENDE LO COMPLICADO QUE ES MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "MI HIJO SIEMPRE FUE ASÍ Y NO VA A CAMBIAR", text: "" },
+                                    { linkName: "petalo-3/12/26/3/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "NO PUEDO ENOJARME, TENGO QUE ESTAR SIEMPRE BIEN", text: "" },
+                                    { linkName: "petalo-3/12/26/3/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "SI PIERDO LA PACIENCIA, YA ARRUINÉ TODO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "MI ENOJO ESTÁ JUSTIFICADO PORQUE MI HIJO ME SUPERA", text: "" },
+                                    { linkName: "petalo-3/12/26/3/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "CUANDO ME ENOJO, NO PUEDO CONTROLAR LO QUE DIGO", text: "" },
+                                    { linkName: "petalo-3/12/26/3/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "MI HIJO SACA LO PEOR DE MÍ", text: "" },
+                                    { linkName: "petalo-3/12/26/3/31", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "NO TENGO HERRAMIENTAS PARA MANEJAR ESTA SITUACIÓN", text: "" },
+                                    { linkName: "petalo-3/12/26/3/32", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "SI ÉL CAMBIA, YO VOY A ESTAR MEJOR", text: "" },
+                                    { linkName: "petalo-3/12/26/3/33", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "NO PUEDO CALMARME HASTA QUE MI HIJO OBEDEZCA", text: "" },
+                                    { linkName: "petalo-3/12/26/3/34", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CRIANZA Y ENOJO DE LOS HIJOS C", title: "MI HIJO ES RESPONSABLE DE MI ENOJO", text: "" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/27", image: 'boton3', iconCenter: 'simbolo3', title: "LÍMITES SANOS CON LOS HIJOS", noNumbers: true,
+                        subPetalos: [
+                            {
+                                linkName: "petalo-3/12/27/1", image: 'boton3', iconCenter: 'simbolo3', title: "A", index: 0, colorBorder: "red",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/27/1/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "SI LE PONGO LÍMITES, MI HIJO VA A DEJAR DE QUERERME", text: "" },
+                                    { linkName: "petalo-3/12/27/1/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "SI LE DIGO QUE NO, SE VA A ALEJAR DE MÍ", text: "" },
+                                    { linkName: "petalo-3/12/27/1/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "PARA QUE MI HIJO ME AME, TENGO QUE DARLE LO QUE PIDE", text: "" },
+                                    { linkName: "petalo-3/12/27/1/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "SI MI HIJO SE ENOJA CONMIGO, SIGNIFICA QUE ESTOY FALLANDO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "NECESITO QUE MI HIJO ESTÉ CONTENTO CONMIGO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "NO SOPORTO SENTIR QUE MI HIJO ME RECHAZA", text: "" },
+                                    { linkName: "petalo-3/12/27/1/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "TENGO QUE EVITAR QUE MI HIJO SE DECEPCIONE DE MÍ", text: "" },
+                                    { linkName: "petalo-3/12/27/1/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "SER QUERIDO POR MI HIJO ES MÁS IMPORTANTE QUE SOSTENER UN LÍMITE", text: "" },
+                                    { linkName: "petalo-3/12/27/1/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "SI PONGO LÍMITES, VOY A PERDER SU CONFIANZA", text: "" },
+                                    { linkName: "petalo-3/12/27/1/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "MI HIJO SOLO ME VA A QUERER SI SOY PERMISIVO/A", text: "" },
+                                    { linkName: "petalo-3/12/27/1/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "ME SIENTO CULPABLE CUANDO LE DIGO QUE NO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "PONER LÍMITES ME CONVIERTE EN UNA MALA MADRE/UN MAL PADRE", text: "" },
+                                    { linkName: "petalo-3/12/27/1/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "NO TENGO DERECHO A FRUSTRAR A MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "MI HIJO YA SUFRIÓ DEMASIADO, POR ESO NO PUEDO LIMITARLO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "TENGO QUE COMPENSAR TODO LO QUE MI HIJO VIVIÓ", text: "" },
+                                    { linkName: "petalo-3/12/27/1/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "TENGO QUE DARLE LO QUE YO NO TUVE", text: "" },
+                                    { linkName: "petalo-3/12/27/1/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "SI MI HIJO ESTÁ TRISTE POR UN LÍMITE, ES CULPA MÍA", text: "" },
+                                    { linkName: "petalo-3/12/27/1/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "DEBO EVITARLE CUALQUIER SUFRIMIENTO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "SI TRABAJO MUCHO, TENGO QUE COMPENSARLO SIENDO PERMISIVO/A", text: "" },
+                                    { linkName: "petalo-3/12/27/1/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "COMO NO ESTOY SUFICIENTE TIEMPO CON MI HIJO, NO PUEDO EXIGIRLE", text: "" },
+                                    { linkName: "petalo-3/12/27/1/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "AMAR ES PERMITIR", text: "" },
+                                    { linkName: "petalo-3/12/27/1/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "AMAR ES DAR TODO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "AMAR ES EVITAR EL ENOJO DEL HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "AMAR SIGNIFICA DECIR SIEMPRE QUE SÍ", text: "" },
+                                    { linkName: "petalo-3/12/27/1/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "UN BUEN PADRE NUNCA HACE LLORAR A SU HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "PONER LÍMITES ES SER AUTORITARIO/A", text: "" },
+                                    { linkName: "petalo-3/12/27/1/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "CORREGIR A MI HIJO ES LASTIMARLO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "EXIGIR RESPONSABILIDAD ES SER DURO/A", text: "" },
+                                    { linkName: "petalo-3/12/27/1/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "MI HIJO DEBE SENTIRSE FELIZ TODO EL TIEMPO", text: "" },
+                                    { linkName: "petalo-3/12/27/1/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS A", title: "SI LO AMO, TENGO QUE RESOLVERLE TODO", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/27/2", image: 'boton3', iconCenter: 'simbolo3', title: "B", index: 1, colorBorder: "blue",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/27/2/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "ES MEJOR CEDER QUE DISCUTIR", text: "" },
+                                    { linkName: "petalo-3/12/27/2/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO PUEDO SOPORTAR LOS BERRINCHES", text: "" },
+                                    { linkName: "petalo-3/12/27/2/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "TENGO QUE HACER LO NECESARIO PARA QUE MI HIJO DEJE DE LLORAR", text: "" },
+                                    { linkName: "petalo-3/12/27/2/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "SI MI HIJO GRITA, DEBO DARLE LO QUE PIDE", text: "" },
+                                    { linkName: "petalo-3/12/27/2/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO SÉ MANEJAR EL ENOJO DE MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/2/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "LOS CONFLICTOS FAMILIARES SON PELIGROSOS", text: "" },
+                                    { linkName: "petalo-3/12/27/2/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "ES MEJOR EVITAR PROBLEMAS QUE SOSTENER UN LÍMITE", text: "" },
+                                    { linkName: "petalo-3/12/27/2/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "CUANDO MI HIJO SE ALTERA, PIERDO EL CONTROL", text: "" },
+                                    { linkName: "petalo-3/12/27/2/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO PUEDO TOLERAR QUE MI HIJO ESTÉ FRUSTRADO", text: "" },
+                                    { linkName: "petalo-3/12/27/2/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NECESITO QUE HAYA PAZ, AUNQUE TENGA QUE CEDER", text: "" },
+                                    { linkName: "petalo-3/12/27/2/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO SÉ SER MADRE/PADRE", text: "" },
+                                    { linkName: "petalo-3/12/27/2/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO CONFÍO EN MIS DECISIONES", text: "" },
+                                    { linkName: "petalo-3/12/27/2/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "SEGURAMENTE ESTOY EXAGERANDO", text: "" },
+                                    { linkName: "petalo-3/12/27/2/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "TAL VEZ MI HIJO TENGA RAZÓN Y YO ESTÉ EQUIVOCADO/A", text: "" },
+                                    { linkName: "petalo-3/12/27/2/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO SOY SUFICIENTEMENTE FIRME", text: "" },
+                                    { linkName: "petalo-3/12/27/2/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO TENGO AUTORIDAD", text: "" },
+                                    { linkName: "petalo-3/12/27/2/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "MI PALABRA NO TIENE PESO", text: "" },
+                                    { linkName: "petalo-3/12/27/2/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO SÉ QUÉ LÍMITES SON CORRECTOS", text: "" },
+                                    { linkName: "petalo-3/12/27/2/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NECESITO QUE OTROS VALIDEN MIS DECISIONES COMO MADRE/PADRE", text: "" },
+                                    { linkName: "petalo-3/12/27/2/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO SOY CAPAZ DE SOSTENER UNA CONSECUENCIA", text: "" },
+                                    { linkName: "petalo-3/12/27/2/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO QUIERO SER COMO MI MADRE", text: "" },
+                                    { linkName: "petalo-3/12/27/2/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "NO QUIERO SER COMO MI PADRE", text: "" },
+                                    { linkName: "petalo-3/12/27/2/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "SI PONGO LÍMITES, VOY A REPETIR EL AUTORITARISMO QUE VIVÍ", text: "" },
+                                    { linkName: "petalo-3/12/27/2/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "TODO LÍMITE ES UNA FORMA DE VIOLENCIA", text: "" },
+                                    { linkName: "petalo-3/12/27/2/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "LA DISCIPLINA SIEMPRE LASTIMA", text: "" },
+                                    { linkName: "petalo-3/12/27/2/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "LA AUTORIDAD ES PELIGROSA", text: "" },
+                                    { linkName: "petalo-3/12/27/2/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "TENER AUTORIDAD ES DOMINAR", text: "" },
+                                    { linkName: "petalo-3/12/27/2/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "CORREGIR ES HUMILLAR", text: "" },
+                                    { linkName: "petalo-3/12/27/2/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "DECIR “NO” ES RECHAZAR", text: "" },
+                                    { linkName: "petalo-3/12/27/2/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS B", title: "SER FIRME ES SER FRÍO/A", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/27/3", image: 'boton3', iconCenter: 'simbolo3', title: "C", index: 2, colorBorder: "green",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/27/3/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "MI HIJO DEBE TENER TODO LO QUE YO NO TUVE", text: "" },
+                                    { linkName: "petalo-3/12/27/3/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "NO QUIERO QUE MI HIJO PASE NINGUNA NECESIDAD", text: "" },
+                                    { linkName: "petalo-3/12/27/3/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "TENGO QUE DARLE TODO PARA SANAR MI PROPIA INFANCIA", text: "" },
+                                    { linkName: "petalo-3/12/27/3/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "SI PUEDO COMPRARLO, TENGO QUE DÁRSELO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "PRIVARLO DE ALGO ES HACERLO SUFRIR", text: "" },
+                                    { linkName: "petalo-3/12/27/3/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "MI HIJO MERECE TODO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "NO QUIERO QUE MI HIJO SIENTA LAS FRUSTRACIONES QUE YO SENTÍ", text: "" },
+                                    { linkName: "petalo-3/12/27/3/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "TENGO QUE COMPENSAR MIS AUSENCIAS CON COSAS", text: "" },
+                                    { linkName: "petalo-3/12/27/3/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "TENGO QUE HACER FELIZ A MI HIJO PORQUE A MÍ NO ME HICIERON FELIZ", text: "" },
+                                    { linkName: "petalo-3/12/27/3/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "MI HIJO NO DEBE VIVIR NINGÚN DOLOR PARECIDO AL MÍO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "MI HIJO NO PUEDE RESOLVER SOLO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "MI HIJO ME NECESITA PARA TODO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "SI NO INTERVENGO, ALGO MALO VA A PASAR", text: "" },
+                                    { linkName: "petalo-3/12/27/3/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "TENGO QUE EVITAR QUE SE EQUIVOQUE", text: "" },
+                                    { linkName: "petalo-3/12/27/3/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "TENGO QUE PREVENIR TODA FRUSTRACIÓN", text: "" },
+                                    { linkName: "petalo-3/12/27/3/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "MI HIJO NO PUEDE TOLERAR UN NO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "MI HIJO ES DEMASIADO SENSIBLE PARA RECIBIR LÍMITES", text: "" },
+                                    { linkName: "petalo-3/12/27/3/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "TENGO QUE PROTEGERLO DE LAS CONSECUENCIAS", text: "" },
+                                    { linkName: "petalo-3/12/27/3/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "NO PUEDO PERMITIR QUE FRACASE", text: "" },
+                                    { linkName: "petalo-3/12/27/3/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "ES MI RESPONSABILIDAD SOLUCIONAR TODOS SUS PROBLEMAS", text: "" },
+                                    { linkName: "petalo-3/12/27/3/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "EL LLANTO DE MI HIJO SIGNIFICA QUE HICE ALGO MAL", text: "" },
+                                    { linkName: "petalo-3/12/27/3/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "SI MI HIJO ESTÁ TRISTE, TENGO QUE SOLUCIONARLO INMEDIATAMENTE", text: "" },
+                                    { linkName: "petalo-3/12/27/3/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "NO PUEDO PERMITIR QUE MI HIJO SE ENOJE", text: "" },
+                                    { linkName: "petalo-3/12/27/3/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "LA FRUSTRACIÓN LE HACE DAÑO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "MI HIJO NO DEBERÍA SENTIRSE MAL", text: "" },
+                                    { linkName: "petalo-3/12/27/3/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "TENGO QUE SACARLO RÁPIDAMENTE DE CUALQUIER EMOCIÓN NEGATIVA", text: "" },
+                                    { linkName: "petalo-3/12/27/3/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "SI MI HIJO SUFRE, YO FRACASO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "NO PUEDO VER LLORAR A MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/3/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "TENGO QUE CALMARLO DÁNDOLE LO QUE PIDE", text: "" },
+                                    { linkName: "petalo-3/12/27/3/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS C", title: "SUS EMOCIONES SON MI RESPONSABILIDAD", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/27/4", image: 'boton3', iconCenter: 'simbolo3', title: "D", index: 3, colorBorder: "yellow",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/27/4/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "NECESITO SER EL PADRE/LA MADRE PREFERIDO/A", text: "" },
+                                    { linkName: "petalo-3/12/27/4/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "QUIERO QUE MI HIJO ME VEA COMO SU AMIGO/A", text: "" },
+                                    { linkName: "petalo-3/12/27/4/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "NO QUIERO QUE MI HIJO PIENSE MAL DE MÍ", text: "" },
+                                    { linkName: "petalo-3/12/27/4/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "NECESITO QUE MI HIJO ME ADMIRE", text: "" },
+                                    { linkName: "petalo-3/12/27/4/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "NO QUIERO SER “EL MALO” DE LA FAMILIA", text: "" },
+                                    { linkName: "petalo-3/12/27/4/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "PREFIERO QUE EL OTRO PROGENITOR PONGA LOS LÍMITES", text: "" },
+                                    { linkName: "petalo-3/12/27/4/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "NECESITO SENTIRME INDISPENSABLE PARA MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/4/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "QUIERO QUE MI HIJO SIEMPRE ME ELIJA A MÍ", text: "" },
+                                    { linkName: "petalo-3/12/27/4/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "SI MI HIJO SE QUEJA DE MÍ, SIGNIFICA QUE ESTOY HACIENDO ALGO MAL", text: "" },
+                                    { linkName: "petalo-3/12/27/4/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "TENGO QUE CAERLE BIEN A MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/4/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "SI PONGO LÍMITES, MI HIJO VA A PREFERIR AL OTRO PROGENITOR", text: "" },
+                                    { linkName: "petalo-3/12/27/4/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "TENGO QUE COMPENSAR LA SEPARACIÓN", text: "" },
+                                    { linkName: "petalo-3/12/27/4/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "MI HIJO YA SUFRIÓ DEMASIADO POR NUESTRA SEPARACIÓN", text: "" },
+                                    { linkName: "petalo-3/12/27/4/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "NO PUEDO EXIGIRLE PORQUE VIVE ENTRE DOS CASAS", text: "" },
+                                    { linkName: "petalo-3/12/27/4/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "SI EL OTRO PROGENITOR PERMITE, YO TAMBIÉN TENGO QUE PERMITIR", text: "" },
+                                    { linkName: "petalo-3/12/27/4/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "TENGO MIEDO DE QUE MI HIJO QUIERA VIVIR CON EL OTRO PROGENITOR", text: "" },
+                                    { linkName: "petalo-3/12/27/4/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "TENGO QUE GANARME EL AMOR DE MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/4/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "NO PUEDO SER FIRME PORQUE VEO POCO A MI HIJO", text: "" },
+                                    { linkName: "petalo-3/12/27/4/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "EL POCO TIEMPO JUNTOS TIENE QUE SER SIEMPRE AGRADABLE", text: "" },
+                                    { linkName: "petalo-3/12/27/4/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "PONER LÍMITES PODRÍA PERJUDICAR NUESTRO VÍNCULO", text: "" },
+                                    { linkName: "petalo-3/12/27/4/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "COMO ESTOY POCO TIEMPO, NO PUEDO PONER LÍMITES", text: "" },
+                                    { linkName: "petalo-3/12/27/4/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "CUANDO ESTOY CON MI HIJO, TENGO QUE CONSENTIRLO", text: "" },
+                                    { linkName: "petalo-3/12/27/4/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "TENGO QUE RECUPERAR EL TIEMPO PERDIDO DÁNDOLE TODO", text: "" },
+                                    { linkName: "petalo-3/12/27/4/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "NO TENGO DERECHO A CORREGIRLO PORQUE ESTUVE AUSENTE", text: "" },
+                                    { linkName: "petalo-3/12/27/4/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "MI AUSENCIA ME QUITA AUTORIDAD", text: "" },
+                                    { linkName: "petalo-3/12/27/4/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "DEBO COMPENSAR MI CULPA CON PERMISIVIDAD", text: "" },
+                                    { linkName: "petalo-3/12/27/4/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "MI HIJO YA SUFRIÓ MI AUSENCIA, NO PUEDO FRUSTRARLO MÁS", text: "" },
+                                    { linkName: "petalo-3/12/27/4/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "TENGO QUE COMPRAR COSAS PARA DEMOSTRARLE AMOR", text: "" },
+                                    { linkName: "petalo-3/12/27/4/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "SI PONGO LÍMITES DURANTE EL POCO TIEMPO JUNTOS, VOY A PERDERLO", text: "" },
+                                    { linkName: "petalo-3/12/27/4/30", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS D", title: "ES MEJOR DISFRUTAR QUE EDUCAR", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/27/5", image: 'boton3', iconCenter: 'simbolo3', title: "E", index: 4, colorBorder: "purple",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/27/5/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "TENER AUTORIDAD ES SER AUTORITARIO", text: "" },
+                                    { linkName: "petalo-3/12/27/5/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "SER FIRME ES SER AGRESIVO", text: "" },
+                                    { linkName: "petalo-3/12/27/5/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "UNA MADRE AMOROSA NO IMPONE LÍMITES", text: "" },
+                                    { linkName: "petalo-3/12/27/5/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "UN PADRE AMOROSO NUNCA DICE QUE NO", text: "" },
+                                    { linkName: "petalo-3/12/27/5/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "MI HIJO DEBE DECIDIR TODO POR SÍ MISMO", text: "" },
+                                    { linkName: "petalo-3/12/27/5/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "NO DEBO INTERFERIR EN SUS DECISIONES", text: "" },
+                                    { linkName: "petalo-3/12/27/5/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "LAS REGLAS LIMITAN LA LIBERTAD", text: "" },
+                                    { linkName: "petalo-3/12/27/5/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "LOS LÍMITES DAÑAN LA PERSONALIDAD", text: "" },
+                                    { linkName: "petalo-3/12/27/5/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "MI HIJO SABE SIEMPRE LO QUE NECESITA", text: "" },
+                                    { linkName: "petalo-3/12/27/5/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "LA AUTORIDAD PARENTAL ES UNA FORMA DE CONTROL", text: "" },
+                                    { linkName: "petalo-3/12/27/5/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "SI INSISTE MUCHO, PROBABLEMENTE DEBO CEDER", text: "" },
+                                    { linkName: "petalo-3/12/27/5/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "NO PASA NADA POR ROMPER LA REGLA UNA VEZ", text: "" },
+                                    { linkName: "petalo-3/12/27/5/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "MAÑANA EMPIEZO A PONER LÍMITES", text: "" },
+                                    { linkName: "petalo-3/12/27/5/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "NO TENGO ENERGÍA PARA SOSTENER CONFLICTOS", text: "" },
+                                    { linkName: "petalo-3/12/27/5/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "ES MÁS FÁCIL HACERLO YO QUE ENSEÑARLE", text: "" },
+                                    { linkName: "petalo-3/12/27/5/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "ES MÁS RÁPIDO DARLE LO QUE PIDE", text: "" },
+                                    { linkName: "petalo-3/12/27/5/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "NO PUEDO MANTENER UNA DECISIÓN", text: "" },
+                                    { linkName: "petalo-3/12/27/5/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "SI MI HIJO PROMETE CAMBIAR, DEBO LEVANTAR LA CONSECUENCIA", text: "" },
+                                    { linkName: "petalo-3/12/27/5/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "CADA SITUACIÓN ES DISTINTA, POR ESO NO NECESITO COHERENCIA", text: "" },
+                                    { linkName: "petalo-3/12/27/5/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "CEDER DE VEZ EN CUANDO NO AFECTA", text: "" },
+                                    { linkName: "petalo-3/12/27/5/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "SI LO CORRIJO, VOY A BAJAR SU AUTOESTIMA", text: "" },
+                                    { linkName: "petalo-3/12/27/5/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "MI HIJO NUNCA DEBE SENTIRSE EQUIVOCADO", text: "" },
+                                    { linkName: "petalo-3/12/27/5/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "SEÑALAR UNA CONDUCTA INCORRECTA ES RECHAZARLO", text: "" },
+                                    { linkName: "petalo-3/12/27/5/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "SI LE MARCO UN ERROR, SE VA A SENTIR INCAPAZ", text: "" },
+                                    { linkName: "petalo-3/12/27/5/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "NO DEBO DECIRLE QUE ALGO ESTÁ MAL", text: "" },
+                                    { linkName: "petalo-3/12/27/5/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "TODA CRÍTICA PRODUCE TRAUMA", text: "" },
+                                    { linkName: "petalo-3/12/27/5/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "NO DEBO PERMITIR QUE EXPERIMENTE CONSECUENCIAS", text: "" },
+                                    { linkName: "petalo-3/12/27/5/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "SI FRACASA, DEBO RESCATARLO", text: "" },
+                                    { linkName: "petalo-3/12/27/5/29", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS E", title: "NO MEREZCO QUE MI HIJO ME RESPETE", text: "" }
+                                ]
+                            },
+                            {
+                                linkName: "petalo-3/12/27/6", image: 'boton3', iconCenter: 'simbolo3', title: "F", index: 5, colorBorder: "orange",
+                                subPetalos: [
+                                    { linkName: "petalo-3/12/27/6/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "TENGO QUE GANARME EL DERECHO A PONER LÍMITES", text: "" },
+                                    { linkName: "petalo-3/12/27/6/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "COMO COMETÍ ERRORES, YA NO PUEDO CORREGIRLO", text: "" },
+                                    { linkName: "petalo-3/12/27/6/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "MI PASADO ME INVALIDA COMO MADRE/PADRE", text: "" },
+                                    { linkName: "petalo-3/12/27/6/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "NO SOY UN BUEN EJEMPLO, POR ESO NO PUEDO EXIGIR", text: "" },
+                                    { linkName: "petalo-3/12/27/6/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "COMO YO TAMBIÉN ME EQUIVOCO, NO DEBO PONER REGLAS", text: "" },
+                                    { linkName: "petalo-3/12/27/6/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "MI HIJO ES MEJOR QUE YO", text: "" },
+                                    { linkName: "petalo-3/12/27/6/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "MI OPINIÓN NO VALE", text: "" },
+                                    { linkName: "petalo-3/12/27/6/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "NO CONFÍO EN MI CAPACIDAD PARENTAL", text: "" },
+                                    { linkName: "petalo-3/12/27/6/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "EN ESTA FAMILIA LAS MADRES DEBEN SACRIFICARSE POR SUS HIJOS", text: "" },
+                                    { linkName: "petalo-3/12/27/6/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "UNA BUENA MADRE VIVE PARA SUS HIJOS", text: "" },
+                                    { linkName: "petalo-3/12/27/6/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "UN BUEN PADRE DEBE DAR TODO LO MATERIAL", text: "" },
+                                    { linkName: "petalo-3/12/27/6/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "LOS HIJOS SON LO PRIMERO, AUNQUE LOS PADRES SE DESTRUYAN", text: "" },
+                                    { linkName: "petalo-3/12/27/6/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "LAS NECESIDADES DE LOS PADRES NO IMPORTAN", text: "" },
+                                    { linkName: "petalo-3/12/27/6/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "DECIR QUE NO ES SER EGOÍSTA", text: "" },
+                                    { linkName: "petalo-3/12/27/6/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "LOS HIJOS NO DEBEN SUFRIR NUNCA", text: "" },
+                                    { linkName: "petalo-3/12/27/6/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "UNA MADRE TIENE QUE AGUANTAR TODO", text: "" },
+                                    { linkName: "petalo-3/12/27/6/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "UN PADRE DEBE DEMOSTRAR AMOR SOLUCIONANDO PROBLEMAS", text: "" },
+                                    { linkName: "petalo-3/12/27/6/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "LOS HIJOS MANDAN PORQUE SON LO MÁS IMPORTANTE", text: "" },
+                                    { linkName: "petalo-3/12/27/6/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "MI HIJO ES DEMASIADO PEQUEÑO PARA ASUMIR CONSECUENCIAS", text: "" },
+                                    { linkName: "petalo-3/12/27/6/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "SIEMPRE TENGO QUE SALVARLO DE SUS ERRORES", text: "" },
+                                    { linkName: "petalo-3/12/27/6/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "SI SE EQUIVOCA, DEBO RESOLVERLO YO", text: "" },
+                                    { linkName: "petalo-3/12/27/6/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "NO PUEDO PERMITIR QUE EXPERIMENTE EL RESULTADO DE SUS DECISIONES", text: "" },
+                                    { linkName: "petalo-3/12/27/6/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "LAS CONSECUENCIAS SON CASTIGOS", text: "" },
+                                    { linkName: "petalo-3/12/27/6/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "PEDIR RESPONSABILIDAD ES EXIGIR DEMASIADO", text: "" },
+                                    { linkName: "petalo-3/12/27/6/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "MI HIJO NO ESTÁ PREPARADO PARA COLABORAR", text: "" },
+                                    { linkName: "petalo-3/12/27/6/26", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "ES INJUSTO PEDIRLE OBLIGACIONES", text: "" },
+                                    { linkName: "petalo-3/12/27/6/27", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "ESTUDIAR, ORDENAR O COLABORAR DEBERÍA SURGIRLE SOLO", text: "" },
+                                    { linkName: "petalo-3/12/27/6/28", image: 'boton3', iconCenter: 'simbolo3', titlePage: "LÍMITES SANOS CON LOS HIJOS F", title: "NO DEBO INSISTIR CUANDO ALGO NO LE GUSTA", text: "" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        linkName: "petalo-3/12/28", image: 'boton3', iconCenter: 'simbolo3', title: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN",
+                        subPetalos: [
+                            { linkName: "petalo-3/12/28/1", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "PUEDO EMPEZAR DE NUEVO", text: "" },
+                            { linkName: "petalo-3/12/28/2", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "MI HISTORIA NO DEFINE MI DESTINO", text: "" },
+                            { linkName: "petalo-3/12/28/3", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "PUEDO APRENDER A SOSTENER MIS EMOCIONES", text: "" },
+                            { linkName: "petalo-3/12/28/4", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "MI CUERPO PUEDE VOLVER A SENTIRSE SEGURO", text: "" },
+                            { linkName: "petalo-3/12/28/5", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "PUEDO PEDIR AYUDA SIN SENTIR VERGÜENZA", text: "" },
+                            { linkName: "petalo-3/12/28/6", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "LA CALMA TAMBIÉN PUEDE SER PLACER", text: "" },
+                            { linkName: "petalo-3/12/28/7", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "SOY MÁS GRANDE QUE MI IMPULSO", text: "" },
+                            { linkName: "petalo-3/12/28/8", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "PUEDO CONSTRUIR LIBERTAD PASO A PASO", text: "" },
+                            { linkName: "petalo-3/12/28/9", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "MEREZCO UNA VIDA CLARA, ESTABLE Y AMOROSA", text: "" },
+                            { linkName: "petalo-3/12/28/10", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "HOY ELIJO CUIDARME SIN CASTIGARME", text: "" },
+                            { linkName: "petalo-3/12/28/11", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "MI HIJO NO NECESITA QUE YO GANE LA DISCUSIÓN, NECESITA QUE YO GUÍE CON CALMA", text: "" },
+                            { linkName: "petalo-3/12/28/12", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "PUEDO PONER LÍMITES FIRMES SIN HERIR, HUMILLAR NI GRITAR", text: "" },
+                            { linkName: "petalo-3/12/28/13", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "SU ENOJO NO ES UN ATAQUE PERSONAL, ES UNA EMOCIÓN QUE TODAVÍA NO SABE ORDENAR", text: "" },
+                            { linkName: "petalo-3/12/28/14", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "ESCUCHAR NO SIGNIFICA PERMITIR TODO", text: "" },
+                            { linkName: "petalo-3/12/28/15", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "VALIDAR SU EMOCIÓN NO SIGNIFICA APROBAR SU CONDUCTA", text: "" },
+                            { linkName: "petalo-3/12/28/16", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "PUEDO REVISAR LA FORMA EN QUE FUI CRIADO/A Y ELEGIR HACERLO DIFERENTE", text: "" },
+                            { linkName: "petalo-3/12/28/17", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "MI HIJO APRENDE MÁS DE MI REGULACIÓN QUE DE MIS ÓRDENES", text: "" },
+                            { linkName: "petalo-3/12/28/18", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "LA AUTORIDAD SANA NACE DEL VÍNCULO, NO DEL MIEDO", text: "" },
+                            { linkName: "petalo-3/12/28/19", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "PEDIR PERDÓN TAMBIÉN EDUCA", text: "" },
+                            { linkName: "petalo-3/12/28/20", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "CADA CONFLICTO PUEDE SER UNA OPORTUNIDAD PARA ENSEÑAR, REPARAR Y CONECTAR", text: "" },
+                            { linkName: "petalo-3/12/28/21", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "NO NECESITO CONTROLAR TODO, NECESITO ACOMPAÑAR CON PRESENCIA Y CLARIDAD", text: "" },
+                            { linkName: "petalo-3/12/28/22", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "PUEDO SER FIRME Y AMOROSO/A AL MISMO TIEMPO", text: "" },
+                            { linkName: "petalo-3/12/28/23", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "MI HIJO NO ES SU CONDUCTA; DETRÁS DE SU CONDUCTA HAY UNA EMOCIÓN, UNA NECESIDAD O UNA DIFICULTAD", text: "" },
+                            { linkName: "petalo-3/12/28/24", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "CAMBIAR MI FORMA DE CRIAR TAMBIÉN SANA MI PROPIA HISTORIA", text: "" },
+                            { linkName: "petalo-3/12/28/25", image: 'boton3', iconCenter: 'simbolo3', titlePage: "CREENCIAS POSITIVAS PARA REPROGRAMACIÓN", title: "SER PADRE/MADRE CONSCIENTE NO SIGNIFICA HACERLO PERFECTO, SIGNIFICA ESTAR DISPUESTO/A A APRENDER", text: "" }
+                        ]
+                    }
+                ]
+            },
         ]
     },
     {

@@ -11,10 +11,10 @@ export const LegadoButton = () => {
   const location = useLocation();
 
   const mostrarExtra = [
-    "/circulo-base/petalo-3/2/2/5/",
-    "/circulo-base/petalo-3/2/2/5/1/",
-    "/circulo-base/petalo-3/2/2/5/2/",
-    "/circulo-base/petalo-3/2/2/5/3/"
+    "/circulo-base/petalo-3/4/2/5/",
+    "/circulo-base/petalo-3/4/2/5/1/",
+    "/circulo-base/petalo-3/4/2/5/2/",
+    "/circulo-base/petalo-3/4/2/5/3/"
   ].includes(location.pathname);
 
   const handleCorreccion = () => {

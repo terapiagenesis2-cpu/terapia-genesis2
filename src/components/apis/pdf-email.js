@@ -1117,7 +1117,7 @@ const OrdenarFuente = (links) => {
         } else linksWithOutCorreciones.push(link);
     });
 
-    // ORDENAR LOS LINKS SIN CORRECCIONES, MANTENIENDO "petalo-3/2/2/5" AL FINAL
+    // ORDENAR LOS LINKS SIN CORRECCIONES, MANTENIENDO "petalo-3/4/2/5" AL FINAL
     const petaloEspecial = [];
     const linksNormales = [];
 
@@ -1125,7 +1125,7 @@ const OrdenarFuente = (links) => {
     console.log("Links sin correcciones:", linksWithOutCorreciones);
     linksWithOutCorreciones.forEach(link => {
         const base = getBaseFromLink(link); // <-- usamos la base
-        if (base === "petalo-3/2/2/5") {
+        if (base === "petalo-3/4/2/5") {
             petaloEspecial.push(link);      // cualquier variante: con o sin :texto
         } else {
             linksNormales.push(link);
@@ -1148,12 +1148,12 @@ const OrdenarFuente = (links) => {
 
     correccion.correccionPetalos.forEach(elemento => {
         if (
-            elemento.startsWith("petalo-3/2/2/5/1/") ||
-            elemento.startsWith("petalo-3/2/2/5/2/") ||
-            elemento.startsWith("petalo-3/2/2/5/3/")
+            elemento.startsWith("petalo-3/4/2/5/1/") ||
+            elemento.startsWith("petalo-3/4/2/5/2/") ||
+            elemento.startsWith("petalo-3/4/2/5/3/")
         ) {
             petalosPrioritarios.push(elemento);
-        } else if (elemento.startsWith("petalo-3/2/2/5/")) {
+        } else if (elemento.startsWith("petalo-3/4/2/5/")) {
             otrosEspeciales.push(elemento);
         } else {
             elementosNormales.push(elemento);

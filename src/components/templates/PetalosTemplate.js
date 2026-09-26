@@ -48,7 +48,7 @@ const PetalosTemplate = ({ pageContext }) => {
 
     const ln = (linkName || "").replace(/\/+$/, "");
     const petaloRaiz = linkName.split("/")[0];
-    const hasFieldText = ln === "petalo-3/2/2/5" || ln.startsWith("petalo-3/2/2/5/");
+    const hasFieldText = ln === "petalo-3/4/2/5" || ln.startsWith("petalo-3/4/2/5/");
     const esCirculoBase = linkName === "circulo-base";
     
     return <LoginCheck>
