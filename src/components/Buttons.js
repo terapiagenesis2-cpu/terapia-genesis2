@@ -222,10 +222,10 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
 
   // Corrección solo visible en estas rutas (igual que LegadoButton)
   const mostrarCorreccion = [
-    "/circulo-base/petalo-3/4/2/5/",
-    "/circulo-base/petalo-3/4/2/5/1/",
-    "/circulo-base/petalo-3/4/2/5/2/",
-    "/circulo-base/petalo-3/4/2/5/3/"
+    "/circulo-base/petalo-3/3/",
+    "/circulo-base/petalo-3/3/1/",
+    "/circulo-base/petalo-3/3/2/",
+    "/circulo-base/petalo-3/3/3/"
   ].includes(location.pathname);
 
   // ── HANDLERS ──────────────────────────────────────────────
@@ -274,7 +274,7 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
     localStorage.setItem("history", JSON.stringify([]));
     navigate("/intro-text5D");
   };
-  const volverAlLegado = () => navigate("/circulo-base/petalo-3/4/2/5/");
+  const volverAlLegado = () => navigate("/circulo-base/petalo-3/3/");
   const handleCorreccion = () => {
     let history = localStorage.getItem("history");
     if (!history) history = [];

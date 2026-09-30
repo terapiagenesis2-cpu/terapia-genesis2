@@ -826,7 +826,7 @@ const getListOfPetalos = () => {
                 };
             } else {
                 // Alta normal: no existe aún, o estamos en corrección, o casos especiales
-                if (!key || idx === -1 || key.includes("petalo-5/7") || enCorreccion) {
+                if (!key || idx === -1 || key.includes("petalo-5/13") || enCorreccion) {
                 petalosArray.push(p);
                 }
             }
@@ -884,8 +884,8 @@ const getListOfPetalos = () => {
             }
 
             // Si aún no agregué esta base en ESTA ramificación, o es un caso especial
-            // (vidas pasadas petalo-5/7) o viene desde corrección, lo agrego.
-            if (!seenBase.has(baseName) || baseName.includes("petalo-5/7") || inCorreccion) {
+            // (vidas pasadas petalo-5/13) o viene desde corrección, lo agrego.
+            if (!seenBase.has(baseName) || baseName.includes("petalo-5/13") || inCorreccion) {
             ramifiArray.push(p);
             seenBase.add(baseName);
             return;
@@ -1048,7 +1048,7 @@ const OrdenarFuenteByVidas = (links, sort) => {
     let x = 0;
     links.forEach(link => {
         x++;
-        if (link.includes("petalo-5/7/1:")) {
+        if (link.includes("petalo-5/13/1:")) {
             //APERTURA Y CIERRE DE LAS VIDAS PASADAS
             if (vidasp) {
                 console.log("VIDA PASADA FINALIZADA", vidasPasadasPetalos);
@@ -1063,7 +1063,7 @@ const OrdenarFuenteByVidas = (links, sort) => {
             startLink = link;
             linksWithOutVidas.push(link)
             return;
-        } else if (vidasp && (!link.includes("petalo-5/7") || (x === links.length))) {
+        } else if (vidasp && (!link.includes("petalo-5/13") || (x === links.length))) {
             //CIERRE EN CASO DE NO IR AL INICIO.
             console.log("VIDA PASADA FINALIZADA", vidasPasadasPetalos);
             vidasp = false;
@@ -1078,7 +1078,7 @@ const OrdenarFuenteByVidas = (links, sort) => {
             linksWithOutVidas.push(link)
         }
         else {
-            if (link !== "petalo-5/7")
+            if (link !== "petalo-5/13")
                 vidasPasadasPetalos.push(link)
         }
     })
@@ -1117,7 +1117,7 @@ const OrdenarFuente = (links) => {
         } else linksWithOutCorreciones.push(link);
     });
 
-    // ORDENAR LOS LINKS SIN CORRECCIONES, MANTENIENDO "petalo-3/4/2/5" AL FINAL
+    // ORDENAR LOS LINKS SIN CORRECCIONES, MANTENIENDO "petalo-3/3" AL FINAL
     const petaloEspecial = [];
     const linksNormales = [];
 
@@ -1125,7 +1125,7 @@ const OrdenarFuente = (links) => {
     console.log("Links sin correcciones:", linksWithOutCorreciones);
     linksWithOutCorreciones.forEach(link => {
         const base = getBaseFromLink(link); // <-- usamos la base
-        if (base === "petalo-3/4/2/5") {
+        if (base === "petalo-3/3") {
             petaloEspecial.push(link);      // cualquier variante: con o sin :texto
         } else {
             linksNormales.push(link);
@@ -1148,12 +1148,12 @@ const OrdenarFuente = (links) => {
 
     correccion.correccionPetalos.forEach(elemento => {
         if (
-            elemento.startsWith("petalo-3/4/2/5/1/") ||
-            elemento.startsWith("petalo-3/4/2/5/2/") ||
-            elemento.startsWith("petalo-3/4/2/5/3/")
+            elemento.startsWith("petalo-3/3/1/") ||
+            elemento.startsWith("petalo-3/3/2/") ||
+            elemento.startsWith("petalo-3/3/3/")
         ) {
             petalosPrioritarios.push(elemento);
-        } else if (elemento.startsWith("petalo-3/4/2/5/")) {
+        } else if (elemento.startsWith("petalo-3/3/")) {
             otrosEspeciales.push(elemento);
         } else {
             elementosNormales.push(elemento);
@@ -1162,15 +1162,15 @@ const OrdenarFuente = (links) => {
 
     // Ordenar los prioritarios por el número final (1, 2, 3)
     petalosPrioritarios.sort((a, b) => {
-        const numA = parseInt(a.split('/')[5]);
-        const numB = parseInt(b.split('/')[5]);
+        const numA = parseInt(a.split('/')[3]);
+        const numB = parseInt(b.split('/')[3]);
         return numA - numB;
     });
 
     // Ordenar otros especiales por el número final
     otrosEspeciales.sort((a, b) => {
-        const numA = parseInt(a.split('/')[5]);
-        const numB = parseInt(b.split('/')[5]);
+        const numA = parseInt(a.split('/')[3]);
+        const numB = parseInt(b.split('/')[3]);
         return numA - numB;
     });
 

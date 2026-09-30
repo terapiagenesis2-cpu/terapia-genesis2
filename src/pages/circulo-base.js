@@ -35,15 +35,15 @@ const CirculoBase = () => {
         },
         {
             index: 4,
-            colorBorder: "blueLight",
+            colorBorder: "purple",
         },
         {
             index: 5,
-            colorBorder: "blue",
+            colorBorder: "blueLight",
         },
         {
             index: 6,
-            colorBorder: "purple",
+            colorBorder: "blue",
         },
     ];
 
