@@ -3,6 +3,52 @@ import { petalos } from "../../../static/data";
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 import watermarkImg from "../../../static/images/LOGO GENESIS_OSCURO..png";
 
+// ── ESPACIADO DEL PDF ──────────────────────────────────────────────
+// `y` siempre apunta a la línea base del PRÓXIMO renglón (último renglón - LINE).
+// Cada bloque agrega espacio solo ANTES de sí mismo (nunca después), así los
+// espacios no se suman entre pétalos y quedan parejos.
+const TOP_Y = 780;          // primer renglón de cada página nueva
+const BOTTOM_Y = 40;        // ningún renglón se dibuja por debajo de esto
+const LINE = 15;            // interlineado del texto 12pt
+const TITLE_TO_TEXT = 18;   // título en negrita -> su párrafo
+const HEADING_TO_TEXT = 20; // título 16pt -> su párrafo
+
+// espacio extra (además de LINE) antes de cada tipo de bloque
+const GAP = {
+    heading: 18, // título 16pt (pétalo con subpétalos)
+    title: 11,   // título en negrita + párrafo
+    text: 4,     // párrafo suelto
+    item: 7,     // renglón suelto (pétalo sin texto, onlyText)
+    bullet: 4,   // viñetas del textField
+    legado: 8,   // SANANDO / REPARANDO / REVIVIENDO, HEREDADO DE
+    mark: 14,    // DESDE/HASTA AQUI..., ramificaciones
+    image: 4,
+};
+
+// excepciones según el bloque anterior (ej: el hijo va más cerca de su título)
+const GAP_TRAS = {
+    fuente: { default: 18 },
+    heading: { heading: 8, title: 8, default: 4 },
+    item: { item: 4 },
+    bullet: { bullet: 2 },
+    legado: { legado: 10 },
+    mark: { default: 12 },
+    separador: { default: 0 },
+};
+
+let prevBloque = null; // tipo del último bloque dibujado
+
+const gapAntes = (tipo, y) => {
+    if (prevBloque === null || y >= TOP_Y) return 0; // arriba de página no hace falta espacio
+    const reglas = GAP_TRAS[prevBloque];
+    if (reglas && tipo in reglas) return reglas[tipo];
+    if (reglas && 'default' in reglas) return reglas.default;
+    return GAP[tipo];
+};
+
+// alto que necesitan los primeros 2 renglones de un párrafo (para no dejar títulos solos al pie)
+const altoParrafo = (renglones, salto = 0) => renglones ? salto + LINE * (Math.min(renglones, 2) - 1) : 0;
+
 const createAndSendPDF = async () => {
     const existingPdfBytes = await loadPDF();
     const pdfDoc = await PDFDocument.load(existingPdfBytes);
@@ -63,7 +109,7 @@ const createAndSendPDF = async () => {
         font: font,
     });
 
-    page.drawText(localStorage.getItem("paciente"), {
+    page.drawText(limpiarTexto(localStorage.getItem("paciente"), font), {
         x: 122,
         y: 589,
         size: 15,
@@ -74,7 +120,7 @@ const createAndSendPDF = async () => {
     let yProblems = 542;
 
     for (const problem of problems) {
-        page.drawText("- " + problem, {
+        page.drawText(limpiarTexto("- " + problem, font), {
             x: 30,
             y: yProblems,
             size: 14,
@@ -83,8 +129,23 @@ const createAndSendPDF = async () => {
         yProblems = yProblems - 18;
     }
 
-    let y = 780;
+    let y = TOP_Y;
     let currentPage = addWatermarkedPage();
+    prevBloque = null;
+
+    const nuevaPagina = () => { currentPage = addWatermarkedPage(); y = TOP_Y; };
+    // Abre un bloque: si no entra (alto = espacio bajo su primer renglón) pasa de página, si entra deja el espacio previo
+    const iniciarBloque = (tipo, alto = 0) => {
+        const gap = gapAntes(tipo, y);
+        if (y - gap - alto < BOTTOM_Y) nuevaPagina();
+        else y -= gap;
+        prevBloque = tipo;
+    };
+    const siguienteRenglon = (paso = LINE) => {
+        y -= paso;
+        if (y < BOTTOM_Y) nuevaPagina();
+    };
+
     const { petalosArray, ramifiArray } = getListOfPetalos();
 
     console.log(petalosArray);
@@ -92,26 +153,20 @@ const createAndSendPDF = async () => {
 
     for (const petalo of petalosArray) {
         console.log(petalo)
-        if (y <= 30) {
-            currentPage = addWatermarkedPage();
-            y = 780;
-        }
         //FUENTES
         if (petalo.title.toLowerCase().includes("fuente") && (petalo.linkName === 'petalo-1' || petalo.linkName === 'petalo-2' || petalo.linkName === 'petalo-3' || petalo.linkName === 'petalo-4' || petalo.linkName === 'petalo-5' || petalo.linkName === 'petalo-6' || petalo.linkName === 'petalo-7')) {
 
-            if (y !== 780) {
-                currentPage = addWatermarkedPage();
-                y = 780;
-            }
+            if (y !== TOP_Y) nuevaPagina();
 
             console.log("1")
-            currentPage.drawText(petalo.title, {
+            currentPage.drawText(limpiarTexto(petalo.title, font), {
                 x: 22,
                 y: y,
                 size: 22,
                 color: getColorOfFont(petalo.linkName),
             });
-            y = y - 35;
+            y -= LINE;
+            prevBloque = 'fuente';
         } else {
             const result = await textPetalo(petalo, currentPage, y, pdfDoc, maxWidth, font, fontBold, addWatermarkedPage);
             y = result.y;
@@ -130,6 +185,7 @@ const createAndSendPDF = async () => {
                     const wrappedDefaultText = wrapText(defaultText, maxWidth, font, 12);
                     const lines = wrappedDefaultText.split("\n");
 
+                    iniciarBloque('item', altoParrafo(lines.length));
                     for (const line of lines) {
                         currentPage.drawText(line, {
                             x: 22,
@@ -137,26 +193,14 @@ const createAndSendPDF = async () => {
                             size: 12,
                             color: rgb(0.6, 0, 0.6), // Color violeta más intenso
                         });
-                        y = y - 15;
-                        if (y <= 30) {
-                            currentPage = addWatermarkedPage();
-                            y = 780;
-                        }
-                    }
-                    y = y - 20
-                    if (y <= 30) {
-                        currentPage = addWatermarkedPage();
-                        y = 780;
+                        siguienteRenglon();
                     }
                 }
             }
         }
     }
 
-    if (y !== 780) {
-        currentPage = addWatermarkedPage();
-        y = 780;
-    }
+    if (y !== TOP_Y) nuevaPagina();
 
     currentPage.drawText("Ramificaciones", {
         x: 22,
@@ -175,27 +219,20 @@ const createAndSendPDF = async () => {
             size: 12,
             color: rgb(0.865, 0, 1),
         });
-        y = y - 15;
+        y = y - LINE;
     });
 
-    y = y - 30
-
-   
-
+    prevBloque = 'fuente'; // mismo espacio que debajo del título de una fuente
 
     for (const petalo of ramifiArray) {
-        if (y <= 30) {
-            currentPage = addWatermarkedPage();
-            y = 780;
-        }
-
         if (petalo.title === "RAMIFICAROPEN" || petalo.title === "RAMIFICARCLOSE") {
 
             if (petalo.title === "RAMIFICAROPEN") {
+                iniciarBloque('mark', 40); // flecha + texto juntos en la misma página
                 const startX = 50;
-                const startY = y + 15;
+                const startY = y + 12;
                 const endX = 50;
-                const endY = y - 20;
+                const endY = y - 22;
 
                 currentPage.drawLine({
                     start: { x: startX, y: startY },
@@ -221,12 +258,9 @@ const createAndSendPDF = async () => {
                     color: rgb(0, 0, 0),
                 });
 
-                y = y - 50;
-
-                if (y <= 30) {
-                    currentPage = addWatermarkedPage();
-                    y = 780;
-                }
+                y = y - 40;
+            } else {
+                iniciarBloque('mark');
             }
 
             let texto = petalo.title === "RAMIFICAROPEN" ? "Aqui se profundizo el siguiente punto" : "Hasta aquí se profundizo el punto seleccionado"
@@ -236,7 +270,7 @@ const createAndSendPDF = async () => {
                 size: 14,
                 color: rgb(1, 0, 0),
             });
-            y = y - 40
+            siguienteRenglon();
 
         }
         else {
@@ -256,6 +290,7 @@ const createAndSendPDF = async () => {
                     const wrappedDefaultText = wrapText(defaultText, maxWidth, font, 12);
                     const lines = wrappedDefaultText.split("\n");
 
+                    iniciarBloque('item', altoParrafo(lines.length));
                     for (const line of lines) {
                         currentPage.drawText(line, {
                             x: 22,
@@ -263,16 +298,7 @@ const createAndSendPDF = async () => {
                             size: 12,
                             color: rgb(0.6, 0, 0.6), // Color violeta más intenso
                         });
-                        y = y - 15;
-                        if (y <= 30) {
-                            currentPage = addWatermarkedPage();
-                            y = 780;
-                        }
-                    }
-                    y = y - 20
-                    if (y <= 30) {
-                        currentPage = addWatermarkedPage();
-                        y = 780;
+                        siguienteRenglon();
                     }
                 }
             }
@@ -381,45 +407,63 @@ const createAndSendPDF = async () => {
 
 
 const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBold , addWatermarkedPage) => {
+    const nuevaPagina = () => { currentPage = addWatermarkedPage(); y = TOP_Y; };
+    // Abre un bloque: si no entra (alto = espacio bajo su primer renglón) pasa de página, si entra deja el espacio previo
+    const iniciarBloque = (tipo, alto = 0) => {
+        const gap = gapAntes(tipo, y);
+        if (y - gap - alto < BOTTOM_Y) nuevaPagina();
+        else y -= gap;
+        prevBloque = tipo;
+    };
+    const siguienteRenglon = (paso = LINE) => {
+        y -= paso;
+        if (y < BOTTOM_Y) nuevaPagina();
+    };
+
     if (petalo.subPetalos && petalo.subPetalos.length > 0) {
+        const lineas = petalo.text ? wrapText(petalo.text, maxWidth, font, 12).split('\n') : [];
+
         if (petalo.title.length > 2) {
             const renderTitle = (petalo.title === 'Emociones')
             ? 'EMOCIONES (se anularon las siguientes emociones)'
             : petalo.title;
             const estilo = getEstiloForTextField(renderTitle, font, fontBold, 16);
-            currentPage.drawText(renderTitle, {x: 22, y, size: estilo.size, color: estilo.color, font: estilo.font});
-            y -= 18; // gap tras título de subPetalos
+            // el título nunca queda solo al pie: necesita lugar para su párrafo o para el primer hijo
+            iniciarBloque('heading', lineas.length ? altoParrafo(lineas.length, HEADING_TO_TEXT) : LINE + 4);
+            currentPage.drawText(limpiarTexto(renderTitle, estilo.font), {x: 22, y, size: estilo.size, color: estilo.color, font: estilo.font});
+            siguienteRenglon(lineas.length ? HEADING_TO_TEXT : LINE);
+        } else if (lineas.length) {
+            iniciarBloque('text', altoParrafo(lineas.length));
         }
 
-        if (petalo.text) {
-            const wrappedText = wrapText(petalo.text, maxWidth, font, 12);
-            for (const line of wrappedText.split('\n')) {
-                const estilo = getEstiloForTextField(line, font, fontBold, 12);
-                currentPage.drawText(line, { x: 22, y, size: estilo.size, color: estilo.color, font: estilo.font });
-                y -= 15;// interlineado normal
-                if (y <= 30) { currentPage = addWatermarkedPage(); y = 780; }
-            }
-            y -= 12; // 👈 antes era 30: espacio entre párrafos en subPetalos
+        for (const line of lineas) {
+            const estilo = getEstiloForTextField(line, font, fontBold, 12);
+            currentPage.drawText(line, { x: 22, y, size: estilo.size, color: estilo.color, font: estilo.font });
+            siguienteRenglon();
         }
+        if (lineas.length) prevBloque = 'text'; // después del párrafo, el siguiente bloque se separa como de un texto
     } else if (petalo.title === "CORRECCIONOPEN" || petalo.title === "CORRECCIONCLOSE") {
         // 🔹 Corrección con fuente 3
         const text = petalo.title === "CORRECCIONOPEN"
             ? "DESDE AQUI SE TRABAJO, LA SIGUIENTE INFORMACION DEL LEGADO"
             : "HASTA AQUI SE TRABAJO, LA INFORMACION DEL LEGADO";
         const estilo = getEstiloForTextField(text, font, fontBold, 14);
+        // la apertura no queda sola al pie; el cierre necesita lugar para su línea separadora
+        iniciarBloque('mark', petalo.title === "CORRECCIONOPEN" ? LINE + 8 : 12);
         currentPage.drawText(text, { x: 22, y, size: estilo.size, color: rgb(0.6, 0, 0.6), font: estilo.font });
 
-        y -= (petalo.title === "CORRECCIONCLOSE") ? 22 : 45;
-
         if (petalo.title === "CORRECCIONCLOSE") {
-            if (y <= 30) { currentPage = addWatermarkedPage(); y = 780; }
+            y -= 12;
             currentPage.drawLine({
                 start: { x: 22, y },
                 end: { x: currentPage.getSize().width - 22, y },
                 thickness: 0.5,
                 color: rgb(0, 0, 0)
             });
-            y -= 30;
+            siguienteRenglon(24); // espacio entre la línea y lo que sigue
+            prevBloque = 'separador';
+        } else {
+            siguienteRenglon();
         }
     } else {
         // PETALO FINAL
@@ -432,7 +476,6 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
                 // no escribo nada del text normal
             }else if(petalo.onlyTitleP || petalo.onlyT ){
                 // 🔹 Imprime SOLO títuloPage - title    ¡¡Especialmente en VIDAS PASADAS!!
-                y-= 16;
                 
                 //Va let porque es una variable no una constante
                 let titleText = '';
@@ -444,23 +487,24 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
                     titleText = `${petalo.title}:`;
                 }
                 
-                // 🔸 Dibuja el título en bold (12)
-                currentPage.drawText(titleText, {
+                // 🔸 Dibuja el título en bold (12) — si tiene viñetas, no queda solo al pie
+                iniciarBloque('title', petalo.textField ? LINE + 4 : 0);
+                currentPage.drawText(limpiarTexto(titleText, fontBold), {
                     x: 22,
                     y,
                     size: 12,
                     color: rgb(0, 0, 0),
                     font: fontBold
                 });
-
-                y -= 10;// gap entre título y párrafo
+                siguienteRenglon();
             }
             else if (petalo.isLegado || petalo.onlyText) {
                 // 🔹 Solo para  escibir en el pdf el texto del petalo, y no seguir el formato titulo:texto (Ejemplo legado : SANANDO, REPARANDO , REVIVIENDO)
                 
-                y-= 12;// pequeña separación previa
                 const wrappedText = wrapText(petalo.text, maxWidth, font, 12);
-                for (const line of wrappedText.split('\n')) {
+                const lineas = wrappedText.split('\n');
+                iniciarBloque(petalo.isLegado ? 'legado' : 'item', altoParrafo(lineas.length));
+                for (const line of lineas) {
                     const estilo = getEstiloForTextField(line, font, fontBold, 12);
                     currentPage.drawText(line, {
                         x: 22,
@@ -469,31 +513,27 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
                         color: estilo.color,
                         font: estilo.font
                     });
-                    y -= 16;// 👈 antes: 35 por línea
-                    if (y <= 30) {
-                        currentPage = addWatermarkedPage();
-                        y = 780;
-                    }
+                    siguienteRenglon();
                 }
             } else if (!petalo.isLegado) {
                 // 🔹 Imprime título + texto solo si no es legado , es decir a todos los demas que no entren en los else if de arriba
-                y-= 18;
-                
-                // 🔸 Dibuja el título en bold (14)
+                const wrappedText = wrapText(petalo.text, maxWidth, font, 12);
+                const lineas = wrappedText.split('\n');
+
+                // 🔸 Dibuja el título en bold (12), junto con al menos 2 renglones de su párrafo
                 const titleText = `${petalo.title}:`;
-               
-                currentPage.drawText(titleText, {
+                iniciarBloque('title', altoParrafo(lineas.length, TITLE_TO_TEXT));
+                currentPage.drawText(limpiarTexto(titleText, fontBold), {
                     x: 22,
                     y,
                     size: 12,
                     color: rgb(0, 0, 0),
                     font: fontBold
                 });
+                siguienteRenglon(TITLE_TO_TEXT); // gap entre título y párrafo
 
-                y -= 20;// gap entre título y párrafo
                 // 🔸Abajo del titulo dibuja el texto normal (12) 
-                const wrappedText = wrapText(petalo.text, maxWidth, font, 12);
-                for (const line of wrappedText.split('\n')) {
+                for (const line of lineas) {
                     const estilo = getEstiloForTextField(line, font, fontBold, 12);
                     currentPage.drawText(line, {
                         x: 22,
@@ -502,32 +542,16 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
                         color: estilo.color,
                         font: estilo.font
                     });
-                    y -= 16;
-                    if (y <= 30) {
-                        currentPage = addWatermarkedPage();
-                        y = 780;
-                    }
+                    siguienteRenglon();
                 }
             } 
-    
-            // 👇 SOLO bajo 10 si realmente dibujé algo
-            // y no es un pétalo compacto de emociones
-            if (!(petalo.textFieldCompact && petalo.noText && !petalo.isLegado)) {
-                y -= 10;
-            }
-
-
 
             // Imagen
             if (petalo.imageBody) {
-                
-                //verificar si la imagen entra en la pagina
                 const imgHeight = 100, imgWidth = 100;
-                 // Verificar si la imagen entra en la página
-                if (y - imgHeight <= 30) {
-                    currentPage = addWatermarkedPage();
-                    y = 780;
-                }
+                // la imagen arranca 10 por encima de `y` (justo debajo del último renglón) y tiene que entrar en la página
+                iniciarBloque('image', imgHeight - 10);
+                const imgTop = y + 10;
 
                 const imageBody = await fetch(`/images/simbolos/${petalo.imageBody}`);
                 const imageBodyArrayBuffer = await imageBody.arrayBuffer();
@@ -535,91 +559,59 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
                 
                  currentPage.drawImage(imageBodyImage, {
                     x: 22,
-                    y: y - imgHeight, // posición correcta arriba de y actual
+                    y: imgTop - imgHeight,
                     width: imgWidth,
                     height: imgHeight,
                 });
 
                 // Ajustar el cursor Y **antes de continuar** con texto
-                y = y - imgHeight - 15; // 15px de espacio después de la imagen
+                y = imgTop - imgHeight - 10;
             }
         } else if (petalo.title) {
             const estilo = getEstiloForTextField(petalo.title, font, fontBold, 12);
-            currentPage.drawText(petalo.title, { x: 22, y, size: estilo.size, color: estilo.color, font: estilo.font });
-            y -= 18; // espacio después del título
-        }
-        
-        // 🔹 Solo agrego este espacio extra si NO es compacto
-        if (petalo.textFieldCompact) {
-            // no bajo nada
-        } else {
-            y -= 12;  // espacio normal
+            iniciarBloque('item');
+            currentPage.drawText(limpiarTexto(petalo.title, estilo.font), { x: 22, y, size: estilo.size, color: estilo.color, font: estilo.font });
+            siguienteRenglon();
         }
     }
 
-        // TEXTFIELD FINAL (para cualquier nodo)
+    // TEXTFIELD FINAL (para cualquier nodo)
     if (petalo.textField) {
         if (petalo.isLegado) {
-            y -= 16;
-            if (y <= 30) { currentPage = addWatermarkedPage(); y = 780; }
+            iniciarBloque('legado');
 
-            const contenido = (petalo.textField ?? "").toString();
+            const contenido = limpiarTexto(petalo.textField, font);
             currentPage.drawText("HEREDADO DE:", { x: 22, y, size: 13, font: fontBold, color: rgb(0,0,0) });
             currentPage.drawText(contenido,       { x: 127, y, size: 12, font,       color: rgb(0,0,0) });
-            y -= 32;
+            siguienteRenglon();
         } 
     }
-    // arriba del archivo (opcional, para centralizar valores)
-const LEADING = 15;      // salto por renglón dentro del bullet
-const BULLET_GAP = 10;    // espacio extra entre bullets
 
-// ...
+    // TEXTFIELD FINAL fuera de LEGADO
+    if (petalo.textField && !petalo.isLegado) {
+        const lines = petalo.textField
+            .split(/\n|:/)
+            .map(l => l.trim())
+            .filter(Boolean);
 
-// TEXTFIELD FINAL fuera de LEGADO
-if (petalo.textField && !petalo.isLegado) {
-    const esFuente2 = petalo.linkName?.startsWith("petalo-2/1");
+        for (const line of lines) {
+            const bullet = `- ${line}`;
+            const renglones = wrapText(bullet, maxWidth, font, 12).split('\n');
 
-    const lines = petalo.textField
-        .split(/\n|:/)
-        .map(l => l.trim())
-        .filter(Boolean);
-
-    for (const line of lines) {
-        const bullet = `- ${line}`;
-        const wrappedTextField = wrapText(bullet, maxWidth, font, 12);
-
-        // cada renglón del bullet
-        for (const subLine of wrappedTextField.split('\n')) {
-        currentPage.drawText(subLine, {
-            x: 22,
-            y,
-            size: 12,
-            color: rgb(0, 0, 0),
-            font
-        });
-        y -= LEADING;                 // <-- antes 12
-        if (y <= 30) {                // control de salto de página
-            currentPage = addWatermarkedPage();
-            y = 780;
+            iniciarBloque('bullet', altoParrafo(renglones.length));
+            // cada renglón del bullet
+            for (const subLine of renglones) {
+                currentPage.drawText(subLine, {
+                    x: 22,
+                    y,
+                    size: 12,
+                    color: rgb(0, 0, 0),
+                    font
+                });
+                siguienteRenglon();
+            }
         }
-        }
-
-        // gap entre un bullet y el siguiente
-        y -= (esFuente2 ? BULLET_GAP : BULLET_GAP); // podés dejar un valor fijo
     }
-
-    // margen inferior del bloque de bullets (separación del próximo título)
-    if (petalo.textFieldCompact) {
-        // Emociones por teclado: casi sin espacio entre bloques
-        y -= 4;   // probá 0, 4 o 6 hasta que te guste
-    } else {
-        // Resto de los pétalos: separación normal
-        y -= 18;
-    }
-    
-}
-     
-    
 
     return { y, currentPage };
 }
@@ -673,8 +665,26 @@ const getEstiloForTextField = (textField, font, fontBold , defaultSize = 12) => 
   };
 };
 
+// Helvetica (WinAnsi) no puede dibujar algunos caracteres (ej: "\u2212", "\u016B", emojis) y si aparece uno
+// pdf-lib corta toda la generaci\u00F3n y el PDF no se descarga. Se reemplazan por un equivalente o se quitan.
+const REEMPLAZOS = { '\u2212': '-', '\u2010': '-', '\u2011': '-', '\u2012': '-', '\u2015': '-' };
+const soportadosPorFuente = new WeakMap();
+
+const limpiarTexto = (text, font) => {
+    if (!soportadosPorFuente.has(font)) soportadosPorFuente.set(font, new Set(font.getCharacterSet()));
+    const soportados = soportadosPorFuente.get(font);
+    let limpio = '';
+    for (const ch of String(text ?? '')) {
+        if (ch === '\n' || soportados.has(ch.codePointAt(0))) limpio += ch;
+        else if (REEMPLAZOS[ch]) limpio += REEMPLAZOS[ch];
+        // "\u016B" -> "u" + acento: queda la letra base; lo que no tiene equivalente (emojis) se quita
+        else limpio += [...ch.normalize('NFD')].filter(c => soportados.has(c.codePointAt(0))).join('');
+    }
+    return limpio;
+};
+
 const wrapText = (text, width, font, fontSize) => {
-    const cleanText = text.replace(/[\u200B-\u200D\uFEFF]/g, '');
+    const cleanText = limpiarTexto(text.replace(/[\u200B-\u200D\uFEFF]/g, ''), font);
     const words = cleanText.split(' ');
     let line = '';
     let result = '';
