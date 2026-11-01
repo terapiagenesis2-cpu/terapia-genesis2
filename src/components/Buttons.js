@@ -35,10 +35,10 @@ const SPHERE_ICON = {
   red: A("icon_simbolo1"),
   orange: A("icon_simbolo2"),
   yellow: A("icon_simbolo3"),
-  greenLight: A("icon_materia"),
-  purple: A("icon_presencia"),
-  blueLight: A("icon_umbral"),
-  blue: A("icon_arqueotipo"),
+  greenLight: A("icon_simbolo4"),
+  purple: A("icon_simbolo5"),
+  blueLight: A("icon_simbolo6"),
+  blue: A("icon_simbolo7"),
 };
 
 const CENTER_RING_1 = A("center_ring1");
@@ -67,10 +67,10 @@ const PETALO_CONFIG = {
   red: { label: "Corazón", svgName: "icon_simbolo1", dx: 0, dy: -237 },
   orange: {label: "Emocional",svgName: "icon_simbolo2",dx: 187,dy: -147},
   yellow: {label: "Mental",svgName: "icon_simbolo3", dx: 232, dy: 51},
-  greenLight: { label: "Materia", svgName: "icon_materia", dx: 97, dy: 218 },
-  purple: { label: "Presencia", svgName: "icon_presencia", dx: -100, dy: 216},
-  blueLight: { label: "Umbral", svgName: "icon_umbral", dx: -232, dy: 51},
-  blue: { label: "Arquetipo", svgName: "icon_arqueotipo", dx: -183, dy: -152},
+  greenLight: { label: "Materia", svgName: "icon_simbolo4", dx: 97, dy: 218 },
+  purple: { label: "Presencia", svgName: "icon_simbolo5", dx: -100, dy: 216},
+  blueLight: { label: "Umbral", svgName: "icon_simbolo6", dx: -232, dy: 51},
+  blue: { label: "Arquetipo", svgName: "icon_simbolo7", dx: -183, dy: -152},
 };
 
 const NUMBER_COLORS = [
