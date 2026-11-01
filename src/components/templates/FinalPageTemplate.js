@@ -1,10 +1,10 @@
 import ResponsiveText from "../apis/ResponsiveText";
 import {useEffect, useState} from "react";
 import {navigate} from "gatsby";
-import {NavigationButtonsInLine} from "../navigation/NavigationButtons";
+import {NavigationPill} from "../navigation/NavigationButtons";
 import QuantumRaizButton from '../navigation/Btn-quantum';
 import styled from "styled-components";
-import ResponsiveImage from "../apis/ResponsiveImage";
+import { Helmet } from "react-helmet";
 import {Background} from "../Commons";
 import LoginCheck from "../login/LoginCheck";
 import createAndSendPDF from "../apis/pdf-email";
@@ -22,6 +22,7 @@ const FinalPageTemplate = ({ pageContext }) => {
   const [showAlertRamificar, setShowAlertRamificar] = useState(false);
   const [showAlertBorrar, setShowAlertBorrar] = useState(false);
   const [showAlertCorreccion, setShowAlertCorreccion] = useState(false);
+  const [valoresCampos, setValoresCampos] = useState({});
   const { isRamificando, setIsRamificando } = useRamificacion();
   const { isCorreccion, setIsCorreccion } = useCorreccion();
   const location = useLocation();
@@ -151,7 +152,7 @@ const FinalPageTemplate = ({ pageContext }) => {
 
 
 
-    const {desc, titleText, image, titlePage, imageBody, separation, fieldText, linkName, subPetalos} = pageContext
+    const {desc, titleText, image, imageBody, titlePage, separation, separate, fieldText, linkName, subPetalos} = pageContext
     
     // ✅ Chequea si el TextField debe mostrarse: propio o algún hijo
     // Función recursiva que verifica si un pétalo o cualquiera de sus subPetalos
@@ -170,7 +171,40 @@ const FinalPageTemplate = ({ pageContext }) => {
 
     const hasFieldText = hasFieldTextRecursive(pageContext);
 
+    // Guarda lo escrito en el último paso del historial ("link:texto"), que es lo que lee el PDF
+    const guardarTexto = (texto) => {
+        let history = localStorage.getItem("history");
+        history = history ? JSON.parse(history) : [];
+        const lastLink = history[history.length - 1] || "";
+        const lastEmotionLink = lastLink.split(":")[0];
+        history[history.length - 1] = lastEmotionLink + ":" + texto;
+        localStorage.setItem("history", JSON.stringify(history));
+    };
+
+    // Con "separate" (ej. vidas pasadas A) hay un campo por dato: desc "AÑO (AC/DC) | SEXO | EDAD".
+    // Se guardan separados por ":" para que el PDF los imprima como viñetas.
+    const campos = separate ? desc.split("|").map(campo => campo.trim()) : [];
+    const guardarCampo = (campo, valor) => {
+        const nuevos = {...valoresCampos, [campo]: valor};
+        setValoresCampos(nuevos);
+        guardarTexto(campos.filter(c => nuevos[c]).map(c => `${c} ${nuevos[c]}`).join(":"));
+    };
+    const textFieldProps = {
+        variant: "filled",
+        margin: "normal",
+        onFocus: () => setIsTextFieldFocused(true),
+        onBlur: () => setIsTextFieldFocused(false),
+        sx: {
+            backgroundColor: 'white',
+            '&:hover': { backgroundColor: 'white' },
+            '&.Mui-focused': { backgroundColor: 'white' },
+            '& .MuiFilledInput-root': { backgroundColor: 'white' }
+        }
+    };
+
     const imagePath = "/images/" + image + ".webp";
+    // Fuente 7 (símbolos) muestra solo la imagen; el resto (ej. arcanos) la muestra junto a su información
+    const esSimbolo = linkName.startsWith("petalo-7/");
     const imageBodyPath = "/images/simbolos/" + imageBody;
 
     const color = getColorWithFuente(linkName);
@@ -216,48 +250,58 @@ const FinalPageTemplate = ({ pageContext }) => {
                         </Alert>
                     </ContainerAlert>}
                     
-                    <BlurredBox>
-                        <ResponsiveText scale={0.9} color={color}>{titlePage}</ResponsiveText>
-                        <ResponsiveText scale={0.7} color={color}>{titleText}</ResponsiveText>
-                        {separation ? textComponents
-                            : <Text scale={0.5} color={color}>{desc}</Text>}
-
-                        {hasFieldText && (
-                                <div
-                                style={{
-                                display: "flex",
-                                alignItems: "center",
-                                gap: "12px",
-                                height: "100px",
-                                justifyContent: "center"
-                                }}
-                            >
-                               
-                                <TextField
-                                    id={`emocion-${linkName}`} // 🔹 ID único por pétalo
-                                    variant="filled"
-                                    margin="normal"
-                                    onChange={(e) => {
-                                    let history = localStorage.getItem("history");
-                                    history = history ? JSON.parse(history) : [];
-                                    const lastLink = history[history.length - 1] || "";
-                                    const lastEmotionLink = lastLink.split(":")[0];
-                                    history[history.length - 1] = lastEmotionLink + ":" + e.target.value;
-                                    localStorage.setItem("history", JSON.stringify(history));
-                                    }}
-                                    onFocus={() => setIsTextFieldFocused(true)}
-                                    onBlur={() => setIsTextFieldFocused(false)}
-                                    sx={{
-                                    backgroundColor: 'white',
-                                    '&:hover': { backgroundColor: 'white' },
-                                    '&.Mui-focused': { backgroundColor: 'white' },
-                                    '& .MuiFilledInput-root': { backgroundColor: 'white' }
-                                    }}
+                    {esSimbolo ? (
+                        <SymbolView>
+                            <Helmet>
+                                <link
+                                    href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+                                    rel="stylesheet"
                                 />
-                                </div>
-                            )}
-                    </BlurredBox>
-                    {imageBody && <BodyImage src={imageBodyPath} scale={4}/>}
+                            </Helmet>
+                            <SymbolImage src={imageBodyPath} alt={titleText}/>
+                            <SymbolTitle scale={0.8} color={color} bold>{titleText}</SymbolTitle>
+                        </SymbolView>
+                    ) : (
+                        <BlurredBox>
+                            <ResponsiveText scale={0.9} color={color}>{titlePage}</ResponsiveText>
+                            <ResponsiveText scale={0.7} color={color}>{titleText}</ResponsiveText>
+                            {imageBody && <BodyImage src={imageBodyPath} alt={titleText}/>}
+                            {separation ? textComponents
+                                : !separate && <Text scale={0.5} color={color}>{desc}</Text>}
+
+                            {hasFieldText && (
+                                    <div
+                                    style={{
+                                    display: "flex",
+                                    flexWrap: "wrap",
+                                    alignItems: "center",
+                                    gap: "12px",
+                                    minHeight: "100px",
+                                    justifyContent: "center"
+                                    }}
+                                >
+                                    {separate ? campos.map(campo => (
+                                        <TextField
+                                            key={campo}
+                                            label={campo}
+                                            onChange={(e) => guardarCampo(campo, e.target.value)}
+                                            {...textFieldProps}
+                                        />
+                                    )) : (
+                                        <TextField
+                                            id={`emocion-${linkName}`} // 🔹 ID único por pétalo
+                                            onChange={(e) => guardarTexto(e.target.value)}
+                                            {...textFieldProps}
+                                        />
+                                    )}
+                                    </div>
+                                )}
+                        </BlurredBox>
+                    )}
+
+                    <NavContainer>
+                        <NavigationPill/>
+                    </NavContainer>
 
                     <QuantumRaizButton/>
 
@@ -308,16 +352,7 @@ const getColorWithFuente = (link) => {
         return "#fdf8f8"; // color por defecto para interferencias
     }
 
-    const number = parseInt(match[1]);
-
-    switch (number) {
-        case 5:
-            return "#292929ff"
-        default:
-            return "white"
-
-    }
-
+    return "white";
 }
 
 const ContainerAlert = styled.div`
@@ -328,8 +363,39 @@ const ContainerAlert = styled.div`
 `;
 
 
-const BodyImage = styled(ResponsiveImage)`
-  margin-top: 10px;
+// Vista de la fuente 7 (diseño Figma "Ejemplo implementación simbolo"): símbolo 405px centrado + título
+const SymbolView = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex: 1;
+  padding: 20px;
+`;
+
+const SymbolImage = styled.img`
+  width: min(405px, 49vh, 80vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+`;
+
+// Imagen junto a la información del pétalo (ej. carta de los arcanos mayores)
+const BodyImage = styled.img`
+  display: block;
+  height: min(360px, 40vh);
+  margin: 20px auto 0;
+  border-radius: 12px;
+`;
+
+// Navegación abajo al centro (en Figma: 43px desde el borde inferior)
+const NavContainer = styled.div`
+  margin-top: auto;
+  padding: 20px 0 43px;
+`;
+
+const SymbolTitle = styled(ResponsiveText)`
+  font-family: 'Inter', sans-serif;
 `;
 const Text = styled(ResponsiveText)`
   padding-top: 30px

@@ -7,6 +7,7 @@ import { Alert } from "@mui/material";
 import { useRamificacion } from "../context/RamificacionContext";
 import { useCorreccion } from "../context/LegadoContext";
 import SidePanel from "./navigation/SidePanel";
+import { NavigationPill } from "./navigation/NavigationButtons";
 
 // ─────────────────────────────────────────────────────────────
 // ASSETS
@@ -347,80 +348,88 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
         {showAlertBorrar && <ContainerAlert><Alert severity="success">Punto borrado de la sesion</Alert></ContainerAlert>}
         {showAlertCorreccion && <ContainerAlert><Alert severity="success">Correccion</Alert></ContainerAlert>}
 
-        {/* Anillo orbital decorativo */}
-        <OrbitalRing $r={ORBIT_RING_RADIUS} />
+        {/* Escala el círculo según la altura de la pantalla (ver OrbitScale) */}
+        <OrbitScale>
+          {/* Anillo orbital decorativo */}
+          <OrbitalRing $r={ORBIT_RING_RADIUS} />
 
-        {/* Botón central */}
-        <CenterSphere
-          size={CENTER_SIZE}
-          onClick={() => navigate("/circulo-base")}
-          title={bigButtonTitle}
-          centerIcon={centerIcon}
-          centerSphere={centerSphere}
-          subtitle={subtitle}
-          circuloBase={circuloBase}
-        />
+          {/* Botón central */}
+          <CenterSphere
+            size={CENTER_SIZE}
+            onClick={() => navigate("/circulo-base")}
+            title={bigButtonTitle}
+            centerIcon={centerIcon}
+            centerSphere={centerSphere}
+            subtitle={subtitle}
+            circuloBase={circuloBase}
+          />
 
-        {/* MODO CÍRCULO BASE */}
-        {circuloBase && petalos.map((petalo) => {
-          const cfg = PETALO_CONFIG[petalo.colorBorder];
-          if (!cfg) return null;
-          return (
-            <PetaloWrapperAbs key={petalo.index} $dx={cfg.dx} $dy={cfg.dy}>
-              <PetaloSphere
-                colorBorder={petalo.colorBorder}
-                size={SPHERE_SIZE}
-                label={cfg.label}
-                onClick={() => handlePetaloClick(petalo.index + 1)}
-                flashColor={flashingIndex === petalo.index + 1 ? flashColor : null}
-                glowColor={glowColor}
-                softGlow={softGlow}
-              />
-            </PetaloWrapperAbs>
-          );
-        })}
+          {/* MODO CÍRCULO BASE */}
+          {circuloBase && petalos.map((petalo) => {
+            const cfg = PETALO_CONFIG[petalo.colorBorder];
+            if (!cfg) return null;
+            return (
+              <PetaloWrapperAbs key={petalo.index} $dx={cfg.dx} $dy={cfg.dy}>
+                <PetaloSphere
+                  colorBorder={petalo.colorBorder}
+                  size={SPHERE_SIZE}
+                  label={cfg.label}
+                  onClick={() => handlePetaloClick(petalo.index + 1)}
+                  flashColor={flashingIndex === petalo.index + 1 ? flashColor : null}
+                  glowColor={glowColor}
+                  softGlow={softGlow}
+                />
+              </PetaloWrapperAbs>
+            );
+          })}
 
-        {/* MODO NUMÉRICO */}
-        {!circuloBase && !noNumber && [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((number) => {
-          const angle = (number / 10) * 360 - 90;
-          return (
-            <PetaloWrapper key={number} $angle={angle} $radius={ORBIT_RADIUS}>
-              <PetaloSphere
-                colorBorder="default"
-                size={SPHERE_SIZE_NUM}
-                isNumber
-                numberText={number}
-                onClick={() => handlePetaloClick(number)}
-                flashColor={flashingIndex === number ? flashColor : null}
-                glowColor={glowColor}
-                softGlow={softGlow}
-              />
-            </PetaloWrapper>
-          );
-        })}
+          {/* MODO NUMÉRICO */}
+          {!circuloBase && !noNumber && [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((number) => {
+            const angle = (number / 10) * 360 - 90;
+            return (
+              <PetaloWrapper key={number} $angle={angle} $radius={ORBIT_RADIUS}>
+                <PetaloSphere
+                  colorBorder="default"
+                  size={SPHERE_SIZE_NUM}
+                  isNumber
+                  numberText={number}
+                  onClick={() => handlePetaloClick(number)}
+                  flashColor={flashingIndex === number ? flashColor : null}
+                  glowColor={glowColor}
+                  softGlow={softGlow}
+                />
+              </PetaloWrapper>
+            );
+          })}
 
-        {/* MODO TÍTULO */}
-        {!circuloBase && noNumber && petalos.map((petalo) => {
-          const angle = (petalo.index / petalos.length) * 360 - 90;
-          return (
-            <PetaloWrapper key={petalo.index} $angle={angle} $radius={ORBIT_RADIUS}>
-              <PetaloSphere
-                colorBorder={petalo.colorBorder}
-                size={SPHERE_SIZE_NUM}
-                isSmallText
-                numberText={petalo.title}
-                onClick={() => handlePetaloClick(petalo.index + 1)}
-                flashColor={flashingIndex === petalo.index + 1 ? flashColor : null}
-                glowColor={glowColor}
-                softGlow={softGlow}
-              />
-            </PetaloWrapper>
-          );
-        })}
+          {/* MODO TÍTULO */}
+          {!circuloBase && noNumber && petalos.map((petalo) => {
+            const angle = (petalo.index / petalos.length) * 360 - 90;
+            return (
+              <PetaloWrapper key={petalo.index} $angle={angle} $radius={ORBIT_RADIUS}>
+                <PetaloSphere
+                  colorBorder={petalo.colorBorder}
+                  size={SPHERE_SIZE_NUM}
+                  isSmallText
+                  numberText={petalo.title}
+                  onClick={() => handlePetaloClick(petalo.index + 1)}
+                  flashColor={flashingIndex === petalo.index + 1 ? flashColor : null}
+                  glowColor={glowColor}
+                  softGlow={softGlow}
+                />
+              </PetaloWrapper>
+            );
+          })}
+        </OrbitScale>
 
       </ButtonsContainerCenter>
 
       <div style={{ flexGrow: 0.5 }} />
+
+      {/* ── NAVEGACIÓN ANTERIOR / SIGUIENTE (también con ← →) ── */}
+      <NavBar>
+        <NavigationPill />
+      </NavBar>
 
       {/* ── PANEL LATERAL ── */}
       <SidePanel
@@ -453,6 +462,32 @@ const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+`;
+
+// Abajo al centro, igual que en FinalPageTemplate (en Figma: 43px desde el borde inferior)
+const NavBar = styled.div`
+  position: fixed;
+  bottom: 43px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+`;
+
+// Breakpoints por ALTO: achica el círculo para que los pétalos de abajo no choquen con la NavBar.
+// Escala = (alto / 2 - 100) / 300 en el límite inferior de cada tramo.
+const OrbitScale = styled.div`
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: center;
+
+  @media (max-height: 820px) { transform: scale(0.93); }
+  @media (max-height: 760px) { transform: scale(0.83); }
+  @media (max-height: 700px) { transform: scale(0.73); }
+  @media (max-height: 640px) { transform: scale(0.63); }
+  @media (max-height: 580px) { transform: scale(0.53); }
 `;
 
 const ButtonsContainerCenter = styled.div`

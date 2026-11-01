@@ -55,6 +55,8 @@ const PetalosTemplate = ({ pageContext }) => {
         <Background style={{ backgroundImage: `url(${imagePath})` }}>
             <Overlay>
                 <Container>
+                    {/* Título de la pantalla arriba del círculo, como en el Nivel 1 (ej. INDIVIDUOS INVOLUCRADOS) */}
+                    {titlePage && <PageTitle scale={0.6} color="white" bold>{titlePage.toUpperCase()}</PageTitle>}
                     <NoCircleContainer>
                         {hasFieldText && (
                             <div
@@ -200,6 +202,15 @@ const ContainerAlert = styled.div`
 
 const Title = styled(ResponsiveText)`
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
+`;
+
+const PageTitle = styled(Title)`
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  pointer-events: none;
 `;
 
 const Container = styled.div`

@@ -29,6 +29,7 @@ exports.createPages = async ({ actions }) => {
                         image: petalo.image,
                         imageBody: petalo.imageBody,
                         separation: petalo.separation,
+                        separate: petalo.separate,
                         fieldText: petalo.fieldText,
                         linkName: petalo.linkName,
                         tipo: petalo.tipo

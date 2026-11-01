@@ -3,6 +3,9 @@ import { petalos } from "../../../static/data";
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 import watermarkImg from "../../../static/images/LOGO GENESIS_OSCURO..png";
 
+// Va debajo del texto de vidas pasadas, después del último "BLOQUEO EN LA ACTUALIDAD"
+const ORACION_AKASHICA = "ORACIÓN PARA TRANSMUTAR ENERGÍAS - REGISTROS AKÁSHICOS, VIDAS PASADAS (Utilizando el péndulo cuántico, decimos) 13 veces 1 - 13 veces 1 - 13 veces 1. Pido al responsable de los registros Akáshicos que, en nombre de nuestro Señor Jesucristo, elimine o transmute todos los registros vinculados al suceso en el que estamos trabajando... y dado que ha sido cumplido, doy infinitas gracias. 13 veces 1 - 13 veces 1 - 13 veces 1";
+
 // ── ESPACIADO DEL PDF ──────────────────────────────────────────────
 // `y` siempre apunta a la línea base del PRÓXIMO renglón (último renglón - LINE).
 // Cada bloque agrega espacio solo ANTES de sí mismo (nunca después), así los
@@ -182,18 +185,20 @@ const createAndSendPDF = async () => {
                 if (index === lastBloqueoIndex) {
                     console.log("PUSO TEXTO")
                     const defaultText = "Mediante la transmutación de Registros Akáshicos liberamos el bloqueo detectado en la actualidad, así de este modo incorporarlo en diferentes ámbitos de nuestra vida";
-                    const wrappedDefaultText = wrapText(defaultText, maxWidth, font, 12);
-                    const lines = wrappedDefaultText.split("\n");
 
-                    iniciarBloque('item', altoParrafo(lines.length));
-                    for (const line of lines) {
-                        currentPage.drawText(line, {
-                            x: 22,
-                            y: y,
-                            size: 12,
-                            color: rgb(0.6, 0, 0.6), // Color violeta más intenso
-                        });
-                        siguienteRenglon();
+                    for (const parrafo of [defaultText, ORACION_AKASHICA]) {
+                        const lines = wrapText(parrafo, maxWidth, font, 12).split("\n");
+
+                        iniciarBloque('item', altoParrafo(lines.length));
+                        for (const line of lines) {
+                            currentPage.drawText(line, {
+                                x: 22,
+                                y: y,
+                                size: 12,
+                                color: rgb(0.6, 0, 0.6), // Color violeta más intenso
+                            });
+                            siguienteRenglon();
+                        }
                     }
                 }
             }
@@ -287,18 +292,20 @@ const createAndSendPDF = async () => {
                 if (index === lastBloqueoIndex) {
                     console.log("PUSO TEXTO")
                     const defaultText = "Mediante la transmutación de Registros Akáshicos liberamos el bloqueo detectado en la actualidad, así de este modo incorporarlo en diferentes ámbitos de nuestra vida";
-                    const wrappedDefaultText = wrapText(defaultText, maxWidth, font, 12);
-                    const lines = wrappedDefaultText.split("\n");
 
-                    iniciarBloque('item', altoParrafo(lines.length));
-                    for (const line of lines) {
-                        currentPage.drawText(line, {
-                            x: 22,
-                            y: y,
-                            size: 12,
-                            color: rgb(0.6, 0, 0.6), // Color violeta más intenso
-                        });
-                        siguienteRenglon();
+                    for (const parrafo of [defaultText, ORACION_AKASHICA]) {
+                        const lines = wrapText(parrafo, maxWidth, font, 12).split("\n");
+
+                        iniciarBloque('item', altoParrafo(lines.length));
+                        for (const line of lines) {
+                            currentPage.drawText(line, {
+                                x: 22,
+                                y: y,
+                                size: 12,
+                                color: rgb(0.6, 0, 0.6), // Color violeta más intenso
+                            });
+                            siguienteRenglon();
+                        }
                     }
                 }
             }
@@ -548,15 +555,23 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
 
             // Imagen
             if (petalo.imageBody) {
-                const imgHeight = 100, imgWidth = 100;
+                // las imágenes que acompañan una descripción (arcanos, reiki) van más grandes que los símbolos de la fuente 7
+                const imgHeight = petalo.imageBody.startsWith("quantum/") ? 100 : 165;
                 // la imagen arranca 10 por encima de `y` (justo debajo del último renglón) y tiene que entrar en la página
                 iniciarBloque('image', imgHeight - 10);
                 const imgTop = y + 10;
 
+                // pdf-lib no soporta webp: se pasa a PNG dibujándolo en un canvas
                 const imageBody = await fetch(`/images/simbolos/${petalo.imageBody}`);
-                const imageBodyArrayBuffer = await imageBody.arrayBuffer();
-                const imageBodyImage = await pdfDoc.embedPng(imageBodyArrayBuffer);
-                
+                const imageBodyBitmap = await createImageBitmap(await imageBody.blob());
+                const canvas = document.createElement("canvas");
+                canvas.width = imageBodyBitmap.width;
+                canvas.height = imageBodyBitmap.height;
+                canvas.getContext("2d").drawImage(imageBodyBitmap, 0, 0);
+                const imageBodyImage = await pdfDoc.embedPng(canvas.toDataURL("image/png"));
+                // ancho según la proporción de la imagen (símbolos cuadrados, cartas de arcanos 2:3)
+                const imgWidth = imgHeight * imageBodyImage.width / imageBodyImage.height;
+
                  currentPage.drawImage(imageBodyImage, {
                     x: 22,
                     y: imgTop - imgHeight,

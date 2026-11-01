@@ -26,6 +26,51 @@ export const NavigationButtonsInLine = () => <>
 </>
 
 
+// Anterior / siguiente con el diseño de Figma (pastilla 170x43 con flechas)
+export const NavigationPill = () => <Pill>
+    <PillButton aria-label="Anterior" onClick={() => navigate(-1)}>
+        <Chevron/>
+    </PillButton>
+    <PillButton aria-label="Siguiente" onClick={() => navigate(+1)}>
+        <Chevron flip/>
+    </PillButton>
+</Pill>
+
+const Chevron = ({flip}) => (
+    <svg width="14" height="22" viewBox="0 0 13.7779 22.0001" fill="none"
+         style={flip ? {transform: "scaleX(-1)"} : undefined}>
+        <path d="M12.2778 1.50006L2.25859 9.43197C1.24713 10.2327 1.24714 11.7674 2.25859 12.5682L12.2778 20.5001"
+              stroke="currentColor" strokeWidth="3" strokeLinecap="round"/>
+    </svg>
+);
+
+const Pill = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+  height: 43px;
+  background: url("/genesis-assets/nav-pill.svg") no-repeat center / 100% 100%;
+`;
+
+const PillButton = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 100%;
+  padding: 0;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+
+  &:hover {
+    filter: drop-shadow(0 0 4px white);
+  }
+`;
+
 const GuiaButton = styled.div`
   padding: 10px 20px;
   background-color: #fff7f7;
