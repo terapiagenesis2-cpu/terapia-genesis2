@@ -7,7 +7,6 @@ import { Alert, TextField, ThemeProvider, createTheme } from "@mui/material";
 import LoginCheck from "../login/LoginCheck";
 import { Background } from "../Commons";
 import historySave from "../navigation/History";
-import { LegadoButton } from "../navigation/LegadoButton";
 
 const createdPages = require('../../../../createdPages.json');
 
@@ -64,7 +63,10 @@ const PetalosTemplate = ({ pageContext }) => {
                                     display: "flex",
                                     alignItems: "center",
                                     gap: "12px",
-                                    justifyContent: "center"
+                                    justifyContent: "center",
+                                    marginTop: "60px", // debajo del título de la pantalla (LEGADO TRANSGENERACIONAL), sin taparlo
+                                    position: "relative",
+                                    zIndex: 1 // por encima del círculo de botones (fijo a pantalla completa), si no no recibe los clics
                                 }}
                             >
 
@@ -154,7 +156,6 @@ const PetalosTemplate = ({ pageContext }) => {
                     />
 
                 </Container>
-                <LegadoButton />
             </Overlay>
         </Background>
     </LoginCheck>;

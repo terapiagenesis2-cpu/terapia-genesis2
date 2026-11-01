@@ -10,6 +10,7 @@ import LoginCheck from "../login/LoginCheck";
 import createAndSendPDF from "../apis/pdf-email";
 import {Alert, TextField} from "@mui/material";
 import {petalos} from "../../../static/data";
+import { bloquesExtraPorPrefijo } from "../../../static/oraciones";
 import { useRamificacion } from "../../context/RamificacionContext"; // Ajustá la ruta si es necesario
 import { useCorreccion } from "../../context/LegadoContext";
 import { useLocation } from "@reach/router";
@@ -114,7 +115,8 @@ const FinalPageTemplate = ({ pageContext }) => {
                 else history = JSON.parse(history);
                  if (event.key === 'Control')
                      createAndSendPDF().then(r => console.log("PDF CREADO CORRECTAMENTE"))
-                 else if (event.key === 'c' || event.key === 'C') {    
+                 else if (event.key === 'c' || event.key === 'C') {
+                    setIsCorreccion(prev => !prev);
                     setShowAlertCorreccion(true);
                     setTimeout(() => {
                         setShowAlertCorreccion(false);
@@ -220,6 +222,13 @@ const FinalPageTemplate = ({ pageContext }) => {
             </div>
         });
     }
+
+    // Oración que va debajo de la descripción (static/oraciones.js), como en el Nivel 1
+    const bloqueExtra = bloquesExtraPorPrefijo.find(item => {
+        const prefijos = Array.isArray(item.prefijo) ? item.prefijo : [item.prefijo];
+        return prefijos.some(pref => item.exacto ? linkName === pref : linkName.startsWith(pref));
+    })?.bloqueExtra;
+
     return <LoginCheck>
         <PageContainer>
             <Background style={{
@@ -244,9 +253,15 @@ const FinalPageTemplate = ({ pageContext }) => {
                         </Alert>
                     </ContainerAlert>}
 
+                    {isCorreccion && <ContainerAlert>
+                        <Alert severity="info">
+                            Trabajando Legado
+                        </Alert>
+                    </ContainerAlert>}
+
                     {showAlertCorreccion && <ContainerAlert>
                         <Alert severity="success">
-                            Correccion
+                            {isCorreccion ? "Trabajando Legado" : "Fin del trabajo de Legado"}
                         </Alert>
                     </ContainerAlert>}
                     
@@ -296,6 +311,25 @@ const FinalPageTemplate = ({ pageContext }) => {
                                     )}
                                     </div>
                                 )}
+
+                            {bloqueExtra && (
+                                <ExtraBlock>
+                                    {bloqueExtra.contenido.map((item, index) => (
+                                        <ExtraInfoText
+                                            key={index}
+                                            scale={item.scale}
+                                            color={color}
+                                            style={{
+                                                marginTop: `${item.mt ?? 10}px`,
+                                                lineHeight: 1.6,
+                                                fontWeight: item.bold ? "bold" : "normal"
+                                            }}
+                                        >
+                                            {item.text}
+                                        </ExtraInfoText>
+                                    ))}
+                                </ExtraBlock>
+                            )}
                         </BlurredBox>
                     )}
 
@@ -399,6 +433,16 @@ const SymbolTitle = styled(ResponsiveText)`
 `;
 const Text = styled(ResponsiveText)`
   padding-top: 30px
+`;
+
+// Oración debajo de la descripción (static/oraciones.js)
+const ExtraBlock = styled.div`
+  margin-top: 7%;
+  padding-top: 7%;
+`;
+
+const ExtraInfoText = styled(ResponsiveText)`
+  display: block;
 `;
 
 const Content = styled.div`

@@ -304,6 +304,7 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
         if (event.key === 'Control')
           createAndSendPDF().then(() => console.log("PDF CREADO CORRECTAMENTE"));
         else if (event.key === 'c' || event.key === 'C') {
+          setIsCorreccion(prev => !prev);
           setShowAlertCorreccion(true);
           setTimeout(() => setShowAlertCorreccion(false), 4000);
           history.push("correccion");
@@ -346,7 +347,8 @@ const Buttons = ({ petalos, bigButtonTitle, centerIcon, centerSphere, circuloBas
         {isRamificando && <ContainerAlert><Alert severity="info">Ramificando</Alert></ContainerAlert>}
         {showAlertRamificar && <ContainerAlert><Alert severity="success">Ramificacion</Alert></ContainerAlert>}
         {showAlertBorrar && <ContainerAlert><Alert severity="success">Punto borrado de la sesion</Alert></ContainerAlert>}
-        {showAlertCorreccion && <ContainerAlert><Alert severity="success">Correccion</Alert></ContainerAlert>}
+        {isCorreccion && <ContainerAlert><Alert severity="info">Trabajando Legado</Alert></ContainerAlert>}
+        {showAlertCorreccion && <ContainerAlert><Alert severity="success">{isCorreccion ? "Trabajando Legado" : "Fin del trabajo de Legado"}</Alert></ContainerAlert>}
 
         {/* Escala el círculo según la altura de la pantalla (ver OrbitScale) */}
         <OrbitScale>

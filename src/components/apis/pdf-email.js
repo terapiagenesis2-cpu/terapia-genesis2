@@ -13,29 +13,33 @@ const ORACION_AKASHICA = "ORACIÓN PARA TRANSMUTAR ENERGÍAS - REGISTROS AKÁSHI
 const TOP_Y = 780;          // primer renglón de cada página nueva
 const BOTTOM_Y = 40;        // ningún renglón se dibuja por debajo de esto
 const LINE = 15;            // interlineado del texto 12pt
-const TITLE_TO_TEXT = 18;   // título en negrita -> su párrafo
-const HEADING_TO_TEXT = 20; // título 16pt -> su párrafo
+const TITLE_TO_TEXT = 20;   // título en negrita -> su párrafo
+const HEADING_TO_TEXT = 24; // título 16pt -> su párrafo
 
-// espacio extra (además de LINE) antes de cada tipo de bloque
+// espacio extra (además de LINE) antes de cada tipo de bloque.
+// Jerarquía: fuente (81 entre renglones) > título 16pt (55) > título en negrita (37) > renglones sueltos
 const GAP = {
-    heading: 18, // título 16pt (pétalo con subpétalos)
-    title: 11,   // título en negrita + párrafo
-    text: 4,     // párrafo suelto
-    item: 7,     // renglón suelto (pétalo sin texto, onlyText)
-    bullet: 4,   // viñetas del textField
-    legado: 8,   // SANANDO / REPARANDO / REVIVIENDO, HEREDADO DE
-    mark: 14,    // DESDE/HASTA AQUI..., ramificaciones
-    image: 4,
+    raiz: 66,    // título 16pt de una fuente (petalo-N)
+    heading: 40, // título 16pt dentro de la fuente (pétalo con subpétalos)
+    title: 22,   // título en negrita + párrafo
+    text: 8,     // párrafo suelto
+    item: 14,    // renglón suelto (pétalo sin texto, onlyText)
+    bullet: 8,   // viñetas del textField
+    legado: 12,  // SANANDO / REPARANDO / REVIVIENDO, HEREDADO DE
+    mark: 22,    // DESDE/HASTA AQUI..., ramificaciones
+    image: 10,
 };
 
-// excepciones según el bloque anterior (ej: el hijo va más cerca de su título)
+// excepciones según el bloque anterior (ej: el hijo va más cerca de su título que de sus hermanos)
 const GAP_TRAS = {
-    fuente: { default: 18 },
-    heading: { heading: 8, title: 8, default: 4 },
-    item: { item: 4 },
-    bullet: { bullet: 2 },
-    legado: { legado: 10 },
-    mark: { default: 12 },
+    fuente: { default: 30 },
+    raiz: { default: 18 }, // debajo del título de una fuente, más aire que debajo de un título de grupo
+    heading: { heading: 16, title: 14, raiz: GAP.raiz, default: 10 },
+    image: { title: 28 }, // la imagen queda pegada a su texto y separada del pétalo siguiente
+    item: { item: 8 },
+    bullet: { bullet: 4 },
+    legado: { legado: 14 },
+    mark: { default: 16 },
     separador: { default: 0 },
 };
 
@@ -51,6 +55,9 @@ const gapAntes = (tipo, y) => {
 
 // alto que necesitan los primeros 2 renglones de un párrafo (para no dejar títulos solos al pie)
 const altoParrafo = (renglones, salto = 0) => renglones ? salto + LINE * (Math.min(renglones, 2) - 1) : 0;
+
+// si debajo hay pétalos con imagen (reiki, arcanos), el título necesita lugar también para la primera imagen
+const tieneImagen = (petalo) => !!petalo.imageBody || (petalo.subPetalos || []).some(tieneImagen);
 
 const createAndSendPDF = async () => {
     const existingPdfBytes = await loadPDF();
@@ -436,7 +443,8 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
             : petalo.title;
             const estilo = getEstiloForTextField(renderTitle, font, fontBold, 16);
             // el título nunca queda solo al pie: necesita lugar para su párrafo o para el primer hijo
-            iniciarBloque('heading', lineas.length ? altoParrafo(lineas.length, HEADING_TO_TEXT) : LINE + 4);
+            iniciarBloque(/^petalo-\d+$/.test(petalo.linkName) ? 'raiz' : 'heading', lineas.length ? altoParrafo(lineas.length, HEADING_TO_TEXT)
+                : LINE + 4 + (tieneImagen(petalo) ? GAP.title + TITLE_TO_TEXT + LINE * 2 + GAP.image + 165 : 0));
             currentPage.drawText(limpiarTexto(renderTitle, estilo.font), {x: 22, y, size: estilo.size, color: estilo.color, font: estilo.font});
             siguienteRenglon(lineas.length ? HEADING_TO_TEXT : LINE);
         } else if (lineas.length) {
@@ -474,7 +482,9 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
         }
     } else {
         // PETALO FINAL
-        
+        // las imágenes que acompañan una descripción (arcanos, reiki) van más grandes que los símbolos de la fuente 7
+        const imgHeight = petalo.imageBody?.startsWith("quantum/") ? 100 : 165;
+
         //Texto Princiapal
         if (petalo.text) {
             
@@ -528,8 +538,11 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
                 const lineas = wrappedText.split('\n');
 
                 // 🔸 Dibuja el título en bold (12), junto con al menos 2 renglones de su párrafo
+                // (con imagen, el pétalo entero: título, texto e imagen en la misma página)
                 const titleText = `${petalo.title}:`;
-                iniciarBloque('title', altoParrafo(lineas.length, TITLE_TO_TEXT));
+                iniciarBloque('title', petalo.imageBody
+                    ? TITLE_TO_TEXT + LINE * lineas.length + GAP.image + imgHeight - 10
+                    : altoParrafo(lineas.length, TITLE_TO_TEXT));
                 currentPage.drawText(limpiarTexto(titleText, fontBold), {
                     x: 22,
                     y,
@@ -555,8 +568,6 @@ const textPetalo = async (petalo, currentPage, y, pdfDoc, maxWidth, font, fontBo
 
             // Imagen
             if (petalo.imageBody) {
-                // las imágenes que acompañan una descripción (arcanos, reiki) van más grandes que los símbolos de la fuente 7
-                const imgHeight = petalo.imageBody.startsWith("quantum/") ? 100 : 165;
                 // la imagen arranca 10 por encima de `y` (justo debajo del último renglón) y tiene que entrar en la página
                 iniciarBloque('image', imgHeight - 10);
                 const imgTop = y + 10;
