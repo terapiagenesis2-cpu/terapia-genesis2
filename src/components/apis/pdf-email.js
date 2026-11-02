@@ -3,9 +3,6 @@ import { petalos } from "../../../static/data";
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 import watermarkImg from "../../../static/images/LOGO GENESIS_OSCURO..png";
 
-// Va debajo del texto de vidas pasadas, después del último "BLOQUEO EN LA ACTUALIDAD"
-const ORACION_AKASHICA = "ORACIÓN PARA TRANSMUTAR ENERGÍAS - REGISTROS AKÁSHICOS, VIDAS PASADAS (Utilizando el péndulo cuántico, decimos) 13 veces 1 - 13 veces 1 - 13 veces 1. Pido al responsable de los registros Akáshicos que, en nombre de nuestro Señor Jesucristo, elimine o transmute todos los registros vinculados al suceso en el que estamos trabajando... y dado que ha sido cumplido, doy infinitas gracias. 13 veces 1 - 13 veces 1 - 13 veces 1";
-
 // ── ESPACIADO DEL PDF ──────────────────────────────────────────────
 // `y` siempre apunta a la línea base del PRÓXIMO renglón (último renglón - LINE).
 // Cada bloque agrega espacio solo ANTES de sí mismo (nunca después), así los
@@ -163,12 +160,11 @@ const createAndSendPDF = async () => {
 
     for (const petalo of petalosArray) {
         console.log(petalo)
-        //FUENTES
-        if (petalo.title.toLowerCase().includes("fuente") && (petalo.linkName === 'petalo-1' || petalo.linkName === 'petalo-2' || petalo.linkName === 'petalo-3' || petalo.linkName === 'petalo-4' || petalo.linkName === 'petalo-5' || petalo.linkName === 'petalo-6' || petalo.linkName === 'petalo-7')) {
+        //FUENTES: cada una (petalo-1 a petalo-7) empieza en una página nueva, con su título en color y su texto debajo
+        if (/^petalo-[1-7]$/.test(petalo.linkName)) {
 
             if (y !== TOP_Y) nuevaPagina();
 
-            console.log("1")
             currentPage.drawText(limpiarTexto(petalo.title, font), {
                 x: 22,
                 y: y,
@@ -177,6 +173,15 @@ const createAndSendPDF = async () => {
             });
             y -= LINE;
             prevBloque = 'fuente';
+
+            if (petalo.text) {
+                iniciarBloque('text');
+                for (const line of wrapText(petalo.text, maxWidth, font, 12).split('\n')) {
+                    currentPage.drawText(line, { x: 22, y, size: 12, color: rgb(0, 0, 0), font });
+                    siguienteRenglon();
+                }
+                prevBloque = 'text';
+            }
         } else {
             const result = await textPetalo(petalo, currentPage, y, pdfDoc, maxWidth, font, fontBold, addWatermarkedPage);
             y = result.y;
@@ -192,20 +197,18 @@ const createAndSendPDF = async () => {
                 if (index === lastBloqueoIndex) {
                     console.log("PUSO TEXTO")
                     const defaultText = "Mediante la transmutación de Registros Akáshicos liberamos el bloqueo detectado en la actualidad, así de este modo incorporarlo en diferentes ámbitos de nuestra vida";
+                    const wrappedDefaultText = wrapText(defaultText, maxWidth, font, 12);
+                    const lines = wrappedDefaultText.split("\n");
 
-                    for (const parrafo of [defaultText, ORACION_AKASHICA]) {
-                        const lines = wrapText(parrafo, maxWidth, font, 12).split("\n");
-
-                        iniciarBloque('item', altoParrafo(lines.length));
-                        for (const line of lines) {
-                            currentPage.drawText(line, {
-                                x: 22,
-                                y: y,
-                                size: 12,
-                                color: rgb(0.6, 0, 0.6), // Color violeta más intenso
-                            });
-                            siguienteRenglon();
-                        }
+                    iniciarBloque('item', altoParrafo(lines.length));
+                    for (const line of lines) {
+                        currentPage.drawText(line, {
+                            x: 22,
+                            y: y,
+                            size: 12,
+                            color: rgb(0.6, 0, 0.6), // Color violeta más intenso
+                        });
+                        siguienteRenglon();
                     }
                 }
             }
@@ -299,20 +302,18 @@ const createAndSendPDF = async () => {
                 if (index === lastBloqueoIndex) {
                     console.log("PUSO TEXTO")
                     const defaultText = "Mediante la transmutación de Registros Akáshicos liberamos el bloqueo detectado en la actualidad, así de este modo incorporarlo en diferentes ámbitos de nuestra vida";
+                    const wrappedDefaultText = wrapText(defaultText, maxWidth, font, 12);
+                    const lines = wrappedDefaultText.split("\n");
 
-                    for (const parrafo of [defaultText, ORACION_AKASHICA]) {
-                        const lines = wrapText(parrafo, maxWidth, font, 12).split("\n");
-
-                        iniciarBloque('item', altoParrafo(lines.length));
-                        for (const line of lines) {
-                            currentPage.drawText(line, {
-                                x: 22,
-                                y: y,
-                                size: 12,
-                                color: rgb(0.6, 0, 0.6), // Color violeta más intenso
-                            });
-                            siguienteRenglon();
-                        }
+                    iniciarBloque('item', altoParrafo(lines.length));
+                    for (const line of lines) {
+                        currentPage.drawText(line, {
+                            x: 22,
+                            y: y,
+                            size: 12,
+                            color: rgb(0.6, 0, 0.6), // Color violeta más intenso
+                        });
+                        siguienteRenglon();
                     }
                 }
             }

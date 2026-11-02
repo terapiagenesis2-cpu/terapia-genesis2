@@ -36,4 +36,20 @@ export const bloquesExtraPorPrefijo = [
       ]
     }
   },
+  {
+    // Limpieza de aura: rupturas en el aura e influencias astrológicas desfavorables
+    prefijo: ["petalo-5/11/1/5","petalo-5/11/1/23"],
+    exacto: true,
+    bloqueExtra: {
+      contenido: [
+        { text: "ESCUDO DE PROTECCION", scale: 0.6, bold: true, mt: 0 },
+
+        { text: "9 veces 9 - 9 veces 9 - 9 veces 9", scale: 0.5 },
+
+        { text: "Padre celestial, te pido que extiendas tu divina protección sobre (nombre de la persona) y todo su entorno. Cúbrelo con tu luz y fortalece su espíritu. Rodéalo con una armadura energética que lo preserve de todo daño. Gracias, Padre, por tu amor incondicional y tu cuidado constante. Amén.", scale: 0.5, mt: 15 },
+
+        { text: "9 veces 9 - 9 veces 9 - 9 veces 9", scale: 0.5, mt: 15 }
+      ]
+    }
+  },
 ];
