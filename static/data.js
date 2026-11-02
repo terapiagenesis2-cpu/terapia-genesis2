@@ -166,7 +166,7 @@ const petalos = [
                 ]
             },
             {
-                linkName: "petalo-1/7", image: 'boton1', title: "Conectar con la Abundancia", text: "Conectar con la abundancia es un concepto que se refiere a la capacidad de reconocer y aprovechar las oportunidades, recursos y bienestar que existen en la vida. Implica una mentalidad positiva y una actitud de gratitud hacia lo que se tiene, así como la creencia en la posibilidad de atraer más de lo que se necesita o desea. Conectar con la abundancia no se limita únicamente a la riqueza material, sino que abarca diversos aspectos de la vida.", number: 7, subPetalos: [
+                linkName: "petalo-1/7", image: 'boton1', iconCenter: 'simbolo1', title: "Conectar con la Abundancia", text: "Conectar con la abundancia es un concepto que se refiere a la capacidad de reconocer y aprovechar las oportunidades, recursos y bienestar que existen en la vida. Implica una mentalidad positiva y una actitud de gratitud hacia lo que se tiene, así como la creencia en la posibilidad de atraer más de lo que se necesita o desea. Conectar con la abundancia no se limita únicamente a la riqueza material, sino que abarca diversos aspectos de la vida.", number: 7, subPetalos: [
                     { linkName: "petalo-1/7/1", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Alegria (Conectado)", text: "" },
                     { linkName: "petalo-1/7/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Amistad (Conectado)", text: "" },
                     { linkName: "petalo-1/7/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Conectar con la Abundancia', title: "Amor (Conectado)", text: "" },
@@ -195,7 +195,7 @@ const petalos = [
                 ]
             },
             {
-                linkName: "petalo-1/8", image: 'boton1', title: "Bloqueo que me impide avanzar", text: "Aquí anulamos todo tipo de obstáculos o limitación que están impidiendo tu progreso o desarrollo en alguna área de tu vida, ya sea personal, profesional, emocional o en cualquier otro aspecto.", number: 8, subPetalos: [
+                linkName: "petalo-1/8", image: 'boton1', iconCenter: 'simbolo1', title: "Bloqueo que me impide avanzar", text: "Aquí anulamos todo tipo de obstáculos o limitación que están impidiendo tu progreso o desarrollo en alguna área de tu vida, ya sea personal, profesional, emocional o en cualquier otro aspecto.", number: 8, subPetalos: [
                     { linkName: "petalo-1/8/1", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Atasco (Anulado)", text: "Sensación de estar en el mismo punto, sin lograr resultados aunque se intente. Suele aparecer cuando hay exceso de control o miedo a soltar el pasado" },
                     { linkName: "petalo-1/8/2", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Barrera (Anulado)", text: "Límite invisible creado por creencias o juicios. Protege del error, pero también impide el crecimiento." },
                     { linkName: "petalo-1/8/3", image: 'boton1', iconCenter: 'simbolo1', titlePage: 'Bloqueo que me impide avanzar', title: "Bloqueo (Anulado)", text: "Parálisis general, mezcla de miedo y confusión. Se siente como “sé lo que quiero, pero no puedo hacerlo”." },
@@ -227,7 +227,7 @@ const petalos = [
                  text: "Limpiamos la información genética negativa que perjudica a las células, las cuales bloqueaban el libre flujo de energía. Para lograr esto se borraron las siguientes emociones:",
             },
             {
-                linkName: "petalo-1/10", image: 'boton1', title: "CONECTO CON SERES CELESTIALES", subPetalos: [
+                linkName: "petalo-1/10", image: 'boton1', iconCenter: 'simbolo1', title: "CONECTO CON SERES CELESTIALES", subPetalos: [
                     {
                         linkName: "petalo-1/10/1",
                         image: 'boton1',
